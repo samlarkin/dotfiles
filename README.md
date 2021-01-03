@@ -11,7 +11,7 @@ reusability.
 
 ## Vim configuration
 
-* .vim/
+* `.vim/
   ├── colors
   │   └── gruvbox.vim
   ├── pack
@@ -34,7 +34,7 @@ reusability.
   ├── viminfo
   ├── viminfo.tmp
   ├── viminfz.tmp
-  └── vimrc
+  └── vimrc`
 
 ## X configuration
 
