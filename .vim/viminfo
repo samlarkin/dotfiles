@@ -20,6 +20,10 @@
 $
 
 # Command Line History (newest to oldest):
+:r !echo $PATH
+|2,0,1609693479,,"r !echo $PATH"
+:echo $PATH
+|2,0,1609693466,,"echo $PATH"
 :q
 |2,0,1609691010,,"q"
 :wq
@@ -116,10 +120,6 @@ $
 |2,0,1609433106,,"r !cat internal_resources.rst"
 :e software.rst
 |2,0,1609433002,,"e software.rst"
-:!touch templates.rst
-|2,0,1609432874,,"!touch templates.rst"
-:!touch software.rst
-|2,0,1609432864,,"!touch software.rst"
 
 # Search String History (newest to oldest):
 ? @$
@@ -235,7 +235,17 @@ $
 "0	LINE	0
 	index_template = compiler_path + 'index_template'
 |3,0,0,1,1,0,1609685716,"index_template = compiler_path + 'index_template'"
-"1	LINE	0
+""1	LINE	0
+	
+|3,1,1,1,1,0,1609693505,""
+"2	LINE	0
+	
+	PATH=[/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+|3,0,2,1,2,0,1609693500,"","PATH=[/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
+"3	LINE	0
+	
+|3,0,3,1,1,0,1609693492,""
+"4	LINE	0
 	
 	## 2020
 	* [title: README](README.html)
@@ -253,9 +263,9 @@ $
 	* [title: Goals for 2021](2020-12-24_0.html)
 	* [title: Long Term Goals](2020-12-24_1.html)
 	* [title: Notes Navigation](2020-12-24_2.html)
-|3,0,1,1,17,0,1609686003,"","## 2020","* [title: README](README.html)","* [title: Book Notes *Conversations with Friends*](2020-08-28_0.html)","* [title: Book Notes *Normal People*](2020-08-28_1.html)","* [title: Book Notes *Lolita*](2020-08-28_2.html)","* [title: Book Notes *Notes on a Scandal*](2020-08-28_3.html)","* [title: Book Notes *Sapiens*](2020-08-28_4.html)","* [title: Reading List](2020-08-28_5.html)",>48
+|3,0,4,1,17,0,1609686003,"","## 2020","* [title: README](README.html)","* [title: Book Notes *Conversations with Friends*](2020-08-28_0.html)","* [title: Book Notes *Normal People*](2020-08-28_1.html)","* [title: Book Notes *Lolita*](2020-08-28_2.html)","* [title: Book Notes *Notes on a Scandal*](2020-08-28_3.html)","* [title: Book Notes *Sapiens*](2020-08-28_4.html)","* [title: Reading List](2020-08-28_5.html)",>48
 |<"* [title: Curriculum Vitae](2020-09-01_0.html)","* [title: Book Notes *The Way Home*](2020-11-13_0.html)","* [title: Book Notes *This Is Going to Hurt*](2020-11-13_1.html)","* [title: Book Notes *Engleby*](2020-11-23_0.html)","* [title: Taskwarrior](2020-12-23_0.html)","* [title: Goals for 2021](2020-12-24_0.html)","* [title: Long Term Goals](2020-12-24_1.html)","* [title: Notes Navigation](2020-12-24_2.html)"
-"2	LINE	0
+"5	LINE	0
 	with open(notes_path + 'index.md', 'w+') as index:
 	
 	
@@ -268,29 +278,20 @@ $
 	        index_line = f'* [{title}]({file_stem}.html)'
 	        with open(notes_path + 'index.md', 'a') as index:
 	            index.write(index_line)
-|3,0,2,1,12,0,1609685552,"with open(notes_path + 'index.md', 'w+') as index:","","","for file_name in file_list:","    match = regex.match(file_name)","    if match:","        file_stem = match.group()","        title = linecache.getline(notes_path + file_stem + '.md', 2)","        title = title.replace('\\n', '')","        index_line = f'* [{title}]({file_stem}.html)'","        with open(notes_path + 'index.md', 'a') as index:",>37
+|3,0,5,1,12,0,1609685552,"with open(notes_path + 'index.md', 'w+') as index:","","","for file_name in file_list:","    match = regex.match(file_name)","    if match:","        file_stem = match.group()","        title = linecache.getline(notes_path + file_stem + '.md', 2)","        title = title.replace('\\n', '')","        index_line = f'* [{title}]({file_stem}.html)'","        with open(notes_path + 'index.md', 'a') as index:",>37
 |<"            index.write(index_line)"
-"3	LINE	0
-	
-|3,0,3,1,1,0,1609685471,""
-"4	LINE	0
-	        print(index_line)
-|3,0,4,1,1,0,1609685356,"        print(index_line)"
-"5	LINE	0
-	compiled_path = notes_path + 'compiled/'
-|3,0,5,1,1,0,1609685243,"compiled_path = notes_path + 'compiled/'"
 "6	LINE	0
 	
-|3,0,6,1,1,0,1609685202,""
+|3,0,6,1,1,0,1609685471,""
 "7	LINE	0
-	        print(title)
-|3,0,7,1,1,0,1609684785,"        print(title)"
+	        print(index_line)
+|3,0,7,1,1,0,1609685356,"        print(index_line)"
 "8	LINE	0
-	
-|3,0,8,1,1,0,1609683904,""
+	compiled_path = notes_path + 'compiled/'
+|3,0,8,1,1,0,1609685243,"compiled_path = notes_path + 'compiled/'"
 "9	LINE	0
-	    regex.match
-|3,0,9,1,1,0,1609683845,"    regex.match"
+	
+|3,0,9,1,1,0,1609685202,""
 "a	CHAR	0
 	r=lr=l.l
 |3,0,10,0,1,0,1609442766,"r=lr=l.l"
@@ -300,39 +301,75 @@ $
 "u	CHAR	0
 	€ýa
 |3,0,30,0,1,0,1608738433,"€ýa"
-""-	CHAR	0
+"-	CHAR	0
 	2020-12-24
-|3,1,36,0,1,0,1609685995,"2020-12-24"
+|3,0,36,0,1,0,1609685995,"2020-12-24"
 
 # File marks:
-'0  4  0  ~/create_github_repo.sh
-|4,48,4,0,1609691010,"~/create_github_repo.sh"
-'1  4  91  ~/create_github_repo.sh
-|4,49,4,91,1609690964,"~/create_github_repo.sh"
-'2  6  64  ~/projects/startpage/notes.rst
-|4,50,6,64,1609686371,"~/projects/startpage/notes.rst"
-'3  3  34  ~/notes/compiler/compile_notes.sh
-|4,51,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
-'4  14  19  ~/notes/README.md
-|4,52,14,19,1609686161,"~/notes/README.md"
-'5  27  58  ~/notes/compiler/make_index.py
-|4,53,27,58,1609686075,"~/notes/compiler/make_index.py"
-'6  1  0  ~/notes/compiler/index_template
-|4,54,1,0,1609686012,"~/notes/compiler/index_template"
-'7  2  0  ~/notes/2020-12-24_2.md
-|4,55,2,0,1609684118,"~/notes/2020-12-24_2.md"
-'8  29  0  ~/notes/2020-12-24_2.md
-|4,56,29,0,1609682983,"~/notes/2020-12-24_2.md"
-'9  30  0  ~/notes/2020-12-24_2.md
-|4,57,30,0,1609682983,"~/notes/2020-12-24_2.md"
+'0  5  67  ~/dotfiles/.profile
+|4,48,5,67,1609693583,"~/dotfiles/.profile"
+'1  24  0  ~/dotfiles/.zshrc
+|4,49,24,0,1609693420,"~/dotfiles/.zshrc"
+'2  4  0  ~/create_github_repo.sh
+|4,50,4,0,1609691010,"~/create_github_repo.sh"
+'3  4  91  ~/create_github_repo.sh
+|4,51,4,91,1609690964,"~/create_github_repo.sh"
+'4  6  64  ~/projects/startpage/notes.rst
+|4,52,6,64,1609686371,"~/projects/startpage/notes.rst"
+'5  3  34  ~/notes/compiler/compile_notes.sh
+|4,53,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+'6  14  19  ~/notes/README.md
+|4,54,14,19,1609686161,"~/notes/README.md"
+'7  27  58  ~/notes/compiler/make_index.py
+|4,55,27,58,1609686075,"~/notes/compiler/make_index.py"
+'8  1  0  ~/notes/compiler/index_template
+|4,56,1,0,1609686012,"~/notes/compiler/index_template"
+'9  2  0  ~/notes/2020-12-24_2.md
+|4,57,2,0,1609684118,"~/notes/2020-12-24_2.md"
 
 # Jumplist (newest first):
+-'  5  67  ~/dotfiles/.profile
+|4,39,5,67,1609693583,"~/dotfiles/.profile"
+-'  1  0  ~/dotfiles/.profile
+|4,39,1,0,1609693436,"~/dotfiles/.profile"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  1  0  ~/dotfiles/.zshrc
+|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
+-'  1  0  ~/dotfiles/.zshrc
+|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
+-'  4  0  ~/create_github_repo.sh
+|4,39,4,0,1609691010,"~/create_github_repo.sh"
+-'  4  0  ~/create_github_repo.sh
+|4,39,4,0,1609691010,"~/create_github_repo.sh"
+-'  4  0  ~/create_github_repo.sh
+|4,39,4,0,1609691010,"~/create_github_repo.sh"
 -'  4  0  ~/create_github_repo.sh
 |4,39,4,0,1609691010,"~/create_github_repo.sh"
 -'  1  0  ~/create_github_repo.sh
 |4,39,1,0,1609691002,"~/create_github_repo.sh"
+-'  1  0  ~/create_github_repo.sh
+|4,39,1,0,1609691002,"~/create_github_repo.sh"
+-'  1  0  ~/create_github_repo.sh
+|4,39,1,0,1609691002,"~/create_github_repo.sh"
+-'  1  0  ~/create_github_repo.sh
+|4,39,1,0,1609691002,"~/create_github_repo.sh"
 -'  4  91  ~/create_github_repo.sh
 |4,39,4,91,1609690964,"~/create_github_repo.sh"
+-'  4  91  ~/create_github_repo.sh
+|4,39,4,91,1609690964,"~/create_github_repo.sh"
+-'  4  91  ~/create_github_repo.sh
+|4,39,4,91,1609690964,"~/create_github_repo.sh"
+-'  4  91  ~/create_github_repo.sh
+|4,39,4,91,1609690964,"~/create_github_repo.sh"
+-'  1  0  ~/create_github_repo.sh
+|4,39,1,0,1609690938,"~/create_github_repo.sh"
+-'  1  0  ~/create_github_repo.sh
+|4,39,1,0,1609690938,"~/create_github_repo.sh"
+-'  1  0  ~/create_github_repo.sh
+|4,39,1,0,1609690938,"~/create_github_repo.sh"
 -'  1  0  ~/create_github_repo.sh
 |4,39,1,0,1609690938,"~/create_github_repo.sh"
 -'  6  64  ~/projects/startpage/notes.rst
@@ -343,6 +380,54 @@ $
 |4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
 -'  6  64  ~/projects/startpage/notes.rst
 |4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
+-'  6  64  ~/projects/startpage/notes.rst
+|4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
+-'  6  64  ~/projects/startpage/notes.rst
+|4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
+-'  6  64  ~/projects/startpage/notes.rst
+|4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
+-'  6  64  ~/projects/startpage/notes.rst
+|4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
+-'  6  64  ~/projects/startpage/notes.rst
+|4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
+-'  6  64  ~/projects/startpage/notes.rst
+|4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
+-'  6  64  ~/projects/startpage/notes.rst
+|4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
+-'  6  64  ~/projects/startpage/notes.rst
+|4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
+-'  6  64  ~/projects/startpage/notes.rst
+|4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
+-'  6  64  ~/projects/startpage/notes.rst
+|4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
+-'  6  64  ~/projects/startpage/notes.rst
+|4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
+-'  6  64  ~/projects/startpage/notes.rst
+|4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
+-'  1  0  ~/projects/startpage/notes.rst
+|4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
+-'  1  0  ~/projects/startpage/notes.rst
+|4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
+-'  1  0  ~/projects/startpage/notes.rst
+|4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
+-'  1  0  ~/projects/startpage/notes.rst
+|4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
+-'  1  0  ~/projects/startpage/notes.rst
+|4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
+-'  1  0  ~/projects/startpage/notes.rst
+|4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
+-'  1  0  ~/projects/startpage/notes.rst
+|4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
+-'  1  0  ~/projects/startpage/notes.rst
+|4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
+-'  1  0  ~/projects/startpage/notes.rst
+|4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
+-'  1  0  ~/projects/startpage/notes.rst
+|4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
+-'  1  0  ~/projects/startpage/notes.rst
+|4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
+-'  1  0  ~/projects/startpage/notes.rst
+|4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
 -'  1  0  ~/projects/startpage/notes.rst
 |4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
 -'  1  0  ~/projects/startpage/notes.rst
@@ -383,152 +468,86 @@ $
 |4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
 -'  3  34  ~/notes/compiler/compile_notes.sh
 |4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  1  0  ~/notes/compiler/compile_notes.sh
-|4,39,1,0,1609686169,"~/notes/compiler/compile_notes.sh"
--'  1  0  ~/notes/compiler/compile_notes.sh
-|4,39,1,0,1609686169,"~/notes/compiler/compile_notes.sh"
--'  1  0  ~/notes/compiler/compile_notes.sh
-|4,39,1,0,1609686169,"~/notes/compiler/compile_notes.sh"
--'  1  0  ~/notes/compiler/compile_notes.sh
-|4,39,1,0,1609686169,"~/notes/compiler/compile_notes.sh"
--'  1  0  ~/notes/compiler/compile_notes.sh
-|4,39,1,0,1609686169,"~/notes/compiler/compile_notes.sh"
--'  1  0  ~/notes/compiler/compile_notes.sh
-|4,39,1,0,1609686169,"~/notes/compiler/compile_notes.sh"
--'  1  0  ~/notes/compiler/compile_notes.sh
-|4,39,1,0,1609686169,"~/notes/compiler/compile_notes.sh"
--'  1  0  ~/notes/compiler/compile_notes.sh
-|4,39,1,0,1609686169,"~/notes/compiler/compile_notes.sh"
--'  1  0  ~/notes/compiler/compile_notes.sh
-|4,39,1,0,1609686169,"~/notes/compiler/compile_notes.sh"
--'  1  0  ~/notes/compiler/compile_notes.sh
-|4,39,1,0,1609686169,"~/notes/compiler/compile_notes.sh"
--'  1  0  ~/notes/compiler/compile_notes.sh
-|4,39,1,0,1609686169,"~/notes/compiler/compile_notes.sh"
--'  1  0  ~/notes/compiler/compile_notes.sh
-|4,39,1,0,1609686169,"~/notes/compiler/compile_notes.sh"
--'  1  0  ~/notes/compiler/compile_notes.sh
-|4,39,1,0,1609686169,"~/notes/compiler/compile_notes.sh"
--'  1  0  ~/notes/compiler/compile_notes.sh
-|4,39,1,0,1609686169,"~/notes/compiler/compile_notes.sh"
--'  1  0  ~/notes/compiler/compile_notes.sh
-|4,39,1,0,1609686169,"~/notes/compiler/compile_notes.sh"
--'  1  0  ~/notes/compiler/compile_notes.sh
-|4,39,1,0,1609686169,"~/notes/compiler/compile_notes.sh"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  14  19  ~/notes/README.md
-|4,39,14,19,1609686161,"~/notes/README.md"
--'  1  0  ~/notes/README.md
-|4,39,1,0,1609686116,"~/notes/README.md"
--'  1  0  ~/notes/README.md
-|4,39,1,0,1609686116,"~/notes/README.md"
--'  1  0  ~/notes/README.md
-|4,39,1,0,1609686116,"~/notes/README.md"
--'  1  0  ~/notes/README.md
-|4,39,1,0,1609686116,"~/notes/README.md"
--'  1  0  ~/notes/README.md
-|4,39,1,0,1609686116,"~/notes/README.md"
--'  1  0  ~/notes/README.md
-|4,39,1,0,1609686116,"~/notes/README.md"
--'  1  0  ~/notes/README.md
-|4,39,1,0,1609686116,"~/notes/README.md"
--'  1  0  ~/notes/README.md
-|4,39,1,0,1609686116,"~/notes/README.md"
--'  1  0  ~/notes/README.md
-|4,39,1,0,1609686116,"~/notes/README.md"
--'  1  0  ~/notes/README.md
-|4,39,1,0,1609686116,"~/notes/README.md"
--'  1  0  ~/notes/README.md
-|4,39,1,0,1609686116,"~/notes/README.md"
--'  1  0  ~/notes/README.md
-|4,39,1,0,1609686116,"~/notes/README.md"
--'  1  0  ~/notes/README.md
-|4,39,1,0,1609686116,"~/notes/README.md"
--'  1  0  ~/notes/README.md
-|4,39,1,0,1609686116,"~/notes/README.md"
--'  1  0  ~/notes/README.md
-|4,39,1,0,1609686116,"~/notes/README.md"
--'  1  0  ~/notes/README.md
-|4,39,1,0,1609686116,"~/notes/README.md"
--'  1  0  ~/notes/README.md
-|4,39,1,0,1609686116,"~/notes/README.md"
--'  1  0  ~/notes/README.md
-|4,39,1,0,1609686116,"~/notes/README.md"
--'  1  0  ~/notes/README.md
-|4,39,1,0,1609686116,"~/notes/README.md"
--'  1  0  ~/notes/README.md
-|4,39,1,0,1609686116,"~/notes/README.md"
--'  1  0  ~/notes/README.md
-|4,39,1,0,1609686116,"~/notes/README.md"
--'  1  0  ~/notes/README.md
-|4,39,1,0,1609686116,"~/notes/README.md"
--'  1  0  ~/notes/README.md
-|4,39,1,0,1609686116,"~/notes/README.md"
--'  1  0  ~/notes/README.md
-|4,39,1,0,1609686116,"~/notes/README.md"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  3  34  ~/notes/compiler/compile_notes.sh
+|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
 
 # History of marks within files (newest to oldest):
+
+> ~/dotfiles/.profile
+	*	1609693582	0
+	"	5	67
+	^	4	0
+	.	5	137
+	+	9	0
+	+	5	0
+	+	6	0
+	+	5	5
+	+	5	137
+
+> ~/dotfiles/.zshrc
+	*	1609693417	0
+	"	24	0
+	^	24	0
+	.	24	0
+	+	24	0
 
 > ~/create_github_repo.sh
 	*	1609691009	0
@@ -2695,22 +2714,3 @@ $
 	+	37	0
 	+	36	0
 	+	35	24
-
-> ~/projects/finance/2020_q4/savings_2020_q4.csv
-	*	1608998333	0
-	"	1	42
-
-> ~/projects/finance/2020_q4/graphical_review.py
-	*	1608997019	0
-	"	1	13
-	^	1	14
-	.	1	13
-	+	10	0
-	+	7	0
-	+	6	12
-	+	2	49
-	+	4	11
-	+	12	0
-	+	7	0
-	+	6	18
-	+	1	13

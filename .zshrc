@@ -21,6 +21,7 @@ alias myip="curl http://ipecho.net/plain; echo"
 # Set vi keybindings
 bindkey -v
 
+
 # History 
 export SAVEHIST=1000000
 export HISTSIZE=1000
