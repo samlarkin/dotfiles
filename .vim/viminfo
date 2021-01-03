@@ -20,6 +20,8 @@
 $
 
 # Command Line History (newest to oldest):
+:r !tree ~/dotfiles/.vim/
+|2,0,1609693971,,"r !tree ~/dotfiles/.vim/"
 :r !echo $PATH
 |2,0,1609693479,,"r !echo $PATH"
 :echo $PATH
@@ -118,8 +120,6 @@ $
 |2,0,1609433853,,"e external_resources.rst"
 :r !cat internal_resources.rst
 |2,0,1609433106,,"r !cat internal_resources.rst"
-:e software.rst
-|2,0,1609433002,,"e software.rst"
 
 # Search String History (newest to oldest):
 ? @$
@@ -235,17 +235,55 @@ $
 "0	LINE	0
 	index_template = compiler_path + 'index_template'
 |3,0,0,1,1,0,1609685716,"index_template = compiler_path + 'index_template'"
-""1	LINE	0
-	
-|3,1,1,1,1,0,1609693505,""
+""1	BLOCK	1
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+|3,1,1,2,24,1,1609694718,"  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  "
 "2	LINE	0
 	
-	PATH=[/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
-|3,0,2,1,2,0,1609693500,"","PATH=[/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
+|3,0,2,1,1,0,1609694027,""
 "3	LINE	0
-	
-|3,0,3,1,1,0,1609693492,""
+	* .vim/
+|3,0,3,1,1,0,1609694026,"* .vim/"
 "4	LINE	0
+	
+|3,0,4,1,1,0,1609694001,""
+"5	LINE	0
+	11 directories, 12 files
+|3,0,5,1,1,0,1609694000,"11 directories, 12 files"
+"6	LINE	0
+	
+|3,0,6,1,1,0,1609693505,""
+"7	LINE	0
+	
+	PATH=[/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+|3,0,7,1,2,0,1609693500,"","PATH=[/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
+"8	LINE	0
+	
+|3,0,8,1,1,0,1609693492,""
+"9	LINE	0
 	
 	## 2020
 	* [title: README](README.html)
@@ -263,35 +301,8 @@ $
 	* [title: Goals for 2021](2020-12-24_0.html)
 	* [title: Long Term Goals](2020-12-24_1.html)
 	* [title: Notes Navigation](2020-12-24_2.html)
-|3,0,4,1,17,0,1609686003,"","## 2020","* [title: README](README.html)","* [title: Book Notes *Conversations with Friends*](2020-08-28_0.html)","* [title: Book Notes *Normal People*](2020-08-28_1.html)","* [title: Book Notes *Lolita*](2020-08-28_2.html)","* [title: Book Notes *Notes on a Scandal*](2020-08-28_3.html)","* [title: Book Notes *Sapiens*](2020-08-28_4.html)","* [title: Reading List](2020-08-28_5.html)",>48
+|3,0,9,1,17,0,1609686003,"","## 2020","* [title: README](README.html)","* [title: Book Notes *Conversations with Friends*](2020-08-28_0.html)","* [title: Book Notes *Normal People*](2020-08-28_1.html)","* [title: Book Notes *Lolita*](2020-08-28_2.html)","* [title: Book Notes *Notes on a Scandal*](2020-08-28_3.html)","* [title: Book Notes *Sapiens*](2020-08-28_4.html)","* [title: Reading List](2020-08-28_5.html)",>48
 |<"* [title: Curriculum Vitae](2020-09-01_0.html)","* [title: Book Notes *The Way Home*](2020-11-13_0.html)","* [title: Book Notes *This Is Going to Hurt*](2020-11-13_1.html)","* [title: Book Notes *Engleby*](2020-11-23_0.html)","* [title: Taskwarrior](2020-12-23_0.html)","* [title: Goals for 2021](2020-12-24_0.html)","* [title: Long Term Goals](2020-12-24_1.html)","* [title: Notes Navigation](2020-12-24_2.html)"
-"5	LINE	0
-	with open(notes_path + 'index.md', 'w+') as index:
-	
-	
-	for file_name in file_list:
-	    match = regex.match(file_name)
-	    if match:
-	        file_stem = match.group()
-	        title = linecache.getline(notes_path + file_stem + '.md', 2)
-	        title = title.replace('\n', '')
-	        index_line = f'* [{title}]({file_stem}.html)'
-	        with open(notes_path + 'index.md', 'a') as index:
-	            index.write(index_line)
-|3,0,5,1,12,0,1609685552,"with open(notes_path + 'index.md', 'w+') as index:","","","for file_name in file_list:","    match = regex.match(file_name)","    if match:","        file_stem = match.group()","        title = linecache.getline(notes_path + file_stem + '.md', 2)","        title = title.replace('\\n', '')","        index_line = f'* [{title}]({file_stem}.html)'","        with open(notes_path + 'index.md', 'a') as index:",>37
-|<"            index.write(index_line)"
-"6	LINE	0
-	
-|3,0,6,1,1,0,1609685471,""
-"7	LINE	0
-	        print(index_line)
-|3,0,7,1,1,0,1609685356,"        print(index_line)"
-"8	LINE	0
-	compiled_path = notes_path + 'compiled/'
-|3,0,8,1,1,0,1609685243,"compiled_path = notes_path + 'compiled/'"
-"9	LINE	0
-	
-|3,0,9,1,1,0,1609685202,""
 "a	CHAR	0
 	r=lr=l.l
 |3,0,10,0,1,0,1609442766,"r=lr=l.l"
@@ -302,234 +313,261 @@ $
 	€ýa
 |3,0,30,0,1,0,1608738433,"€ýa"
 "-	CHAR	0
-	2020-12-24
-|3,0,36,0,1,0,1609685995,"2020-12-24"
+	dwdotfiles 
+|3,0,36,0,1,0,1609693856,"dwdotfiles "
 
 # File marks:
-'0  5  67  ~/dotfiles/.profile
-|4,48,5,67,1609693583,"~/dotfiles/.profile"
-'1  24  0  ~/dotfiles/.zshrc
-|4,49,24,0,1609693420,"~/dotfiles/.zshrc"
-'2  4  0  ~/create_github_repo.sh
-|4,50,4,0,1609691010,"~/create_github_repo.sh"
-'3  4  91  ~/create_github_repo.sh
-|4,51,4,91,1609690964,"~/create_github_repo.sh"
-'4  6  64  ~/projects/startpage/notes.rst
-|4,52,6,64,1609686371,"~/projects/startpage/notes.rst"
-'5  3  34  ~/notes/compiler/compile_notes.sh
-|4,53,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
-'6  14  19  ~/notes/README.md
-|4,54,14,19,1609686161,"~/notes/README.md"
-'7  27  58  ~/notes/compiler/make_index.py
-|4,55,27,58,1609686075,"~/notes/compiler/make_index.py"
-'8  1  0  ~/notes/compiler/index_template
-|4,56,1,0,1609686012,"~/notes/compiler/index_template"
-'9  2  0  ~/notes/2020-12-24_2.md
-|4,57,2,0,1609684118,"~/notes/2020-12-24_2.md"
+'0  16  2  ~/dotfiles/README.md
+|4,48,16,2,1609694752,"~/dotfiles/README.md"
+'1  40  0  ~/dotfiles/README.md
+|4,49,40,0,1609694301,"~/dotfiles/README.md"
+'2  37  0  ~/dotfiles/README.md
+|4,50,37,0,1609694301,"~/dotfiles/README.md"
+'3  1  0  ~/dotfiles/README.md
+|4,51,1,0,1609694145,"~/dotfiles/README.md"
+'4  1  0  ~/dotfiles/README.md
+|4,52,1,0,1609694145,"~/dotfiles/README.md"
+'5  1  0  ~/dotfiles/README.md
+|4,53,1,0,1609694145,"~/dotfiles/README.md"
+'6  1  0  ~/dotfiles/README.md
+|4,54,1,0,1609694145,"~/dotfiles/README.md"
+'7  14  0  ~/dotfiles/README.md
+|4,55,14,0,1609694086,"~/dotfiles/README.md"
+'8  14  0  ~/dotfiles/README.md
+|4,56,14,0,1609694086,"~/dotfiles/README.md"
+'9  14  0  ~/dotfiles/README.md
+|4,57,14,0,1609694086,"~/dotfiles/README.md"
 
 # Jumplist (newest first):
+-'  16  2  ~/dotfiles/README.md
+|4,39,16,2,1609694752,"~/dotfiles/README.md"
+-'  18  1  ~/dotfiles/README.md
+|4,39,18,1,1609694713,"~/dotfiles/README.md"
+-'  17  2  ~/dotfiles/README.md
+|4,39,17,2,1609694708,"~/dotfiles/README.md"
+-'  1  0  ~/dotfiles/README.md
+|4,39,1,0,1609694692,"~/dotfiles/README.md"
+-'  40  0  ~/dotfiles/README.md
+|4,39,40,0,1609694301,"~/dotfiles/README.md"
+-'  37  0  ~/dotfiles/README.md
+|4,39,37,0,1609694301,"~/dotfiles/README.md"
+-'  1  0  ~/dotfiles/README.md
+|4,39,1,0,1609694282,"~/dotfiles/README.md"
+-'  1  0  ~/dotfiles/README.md
+|4,39,1,0,1609694145,"~/dotfiles/README.md"
+-'  14  0  ~/dotfiles/README.md
+|4,39,14,0,1609694086,"~/dotfiles/README.md"
+-'  14  0  ~/dotfiles/README.md
+|4,39,14,0,1609694086,"~/dotfiles/README.md"
+-'  14  0  ~/dotfiles/README.md
+|4,39,14,0,1609694086,"~/dotfiles/README.md"
+-'  14  0  ~/dotfiles/README.md
+|4,39,14,0,1609694086,"~/dotfiles/README.md"
+-'  13  0  ~/dotfiles/README.md
+|4,39,13,0,1609694064,"~/dotfiles/README.md"
+-'  13  0  ~/dotfiles/README.md
+|4,39,13,0,1609694064,"~/dotfiles/README.md"
+-'  13  0  ~/dotfiles/README.md
+|4,39,13,0,1609694064,"~/dotfiles/README.md"
+-'  13  0  ~/dotfiles/README.md
+|4,39,13,0,1609694064,"~/dotfiles/README.md"
+-'  15  4  ~/dotfiles/README.md
+|4,39,15,4,1609694055,"~/dotfiles/README.md"
+-'  15  4  ~/dotfiles/README.md
+|4,39,15,4,1609694055,"~/dotfiles/README.md"
+-'  15  4  ~/dotfiles/README.md
+|4,39,15,4,1609694055,"~/dotfiles/README.md"
+-'  1  0  ~/dotfiles/README.md
+|4,39,1,0,1609693794,"~/dotfiles/README.md"
 -'  5  67  ~/dotfiles/.profile
 |4,39,5,67,1609693583,"~/dotfiles/.profile"
+-'  5  67  ~/dotfiles/.profile
+|4,39,5,67,1609693583,"~/dotfiles/.profile"
+-'  5  67  ~/dotfiles/.profile
+|4,39,5,67,1609693583,"~/dotfiles/.profile"
+-'  5  67  ~/dotfiles/.profile
+|4,39,5,67,1609693583,"~/dotfiles/.profile"
+-'  5  67  ~/dotfiles/.profile
+|4,39,5,67,1609693583,"~/dotfiles/.profile"
+-'  5  67  ~/dotfiles/.profile
+|4,39,5,67,1609693583,"~/dotfiles/.profile"
+-'  5  67  ~/dotfiles/.profile
+|4,39,5,67,1609693583,"~/dotfiles/.profile"
+-'  5  67  ~/dotfiles/.profile
+|4,39,5,67,1609693583,"~/dotfiles/.profile"
+-'  5  67  ~/dotfiles/.profile
+|4,39,5,67,1609693583,"~/dotfiles/.profile"
+-'  5  67  ~/dotfiles/.profile
+|4,39,5,67,1609693583,"~/dotfiles/.profile"
+-'  5  67  ~/dotfiles/.profile
+|4,39,5,67,1609693583,"~/dotfiles/.profile"
+-'  5  67  ~/dotfiles/.profile
+|4,39,5,67,1609693583,"~/dotfiles/.profile"
+-'  5  67  ~/dotfiles/.profile
+|4,39,5,67,1609693583,"~/dotfiles/.profile"
+-'  5  67  ~/dotfiles/.profile
+|4,39,5,67,1609693583,"~/dotfiles/.profile"
+-'  5  67  ~/dotfiles/.profile
+|4,39,5,67,1609693583,"~/dotfiles/.profile"
+-'  5  67  ~/dotfiles/.profile
+|4,39,5,67,1609693583,"~/dotfiles/.profile"
+-'  1  0  ~/dotfiles/.profile
+|4,39,1,0,1609693436,"~/dotfiles/.profile"
+-'  1  0  ~/dotfiles/.profile
+|4,39,1,0,1609693436,"~/dotfiles/.profile"
+-'  1  0  ~/dotfiles/.profile
+|4,39,1,0,1609693436,"~/dotfiles/.profile"
+-'  1  0  ~/dotfiles/.profile
+|4,39,1,0,1609693436,"~/dotfiles/.profile"
+-'  1  0  ~/dotfiles/.profile
+|4,39,1,0,1609693436,"~/dotfiles/.profile"
+-'  1  0  ~/dotfiles/.profile
+|4,39,1,0,1609693436,"~/dotfiles/.profile"
+-'  1  0  ~/dotfiles/.profile
+|4,39,1,0,1609693436,"~/dotfiles/.profile"
+-'  1  0  ~/dotfiles/.profile
+|4,39,1,0,1609693436,"~/dotfiles/.profile"
+-'  1  0  ~/dotfiles/.profile
+|4,39,1,0,1609693436,"~/dotfiles/.profile"
+-'  1  0  ~/dotfiles/.profile
+|4,39,1,0,1609693436,"~/dotfiles/.profile"
+-'  1  0  ~/dotfiles/.profile
+|4,39,1,0,1609693436,"~/dotfiles/.profile"
+-'  1  0  ~/dotfiles/.profile
+|4,39,1,0,1609693436,"~/dotfiles/.profile"
+-'  1  0  ~/dotfiles/.profile
+|4,39,1,0,1609693436,"~/dotfiles/.profile"
+-'  1  0  ~/dotfiles/.profile
+|4,39,1,0,1609693436,"~/dotfiles/.profile"
+-'  1  0  ~/dotfiles/.profile
+|4,39,1,0,1609693436,"~/dotfiles/.profile"
 -'  1  0  ~/dotfiles/.profile
 |4,39,1,0,1609693436,"~/dotfiles/.profile"
 -'  24  0  ~/dotfiles/.zshrc
 |4,39,24,0,1609693420,"~/dotfiles/.zshrc"
 -'  24  0  ~/dotfiles/.zshrc
 |4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
+-'  24  0  ~/dotfiles/.zshrc
+|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
 -'  1  0  ~/dotfiles/.zshrc
 |4,39,1,0,1609693407,"~/dotfiles/.zshrc"
 -'  1  0  ~/dotfiles/.zshrc
 |4,39,1,0,1609693407,"~/dotfiles/.zshrc"
--'  4  0  ~/create_github_repo.sh
-|4,39,4,0,1609691010,"~/create_github_repo.sh"
--'  4  0  ~/create_github_repo.sh
-|4,39,4,0,1609691010,"~/create_github_repo.sh"
--'  4  0  ~/create_github_repo.sh
-|4,39,4,0,1609691010,"~/create_github_repo.sh"
--'  4  0  ~/create_github_repo.sh
-|4,39,4,0,1609691010,"~/create_github_repo.sh"
--'  1  0  ~/create_github_repo.sh
-|4,39,1,0,1609691002,"~/create_github_repo.sh"
--'  1  0  ~/create_github_repo.sh
-|4,39,1,0,1609691002,"~/create_github_repo.sh"
--'  1  0  ~/create_github_repo.sh
-|4,39,1,0,1609691002,"~/create_github_repo.sh"
--'  1  0  ~/create_github_repo.sh
-|4,39,1,0,1609691002,"~/create_github_repo.sh"
--'  4  91  ~/create_github_repo.sh
-|4,39,4,91,1609690964,"~/create_github_repo.sh"
--'  4  91  ~/create_github_repo.sh
-|4,39,4,91,1609690964,"~/create_github_repo.sh"
--'  4  91  ~/create_github_repo.sh
-|4,39,4,91,1609690964,"~/create_github_repo.sh"
--'  4  91  ~/create_github_repo.sh
-|4,39,4,91,1609690964,"~/create_github_repo.sh"
--'  1  0  ~/create_github_repo.sh
-|4,39,1,0,1609690938,"~/create_github_repo.sh"
--'  1  0  ~/create_github_repo.sh
-|4,39,1,0,1609690938,"~/create_github_repo.sh"
--'  1  0  ~/create_github_repo.sh
-|4,39,1,0,1609690938,"~/create_github_repo.sh"
--'  1  0  ~/create_github_repo.sh
-|4,39,1,0,1609690938,"~/create_github_repo.sh"
--'  6  64  ~/projects/startpage/notes.rst
-|4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
--'  6  64  ~/projects/startpage/notes.rst
-|4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
--'  6  64  ~/projects/startpage/notes.rst
-|4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
--'  6  64  ~/projects/startpage/notes.rst
-|4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
--'  6  64  ~/projects/startpage/notes.rst
-|4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
--'  6  64  ~/projects/startpage/notes.rst
-|4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
--'  6  64  ~/projects/startpage/notes.rst
-|4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
--'  6  64  ~/projects/startpage/notes.rst
-|4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
--'  6  64  ~/projects/startpage/notes.rst
-|4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
--'  6  64  ~/projects/startpage/notes.rst
-|4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
--'  6  64  ~/projects/startpage/notes.rst
-|4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
--'  6  64  ~/projects/startpage/notes.rst
-|4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
--'  6  64  ~/projects/startpage/notes.rst
-|4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
--'  6  64  ~/projects/startpage/notes.rst
-|4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
--'  6  64  ~/projects/startpage/notes.rst
-|4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
--'  6  64  ~/projects/startpage/notes.rst
-|4,39,6,64,1609686371,"~/projects/startpage/notes.rst"
--'  1  0  ~/projects/startpage/notes.rst
-|4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
--'  1  0  ~/projects/startpage/notes.rst
-|4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
--'  1  0  ~/projects/startpage/notes.rst
-|4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
--'  1  0  ~/projects/startpage/notes.rst
-|4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
--'  1  0  ~/projects/startpage/notes.rst
-|4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
--'  1  0  ~/projects/startpage/notes.rst
-|4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
--'  1  0  ~/projects/startpage/notes.rst
-|4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
--'  1  0  ~/projects/startpage/notes.rst
-|4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
--'  1  0  ~/projects/startpage/notes.rst
-|4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
--'  1  0  ~/projects/startpage/notes.rst
-|4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
--'  1  0  ~/projects/startpage/notes.rst
-|4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
--'  1  0  ~/projects/startpage/notes.rst
-|4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
--'  1  0  ~/projects/startpage/notes.rst
-|4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
--'  1  0  ~/projects/startpage/notes.rst
-|4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
--'  1  0  ~/projects/startpage/notes.rst
-|4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
--'  1  0  ~/projects/startpage/notes.rst
-|4,39,1,0,1609686355,"~/projects/startpage/notes.rst"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
--'  3  34  ~/notes/compiler/compile_notes.sh
-|4,39,3,34,1609686237,"~/notes/compiler/compile_notes.sh"
+-'  1  0  ~/dotfiles/.zshrc
+|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
+-'  1  0  ~/dotfiles/.zshrc
+|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
+-'  1  0  ~/dotfiles/.zshrc
+|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
+-'  1  0  ~/dotfiles/.zshrc
+|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
+-'  1  0  ~/dotfiles/.zshrc
+|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
+-'  1  0  ~/dotfiles/.zshrc
+|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
+-'  1  0  ~/dotfiles/.zshrc
+|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
+-'  1  0  ~/dotfiles/.zshrc
+|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
+-'  1  0  ~/dotfiles/.zshrc
+|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
+-'  1  0  ~/dotfiles/.zshrc
+|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
+-'  1  0  ~/dotfiles/.zshrc
+|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
+-'  1  0  ~/dotfiles/.zshrc
+|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
+-'  1  0  ~/dotfiles/.zshrc
+|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
+-'  1  0  ~/dotfiles/.zshrc
+|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
 
 # History of marks within files (newest to oldest):
+
+> ~/dotfiles/README.md
+	*	1609694751	0
+	"	16	2
+	^	16	3
+	.	16	2
+	+	4	11
+	+	3	0
+	+	10	13
+	+	13	0
+	+	42	0
+	+	13	6
+	+	13	0
+	+	13	3
+	+	18	0
+	+	13	0
+	+	14	1
+	+	18	0
+	+	14	0
+	+	46	13
+	+	14	2
+	+	40	17
+	+	14	2
+	+	17	0
+	+	16	6
+	+	41	2
+	+	16	2
 
 > ~/dotfiles/.profile
 	*	1609693582	0
@@ -2608,109 +2646,3 @@ $
 	+	4	16
 	+	1	24
 	+	4	0
-
-> ~/projects/finance/2020_q4/quarterly_review.py
-	*	1609000449	0
-	"	1	0
-	^	35	25
-	.	35	24
-	+	32	44
-	+	32	0
-	+	8	12
-	+	32	8
-	+	8	18
-	+	32	21
-	+	32	11
-	+	32	3
-	+	9	30
-	+	32	0
-	+	32	9
-	+	32	53
-	+	32	41
-	+	32	0
-	+	29	0
-	+	32	0
-	+	9	0
-	+	9	16
-	+	32	20
-	+	32	10
-	+	32	11
-	+	32	28
-	+	32	31
-	+	32	0
-	+	32	57
-	+	32	58
-	+	32	62
-	+	32	40
-	+	32	15
-	+	32	57
-	+	32	0
-	+	32	3
-	+	32	4
-	+	32	7
-	+	32	8
-	+	32	35
-	+	32	0
-	+	32	25
-	+	32	20
-	+	32	67
-	+	32	11
-	+	32	0
-	+	9	0
-	+	7	8
-	+	10	22
-	+	13	15
-	+	14	32
-	+	15	25
-	+	18	15
-	+	14	18
-	+	10	31
-	+	32	0
-	+	22	20
-	+	19	14
-	+	22	34
-	+	24	27
-	+	32	0
-	+	32	15
-	+	32	0
-	+	32	16
-	+	32	27
-	+	32	19
-	+	32	14
-	+	32	0
-	+	10	0
-	+	2	19
-	+	11	7
-	+	12	21
-	+	14	24
-	+	15	15
-	+	16	40
-	+	17	34
-	+	18	0
-	+	19	7
-	+	20	6
-	+	21	31
-	+	24	15
-	+	25	30
-	+	28	14
-	+	32	32
-	+	32	0
-	+	24	4
-	+	28	4
-	+	32	40
-	+	30	0
-	+	30	30
-	+	37	16
-	+	22	21
-	+	26	21
-	+	31	37
-	+	33	0
-	+	33	25
-	+	31	0
-	+	33	0
-	+	31	29
-	+	33	20
-	+	31	20
-	+	37	0
-	+	36	0
-	+	35	24
