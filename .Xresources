@@ -1,0 +1,28 @@
+! special
+*.foreground:   #bbbbbb
+*.background:   #222222
+*.cursorColor:  #bbbbbb
+
+*.color0:       #222222
+*.color8:       #444444
+
+*.color1:       #556677
+*.color9:       #005577
+
+*.color2:       #8b0000
+*.color10:      #dd2200
+
+*.color3:       #dca060
+*.color11:      #dca060
+
+*.color4:       #31bd82
+*.color12:      #31bd82
+
+*.color5:       #756bb1
+*.color13:      #756bb1
+
+*.color6:       #80b1d3
+*.color14:      #80b1d3
+
+*.color7:       #bbbbbb
+*.color15:      #eeeeee
