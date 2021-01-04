@@ -144,7 +144,7 @@ nnoremap <leader>nn :call NewNote()<CR>3j5l"=strftime("%Y-%m-%d")<C-M>p2kA
 
 " MUST RUN VIM IN ~/notes
 " compile notes:
-nnoremap <leader>cn :!make --silent<CR><CR>
+nnoremap <leader>cn :!/home/sam/notes/compiler/compile_notes.sh<CR><CR>
 " to search notes in ~/notes for a particular 'keyword'
 nnoremap <leader>sn :vimgrep /-/g *<Left><Left><Left><Left>
 nnoremap <leader>n :cnext<CR>

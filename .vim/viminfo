@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/'
+~MSle0~/notes
 
 # Last Substitute Search Pattern:
 ~MSle0&consultation hub
@@ -20,16 +20,24 @@
 $
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1609792432,,"wq"
+:vimgrep /-reading/g *
+|2,0,1609792298,,"vimgrep /-reading/g *"
+:e samlarkinxyz/views.py
+|2,0,1609772600,,"e samlarkinxyz/views.py"
+:q
+|2,0,1609772155,,"q"
+:ew
+|2,0,1609771641,,"ew"
+:e make_index.py
+|2,0,1609699626,,"e make_index.py"
 :r !tree ~/dotfiles/.vim/
 |2,0,1609693971,,"r !tree ~/dotfiles/.vim/"
 :r !echo $PATH
 |2,0,1609693479,,"r !echo $PATH"
 :echo $PATH
 |2,0,1609693466,,"echo $PATH"
-:q
-|2,0,1609691010,,"q"
-:wq
-|2,0,1609690964,,"wq"
 :!la
 |2,0,1609686261,,"!la"
 :!ls
@@ -112,22 +120,30 @@ $
 |2,0,1609442220,,"e"
 :setlocal textwidth=79
 |2,0,1609435070,,"setlocal textwidth=79"
-:setlocal tw=79
-|2,0,1609434578,,"setlocal tw=79"
-:e templates.rst
-|2,0,1609433868,,"e templates.rst"
-:e external_resources.rst
-|2,0,1609433853,,"e external_resources.rst"
-:r !cat internal_resources.rst
-|2,0,1609433106,,"r !cat internal_resources.rst"
 
 # Search String History (newest to oldest):
+?/notes
+|2,1,1609792651,47,"notes"
+?/@app
+|2,1,1609791961,47,"@app"
+?/theme
+|2,1,1609781559,47,"theme"
+?/pydat
+|2,1,1609781506,47,"pydat"
+?/sphinx-book
+|2,1,1609780943,47,"sphinx-book"
+?/gpg
+|2,1,1609779234,47,"gpg"
+?/validators
+|2,1,1609779057,47,"validators"
+?/os
+|2,1,1609772748,47,"os"
+?/mail
+|2,1,1609772603,47,"mail"
 ? @$
 |2,1,1609678360,,"@$"
 ?/'
 |2,1,1609517964,47,"'"
-?/theme
-|2,1,1609517950,47,"theme"
 ?/\
 |2,1,1609507042,47,"\\"
 ?/textw
@@ -206,22 +222,6 @@ $
 |2,1,1609263592,47,"app"
 ?/for f
 |2,1,1609263129,47,"for f"
-?/f in
-|2,1,1609263118,47,"f in"
-?/t
-|2,1,1609262880,47,"t"
-?/def
-|2,1,1609262711,47,"def"
-?/format
-|2,1,1609262014,47,"format"
-?/#
-|2,1,1609261771,47,"#"
-?/return
-|2,1,1609260715,47,"return"
-?/##
-|2,1,1609255165,47,"##"
-? \<git\>
-|2,1,1609254985,,"\\<git\\>"
 
 # Expression History (newest to oldest):
 
@@ -233,76 +233,40 @@ $
 
 # Registers:
 "0	LINE	0
-	index_template = compiler_path + 'index_template'
-|3,0,0,1,1,0,1609685716,"index_template = compiler_path + 'index_template'"
-""1	BLOCK	1
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-|3,1,1,2,24,1,1609694718,"  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  ","  "
+	@app.route("/")
+	def index():
+	    """Route renders home page"""
+	    return render_template("index.html")
+	
+	
+|3,0,0,1,6,0,1609791970,"@app.route(\"/\")","def index():","    \"\"\"Route renders home page\"\"\"","    return render_template(\"index.html\")","",""
+""1	LINE	0
+	* Peterson, J.B. *12 Rules for Life: An Antidote to Chaos*. 2018
+|3,1,1,1,1,0,1609792356,"* Peterson, J.B. *12 Rules for Life: An Antidote to Chaos*. 2018"
 "2	LINE	0
-	
-|3,0,2,1,1,0,1609694027,""
+	html_theme = 'classic'
+|3,0,2,1,1,0,1609781565,"html_theme = 'classic'"
 "3	LINE	0
-	* .vim/
-|3,0,3,1,1,0,1609694026,"* .vim/"
+	# html_theme = 'sphinx_rtd_theme'
+|3,0,3,1,1,0,1609781564,"# html_theme = 'sphinx_rtd_theme'"
 "4	LINE	0
-	
-|3,0,4,1,1,0,1609694001,""
+	# html_theme_path = ['_themes', ]
+|3,0,4,1,1,0,1609781564,"# html_theme_path = ['_themes', ]"
 "5	LINE	0
-	11 directories, 12 files
-|3,0,5,1,1,0,1609694000,"11 directories, 12 files"
+	# html_theme = 'sphinx_book_theme'
+|3,0,5,1,1,0,1609781484,"# html_theme = 'sphinx_book_theme'"
 "6	LINE	0
-	
-|3,0,6,1,1,0,1609693505,""
+	# html_theme = 'sphinx_rtd_theme'
+|3,0,6,1,1,0,1609780900,"# html_theme = 'sphinx_rtd_theme'"
 "7	LINE	0
-	
-	PATH=[/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
-|3,0,7,1,2,0,1609693500,"","PATH=[/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl"
+	html_theme = 'scrolls'
+|3,0,7,1,1,0,1609780900,"html_theme = 'scrolls'"
 "8	LINE	0
 	
-|3,0,8,1,1,0,1609693492,""
+|3,0,8,1,1,0,1609778873,""
 "9	LINE	0
-	
-	## 2020
-	* [title: README](README.html)
-	* [title: Book Notes *Conversations with Friends*](2020-08-28_0.html)
-	* [title: Book Notes *Normal People*](2020-08-28_1.html)
-	* [title: Book Notes *Lolita*](2020-08-28_2.html)
-	* [title: Book Notes *Notes on a Scandal*](2020-08-28_3.html)
-	* [title: Book Notes *Sapiens*](2020-08-28_4.html)
-	* [title: Reading List](2020-08-28_5.html)
-	* [title: Curriculum Vitae](2020-09-01_0.html)
-	* [title: Book Notes *The Way Home*](2020-11-13_0.html)
-	* [title: Book Notes *This Is Going to Hurt*](2020-11-13_1.html)
-	* [title: Book Notes *Engleby*](2020-11-23_0.html)
-	* [title: Taskwarrior](2020-12-23_0.html)
-	* [title: Goals for 2021](2020-12-24_0.html)
-	* [title: Long Term Goals](2020-12-24_1.html)
-	* [title: Notes Navigation](2020-12-24_2.html)
-|3,0,9,1,17,0,1609686003,"","## 2020","* [title: README](README.html)","* [title: Book Notes *Conversations with Friends*](2020-08-28_0.html)","* [title: Book Notes *Normal People*](2020-08-28_1.html)","* [title: Book Notes *Lolita*](2020-08-28_2.html)","* [title: Book Notes *Notes on a Scandal*](2020-08-28_3.html)","* [title: Book Notes *Sapiens*](2020-08-28_4.html)","* [title: Reading List](2020-08-28_5.html)",>48
-|<"* [title: Curriculum Vitae](2020-09-01_0.html)","* [title: Book Notes *The Way Home*](2020-11-13_0.html)","* [title: Book Notes *This Is Going to Hurt*](2020-11-13_1.html)","* [title: Book Notes *Engleby*](2020-11-23_0.html)","* [title: Taskwarrior](2020-12-23_0.html)","* [title: Goals for 2021](2020-12-24_0.html)","* [title: Long Term Goals](2020-12-24_1.html)","* [title: Notes Navigation](2020-12-24_2.html)"
+	from flask_mail import Message
+|3,0,9,1,1,0,1609778858,"from flask_mail import Message"
 "a	CHAR	0
 	r=lr=l.l
 |3,0,10,0,1,0,1609442766,"r=lr=l.l"
@@ -313,234 +277,937 @@ $
 	€ýa
 |3,0,30,0,1,0,1608738433,"€ýa"
 "-	CHAR	0
-	dwdotfiles 
-|3,0,36,0,1,0,1609693856,"dwdotfiles "
+	============
+|3,0,36,0,1,0,1609781948,"============"
 
 # File marks:
-'0  16  2  ~/dotfiles/README.md
-|4,48,16,2,1609694752,"~/dotfiles/README.md"
-'1  40  0  ~/dotfiles/README.md
-|4,49,40,0,1609694301,"~/dotfiles/README.md"
-'2  37  0  ~/dotfiles/README.md
-|4,50,37,0,1609694301,"~/dotfiles/README.md"
-'3  1  0  ~/dotfiles/README.md
-|4,51,1,0,1609694145,"~/dotfiles/README.md"
-'4  1  0  ~/dotfiles/README.md
-|4,52,1,0,1609694145,"~/dotfiles/README.md"
-'5  1  0  ~/dotfiles/README.md
-|4,53,1,0,1609694145,"~/dotfiles/README.md"
-'6  1  0  ~/dotfiles/README.md
-|4,54,1,0,1609694145,"~/dotfiles/README.md"
-'7  14  0  ~/dotfiles/README.md
-|4,55,14,0,1609694086,"~/dotfiles/README.md"
-'8  14  0  ~/dotfiles/README.md
-|4,56,14,0,1609694086,"~/dotfiles/README.md"
-'9  14  0  ~/dotfiles/README.md
-|4,57,14,0,1609694086,"~/dotfiles/README.md"
+'0  147  63  ~/dotfiles/.vim/vimrc
+|4,48,147,63,1609792700,"~/dotfiles/.vim/vimrc"
+'1  1  0  ~/notes/2020-08-28_5.md
+|4,49,1,0,1609792432,"~/notes/2020-08-28_5.md"
+'2  1  0  ~/projects/samlarkin.xyz/main.py
+|4,50,1,0,1609792087,"~/projects/samlarkin.xyz/main.py"
+'3  1  0  ~/documents/work/bcc/rsle_archive/index.rst
+|4,51,1,0,1609782070,"~/documents/work/bcc/rsle_archive/index.rst"
+'4  2  6  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,52,2,6,1609781984,"~/documents/work/bcc/rsle_archive/scheme.rst"
+'5  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,53,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+'6  2  5  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,54,2,5,1609781952,"~/documents/work/bcc/rsle_archive/scheme.rst"
+'7  2  14  ~/documents/work/bcc/rsle_archive/reporting.rst
+|4,55,2,14,1609781940,"~/documents/work/bcc/rsle_archive/reporting.rst"
+'8  2  6  ~/documents/work/bcc/rsle_archive/funding.rst
+|4,56,2,6,1609781930,"~/documents/work/bcc/rsle_archive/funding.rst"
+'9  2  11  ~/documents/work/bcc/rsle_archive/consultation.rst
+|4,57,2,11,1609781918,"~/documents/work/bcc/rsle_archive/consultation.rst"
 
 # Jumplist (newest first):
--'  16  2  ~/dotfiles/README.md
-|4,39,16,2,1609694752,"~/dotfiles/README.md"
--'  18  1  ~/dotfiles/README.md
-|4,39,18,1,1609694713,"~/dotfiles/README.md"
--'  17  2  ~/dotfiles/README.md
-|4,39,17,2,1609694708,"~/dotfiles/README.md"
--'  1  0  ~/dotfiles/README.md
-|4,39,1,0,1609694692,"~/dotfiles/README.md"
--'  40  0  ~/dotfiles/README.md
-|4,39,40,0,1609694301,"~/dotfiles/README.md"
--'  37  0  ~/dotfiles/README.md
-|4,39,37,0,1609694301,"~/dotfiles/README.md"
--'  1  0  ~/dotfiles/README.md
-|4,39,1,0,1609694282,"~/dotfiles/README.md"
--'  1  0  ~/dotfiles/README.md
-|4,39,1,0,1609694145,"~/dotfiles/README.md"
--'  14  0  ~/dotfiles/README.md
-|4,39,14,0,1609694086,"~/dotfiles/README.md"
--'  14  0  ~/dotfiles/README.md
-|4,39,14,0,1609694086,"~/dotfiles/README.md"
--'  14  0  ~/dotfiles/README.md
-|4,39,14,0,1609694086,"~/dotfiles/README.md"
--'  14  0  ~/dotfiles/README.md
-|4,39,14,0,1609694086,"~/dotfiles/README.md"
--'  13  0  ~/dotfiles/README.md
-|4,39,13,0,1609694064,"~/dotfiles/README.md"
--'  13  0  ~/dotfiles/README.md
-|4,39,13,0,1609694064,"~/dotfiles/README.md"
--'  13  0  ~/dotfiles/README.md
-|4,39,13,0,1609694064,"~/dotfiles/README.md"
--'  13  0  ~/dotfiles/README.md
-|4,39,13,0,1609694064,"~/dotfiles/README.md"
--'  15  4  ~/dotfiles/README.md
-|4,39,15,4,1609694055,"~/dotfiles/README.md"
--'  15  4  ~/dotfiles/README.md
-|4,39,15,4,1609694055,"~/dotfiles/README.md"
--'  15  4  ~/dotfiles/README.md
-|4,39,15,4,1609694055,"~/dotfiles/README.md"
--'  1  0  ~/dotfiles/README.md
-|4,39,1,0,1609693794,"~/dotfiles/README.md"
--'  5  67  ~/dotfiles/.profile
-|4,39,5,67,1609693583,"~/dotfiles/.profile"
--'  5  67  ~/dotfiles/.profile
-|4,39,5,67,1609693583,"~/dotfiles/.profile"
--'  5  67  ~/dotfiles/.profile
-|4,39,5,67,1609693583,"~/dotfiles/.profile"
--'  5  67  ~/dotfiles/.profile
-|4,39,5,67,1609693583,"~/dotfiles/.profile"
--'  5  67  ~/dotfiles/.profile
-|4,39,5,67,1609693583,"~/dotfiles/.profile"
--'  5  67  ~/dotfiles/.profile
-|4,39,5,67,1609693583,"~/dotfiles/.profile"
--'  5  67  ~/dotfiles/.profile
-|4,39,5,67,1609693583,"~/dotfiles/.profile"
--'  5  67  ~/dotfiles/.profile
-|4,39,5,67,1609693583,"~/dotfiles/.profile"
--'  5  67  ~/dotfiles/.profile
-|4,39,5,67,1609693583,"~/dotfiles/.profile"
--'  5  67  ~/dotfiles/.profile
-|4,39,5,67,1609693583,"~/dotfiles/.profile"
--'  5  67  ~/dotfiles/.profile
-|4,39,5,67,1609693583,"~/dotfiles/.profile"
--'  5  67  ~/dotfiles/.profile
-|4,39,5,67,1609693583,"~/dotfiles/.profile"
--'  5  67  ~/dotfiles/.profile
-|4,39,5,67,1609693583,"~/dotfiles/.profile"
--'  5  67  ~/dotfiles/.profile
-|4,39,5,67,1609693583,"~/dotfiles/.profile"
--'  5  67  ~/dotfiles/.profile
-|4,39,5,67,1609693583,"~/dotfiles/.profile"
--'  5  67  ~/dotfiles/.profile
-|4,39,5,67,1609693583,"~/dotfiles/.profile"
--'  1  0  ~/dotfiles/.profile
-|4,39,1,0,1609693436,"~/dotfiles/.profile"
--'  1  0  ~/dotfiles/.profile
-|4,39,1,0,1609693436,"~/dotfiles/.profile"
--'  1  0  ~/dotfiles/.profile
-|4,39,1,0,1609693436,"~/dotfiles/.profile"
--'  1  0  ~/dotfiles/.profile
-|4,39,1,0,1609693436,"~/dotfiles/.profile"
--'  1  0  ~/dotfiles/.profile
-|4,39,1,0,1609693436,"~/dotfiles/.profile"
--'  1  0  ~/dotfiles/.profile
-|4,39,1,0,1609693436,"~/dotfiles/.profile"
--'  1  0  ~/dotfiles/.profile
-|4,39,1,0,1609693436,"~/dotfiles/.profile"
--'  1  0  ~/dotfiles/.profile
-|4,39,1,0,1609693436,"~/dotfiles/.profile"
--'  1  0  ~/dotfiles/.profile
-|4,39,1,0,1609693436,"~/dotfiles/.profile"
--'  1  0  ~/dotfiles/.profile
-|4,39,1,0,1609693436,"~/dotfiles/.profile"
--'  1  0  ~/dotfiles/.profile
-|4,39,1,0,1609693436,"~/dotfiles/.profile"
--'  1  0  ~/dotfiles/.profile
-|4,39,1,0,1609693436,"~/dotfiles/.profile"
--'  1  0  ~/dotfiles/.profile
-|4,39,1,0,1609693436,"~/dotfiles/.profile"
--'  1  0  ~/dotfiles/.profile
-|4,39,1,0,1609693436,"~/dotfiles/.profile"
--'  1  0  ~/dotfiles/.profile
-|4,39,1,0,1609693436,"~/dotfiles/.profile"
--'  1  0  ~/dotfiles/.profile
-|4,39,1,0,1609693436,"~/dotfiles/.profile"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  24  0  ~/dotfiles/.zshrc
-|4,39,24,0,1609693420,"~/dotfiles/.zshrc"
--'  1  0  ~/dotfiles/.zshrc
-|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
--'  1  0  ~/dotfiles/.zshrc
-|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
--'  1  0  ~/dotfiles/.zshrc
-|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
--'  1  0  ~/dotfiles/.zshrc
-|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
--'  1  0  ~/dotfiles/.zshrc
-|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
--'  1  0  ~/dotfiles/.zshrc
-|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
--'  1  0  ~/dotfiles/.zshrc
-|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
--'  1  0  ~/dotfiles/.zshrc
-|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
--'  1  0  ~/dotfiles/.zshrc
-|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
--'  1  0  ~/dotfiles/.zshrc
-|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
--'  1  0  ~/dotfiles/.zshrc
-|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
--'  1  0  ~/dotfiles/.zshrc
-|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
--'  1  0  ~/dotfiles/.zshrc
-|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
--'  1  0  ~/dotfiles/.zshrc
-|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
--'  1  0  ~/dotfiles/.zshrc
-|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
--'  1  0  ~/dotfiles/.zshrc
-|4,39,1,0,1609693407,"~/dotfiles/.zshrc"
+-'  147  63  ~/dotfiles/.vim/vimrc
+|4,39,147,63,1609792700,"~/dotfiles/.vim/vimrc"
+-'  62  0  ~/dotfiles/.vim/vimrc
+|4,39,62,0,1609792651,"~/dotfiles/.vim/vimrc"
+-'  1  0  ~/dotfiles/.vim/vimrc
+|4,39,1,0,1609792638,"~/dotfiles/.vim/vimrc"
+-'  1  0  ~/notes/2020-08-28_5.md
+|4,39,1,0,1609792432,"~/notes/2020-08-28_5.md"
+-'  1  0  ~/notes/2020-08-28_5.md
+|4,39,1,0,1609792432,"~/notes/2020-08-28_5.md"
+-'  6  4  ~/notes/2020-08-28_5.md
+|4,39,6,4,1609792340,"~/notes/2020-08-28_5.md"
+-'  6  4  ~/notes/2020-08-28_5.md
+|4,39,6,4,1609792340,"~/notes/2020-08-28_5.md"
+-'  6  4  ~/notes/2020-08-28_4.md
+|4,39,6,4,1609792335,"~/notes/2020-08-28_4.md"
+-'  6  4  ~/notes/2020-08-28_4.md
+|4,39,6,4,1609792335,"~/notes/2020-08-28_4.md"
+-'  6  5  ~/notes/2020-08-28_3.md
+|4,39,6,5,1609792334,"~/notes/2020-08-28_3.md"
+-'  6  5  ~/notes/2020-08-28_3.md
+|4,39,6,5,1609792334,"~/notes/2020-08-28_3.md"
+-'  6  4  ~/notes/2020-08-28_2.md
+|4,39,6,4,1609792331,"~/notes/2020-08-28_2.md"
+-'  6  4  ~/notes/2020-08-28_2.md
+|4,39,6,4,1609792331,"~/notes/2020-08-28_2.md"
+-'  6  4  ~/notes/2020-08-28_1.md
+|4,39,6,4,1609792330,"~/notes/2020-08-28_1.md"
+-'  6  4  ~/notes/2020-08-28_1.md
+|4,39,6,4,1609792330,"~/notes/2020-08-28_1.md"
+-'  6  4  ~/notes/2020-08-28_0.md
+|4,39,6,4,1609792329,"~/notes/2020-08-28_0.md"
+-'  6  4  ~/notes/2020-08-28_0.md
+|4,39,6,4,1609792329,"~/notes/2020-08-28_0.md"
+-'  1  0  ~/projects/samlarkin.xyz/main.py
+|4,39,1,0,1609792087,"~/projects/samlarkin.xyz/main.py"
+-'  1  0  ~/projects/samlarkin.xyz/main.py
+|4,39,1,0,1609792087,"~/projects/samlarkin.xyz/main.py"
+-'  1  0  ~/projects/samlarkin.xyz/main.py
+|4,39,1,0,1609792087,"~/projects/samlarkin.xyz/main.py"
+-'  1  0  ~/projects/samlarkin.xyz/main.py
+|4,39,1,0,1609792087,"~/projects/samlarkin.xyz/main.py"
+-'  1  0  ~/documents/work/bcc/rsle_archive/index.rst
+|4,39,1,0,1609782070,"~/documents/work/bcc/rsle_archive/index.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/index.rst
+|4,39,1,0,1609782070,"~/documents/work/bcc/rsle_archive/index.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/index.rst
+|4,39,1,0,1609782070,"~/documents/work/bcc/rsle_archive/index.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/index.rst
+|4,39,1,0,1609782070,"~/documents/work/bcc/rsle_archive/index.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/index.rst
+|4,39,1,0,1609782070,"~/documents/work/bcc/rsle_archive/index.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/index.rst
+|4,39,1,0,1609782070,"~/documents/work/bcc/rsle_archive/index.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/index.rst
+|4,39,1,0,1609782070,"~/documents/work/bcc/rsle_archive/index.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/index.rst
+|4,39,1,0,1609782070,"~/documents/work/bcc/rsle_archive/index.rst"
+-'  2  6  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,2,6,1609781984,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  2  6  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,2,6,1609781984,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  2  6  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,2,6,1609781984,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  2  6  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,2,6,1609781984,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  2  6  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,2,6,1609781984,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  2  6  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,2,6,1609781984,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  2  6  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,2,6,1609781984,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  2  6  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,2,6,1609781984,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  2  6  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,2,6,1609781984,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  2  6  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,2,6,1609781984,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  2  6  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,2,6,1609781984,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  2  6  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,2,6,1609781984,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  2  6  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,2,6,1609781984,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  2  6  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,2,6,1609781984,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  2  6  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,2,6,1609781984,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  2  6  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,2,6,1609781984,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,1,0,1609781978,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,1,0,1609781978,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,1,0,1609781978,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,1,0,1609781978,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,1,0,1609781978,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,1,0,1609781978,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,1,0,1609781978,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,1,0,1609781978,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,1,0,1609781978,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,1,0,1609781978,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,1,0,1609781978,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,1,0,1609781978,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,1,0,1609781978,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,1,0,1609781978,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,1,0,1609781978,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,1,0,1609781978,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  1  0  ~/documents/work/bcc/rsle_archive/software.rst
+|4,39,1,0,1609781959,"~/documents/work/bcc/rsle_archive/software.rst"
+-'  2  5  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,2,5,1609781952,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  2  5  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,2,5,1609781952,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  2  5  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,2,5,1609781952,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  2  5  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,2,5,1609781952,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  2  5  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,2,5,1609781952,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  2  5  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,2,5,1609781952,"~/documents/work/bcc/rsle_archive/scheme.rst"
+-'  2  5  ~/documents/work/bcc/rsle_archive/scheme.rst
+|4,39,2,5,1609781952,"~/documents/work/bcc/rsle_archive/scheme.rst"
 
 # History of marks within files (newest to oldest):
+
+> ~/dotfiles/.vim/vimrc
+	*	1609792697	0
+	"	147	63
+	^	147	64
+	.	147	63
+	+	147	63
+
+> ~/notes/2020-08-28_5.md
+	*	1609792430	0
+	"	1	0
+	.	38	0
+	+	22	0
+	+	38	0
+
+> ~/notes/2020-08-28_4.md
+	*	1609792334	0
+	"	6	4
+
+> ~/notes/2020-08-28_3.md
+	*	1609792333	0
+	"	6	5
+
+> ~/notes/2020-08-28_2.md
+	*	1609792330	0
+	"	6	4
+
+> ~/notes/2020-08-28_1.md
+	*	1609792329	0
+	"	6	4
+
+> ~/notes/2020-08-28_0.md
+	*	1609792298	0
+	"	6	4
+
+> ~/projects/samlarkin.xyz/main.py
+	*	1609792086	0
+	"	1	0
+	^	113	4
+	.	112	7
+	+	1	33
+	+	21	0
+	+	3	0
+	+	8	0
+	+	3	0
+	+	21	0
+	+	9	15
+	+	19	0
+	+	21	0
+	+	34	0
+	+	33	0
+	+	21	0
+	+	14	0
+	+	12	0
+	+	21	0
+	+	19	0
+	+	10	0
+	+	6	25
+	+	16	11
+	+	42	0
+	+	16	0
+	+	42	0
+	+	19	0
+	+	34	0
+	+	19	0
+	+	34	0
+	+	35	0
+	+	34	0
+	+	126	0
+	+	124	0
+	+	19	0
+	+	17	0
+	+	19	0
+	+	18	0
+	+	15	35
+	+	19	0
+	+	35	0
+	+	37	44
+	+	38	46
+	+	39	50
+	+	40	54
+	+	120	4
+	+	121	51
+	+	120	0
+	+	50	15
+	+	52	48
+	+	51	6
+	+	112	7
+
+> ~/documents/work/bcc/rsle_archive/index.rst
+	*	1609782068	0
+	"	1	0
+	^	3	76
+	.	7	12
+	+	19	79
+	+	19	136
+	+	19	66
+	+	19	27
+	+	19	11
+	+	22	3
+	+	22	2
+	+	22	0
+	+	24	3
+	+	24	16
+	+	24	11
+	+	24	0
+	+	24	20
+	+	24	3
+	+	24	11
+	+	24	3
+	+	19	76
+	+	19	184
+	+	19	133
+	+	19	134
+	+	24	0
+	+	20	14
+	+	19	67
+	+	19	133
+	+	19	2
+	+	19	77
+	+	19	32
+	+	19	9
+	+	19	76
+	+	19	112
+	+	19	47
+	+	19	106
+	+	19	28
+	+	19	88
+	+	19	104
+	+	19	27
+	+	19	1
+	+	19	3
+	+	19	2
+	+	19	74
+	+	19	78
+	+	19	0
+	+	19	39
+	+	19	56
+	+	19	0
+	+	19	26
+	+	19	61
+	+	19	0
+	+	19	26
+	+	19	105
+	+	19	0
+	+	19	100
+	+	19	18
+	+	19	78
+	+	19	79
+	+	19	17
+	+	19	26
+	+	19	78
+	+	19	27
+	+	10	10
+	+	15	7
+	+	10	9
+	+	15	12
+	+	19	0
+	+	19	52
+	+	19	75
+	+	19	23
+	+	24	0
+	+	20	14
+	+	24	0
+	+	29	0
+	+	24	9
+	+	6	3
+	+	7	17
+	+	19	0
+	+	16	0
+	+	17	0
+	+	17	76
+	+	17	47
+	+	1	6
+	+	17	1
+	+	17	66
+	+	17	77
+	+	17	44
+	+	19	48
+	+	23	6
+	+	19	0
+	+	13	1
+	+	13	32
+	+	13	0
+	+	13	8
+	+	17	22
+	+	13	0
+	+	17	39
+	+	17	9
+	+	23	7
+	+	9	6
+	+	12	7
+	+	6	4
+	+	7	12
+
+> ~/documents/work/bcc/rsle_archive/scheme.rst
+	*	1609781983	0
+	"	2	6
+	^	2	7
+	.	2	6
+	+	1	6
+	+	2	6
+	+	1	6
+	+	2	6
+
+> ~/documents/work/bcc/rsle_archive/software.rst
+	*	1609781959	0
+	"	1	0
+	^	1	10
+	.	2	8
+	+	1	13
+	+	2	14
+	+	1	8
+	+	2	8
+
+> ~/documents/work/bcc/rsle_archive/reporting.rst
+	*	1609781939	0
+	"	2	14
+	^	2	20
+	.	2	15
+	+	1	0
+	+	2	19
+	+	1	15
+	+	2	15
+
+> ~/documents/work/bcc/rsle_archive/funding.rst
+	*	1609781929	0
+	"	2	6
+	^	2	0
+	.	2	7
+	+	1	0
+	+	3	0
+	+	2	42
+	+	1	0
+	+	2	19
+	+	1	7
+	+	2	7
+
+> ~/documents/work/bcc/rsle_archive/consultation.rst
+	*	1609781917	0
+	"	2	11
+	^	13	26
+	.	2	12
+	+	4	7
+	+	6	17
+	+	24	0
+	+	6	18
+	+	16	0
+	+	23	40
+	+	71	37
+	+	8	28
+	+	9	28
+	+	71	28
+	+	77	30
+	+	78	0
+	+	65	78
+	+	66	31
+	+	68	0
+	+	65	76
+	+	66	0
+	+	69	73
+	+	68	47
+	+	76	0
+	+	74	16
+	+	68	57
+	+	74	68
+	+	75	14
+	+	62	27
+	+	63	28
+	+	62	9
+	+	63	30
+	+	21	45
+	+	6	79
+	+	21	10
+	+	66	0
+	+	69	5
+	+	69	48
+	+	73	79
+	+	74	67
+	+	75	0
+	+	74	77
+	+	21	9
+	+	21	10
+	+	69	4
+	+	69	5
+	+	73	78
+	+	74	77
+	+	75	0
+	+	26	33
+	+	27	31
+	+	61	0
+	+	63	6
+	+	29	19
+	+	30	20
+	+	36	4
+	+	38	27
+	+	39	27
+	+	46	30
+	+	10	40
+	+	45	0
+	+	33	2
+	+	65	78
+	+	66	1
+	+	46	4
+	+	32	77
+	+	33	1
+	+	34	0
+	+	33	0
+	+	36	4
+	+	36	3
+	+	21	9
+	+	41	77
+	+	46	3
+	+	44	77
+	+	65	78
+	+	69	4
+	+	74	77
+	+	74	76
+	+	20	68
+	+	32	77
+	+	35	73
+	+	41	78
+	+	45	72
+	+	65	78
+	+	68	73
+	+	74	77
+	+	48	78
+	+	51	78
+	+	59	20
+	+	58	7
+	+	59	23
+	+	60	77
+	+	16	0
+	+	15	0
+	+	11	20
+	+	12	31
+	+	55	0
+	+	53	53
+	+	13	33
+	+	13	183
+	+	13	25
+	+	1	12
+	+	2	12
+
+> ~/documents/work/bcc/rsle_archive/cad.rst
+	*	1609781903	0
+	"	2	2
+	.	2	3
+	+	1	3
+	+	2	3
+
+> ~/documents/work/bcc/rsle_archive/conf.py
+	*	1609781580	0
+	"	56	32
+	^	56	33
+	.	56	32
+	+	20	22
+	+	21	38
+	+	57	1
+	+	56	0
+	+	57	1
+	+	57	0
+	+	56	1
+	+	57	0
+	+	39	21
+	+	57	0
+	+	1	0
+	+	39	0
+	+	57	1
+	+	56	0
+	+	21	28
+	+	57	20
+	+	57	0
+	+	56	32
+
+> ~/projects/startpage/conf.py
+	*	1609781510	0
+	"	47	19
+	^	47	20
+	.	47	19
+	+	48	29
+	+	47	1
+	+	48	0
+	+	48	1
+	+	48	0
+	+	48	1
+	+	47	0
+	+	48	0
+	+	47	19
+
+> ~/projects/samlarkin.xyz/views.py
+	*	1609778652	0
+	"	87	0
+	^	11	5
+	.	11	5
+	+	1	3
+	+	3	3
+	+	4	3
+	+	5	0
+	+	9	8
+	+	10	8
+	+	11	5
+
+> ~/projects/samlarkin.xyz/samlarkinxyz/__init__.py
+	*	1609778022	0
+	"	1	2
+	^	1	2
+	.	1	0
+	+	13	8
+	+	20	59
+	+	21	58
+	+	25	48
+	+	14	28
+	+	14	24
+	+	14	26
+	+	14	0
+	+	13	0
+	+	1	0
+	+	9	0
+	+	8	2
+	+	2	24
+	+	25	0
+	+	13	0
+	+	25	0
+	+	15	0
+	+	18	0
+	+	24	0
+	+	25	0
+	+	8	0
+	+	6	0
+	+	8	0
+	+	5	0
+	+	2	8
+	+	2	1
+	+	3	32
+	+	4	51
+	+	1	33
+	+	18	27
+	+	13	0
+	+	14	5
+	+	17	6
+	+	12	5
+	+	1	0
+
+> ~/projects/samlarkin.xyz/run.py
+	*	1609777474	0
+	"	1	0
+	^	14	4
+	.	14	3
+	+	1	13
+	+	8	0
+	+	1	2
+	+	8	0
+	+	7	0
+	+	8	0
+	+	7	2
+	+	7	5
+	+	7	0
+	+	6	2
+	+	1	36
+	+	2	0
+	+	3	0
+	+	6	0
+	+	8	19
+	+	14	16
+	+	8	25
+	+	14	4
+	+	8	28
+	+	9	0
+	+	10	0
+	+	9	29
+	+	1	3
+	+	3	0
+	+	4	0
+	+	3	2
+	+	4	2
+	+	5	0
+	+	14	0
+	+	13	25
+	+	14	3
+
+> ~/projects/samlarkin.xyz/samlarkinxyz/forms.py
+	*	1609777400	0
+	"	1	0
+	^	12	70
+	.	12	69
+	+	8	69
+	+	9	0
+	+	6	2
+	+	1	63
+	+	3	0
+	+	6	0
+	+	2	0
+	+	12	75
+	+	12	21
+	+	1	3
+	+	12	71
+	+	1	3
+	+	3	2
+	+	4	3
+	+	5	0
+	+	10	0
+	+	12	7
+	+	12	69
+
+> ~/projects/samlarkin.xyz/samlarkinxyz/views.py
+	*	1609772961	0
+	"	1	0
+	^	47	40
+	.	49	0
+	+	87	19
+	+	12	0
+	+	1	0
+	+	7	0
+	+	6	2
+	+	2	42
+	+	6	0
+	+	4	0
+	+	6	0
+	+	3	0
+	+	7	8
+	+	41	27
+	+	7	42
+	+	43	7
+	+	51	0
+	+	43	60
+	+	16	30
+	+	22	40
+	+	29	0
+	+	28	36
+	+	34	68
+	+	35	123
+	+	36	83
+	+	34	7
+	+	35	59
+	+	36	76
+	+	35	120
+	+	36	59
+	+	35	123
+	+	37	91
+	+	55	68
+	+	57	4
+	+	55	7
+	+	57	11
+	+	56	64
+	+	58	4
+	+	57	20
+	+	64	33
+	+	16	30
+	+	22	33
+	+	28	31
+	+	35	30
+	+	35	69
+	+	36	4
+	+	35	68
+	+	36	55
+	+	36	70
+	+	37	52
+	+	37	66
+	+	64	37
+	+	70	46
+	+	75	7
+	+	75	72
+	+	75	0
+	+	76	0
+	+	81	70
+	+	82	46
+	+	83	29
+	+	41	15
+	+	44	77
+	+	46	81
+	+	46	0
+	+	46	71
+	+	7	0
+	+	13	0
+	+	19	0
+	+	25	0
+	+	31	0
+	+	52	0
+	+	61	0
+	+	67	0
+	+	73	0
+	+	41	0
+	+	44	34
+	+	46	23
+	+	48	9
+	+	46	16
+	+	48	15
+	+	46	17
+	+	48	17
+	+	45	17
+	+	46	76
+	+	47	39
+	+	49	0
+
+> ~/.taskrc
+	*	1609713643	0
+	"	26	0
+	.	26	0
+	+	26	0
+
+> ~/notes/compiler/make_index.py
+	*	1609699659	0
+	"	62	0
+	^	21	28
+	.	21	27
+	+	26	47
+	+	28	40
+	+	27	29
+	+	32	8
+	+	32	12
+	+	32	8
+	+	32	12
+	+	31	0
+	+	32	42
+	+	32	17
+	+	31	58
+	+	11	0
+	+	26	40
+	+	23	0
+	+	30	0
+	+	12	30
+	+	14	0
+	+	21	19
+	+	22	0
+	+	10	0
+	+	61	44
+	+	10	0
+	+	61	66
+	+	37	0
+	+	59	7
+	+	10	0
+	+	13	56
+	+	60	0
+	+	61	46
+	+	24	29
+	+	23	26
+	+	23	0
+	+	26	3
+	+	27	3
+	+	28	3
+	+	31	0
+	+	25	42
+	+	32	0
+	+	32	38
+	+	32	3
+	+	32	0
+	+	31	0
+	+	59	3
+	+	59	0
+	+	31	0
+	+	59	3
+	+	31	0
+	+	59	0
+	+	38	9
+	+	32	20
+	+	59	0
+	+	34	5
+	+	34	0
+	+	32	0
+	+	33	67
+	+	14	38
+	+	13	70
+	+	15	0
+	+	17	29
+	+	21	0
+	+	16	17
+	+	20	41
+	+	16	12
+	+	21	0
+	+	59	3
+	+	44	0
+	+	43	0
+	+	39	35
+	+	40	68
+	+	59	0
+	+	41	0
+	+	42	20
+	+	62	0
+	+	59	7
+	+	32	34
+	+	52	0
+	+	51	18
+	+	52	27
+	+	32	0
+	+	45	0
+	+	52	16
+	+	53	31
+	+	55	7
+	+	54	0
+	+	55	29
+	+	52	12
+	+	55	31
+	+	59	0
+	+	56	38
+	+	36	15
+	+	56	15
+	+	57	49
+	+	58	24
+	+	29	15
+	+	58	40
+	+	53	11
+	+	21	27
 
 > ~/dotfiles/README.md
 	*	1609694751	0
@@ -632,80 +1299,6 @@ $
 	^	14	20
 	.	14	19
 	+	14	19
-
-> ~/notes/compiler/make_index.py
-	*	1609686073	0
-	"	27	58
-	^	27	59
-	.	27	58
-	+	7	8
-	+	10	0
-	+	6	2
-	+	4	15
-	+	11	29
-	+	13	32
-	+	31	41
-	+	12	38
-	+	13	7
-	+	13	0
-	+	13	37
-	+	31	23
-	+	31	7
-	+	31	0
-	+	8	8
-	+	31	12
-	+	13	17
-	+	13	0
-	+	31	0
-	+	13	0
-	+	14	0
-	+	31	27
-	+	31	0
-	+	31	34
-	+	14	25
-	+	31	29
-	+	31	32
-	+	31	11
-	+	31	41
-	+	9	15
-	+	31	29
-	+	31	19
-	+	31	37
-	+	31	15
-	+	31	24
-	+	31	49
-	+	31	23
-	+	31	0
-	+	31	46
-	+	31	38
-	+	13	41
-	+	6	0
-	+	5	0
-	+	13	0
-	+	31	49
-	+	31	0
-	+	31	58
-	+	31	33
-	+	31	44
-	+	31	0
-	+	31	50
-	+	31	0
-	+	18	0
-	+	19	0
-	+	18	0
-	+	18	13
-	+	15	47
-	+	18	40
-	+	16	29
-	+	29	8
-	+	30	12
-	+	29	8
-	+	30	12
-	+	28	0
-	+	22	0
-	+	29	42
-	+	30	17
-	+	27	58
 
 > ~/notes/compiler/index_template
 	*	1609686010	0
@@ -810,13 +1403,6 @@ $
 > ~/projects/startpage/work
 	*	1609681339	0
 	"	1	0
-
-> ~/projects/startpage/conf.py
-	*	1609678874	0
-	"	53	29
-	^	48	30
-	.	48	29
-	+	48	29
 
 > ~/projects/startpage/startpage.html
 	*	1609678673	0
@@ -1076,135 +1662,6 @@ $
 	*	1609521839	0
 	"	1	0
 
-> ~/documents/work/bcc/rsle_archive/conf.py
-	*	1609517970	0
-	"	57	20
-	^	57	21
-	.	57	20
-	+	20	22
-	+	21	38
-	+	59	1
-	+	56	0
-	+	60	1
-	+	59	0
-	+	56	1
-	+	59	0
-	+	39	21
-	+	60	0
-	+	58	0
-	+	1	0
-	+	39	0
-	+	59	1
-	+	56	0
-	+	21	28
-	+	57	20
-
-> ~/documents/work/bcc/rsle_archive/consultation.rst
-	*	1609512165	0
-	"	13	25
-	^	13	26
-	.	13	25
-	+	18	21
-	+	22	0
-	+	4	7
-	+	6	17
-	+	24	0
-	+	6	18
-	+	16	0
-	+	23	40
-	+	71	37
-	+	8	28
-	+	9	28
-	+	71	28
-	+	77	30
-	+	78	0
-	+	65	78
-	+	66	31
-	+	68	0
-	+	65	76
-	+	66	0
-	+	69	73
-	+	68	47
-	+	76	0
-	+	74	16
-	+	68	57
-	+	74	68
-	+	75	14
-	+	62	27
-	+	63	28
-	+	62	9
-	+	63	30
-	+	21	45
-	+	6	79
-	+	21	10
-	+	66	0
-	+	69	5
-	+	69	48
-	+	73	79
-	+	74	67
-	+	75	0
-	+	74	77
-	+	21	9
-	+	21	10
-	+	69	4
-	+	69	5
-	+	73	78
-	+	74	77
-	+	75	0
-	+	26	33
-	+	27	31
-	+	61	0
-	+	63	6
-	+	29	19
-	+	30	20
-	+	36	4
-	+	38	27
-	+	39	27
-	+	46	30
-	+	10	40
-	+	45	0
-	+	33	2
-	+	65	78
-	+	66	1
-	+	46	4
-	+	32	77
-	+	33	1
-	+	34	0
-	+	33	0
-	+	36	4
-	+	36	3
-	+	21	9
-	+	41	77
-	+	46	3
-	+	44	77
-	+	65	78
-	+	69	4
-	+	74	77
-	+	74	76
-	+	20	68
-	+	32	77
-	+	35	73
-	+	41	78
-	+	45	72
-	+	65	78
-	+	68	73
-	+	74	77
-	+	48	78
-	+	51	78
-	+	59	20
-	+	58	7
-	+	59	23
-	+	60	77
-	+	16	0
-	+	15	0
-	+	11	20
-	+	12	31
-	+	55	0
-	+	53	53
-	+	13	33
-	+	13	183
-	+	13	25
-
 > ~/documents/work/bcc/rsle_archive/about.rst
 	*	1609507680	0
 	"	52	0
@@ -1269,112 +1726,6 @@ $
 	+	49	74
 	+	52	0
 
-> ~/documents/work/bcc/rsle_archive/index.rst
-	*	1609507606	0
-	"	1	0
-	^	3	76
-	.	7	12
-	+	19	79
-	+	19	136
-	+	19	66
-	+	19	27
-	+	19	11
-	+	22	3
-	+	22	2
-	+	22	0
-	+	24	3
-	+	24	16
-	+	24	11
-	+	24	0
-	+	24	20
-	+	24	3
-	+	24	11
-	+	24	3
-	+	19	76
-	+	19	184
-	+	19	133
-	+	19	134
-	+	24	0
-	+	20	14
-	+	19	67
-	+	19	133
-	+	19	2
-	+	19	77
-	+	19	32
-	+	19	9
-	+	19	76
-	+	19	112
-	+	19	47
-	+	19	106
-	+	19	28
-	+	19	88
-	+	19	104
-	+	19	27
-	+	19	1
-	+	19	3
-	+	19	2
-	+	19	74
-	+	19	78
-	+	19	0
-	+	19	39
-	+	19	56
-	+	19	0
-	+	19	26
-	+	19	61
-	+	19	0
-	+	19	26
-	+	19	105
-	+	19	0
-	+	19	100
-	+	19	18
-	+	19	78
-	+	19	79
-	+	19	17
-	+	19	26
-	+	19	78
-	+	19	27
-	+	10	10
-	+	15	7
-	+	10	9
-	+	15	12
-	+	19	0
-	+	19	52
-	+	19	75
-	+	19	23
-	+	24	0
-	+	20	14
-	+	24	0
-	+	29	0
-	+	24	9
-	+	6	3
-	+	7	17
-	+	19	0
-	+	16	0
-	+	17	0
-	+	17	76
-	+	17	47
-	+	1	6
-	+	17	1
-	+	17	66
-	+	17	77
-	+	17	44
-	+	19	48
-	+	23	6
-	+	19	0
-	+	13	1
-	+	13	32
-	+	13	0
-	+	13	8
-	+	17	22
-	+	13	0
-	+	17	39
-	+	17	9
-	+	23	7
-	+	9	6
-	+	12	7
-	+	6	4
-	+	7	12
-
 > ~/documents/work/bcc/rsle_archive/self.rst
 	*	1609447199	0
 	"	1	0
@@ -1434,31 +1785,6 @@ $
 	+	4	54
 	+	5	0
 
-> ~/documents/work/bcc/rsle_archive/funding.rst
-	*	1609442811	0
-	"	2	18
-	^	2	0
-	.	2	19
-	+	1	0
-	+	3	0
-	+	2	42
-	+	1	0
-	+	2	19
-
-> ~/documents/work/bcc/rsle_archive/cad.rst
-	*	1609442646	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/documents/work/bcc/rsle_archive/reporting.rst
-	*	1609442443	0
-	"	2	19
-	^	2	20
-	.	2	19
-	+	1	0
-	+	2	19
-
 > ~/documents/work/bcc/rsle_archive/in
 	*	1609435239	0
 	"	1	0
@@ -1481,16 +1807,6 @@ $
 > ~/documents/work/bcc/rsle_archive/index
 	*	1609433333	0
 	"	1	0
-
-> ~/documents/work/bcc/rsle_archive/software.rst
-	*	1609433081	0
-	"	2	7
-	^	1	10
-	.	2	8
-	+	1	13
-	+	2	14
-	+	1	8
-	+	2	8
 
 > ~/documents/templates/sphinx_examples/conf.py
 	*	1609428633	0
@@ -1861,104 +2177,6 @@ $
 	+	2	50
 	+	4	68
 
-> ~/projects/samlarkin.xyz/samlarkinxyz/__init__.py
-	*	1609263799	0
-	"	1	0
-	^	4	52
-	.	4	51
-	+	13	8
-	+	20	59
-	+	21	58
-	+	25	48
-	+	14	28
-	+	14	24
-	+	14	26
-	+	14	0
-	+	13	0
-	+	1	0
-	+	9	0
-	+	8	2
-	+	2	24
-	+	25	0
-	+	12	0
-	+	25	0
-	+	15	0
-	+	18	0
-	+	24	0
-	+	25	0
-	+	8	0
-	+	6	0
-	+	8	0
-	+	5	0
-	+	2	8
-	+	2	1
-	+	3	32
-	+	4	51
-
-> ~/projects/samlarkin.xyz/samlarkinxyz/views.py
-	*	1609263154	0
-	"	74	28
-	^	74	29
-	.	74	29
-	+	78	19
-	+	13	0
-	+	1	0
-	+	8	0
-	+	6	2
-	+	2	42
-	+	6	0
-	+	4	0
-	+	6	0
-	+	3	0
-	+	7	8
-	+	38	27
-	+	8	42
-	+	41	7
-	+	46	0
-	+	41	60
-	+	16	30
-	+	21	40
-	+	27	0
-	+	26	36
-	+	31	68
-	+	32	123
-	+	33	83
-	+	31	7
-	+	32	59
-	+	33	76
-	+	32	120
-	+	33	59
-	+	32	123
-	+	34	91
-	+	49	68
-	+	51	4
-	+	49	7
-	+	51	11
-	+	50	64
-	+	52	4
-	+	51	20
-	+	57	33
-	+	16	30
-	+	21	33
-	+	26	31
-	+	32	30
-	+	32	69
-	+	33	4
-	+	32	68
-	+	33	55
-	+	33	70
-	+	34	52
-	+	34	66
-	+	57	37
-	+	62	46
-	+	66	7
-	+	66	72
-	+	66	0
-	+	67	0
-	+	72	70
-	+	73	46
-	+	74	29
-
 > ~/projects/samlarkin.xyz/.env
 	*	1609261081	0
 	"	2	0
@@ -1972,42 +2190,6 @@ $
 	+	2	0
 	+	1	38
 	+	2	0
-
-> ~/projects/samlarkin.xyz/samlarkinxyz/forms.py
-	*	1609260617	0
-	"	12	64
-	^	12	65
-	.	12	64
-	+	8	69
-	+	9	0
-	+	6	2
-	+	2	60
-	+	4	0
-	+	6	0
-	+	3	0
-	+	13	6
-	+	12	14
-	+	2	0
-	+	12	64
-
-> ~/projects/samlarkin.xyz/run.py
-	*	1609260243	0
-	"	1	0
-	.	7	0
-	+	1	13
-	+	10	0
-	+	1	2
-	+	10	0
-	+	8	0
-	+	10	0
-	+	8	2
-	+	8	5
-	+	8	0
-	+	7	2
-	+	3	33
-	+	4	0
-	+	5	0
-	+	7	0
 
 > ~/projects/samlarkin.xyz/README.md
 	*	1609258428	0
@@ -2511,138 +2693,3 @@ $
 	+	11	38
 	+	10	37
 	+	17	25
-
-> ~/projects/website_flask_app/samlarkinxyz/templates/contact.html
-	*	1609160295	0
-	"	15	49
-	.	15	49
-	+	13	71
-	+	15	49
-
-> ~/projects/website_flask_app/samlarkinxyz/templates/contact_form_submitted.html
-	*	1609159180	0
-	"	10	2
-	^	10	3
-	.	10	2
-	+	10	2
-
-> ~/projects/website_flask_app/samlarkinxyz/templates/contact_form_returned.html
-	*	1609158545	0
-	"	8	152
-	^	8	153
-	.	8	152
-	+	1	0
-	+	3	23
-	+	10	0
-	+	9	0
-	+	7	25
-	+	8	152
-
-> ~/projects/website_flask_app/b2
-	*	1609099948	0
-	"	1	0
-
-> ~/foo
-	*	1609095644	0
-	"	1	0
-	^	12	0
-	.	13	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	4	0
-	+	5	0
-	+	6	0
-	+	7	0
-	+	8	0
-	+	9	0
-	+	10	0
-	+	11	0
-	+	12	0
-	+	13	0
-	e	10	0
-
-> ~/.vim/sh/time.sh
-	*	1609095472	0
-	"	1	0
-	^	2	10
-	.	2	9
-	+	3	0
-	+	1	0
-	+	3	0
-	+	2	9
-
-> ~/.vim/.old_vimrc
-	*	1609094380	0
-	"	177	0
-
-> ~/.profile
-	*	1609089562	0
-	"	6	0
-	^	4	0
-	.	6	0
-	+	5	18
-	+	6	22
-	+	6	0
-	+	6	17
-	+	2	11
-	+	3	0
-	+	3	2
-	+	5	0
-	+	1	1
-	+	4	0
-	+	6	0
-
-> ~/projects/finance/2020_q4/quarterly_review_notebook.py
-	*	1609085439	0
-	"	81	22
-	^	81	23
-	.	81	22
-	+	3	0
-	+	8	0
-	+	16	0
-	+	27	0
-	+	31	0
-	+	35	0
-	+	36	0
-	+	38	0
-	+	41	0
-	+	43	0
-	+	45	0
-	+	47	0
-	+	50	0
-	+	52	0
-	+	55	0
-	+	57	0
-	+	60	0
-	+	66	0
-	+	68	0
-	+	71	0
-	+	78	0
-	+	81	0
-	+	3	0
-	+	1	13
-	+	80	0
-	+	81	22
-
-> ~/projects/finance/2020_q4/quarterly_review.ipynb
-	*	1609084808	0
-	"	120	0
-
-> ~/.xinitrc
-	*	1609068416	0
-	"	3	0
-	^	1	25
-	.	4	0
-	+	5	0
-	+	1	31
-	+	4	51
-	+	1	31
-	+	4	0
-	+	2	52
-	+	3	9
-	+	4	0
-	+	3	28
-	+	4	16
-	+	1	24
-	+	4	0
