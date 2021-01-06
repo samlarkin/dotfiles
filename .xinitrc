@@ -1,4 +1,4 @@
-/home/sam/scripts/status/xsetloop.sh &
+/home/sam/bin/status/xsetloop.sh &
 setxkbmap -layout "gb,es" -option "grp:shifts_toggle"
 setxkbmap -option caps:escape
 exec redshift &
