@@ -11,17 +11,53 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/size
+~MSle0~/flake
+
+# Last Substitute Search Pattern:
+~MSle0&'.raw'
+
+# Last Substitute String:
+$'.txt'
 
 # Command Line History (newest to oldest):
+:wq
+|2,0,1610819008,,"wq"
+:w
+|2,0,1610818875,,"w"
+:ls
+|2,0,1610818814,,"ls"
+:b6
+|2,0,1610818812,,"b6"
+:b5
+|2,0,1610818795,,"b5"
+:b4
+|2,0,1610818790,,"b4"
+:b3
+|2,0,1610818784,,"b3"
+:b2
+|2,0,1610818762,,"b2"
+:b
+|2,0,1610818750,,"b"
 :q
-|2,0,1610123280,,"q"
+|2,0,1610646188,,"q"
+:!r python ,task_reading_list.py
+|2,0,1610644474,,"!r python ,task_reading_list.py"
+:r !python ,task_reading_list.py
+|2,0,1610643912,,"r !python ,task_reading_list.py"
+:b1
+|2,0,1610643685,,"b1"
+:grep "-reading" ~/notes/*.md
+|2,0,1610643635,,"grep \"-reading\" ~/notes/*.md"
+:vimgrep /-reading/g *
+|2,0,1610643603,,"vimgrep /-reading/g *"
+:e mv.py
+|2,0,1610468597,,"e mv.py"
+:%s/'.raw'/'.txt'/g
+|2,0,1610466476,,"%s/'.raw'/'.txt'/g"
 :vimgrep /-cv/g *
 |2,0,1610122835,,"vimgrep /-cv/g *"
 :r !cat ~/notes/compiled/plain/2020-09-01_0.html
 |2,0,1610122865,,"r !cat ~/notes/compiled/plain/2020-09-01_0.html"
-:b1
-|2,0,1610120025,,"b1"
 :e ~/notes/compiler/style.css
 |2,0,1610120001,,"e ~/notes/compiler/style.css"
 :r !grep "code" ~/notes/compiler/style.css
@@ -30,6 +66,18 @@
 |2,0,1610118249,,"e templates/templates/template.html"
 
 # Search String History (newest to oldest):
+?/flake
+|2,1,1610818988,47,"flake"
+?/:
+|2,1,1610645709,47,":"
+??*
+|2,1,1610645633,63,"*"
+?/gen_df
+|2,1,1610469437,47,"gen_df"
+?/raw
+|2,1,1610466563,47,"raw"
+? '.raw'
+|2,1,1610466476,,"'.raw'"
 ?/size
 |2,1,1610120912,47,"size"
 ?/code
@@ -44,290 +92,646 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	<em>curriculum vitae<em> <a href={{ url_for('cv')
-|3,0,0,0,1,0,1610123637,"<em>curriculum vitae<em> <a href={{ url_for('cv')"
-"1	LINE	0
+"0	LINE	0
+	#!/usr/bin/python3
+|3,0,0,1,1,0,1610818725,"#!/usr/bin/python3"
+""1	LINE	0
 	
-|3,0,1,1,1,0,1610123555,""
+|3,1,1,1,1,0,1610818805,""
 "2	LINE	0
-	
-|3,0,2,1,1,0,1610122879,""
+	#        weather=$(curl http://wttr.in/?format=3)
+|3,0,2,1,1,0,1610817658,"#        weather=$(curl http://wttr.in/?format=3)"
 "3	LINE	0
-	<p>{ <a href="https://samlarkin.xyz/contact.html">Contact Information</a> }</p>
-|3,0,3,1,1,0,1610122877,"<p>{ <a href=\"https://samlarkin.xyz/contact.html\">Contact Information</a> }</p>"
+	
+|3,0,3,1,1,0,1610743155,""
 "4	LINE	0
-	
-|3,0,4,1,1,0,1610122800,""
+	(( $# )) && { icon=$1; }
+|3,0,4,1,1,0,1610743154,"(( $# )) && { icon=$1; }"
 "5	LINE	0
-	<h2>About me</h2>
-	
-	<h3>What am I doing now?</h3>
-	
-	<p>You can see what I'm working on now <a href={{ url_for('now')
-	}}>here</a>.</p>
-	
-	<h3>Interests</h3>
-	
-	<p>Since graduating, I've been focused on learning more about computing, art
-	(drawing and painting), photography and music.</p>
-	
-	
-	<h3>Education</h3>
-	
-	<p>I graduated with a Master of Engineering (MEng) degree in Mechanical
-	Engineering from the University of Bristol in 2018.</p>
-	
-	<h3>Work</h3>
-	
-	<p>Currently, I work as a Highways Engineer in Bristol.</p>
-	
-	<p>You can see my full <em>curriculum vitae<em> <a href={{ url_for('cv')
-	}}>here</a>.
-|3,0,5,1,24,0,1610122796,"<h2>About me</h2>","","<h3>What am I doing now?</h3>","","<p>You can see what I'm working on now <a href={{ url_for('now')","}}>here</a>.</p>","","<h3>Interests</h3>","","<p>Since graduating, I've been focused on learning more about computing, art","(drawing and painting), photography and music.</p>","","","<h3>Education</h3>","","<p>I graduated with a Master of Engineering (MEng) degree in Mechanical",>57
-|<"Engineering from the University of Bristol in 2018.</p>","","<h3>Work</h3>","","<p>Currently, I work as a Highways Engineer in Bristol.</p>","","<p>You can see my full <em>curriculum vitae<em> <a href={{ url_for('cv')","}}>here</a>."
+	convert "$tmpbg" "$icon" -gravity center -composite -matte "$tmpbg"
+|3,0,5,1,1,0,1610743105,"convert \"$tmpbg\" \"$icon\" -gravity center -composite -matte \"$tmpbg\""
 "6	LINE	0
-	<p>Currently, I work as a Highways Engineer in Bristol.</p>
-|3,0,6,1,1,0,1610122608,"<p>Currently, I work as a Highways Engineer in Bristol.</p>"
+	icon="$HOME/scripts/lock_screen/lock-icon.png"
+|3,0,6,1,1,0,1610743073,"icon=\"$HOME/scripts/lock_screen/lock-icon.png\""
 "7	LINE	0
 	
-|3,0,7,1,1,0,1610122605,""
+|3,0,7,1,1,0,1610646186,""
 "8	LINE	0
-	
-|3,0,8,1,1,0,1610122569,""
+	* Akala *Natives** Harari, Y.N. *Homo Deus*
+|3,0,8,1,1,0,1610646185,"* Akala *Natives** Harari, Y.N. *Homo Deus*"
 "9	LINE	0
-	<p>You can see what I'm working on now <a href={{ url_for('now')
-	}}>here</a>.</p>
-|3,0,9,1,2,0,1610122537,"<p>You can see what I'm working on now <a href={{ url_for('now')","}}>here</a>.</p>"
-""-	CHAR	0
-	{{ url_for('now') }}
-|3,1,36,0,1,0,1610124557,"{{ url_for('now') }}"
+	* [Derek Sivers' book list](https://sive.rs/book)
+|3,0,9,1,1,0,1610646181,"* [Derek Sivers' book list](https://sive.rs/book)"
+"a	CHAR	0
+	$?*lDj
+|3,0,10,0,1,0,1610645586,"$?*lDj"
+"b@	CHAR	0
+	0/:dt*
+|3,2,11,0,1,0,1610645685,"0/:dt*"
+"-	CHAR	0
+	'/home/sam/notes/2020-08-28_5.md'
+|3,0,36,0,1,0,1610645973,"'/home/sam/notes/2020-08-28_5.md'"
 
 # File marks:
-'0  11  66  ~/projects/samlarkin.xyz/templates/about.html
-|4,48,11,66,1610124762,"~/projects/samlarkin.xyz/templates/about.html"
-'1  1  0  ~/projects/samlarkin.xyz/templates/about.html
-|4,49,1,0,1610123910,"~/projects/samlarkin.xyz/templates/about.html"
-'2  1  0  ~/projects/samlarkin.xyz/templates/about.html
-|4,50,1,0,1610123910,"~/projects/samlarkin.xyz/templates/about.html"
-'3  1  0  ~/projects/samlarkin.xyz/templates/about.html
-|4,51,1,0,1610123707,"~/projects/samlarkin.xyz/templates/about.html"
-'4  1  0  ~/projects/samlarkin.xyz/templates/about.html
-|4,52,1,0,1610123707,"~/projects/samlarkin.xyz/templates/about.html"
-'5  6  4  ~/notes/2020-09-01_0.md
-|4,53,6,4,1610123280,"~/notes/2020-09-01_0.md"
-'6  14  18  ~/projects/samlarkin.xyz/static/style.css
-|4,54,14,18,1610123132,"~/projects/samlarkin.xyz/static/style.css"
-'7  134  0  ~/projects/samlarkin.xyz/main.py
-|4,55,134,0,1610122983,"~/projects/samlarkin.xyz/main.py"
-'8  134  0  ~/projects/samlarkin.xyz/main.py
-|4,56,134,0,1610122983,"~/projects/samlarkin.xyz/main.py"
-'9  6  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,57,6,0,1610122887,"~/projects/samlarkin.xyz/templates/cv.html"
+'0  151  0  ~/dotfiles/.vim/vimrc
+|4,48,151,0,1610819009,"~/dotfiles/.vim/vimrc"
+'1  1  0  ~/bin/,qr.py
+|4,49,1,0,1610818961,"~/bin/,qr.py"
+'2  1  0  ~/bin/,key_gen.py
+|4,50,1,0,1610818935,"~/bin/,key_gen.py"
+'3  1  0  ~/bin/,contacts_csv.py
+|4,51,1,0,1610818901,"~/bin/,contacts_csv.py"
+'4  1  0  ~/bin/,task_reading_list.py
+|4,52,1,0,1610818826,"~/bin/,task_reading_list.py"
+'5  1  0  ~/bin/xsetloop.sh
+|4,53,1,0,1610817677,"~/bin/xsetloop.sh"
+'6  1  0  ~/bin/,lock.sh
+|4,54,1,0,1610743161,"~/bin/,lock.sh"
+'7  1  0  ~/notes/2020-08-28_5.md
+|4,55,1,0,1610646411,"~/notes/2020-08-28_5.md"
+'8  25  37  ~/bin/,task_reading_list.py
+|4,56,25,37,1610646377,"~/bin/,task_reading_list.py"
+'9  24  37  ~/bin/,task_reading_list.py
+|4,57,24,37,1610646377,"~/bin/,task_reading_list.py"
 
 # Jumplist (newest first):
--'  11  66  ~/projects/samlarkin.xyz/templates/about.html
-|4,39,11,66,1610124762,"~/projects/samlarkin.xyz/templates/about.html"
--'  10  0  ~/projects/samlarkin.xyz/templates/about.html
-|4,39,10,0,1610124535,"~/projects/samlarkin.xyz/templates/about.html"
--'  1  0  ~/projects/samlarkin.xyz/templates/about.html
-|4,39,1,0,1610124216,"~/projects/samlarkin.xyz/templates/about.html"
--'  1  0  ~/projects/samlarkin.xyz/templates/about.html
-|4,39,1,0,1610123910,"~/projects/samlarkin.xyz/templates/about.html"
--'  1  0  ~/projects/samlarkin.xyz/templates/about.html
-|4,39,1,0,1610123707,"~/projects/samlarkin.xyz/templates/about.html"
--'  6  4  ~/notes/2020-09-01_0.md
-|4,39,6,4,1610123280,"~/notes/2020-09-01_0.md"
--'  6  4  ~/notes/2020-09-01_0.md
-|4,39,6,4,1610123280,"~/notes/2020-09-01_0.md"
--'  6  4  ~/notes/2020-09-01_0.md
-|4,39,6,4,1610123280,"~/notes/2020-09-01_0.md"
--'  6  4  ~/notes/2020-09-01_0.md
-|4,39,6,4,1610123280,"~/notes/2020-09-01_0.md"
--'  6  4  ~/notes/2020-09-01_0.md
-|4,39,6,4,1610123280,"~/notes/2020-09-01_0.md"
--'  6  4  ~/notes/2020-09-01_0.md
-|4,39,6,4,1610123280,"~/notes/2020-09-01_0.md"
--'  6  4  ~/notes/2020-09-01_0.md
-|4,39,6,4,1610123280,"~/notes/2020-09-01_0.md"
--'  6  4  ~/notes/2020-09-01_0.md
-|4,39,6,4,1610123280,"~/notes/2020-09-01_0.md"
--'  14  18  ~/projects/samlarkin.xyz/static/style.css
-|4,39,14,18,1610123132,"~/projects/samlarkin.xyz/static/style.css"
--'  14  18  ~/projects/samlarkin.xyz/static/style.css
-|4,39,14,18,1610123132,"~/projects/samlarkin.xyz/static/style.css"
--'  14  18  ~/projects/samlarkin.xyz/static/style.css
-|4,39,14,18,1610123132,"~/projects/samlarkin.xyz/static/style.css"
--'  14  18  ~/projects/samlarkin.xyz/static/style.css
-|4,39,14,18,1610123132,"~/projects/samlarkin.xyz/static/style.css"
--'  14  18  ~/projects/samlarkin.xyz/static/style.css
-|4,39,14,18,1610123132,"~/projects/samlarkin.xyz/static/style.css"
--'  14  18  ~/projects/samlarkin.xyz/static/style.css
-|4,39,14,18,1610123132,"~/projects/samlarkin.xyz/static/style.css"
--'  14  18  ~/projects/samlarkin.xyz/static/style.css
-|4,39,14,18,1610123132,"~/projects/samlarkin.xyz/static/style.css"
--'  14  18  ~/projects/samlarkin.xyz/static/style.css
-|4,39,14,18,1610123132,"~/projects/samlarkin.xyz/static/style.css"
--'  1  0  ~/projects/samlarkin.xyz/static/style.css
-|4,39,1,0,1610123107,"~/projects/samlarkin.xyz/static/style.css"
--'  1  0  ~/projects/samlarkin.xyz/static/style.css
-|4,39,1,0,1610123107,"~/projects/samlarkin.xyz/static/style.css"
--'  1  0  ~/projects/samlarkin.xyz/static/style.css
-|4,39,1,0,1610123107,"~/projects/samlarkin.xyz/static/style.css"
--'  1  0  ~/projects/samlarkin.xyz/static/style.css
-|4,39,1,0,1610123107,"~/projects/samlarkin.xyz/static/style.css"
--'  1  0  ~/projects/samlarkin.xyz/static/style.css
-|4,39,1,0,1610123107,"~/projects/samlarkin.xyz/static/style.css"
--'  1  0  ~/projects/samlarkin.xyz/static/style.css
-|4,39,1,0,1610123107,"~/projects/samlarkin.xyz/static/style.css"
--'  1  0  ~/projects/samlarkin.xyz/static/style.css
-|4,39,1,0,1610123107,"~/projects/samlarkin.xyz/static/style.css"
--'  1  0  ~/projects/samlarkin.xyz/static/style.css
-|4,39,1,0,1610123107,"~/projects/samlarkin.xyz/static/style.css"
--'  134  0  ~/projects/samlarkin.xyz/main.py
-|4,39,134,0,1610122983,"~/projects/samlarkin.xyz/main.py"
--'  134  0  ~/projects/samlarkin.xyz/main.py
-|4,39,134,0,1610122983,"~/projects/samlarkin.xyz/main.py"
--'  134  0  ~/projects/samlarkin.xyz/main.py
-|4,39,134,0,1610122983,"~/projects/samlarkin.xyz/main.py"
--'  134  0  ~/projects/samlarkin.xyz/main.py
-|4,39,134,0,1610122983,"~/projects/samlarkin.xyz/main.py"
--'  134  0  ~/projects/samlarkin.xyz/main.py
-|4,39,134,0,1610122983,"~/projects/samlarkin.xyz/main.py"
--'  134  0  ~/projects/samlarkin.xyz/main.py
-|4,39,134,0,1610122983,"~/projects/samlarkin.xyz/main.py"
--'  134  0  ~/projects/samlarkin.xyz/main.py
-|4,39,134,0,1610122983,"~/projects/samlarkin.xyz/main.py"
--'  134  0  ~/projects/samlarkin.xyz/main.py
-|4,39,134,0,1610122983,"~/projects/samlarkin.xyz/main.py"
--'  134  0  ~/projects/samlarkin.xyz/main.py
-|4,39,134,0,1610122983,"~/projects/samlarkin.xyz/main.py"
--'  134  0  ~/projects/samlarkin.xyz/main.py
-|4,39,134,0,1610122983,"~/projects/samlarkin.xyz/main.py"
--'  134  0  ~/projects/samlarkin.xyz/main.py
-|4,39,134,0,1610122983,"~/projects/samlarkin.xyz/main.py"
--'  134  0  ~/projects/samlarkin.xyz/main.py
-|4,39,134,0,1610122983,"~/projects/samlarkin.xyz/main.py"
--'  134  0  ~/projects/samlarkin.xyz/main.py
-|4,39,134,0,1610122983,"~/projects/samlarkin.xyz/main.py"
--'  134  0  ~/projects/samlarkin.xyz/main.py
-|4,39,134,0,1610122983,"~/projects/samlarkin.xyz/main.py"
--'  134  0  ~/projects/samlarkin.xyz/main.py
-|4,39,134,0,1610122983,"~/projects/samlarkin.xyz/main.py"
--'  134  0  ~/projects/samlarkin.xyz/main.py
-|4,39,134,0,1610122983,"~/projects/samlarkin.xyz/main.py"
--'  1  0  ~/projects/samlarkin.xyz/main.py
-|4,39,1,0,1610122890,"~/projects/samlarkin.xyz/main.py"
--'  1  0  ~/projects/samlarkin.xyz/main.py
-|4,39,1,0,1610122890,"~/projects/samlarkin.xyz/main.py"
--'  1  0  ~/projects/samlarkin.xyz/main.py
-|4,39,1,0,1610122890,"~/projects/samlarkin.xyz/main.py"
--'  1  0  ~/projects/samlarkin.xyz/main.py
-|4,39,1,0,1610122890,"~/projects/samlarkin.xyz/main.py"
--'  1  0  ~/projects/samlarkin.xyz/main.py
-|4,39,1,0,1610122890,"~/projects/samlarkin.xyz/main.py"
--'  1  0  ~/projects/samlarkin.xyz/main.py
-|4,39,1,0,1610122890,"~/projects/samlarkin.xyz/main.py"
--'  1  0  ~/projects/samlarkin.xyz/main.py
-|4,39,1,0,1610122890,"~/projects/samlarkin.xyz/main.py"
--'  1  0  ~/projects/samlarkin.xyz/main.py
-|4,39,1,0,1610122890,"~/projects/samlarkin.xyz/main.py"
--'  1  0  ~/projects/samlarkin.xyz/main.py
-|4,39,1,0,1610122890,"~/projects/samlarkin.xyz/main.py"
--'  1  0  ~/projects/samlarkin.xyz/main.py
-|4,39,1,0,1610122890,"~/projects/samlarkin.xyz/main.py"
--'  1  0  ~/projects/samlarkin.xyz/main.py
-|4,39,1,0,1610122890,"~/projects/samlarkin.xyz/main.py"
--'  1  0  ~/projects/samlarkin.xyz/main.py
-|4,39,1,0,1610122890,"~/projects/samlarkin.xyz/main.py"
--'  1  0  ~/projects/samlarkin.xyz/main.py
-|4,39,1,0,1610122890,"~/projects/samlarkin.xyz/main.py"
--'  1  0  ~/projects/samlarkin.xyz/main.py
-|4,39,1,0,1610122890,"~/projects/samlarkin.xyz/main.py"
--'  1  0  ~/projects/samlarkin.xyz/main.py
-|4,39,1,0,1610122890,"~/projects/samlarkin.xyz/main.py"
--'  1  0  ~/projects/samlarkin.xyz/main.py
-|4,39,1,0,1610122890,"~/projects/samlarkin.xyz/main.py"
--'  6  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,6,0,1610122887,"~/projects/samlarkin.xyz/templates/cv.html"
--'  6  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,6,0,1610122887,"~/projects/samlarkin.xyz/templates/cv.html"
--'  6  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,6,0,1610122887,"~/projects/samlarkin.xyz/templates/cv.html"
--'  6  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,6,0,1610122887,"~/projects/samlarkin.xyz/templates/cv.html"
--'  6  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,6,0,1610122887,"~/projects/samlarkin.xyz/templates/cv.html"
--'  6  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,6,0,1610122887,"~/projects/samlarkin.xyz/templates/cv.html"
--'  6  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,6,0,1610122887,"~/projects/samlarkin.xyz/templates/cv.html"
--'  6  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,6,0,1610122887,"~/projects/samlarkin.xyz/templates/cv.html"
--'  6  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,6,0,1610122887,"~/projects/samlarkin.xyz/templates/cv.html"
--'  6  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,6,0,1610122887,"~/projects/samlarkin.xyz/templates/cv.html"
--'  6  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,6,0,1610122887,"~/projects/samlarkin.xyz/templates/cv.html"
--'  6  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,6,0,1610122887,"~/projects/samlarkin.xyz/templates/cv.html"
--'  6  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,6,0,1610122887,"~/projects/samlarkin.xyz/templates/cv.html"
--'  6  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,6,0,1610122887,"~/projects/samlarkin.xyz/templates/cv.html"
--'  6  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,6,0,1610122887,"~/projects/samlarkin.xyz/templates/cv.html"
--'  6  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,6,0,1610122887,"~/projects/samlarkin.xyz/templates/cv.html"
--'  6  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,6,0,1610122887,"~/projects/samlarkin.xyz/templates/cv.html"
--'  6  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,6,0,1610122887,"~/projects/samlarkin.xyz/templates/cv.html"
--'  6  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,6,0,1610122887,"~/projects/samlarkin.xyz/templates/cv.html"
--'  6  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,6,0,1610122887,"~/projects/samlarkin.xyz/templates/cv.html"
--'  6  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,6,0,1610122887,"~/projects/samlarkin.xyz/templates/cv.html"
--'  6  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,6,0,1610122887,"~/projects/samlarkin.xyz/templates/cv.html"
--'  6  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,6,0,1610122887,"~/projects/samlarkin.xyz/templates/cv.html"
--'  6  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,6,0,1610122887,"~/projects/samlarkin.xyz/templates/cv.html"
--'  5  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,5,0,1610122794,"~/projects/samlarkin.xyz/templates/cv.html"
--'  5  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,5,0,1610122794,"~/projects/samlarkin.xyz/templates/cv.html"
--'  5  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,5,0,1610122794,"~/projects/samlarkin.xyz/templates/cv.html"
--'  5  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,5,0,1610122794,"~/projects/samlarkin.xyz/templates/cv.html"
--'  5  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,5,0,1610122794,"~/projects/samlarkin.xyz/templates/cv.html"
--'  5  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,5,0,1610122794,"~/projects/samlarkin.xyz/templates/cv.html"
--'  5  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,5,0,1610122794,"~/projects/samlarkin.xyz/templates/cv.html"
--'  5  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,5,0,1610122794,"~/projects/samlarkin.xyz/templates/cv.html"
--'  5  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,5,0,1610122794,"~/projects/samlarkin.xyz/templates/cv.html"
--'  5  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,5,0,1610122794,"~/projects/samlarkin.xyz/templates/cv.html"
--'  5  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,5,0,1610122794,"~/projects/samlarkin.xyz/templates/cv.html"
--'  5  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,5,0,1610122794,"~/projects/samlarkin.xyz/templates/cv.html"
--'  5  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,5,0,1610122794,"~/projects/samlarkin.xyz/templates/cv.html"
--'  5  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,5,0,1610122794,"~/projects/samlarkin.xyz/templates/cv.html"
--'  5  0  ~/projects/samlarkin.xyz/templates/cv.html
-|4,39,5,0,1610122794,"~/projects/samlarkin.xyz/templates/cv.html"
+-'  151  0  ~/dotfiles/.vim/vimrc
+|4,39,151,0,1610819009,"~/dotfiles/.vim/vimrc"
+-'  2  0  ~/dotfiles/.vim/vimrc
+|4,39,2,0,1610818988,"~/dotfiles/.vim/vimrc"
+-'  1  0  ~/dotfiles/.vim/vimrc
+|4,39,1,0,1610818985,"~/dotfiles/.vim/vimrc"
+-'  1  0  ~/bin/,qr.py
+|4,39,1,0,1610818961,"~/bin/,qr.py"
+-'  1  0  ~/bin/,qr.py
+|4,39,1,0,1610818961,"~/bin/,qr.py"
+-'  1  0  ~/bin/,key_gen.py
+|4,39,1,0,1610818935,"~/bin/,key_gen.py"
+-'  1  0  ~/bin/,key_gen.py
+|4,39,1,0,1610818935,"~/bin/,key_gen.py"
+-'  1  0  ~/bin/,key_gen.py
+|4,39,1,0,1610818935,"~/bin/,key_gen.py"
+-'  1  0  ~/bin/,key_gen.py
+|4,39,1,0,1610818935,"~/bin/,key_gen.py"
+-'  1  0  ~/bin/,contacts_csv.py
+|4,39,1,0,1610818901,"~/bin/,contacts_csv.py"
+-'  1  0  ~/bin/,contacts_csv.py
+|4,39,1,0,1610818901,"~/bin/,contacts_csv.py"
+-'  1  0  ~/bin/,contacts_csv.py
+|4,39,1,0,1610818901,"~/bin/,contacts_csv.py"
+-'  1  0  ~/bin/,contacts_csv.py
+|4,39,1,0,1610818901,"~/bin/,contacts_csv.py"
+-'  1  0  ~/bin/,contacts_csv.py
+|4,39,1,0,1610818901,"~/bin/,contacts_csv.py"
+-'  1  0  ~/bin/,contacts_csv.py
+|4,39,1,0,1610818901,"~/bin/,contacts_csv.py"
+-'  1  0  ~/bin/,contacts_csv.py
+|4,39,1,0,1610818901,"~/bin/,contacts_csv.py"
+-'  1  0  ~/bin/,contacts_csv.py
+|4,39,1,0,1610818901,"~/bin/,contacts_csv.py"
+-'  1  0  ~/bin/,task_reading_list.py
+|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
+-'  1  0  ~/bin/,task_reading_list.py
+|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
+-'  1  0  ~/bin/,task_reading_list.py
+|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
+-'  1  0  ~/bin/,task_reading_list.py
+|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
+-'  1  0  ~/bin/,task_reading_list.py
+|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
+-'  1  0  ~/bin/,task_reading_list.py
+|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
+-'  1  0  ~/bin/,task_reading_list.py
+|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
+-'  1  0  ~/bin/,task_reading_list.py
+|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
+-'  1  0  ~/bin/,task_reading_list.py
+|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
+-'  1  0  ~/bin/,task_reading_list.py
+|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
+-'  1  0  ~/bin/,task_reading_list.py
+|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
+-'  1  0  ~/bin/,task_reading_list.py
+|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
+-'  1  0  ~/bin/,task_reading_list.py
+|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
+-'  1  0  ~/bin/,task_reading_list.py
+|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
+-'  1  0  ~/bin/,task_reading_list.py
+|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
+-'  1  0  ~/bin/,task_reading_list.py
+|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
+-'  1  0  ~/bin/,qr.py
+|4,39,1,0,1610818795,"~/bin/,qr.py"
+-'  1  0  ~/bin/,qr.py
+|4,39,1,0,1610818795,"~/bin/,qr.py"
+-'  1  0  ~/bin/,qr.py
+|4,39,1,0,1610818795,"~/bin/,qr.py"
+-'  1  0  ~/bin/,qr.py
+|4,39,1,0,1610818795,"~/bin/,qr.py"
+-'  1  0  ~/bin/,qr.py
+|4,39,1,0,1610818795,"~/bin/,qr.py"
+-'  1  0  ~/bin/,qr.py
+|4,39,1,0,1610818795,"~/bin/,qr.py"
+-'  1  0  ~/bin/,qr.py
+|4,39,1,0,1610818795,"~/bin/,qr.py"
+-'  1  0  ~/bin/,qr.py
+|4,39,1,0,1610818795,"~/bin/,qr.py"
+-'  1  0  ~/bin/,key_gen.py
+|4,39,1,0,1610818790,"~/bin/,key_gen.py"
+-'  1  0  ~/bin/,key_gen.py
+|4,39,1,0,1610818790,"~/bin/,key_gen.py"
+-'  1  0  ~/bin/,key_gen.py
+|4,39,1,0,1610818790,"~/bin/,key_gen.py"
+-'  1  0  ~/bin/,key_gen.py
+|4,39,1,0,1610818790,"~/bin/,key_gen.py"
+-'  1  0  ~/bin/,key_gen.py
+|4,39,1,0,1610818790,"~/bin/,key_gen.py"
+-'  1  0  ~/bin/,key_gen.py
+|4,39,1,0,1610818790,"~/bin/,key_gen.py"
+-'  1  0  ~/bin/,key_gen.py
+|4,39,1,0,1610818790,"~/bin/,key_gen.py"
+-'  1  0  ~/bin/,key_gen.py
+|4,39,1,0,1610818790,"~/bin/,key_gen.py"
+-'  1  0  ~/bin/,contacts_csv.py
+|4,39,1,0,1610818784,"~/bin/,contacts_csv.py"
+-'  1  0  ~/bin/,contacts_csv.py
+|4,39,1,0,1610818784,"~/bin/,contacts_csv.py"
+-'  1  0  ~/bin/,contacts_csv.py
+|4,39,1,0,1610818784,"~/bin/,contacts_csv.py"
+-'  1  0  ~/bin/,contacts_csv.py
+|4,39,1,0,1610818784,"~/bin/,contacts_csv.py"
+-'  1  0  ~/bin/,contacts_csv.py
+|4,39,1,0,1610818784,"~/bin/,contacts_csv.py"
+-'  1  0  ~/bin/,contacts_csv.py
+|4,39,1,0,1610818784,"~/bin/,contacts_csv.py"
+-'  1  0  ~/bin/,contacts_csv.py
+|4,39,1,0,1610818784,"~/bin/,contacts_csv.py"
+-'  1  0  ~/bin/,contacts_csv.py
+|4,39,1,0,1610818784,"~/bin/,contacts_csv.py"
+-'  1  0  ~/bin/,change_file_ext.py
+|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
+-'  1  0  ~/bin/,change_file_ext.py
+|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
+-'  1  0  ~/bin/,change_file_ext.py
+|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
+-'  1  0  ~/bin/,change_file_ext.py
+|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
+-'  1  0  ~/bin/,change_file_ext.py
+|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
+-'  1  0  ~/bin/,change_file_ext.py
+|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
+-'  1  0  ~/bin/,change_file_ext.py
+|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
+-'  1  0  ~/bin/,change_file_ext.py
+|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
+-'  1  0  ~/bin/,change_file_ext.py
+|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
+-'  1  0  ~/bin/,change_file_ext.py
+|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
+-'  1  0  ~/bin/,change_file_ext.py
+|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
+-'  1  0  ~/bin/,change_file_ext.py
+|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
+-'  1  0  ~/bin/,change_file_ext.py
+|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
+-'  1  0  ~/bin/,change_file_ext.py
+|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
+-'  1  0  ~/bin/,change_file_ext.py
+|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
+-'  1  0  ~/bin/,change_file_ext.py
+|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
+-'  2  0  ~/bin/,change_file_ext.py
+|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
+-'  2  0  ~/bin/,change_file_ext.py
+|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
+-'  2  0  ~/bin/,change_file_ext.py
+|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
+-'  2  0  ~/bin/,change_file_ext.py
+|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
+-'  2  0  ~/bin/,change_file_ext.py
+|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
+-'  2  0  ~/bin/,change_file_ext.py
+|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
+-'  2  0  ~/bin/,change_file_ext.py
+|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
+-'  2  0  ~/bin/,change_file_ext.py
+|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
+-'  2  0  ~/bin/,change_file_ext.py
+|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
+-'  2  0  ~/bin/,change_file_ext.py
+|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
+-'  2  0  ~/bin/,change_file_ext.py
+|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
+-'  2  0  ~/bin/,change_file_ext.py
+|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
+-'  2  0  ~/bin/,change_file_ext.py
+|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
+-'  2  0  ~/bin/,change_file_ext.py
+|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
+-'  2  0  ~/bin/,change_file_ext.py
+|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
+-'  2  0  ~/bin/,change_file_ext.py
+|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
+-'  1  0  ~/bin/xsetloop.sh
+|4,39,1,0,1610817677,"~/bin/xsetloop.sh"
+-'  1  0  ~/bin/xsetloop.sh
+|4,39,1,0,1610817677,"~/bin/xsetloop.sh"
+-'  1  0  ~/bin/xsetloop.sh
+|4,39,1,0,1610817677,"~/bin/xsetloop.sh"
+-'  1  0  ~/bin/xsetloop.sh
+|4,39,1,0,1610817677,"~/bin/xsetloop.sh"
+-'  1  0  ~/bin/xsetloop.sh
+|4,39,1,0,1610817677,"~/bin/xsetloop.sh"
+-'  1  0  ~/bin/xsetloop.sh
+|4,39,1,0,1610817677,"~/bin/xsetloop.sh"
+-'  1  0  ~/bin/xsetloop.sh
+|4,39,1,0,1610817677,"~/bin/xsetloop.sh"
+-'  1  0  ~/bin/xsetloop.sh
+|4,39,1,0,1610817677,"~/bin/xsetloop.sh"
+-'  1  0  ~/bin/xsetloop.sh
+|4,39,1,0,1610817677,"~/bin/xsetloop.sh"
+-'  1  0  ~/bin/xsetloop.sh
+|4,39,1,0,1610817677,"~/bin/xsetloop.sh"
+-'  1  0  ~/bin/xsetloop.sh
+|4,39,1,0,1610817677,"~/bin/xsetloop.sh"
 
 # History of marks within files (newest to oldest):
+
+> ~/dotfiles/.vim/vimrc
+	*	1610819007	0
+	"	151	0
+
+> ~/bin/,qr.py
+	*	1610818959	0
+	"	1	0
+	^	1	0
+	.	1	5
+	+	1	5
+
+> ~/bin/,key_gen.py
+	*	1610818925	0
+	"	1	0
+	^	1	0
+	.	1	5
+	+	1	5
+
+> ~/bin/,contacts_csv.py
+	*	1610818899	0
+	"	1	0
+	^	1	6
+	.	1	5
+	+	1	5
+
+> ~/bin/,task_reading_list.py
+	*	1610818825	0
+	"	1	0
+	.	1	0
+	+	2	70
+	+	3	45
+	+	6	2
+	+	4	37
+	+	5	0
+	+	3	69
+	+	5	0
+	+	7	8
+	+	10	32
+	+	11	14
+	+	10	32
+	+	11	0
+	+	10	47
+	+	9	0
+	+	10	0
+	+	12	45
+	+	13	37
+	+	17	14
+	+	10	34
+	+	10	37
+	+	11	0
+	+	10	31
+	+	12	24
+	+	13	34
+	+	8	10
+	+	17	14
+	+	12	15
+	+	17	16
+	+	21	36
+	+	22	7
+	+	22	8
+	+	22	11
+	+	17	0
+	+	17	45
+	+	18	18
+	+	17	59
+	+	20	17
+	+	17	38
+	+	18	31
+	+	22	47
+	+	23	21
+	+	22	34
+	+	20	0
+	+	23	48
+	+	24	18
+	+	17	12
+	+	14	0
+	+	15	12
+	+	17	25
+	+	23	47
+	+	16	0
+	+	24	53
+	+	25	32
+	+	17	16
+	+	24	11
+	+	25	0
+	+	23	54
+	+	1	0
+
+> ~/bin/,change_file_ext.py
+	*	1610818760	0
+	"	1	0
+	^	1	18
+	.	1	5
+	+	1	5
+
+> ~/bin/xsetloop.sh
+	*	1610817675	0
+	"	1	0
+	.	5	0
+	+	5	0
+
+> ~/bin/,lock.sh
+	*	1610743158	0
+	"	1	0
+	.	5	0
+	+	3	0
+	+	7	0
+	+	5	0
+
+> ~/notes/2020-08-28_5.md
+	*	1610646409	0
+	"	1	0
+	^	19	35
+	.	41	0
+	+	16	27
+	+	17	23
+	+	18	24
+	+	19	34
+	+	20	34
+	+	21	23
+	+	22	29
+	+	23	42
+	+	26	40
+	+	27	44
+	+	28	61
+	+	29	25
+	+	30	0
+	+	29	0
+	+	30	33
+	+	31	86
+	+	32	39
+	+	33	27
+	+	34	42
+	+	35	21
+	+	36	62
+	+	37	61
+	+	38	58
+	+	39	68
+	+	40	118
+	+	40	33
+	+	28	30
+	+	31	20
+	+	36	24
+	+	37	27
+	+	38	35
+	+	39	32
+	+	41	0
+
+> ~/notes/2020-08-28_0.md
+	*	1610643679	0
+	"	13	15
+
+> ~/projects/finance/finance_tools.py
+	*	1610469521	0
+	"	96	8
+	.	107	0
+	+	98	42
+	+	57	41
+	+	13	7
+	+	22	62
+	+	28	11
+	+	15	22
+	+	34	39
+	+	39	65
+	+	45	34
+	+	47	22
+	+	54	54
+	+	58	74
+	+	71	37
+	+	86	62
+	+	71	7
+	+	86	7
+	+	88	22
+	+	93	71
+	+	95	10
+	+	95	0
+	+	140	71
+	+	123	0
+	+	107	8
+	+	107	0
+
+> ~/projects/finance/2020_q4/mv.py
+	*	1610468617	0
+	"	7	38
+	^	7	39
+	.	7	38
+	+	4	25
+	+	5	31
+	+	6	34
+	+	8	18
+	+	7	35
+	+	8	20
+	+	7	38
+
+> ~/projects/finance/batch_rename.py
+	*	1610468136	0
+	"	1	28
+	^	23	39
+	.	23	38
+	+	1	11
+	+	6	27
+	+	6	26
+	+	6	14
+	+	1	61
+	+	11	7
+	+	11	0
+	+	6	0
+	+	29	7
+	+	6	0
+	+	7	13
+	+	12	0
+	+	13	27
+	+	15	7
+	+	2	0
+	+	6	0
+	+	9	3
+	+	8	34
+	+	11	0
+	+	10	26
+	+	22	0
+	+	13	33
+	+	15	29
+	+	18	26
+	+	18	23
+	+	18	16
+	+	18	28
+	+	14	69
+	+	36	26
+	+	37	9
+	+	35	0
+	+	6	0
+	+	16	15
+	+	22	8
+	+	18	34
+	+	21	0
+	+	18	57
+	+	19	31
+	+	20	20
+	+	19	17
+	+	16	13
+	+	22	0
+	+	18	29
+	+	16	19
+	+	17	30
+	+	18	7
+	+	19	0
+	+	18	32
+	+	29	17
+	+	23	2
+	+	29	0
+	+	24	0
+	+	23	28
+	+	24	69
+	+	25	19
+	+	23	36
+	+	23	38
+	+	24	0
+	+	23	38
+
+> ~/projects/finance/test_finance_tools.py
+	*	1610466490	0
+	"	6	59
+	^	6	60
+	.	6	59
+	+	25	0
+	+	6	59
+
+> ~/projects/samlarkin.xyz/README.rst
+	*	1610453578	0
+	"	60	0
+	^	48	4
+	.	48	3
+	+	1	0
+	+	2	12
+	+	8	0
+	+	9	28
+	+	17	0
+	+	18	6
+	+	19	0
+	+	17	0
+	+	7	0
+	+	17	0
+	+	26	0
+	+	27	16
+	+	28	0
+	+	35	0
+	+	36	4
+	+	34	0
+	+	51	0
+	+	52	6
+	+	7	22
+	+	7	0
+	+	14	49
+	+	15	69
+	+	17	19
+	+	14	13
+	+	15	22
+	+	50	0
+	+	14	12
+	+	15	22
+	+	14	1
+	+	15	1
+	+	38	19
+	+	42	20
+	+	45	57
+	+	20	45
+	+	24	0
+	+	25	3
+	+	20	30
+	+	25	2
+	+	23	3
+	+	25	0
+	+	31	0
+	+	31	3
+	+	20	30
+	+	23	3
+	+	32	56
+	+	31	66
+	+	20	38
+	+	20	30
+	+	23	3
+	+	31	0
+	+	31	3
+	+	32	3
+	+	20	44
+	+	31	17
+	+	20	26
+	+	20	27
+	+	22	3
+	+	23	3
+	+	21	0
+	+	29	51
+	+	31	2
+	+	32	2
+	+	38	51
+	+	42	26
+	+	48	40
+	+	55	48
+	+	59	64
+	+	60	36
+	+	14	49
+	+	17	41
+	+	17	46
+	+	17	0
+	+	38	20
+	+	40	25
+	+	41	0
+	+	39	0
+	+	43	2
+	+	44	0
+	+	46	0
+	+	45	0
+	+	46	2
+	+	44	3
+	+	42	21
+	+	44	28
+	+	47	0
+	+	48	3
+
+> ~/projects/samlarkin.xyz/README.md
+	*	1610451511	0
+	"	43	23
+	^	43	24
+	.	43	23
+	+	29	13
+	+	33	37
+	+	38	0
+	+	39	3
+	+	38	44
+	+	41	9
+	+	3	71
+	+	8	78
+	+	42	59
+	+	43	23
 
 > ~/projects/samlarkin.xyz/templates/about.html
 	*	1610124761	0
