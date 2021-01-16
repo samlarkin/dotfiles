@@ -21,7 +21,7 @@ $'.txt'
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1610828066,,"wq"
+|2,0,1610828172,,"wq"
 :e ,task_reading_list.py
 |2,0,1610826075,,"e ,task_reading_list.py"
 :w
@@ -101,86 +101,98 @@ $'.txt'
 "0	CHAR	0
 	'/home/sam/notes/2020-08-28_5.md'
 |3,0,0,0,1,0,1610825256,"'/home/sam/notes/2020-08-28_5.md'"
-"1	LINE	0
-	        append_md_line(task)
-|3,0,1,1,1,0,1610825372,"        append_md_line(task)"
+""1	LINE	0
+	* .zsh_history
+|3,1,1,1,1,0,1610828154,"* .zsh_history"
 "2	LINE	0
-	    reading_list_path = '/home/sam/notes/2020-08-28_5.md'
-|3,0,2,1,1,0,1610825262,"    reading_list_path = '/home/sam/notes/2020-08-28_5.md'"
+	        append_md_line(task)
+|3,0,2,1,1,0,1610825372,"        append_md_line(task)"
 "3	LINE	0
-	def main():
 	    reading_list_path = '/home/sam/notes/2020-08-28_5.md'
-	    pass
-	
-	
-|3,0,3,1,5,0,1610825092,"def main():","    reading_list_path = '/home/sam/notes/2020-08-28_5.md'","    pass","",""
+|3,0,3,1,1,0,1610825262,"    reading_list_path = '/home/sam/notes/2020-08-28_5.md'"
 "4	LINE	0
 	def main():
 	    reading_list_path = '/home/sam/notes/2020-08-28_5.md'
 	    pass
 	
 	
-	if __name__ == '__main__':
-|3,0,4,1,6,0,1610825089,"def main():","    reading_list_path = '/home/sam/notes/2020-08-28_5.md'","    pass","","","if __name__ == '__main__':"
+|3,0,4,1,5,0,1610825092,"def main():","    reading_list_path = '/home/sam/notes/2020-08-28_5.md'","    pass","",""
 "5	LINE	0
+	def main():
+	    reading_list_path = '/home/sam/notes/2020-08-28_5.md'
+	    pass
 	
-|3,0,5,1,1,0,1610825057,""
+	
+	if __name__ == '__main__':
+|3,0,5,1,6,0,1610825089,"def main():","    reading_list_path = '/home/sam/notes/2020-08-28_5.md'","    pass","","","if __name__ == '__main__':"
 "6	LINE	0
+	
+|3,0,6,1,1,0,1610825057,""
+"7	LINE	0
 	for task in task_data:
 	   if task['description'] not in reading_list:
 	       md_line = f"* {task['description']}" + '\n'
 	       with open(reading_list_path, 'a') as md_file:
 	           md_file.write(md_line)
 	
-|3,0,6,1,6,0,1610825054,"for task in task_data:","   if task['description'] not in reading_list:","       md_line = f\"* {task['description']}\" + '\\n'","       with open(reading_list_path, 'a') as md_file:","           md_file.write(md_line)",""
-"7	LINE	0
-	        with open
-|3,0,7,1,1,0,1610824840,"        with open"
+|3,0,7,1,6,0,1610825054,"for task in task_data:","   if task['description'] not in reading_list:","       md_line = f\"* {task['description']}\" + '\\n'","       with open(reading_list_path, 'a') as md_file:","           md_file.write(md_line)",""
 "8	LINE	0
-	    md_line = 
-|3,0,8,1,1,0,1610824557,"    md_line = "
+	        with open
+|3,0,8,1,1,0,1610824840,"        with open"
 "9	LINE	0
-	# reading_list_path = '/home/sam/notes/2020-08-28_5.md'
-|3,0,9,1,1,0,1610824446,"# reading_list_path = '/home/sam/notes/2020-08-28_5.md'"
+	    md_line = 
+|3,0,9,1,1,0,1610824557,"    md_line = "
 "a	CHAR	0
 	$?*lDj
 |3,0,10,0,1,0,1610645586,"$?*lDj"
 "b@	CHAR	0
 	0/:dt*
 |3,2,11,0,1,0,1610645685,"0/:dt*"
-""-	CHAR	0
+"-	CHAR	0
 	pass
-|3,1,36,0,1,0,1610825502,"pass"
+|3,0,36,0,1,0,1610825502,"pass"
 
 # File marks:
-'0  1  0  ~/dotfiles/.gitignore
-|4,48,1,0,1610828066,"~/dotfiles/.gitignore"
-'1  44  14  ~/notes/2020-08-28_5.md
-|4,49,44,14,1610826362,"~/notes/2020-08-28_5.md"
-'2  19  0  ~/bin/,task_reading_list.py
-|4,50,19,0,1610826108,"~/bin/,task_reading_list.py"
-'3  1  0  ~/bin/,task_reading_list.py
-|4,51,1,0,1610825696,"~/bin/,task_reading_list.py"
+'0  1  0  ~/dotfiles/README.md
+|4,48,1,0,1610828172,"~/dotfiles/README.md"
+'1  1  0  ~/dotfiles/.gitignore
+|4,49,1,0,1610828066,"~/dotfiles/.gitignore"
+'2  44  14  ~/notes/2020-08-28_5.md
+|4,50,44,14,1610826362,"~/notes/2020-08-28_5.md"
+'3  19  0  ~/bin/,task_reading_list.py
+|4,51,19,0,1610826108,"~/bin/,task_reading_list.py"
 '4  1  0  ~/bin/,task_reading_list.py
 |4,52,1,0,1610825696,"~/bin/,task_reading_list.py"
-'5  6  16  ~/dotfiles/.xinitrc
-|4,53,6,16,1610822528,"~/dotfiles/.xinitrc"
-'6  128  0  ~/src/dwm/config.h
-|4,54,128,0,1610822361,"~/src/dwm/config.h"
-'7  2  0  ~/bin/,volume_up.sh
-|4,55,2,0,1610822089,"~/bin/,volume_up.sh"
-'8  1  0  ~/bin/,volume_up.sh
-|4,56,1,0,1610821990,"~/bin/,volume_up.sh"
+'5  1  0  ~/bin/,task_reading_list.py
+|4,53,1,0,1610825696,"~/bin/,task_reading_list.py"
+'6  6  16  ~/dotfiles/.xinitrc
+|4,54,6,16,1610822528,"~/dotfiles/.xinitrc"
+'7  128  0  ~/src/dwm/config.h
+|4,55,128,0,1610822361,"~/src/dwm/config.h"
+'8  2  0  ~/bin/,volume_up.sh
+|4,56,2,0,1610822089,"~/bin/,volume_up.sh"
 '9  1  0  ~/bin/,volume_up.sh
 |4,57,1,0,1610821990,"~/bin/,volume_up.sh"
 
 # Jumplist (newest first):
+-'  1  0  ~/dotfiles/README.md
+|4,39,1,0,1610828172,"~/dotfiles/README.md"
+-'  1  0  ~/dotfiles/.gitignore
+|4,39,1,0,1610828066,"~/dotfiles/.gitignore"
 -'  1  0  ~/dotfiles/.gitignore
 |4,39,1,0,1610828066,"~/dotfiles/.gitignore"
 -'  44  14  ~/notes/2020-08-28_5.md
 |4,39,44,14,1610826362,"~/notes/2020-08-28_5.md"
 -'  44  14  ~/notes/2020-08-28_5.md
 |4,39,44,14,1610826362,"~/notes/2020-08-28_5.md"
+-'  44  14  ~/notes/2020-08-28_5.md
+|4,39,44,14,1610826362,"~/notes/2020-08-28_5.md"
+-'  44  14  ~/notes/2020-08-28_5.md
+|4,39,44,14,1610826362,"~/notes/2020-08-28_5.md"
+-'  1  0  ~/notes/2020-08-28_5.md
+|4,39,1,0,1610826349,"~/notes/2020-08-28_5.md"
+-'  1  0  ~/notes/2020-08-28_5.md
+|4,39,1,0,1610826349,"~/notes/2020-08-28_5.md"
 -'  1  0  ~/notes/2020-08-28_5.md
 |4,39,1,0,1610826349,"~/notes/2020-08-28_5.md"
 -'  1  0  ~/notes/2020-08-28_5.md
@@ -193,6 +205,14 @@ $'.txt'
 |4,39,19,0,1610826108,"~/bin/,task_reading_list.py"
 -'  19  0  ~/bin/,task_reading_list.py
 |4,39,19,0,1610826108,"~/bin/,task_reading_list.py"
+-'  19  0  ~/bin/,task_reading_list.py
+|4,39,19,0,1610826108,"~/bin/,task_reading_list.py"
+-'  19  0  ~/bin/,task_reading_list.py
+|4,39,19,0,1610826108,"~/bin/,task_reading_list.py"
+-'  19  0  ~/bin/,task_reading_list.py
+|4,39,19,0,1610826108,"~/bin/,task_reading_list.py"
+-'  19  0  ~/bin/,task_reading_list.py
+|4,39,19,0,1610826108,"~/bin/,task_reading_list.py"
 -'  1  0  ~/bin/,task_reading_list.py
 |4,39,1,0,1610825961,"~/bin/,task_reading_list.py"
 -'  1  0  ~/bin/,task_reading_list.py
@@ -201,6 +221,22 @@ $'.txt'
 |4,39,1,0,1610825961,"~/bin/,task_reading_list.py"
 -'  1  0  ~/bin/,task_reading_list.py
 |4,39,1,0,1610825961,"~/bin/,task_reading_list.py"
+-'  1  0  ~/bin/,task_reading_list.py
+|4,39,1,0,1610825961,"~/bin/,task_reading_list.py"
+-'  1  0  ~/bin/,task_reading_list.py
+|4,39,1,0,1610825961,"~/bin/,task_reading_list.py"
+-'  1  0  ~/bin/,task_reading_list.py
+|4,39,1,0,1610825961,"~/bin/,task_reading_list.py"
+-'  1  0  ~/bin/,task_reading_list.py
+|4,39,1,0,1610825961,"~/bin/,task_reading_list.py"
+-'  1  0  ~/bin/,task_reading_list.py
+|4,39,1,0,1610825696,"~/bin/,task_reading_list.py"
+-'  1  0  ~/bin/,task_reading_list.py
+|4,39,1,0,1610825696,"~/bin/,task_reading_list.py"
+-'  1  0  ~/bin/,task_reading_list.py
+|4,39,1,0,1610825696,"~/bin/,task_reading_list.py"
+-'  1  0  ~/bin/,task_reading_list.py
+|4,39,1,0,1610825696,"~/bin/,task_reading_list.py"
 -'  1  0  ~/bin/,task_reading_list.py
 |4,39,1,0,1610825696,"~/bin/,task_reading_list.py"
 -'  1  0  ~/bin/,task_reading_list.py
@@ -225,6 +261,38 @@ $'.txt'
 |4,39,13,52,1610825427,"~/bin/,task_reading_list.py"
 -'  13  52  ~/bin/,task_reading_list.py
 |4,39,13,52,1610825427,"~/bin/,task_reading_list.py"
+-'  13  52  ~/bin/,task_reading_list.py
+|4,39,13,52,1610825427,"~/bin/,task_reading_list.py"
+-'  13  52  ~/bin/,task_reading_list.py
+|4,39,13,52,1610825427,"~/bin/,task_reading_list.py"
+-'  13  52  ~/bin/,task_reading_list.py
+|4,39,13,52,1610825427,"~/bin/,task_reading_list.py"
+-'  13  52  ~/bin/,task_reading_list.py
+|4,39,13,52,1610825427,"~/bin/,task_reading_list.py"
+-'  13  52  ~/bin/,task_reading_list.py
+|4,39,13,52,1610825427,"~/bin/,task_reading_list.py"
+-'  13  52  ~/bin/,task_reading_list.py
+|4,39,13,52,1610825427,"~/bin/,task_reading_list.py"
+-'  13  52  ~/bin/,task_reading_list.py
+|4,39,13,52,1610825427,"~/bin/,task_reading_list.py"
+-'  13  52  ~/bin/,task_reading_list.py
+|4,39,13,52,1610825427,"~/bin/,task_reading_list.py"
+-'  15  47  ~/bin/,task_reading_list.py
+|4,39,15,47,1610825421,"~/bin/,task_reading_list.py"
+-'  15  47  ~/bin/,task_reading_list.py
+|4,39,15,47,1610825421,"~/bin/,task_reading_list.py"
+-'  15  47  ~/bin/,task_reading_list.py
+|4,39,15,47,1610825421,"~/bin/,task_reading_list.py"
+-'  15  47  ~/bin/,task_reading_list.py
+|4,39,15,47,1610825421,"~/bin/,task_reading_list.py"
+-'  15  47  ~/bin/,task_reading_list.py
+|4,39,15,47,1610825421,"~/bin/,task_reading_list.py"
+-'  15  47  ~/bin/,task_reading_list.py
+|4,39,15,47,1610825421,"~/bin/,task_reading_list.py"
+-'  15  47  ~/bin/,task_reading_list.py
+|4,39,15,47,1610825421,"~/bin/,task_reading_list.py"
+-'  15  47  ~/bin/,task_reading_list.py
+|4,39,15,47,1610825421,"~/bin/,task_reading_list.py"
 -'  15  47  ~/bin/,task_reading_list.py
 |4,39,15,47,1610825421,"~/bin/,task_reading_list.py"
 -'  15  47  ~/bin/,task_reading_list.py
@@ -257,6 +325,38 @@ $'.txt'
 |4,39,52,4,1610825394,"~/bin/,task_reading_list.py"
 -'  49  4  ~/bin/,task_reading_list.py
 |4,39,49,4,1610825394,"~/bin/,task_reading_list.py"
+-'  52  4  ~/bin/,task_reading_list.py
+|4,39,52,4,1610825394,"~/bin/,task_reading_list.py"
+-'  49  4  ~/bin/,task_reading_list.py
+|4,39,49,4,1610825394,"~/bin/,task_reading_list.py"
+-'  52  4  ~/bin/,task_reading_list.py
+|4,39,52,4,1610825394,"~/bin/,task_reading_list.py"
+-'  49  4  ~/bin/,task_reading_list.py
+|4,39,49,4,1610825394,"~/bin/,task_reading_list.py"
+-'  52  4  ~/bin/,task_reading_list.py
+|4,39,52,4,1610825394,"~/bin/,task_reading_list.py"
+-'  49  4  ~/bin/,task_reading_list.py
+|4,39,49,4,1610825394,"~/bin/,task_reading_list.py"
+-'  52  4  ~/bin/,task_reading_list.py
+|4,39,52,4,1610825394,"~/bin/,task_reading_list.py"
+-'  49  4  ~/bin/,task_reading_list.py
+|4,39,49,4,1610825394,"~/bin/,task_reading_list.py"
+-'  18  21  ~/bin/,task_reading_list.py
+|4,39,18,21,1610825387,"~/bin/,task_reading_list.py"
+-'  17  21  ~/bin/,task_reading_list.py
+|4,39,17,21,1610825387,"~/bin/,task_reading_list.py"
+-'  18  21  ~/bin/,task_reading_list.py
+|4,39,18,21,1610825387,"~/bin/,task_reading_list.py"
+-'  17  21  ~/bin/,task_reading_list.py
+|4,39,17,21,1610825387,"~/bin/,task_reading_list.py"
+-'  18  21  ~/bin/,task_reading_list.py
+|4,39,18,21,1610825387,"~/bin/,task_reading_list.py"
+-'  17  21  ~/bin/,task_reading_list.py
+|4,39,17,21,1610825387,"~/bin/,task_reading_list.py"
+-'  18  21  ~/bin/,task_reading_list.py
+|4,39,18,21,1610825387,"~/bin/,task_reading_list.py"
+-'  17  21  ~/bin/,task_reading_list.py
+|4,39,17,21,1610825387,"~/bin/,task_reading_list.py"
 -'  18  21  ~/bin/,task_reading_list.py
 |4,39,18,21,1610825387,"~/bin/,task_reading_list.py"
 -'  17  21  ~/bin/,task_reading_list.py
@@ -275,108 +375,14 @@ $'.txt'
 |4,39,17,21,1610825387,"~/bin/,task_reading_list.py"
 -'  65  4  ~/bin/,task_reading_list.py
 |4,39,65,4,1610825090,"~/bin/,task_reading_list.py"
--'  62  4  ~/bin/,task_reading_list.py
-|4,39,62,4,1610825090,"~/bin/,task_reading_list.py"
--'  65  4  ~/bin/,task_reading_list.py
-|4,39,65,4,1610825090,"~/bin/,task_reading_list.py"
--'  62  4  ~/bin/,task_reading_list.py
-|4,39,62,4,1610825090,"~/bin/,task_reading_list.py"
--'  65  4  ~/bin/,task_reading_list.py
-|4,39,65,4,1610825090,"~/bin/,task_reading_list.py"
--'  62  4  ~/bin/,task_reading_list.py
-|4,39,62,4,1610825090,"~/bin/,task_reading_list.py"
--'  65  4  ~/bin/,task_reading_list.py
-|4,39,65,4,1610825090,"~/bin/,task_reading_list.py"
--'  62  4  ~/bin/,task_reading_list.py
-|4,39,62,4,1610825090,"~/bin/,task_reading_list.py"
--'  66  2  ~/bin/,task_reading_list.py
-|4,39,66,2,1610824419,"~/bin/,task_reading_list.py"
--'  63  2  ~/bin/,task_reading_list.py
-|4,39,63,2,1610824419,"~/bin/,task_reading_list.py"
--'  66  2  ~/bin/,task_reading_list.py
-|4,39,66,2,1610824419,"~/bin/,task_reading_list.py"
--'  63  2  ~/bin/,task_reading_list.py
-|4,39,63,2,1610824419,"~/bin/,task_reading_list.py"
--'  66  2  ~/bin/,task_reading_list.py
-|4,39,66,2,1610824419,"~/bin/,task_reading_list.py"
--'  63  2  ~/bin/,task_reading_list.py
-|4,39,63,2,1610824419,"~/bin/,task_reading_list.py"
--'  66  2  ~/bin/,task_reading_list.py
-|4,39,66,2,1610824419,"~/bin/,task_reading_list.py"
--'  63  2  ~/bin/,task_reading_list.py
-|4,39,63,2,1610824419,"~/bin/,task_reading_list.py"
--'  37  0  ~/bin/,task_reading_list.py
-|4,39,37,0,1610823613,"~/bin/,task_reading_list.py"
--'  34  0  ~/bin/,task_reading_list.py
-|4,39,34,0,1610823613,"~/bin/,task_reading_list.py"
--'  37  0  ~/bin/,task_reading_list.py
-|4,39,37,0,1610823613,"~/bin/,task_reading_list.py"
--'  34  0  ~/bin/,task_reading_list.py
-|4,39,34,0,1610823613,"~/bin/,task_reading_list.py"
--'  37  0  ~/bin/,task_reading_list.py
-|4,39,37,0,1610823613,"~/bin/,task_reading_list.py"
--'  34  0  ~/bin/,task_reading_list.py
-|4,39,34,0,1610823613,"~/bin/,task_reading_list.py"
--'  37  0  ~/bin/,task_reading_list.py
-|4,39,37,0,1610823613,"~/bin/,task_reading_list.py"
--'  34  0  ~/bin/,task_reading_list.py
-|4,39,34,0,1610823613,"~/bin/,task_reading_list.py"
--'  6  16  ~/dotfiles/.xinitrc
-|4,39,6,16,1610822528,"~/dotfiles/.xinitrc"
--'  6  16  ~/dotfiles/.xinitrc
-|4,39,6,16,1610822528,"~/dotfiles/.xinitrc"
--'  6  16  ~/dotfiles/.xinitrc
-|4,39,6,16,1610822528,"~/dotfiles/.xinitrc"
--'  6  16  ~/dotfiles/.xinitrc
-|4,39,6,16,1610822528,"~/dotfiles/.xinitrc"
--'  6  16  ~/dotfiles/.xinitrc
-|4,39,6,16,1610822528,"~/dotfiles/.xinitrc"
--'  6  16  ~/dotfiles/.xinitrc
-|4,39,6,16,1610822528,"~/dotfiles/.xinitrc"
--'  6  16  ~/dotfiles/.xinitrc
-|4,39,6,16,1610822528,"~/dotfiles/.xinitrc"
--'  6  16  ~/dotfiles/.xinitrc
-|4,39,6,16,1610822528,"~/dotfiles/.xinitrc"
--'  6  16  ~/dotfiles/.xinitrc
-|4,39,6,16,1610822528,"~/dotfiles/.xinitrc"
--'  6  16  ~/dotfiles/.xinitrc
-|4,39,6,16,1610822528,"~/dotfiles/.xinitrc"
--'  6  16  ~/dotfiles/.xinitrc
-|4,39,6,16,1610822528,"~/dotfiles/.xinitrc"
--'  6  16  ~/dotfiles/.xinitrc
-|4,39,6,16,1610822528,"~/dotfiles/.xinitrc"
--'  6  16  ~/dotfiles/.xinitrc
-|4,39,6,16,1610822528,"~/dotfiles/.xinitrc"
--'  6  16  ~/dotfiles/.xinitrc
-|4,39,6,16,1610822528,"~/dotfiles/.xinitrc"
--'  6  16  ~/dotfiles/.xinitrc
-|4,39,6,16,1610822528,"~/dotfiles/.xinitrc"
--'  6  16  ~/dotfiles/.xinitrc
-|4,39,6,16,1610822528,"~/dotfiles/.xinitrc"
--'  1  0  ~/dotfiles/.xinitrc
-|4,39,1,0,1610822457,"~/dotfiles/.xinitrc"
--'  1  0  ~/dotfiles/.xinitrc
-|4,39,1,0,1610822457,"~/dotfiles/.xinitrc"
--'  1  0  ~/dotfiles/.xinitrc
-|4,39,1,0,1610822457,"~/dotfiles/.xinitrc"
--'  1  0  ~/dotfiles/.xinitrc
-|4,39,1,0,1610822457,"~/dotfiles/.xinitrc"
--'  1  0  ~/dotfiles/.xinitrc
-|4,39,1,0,1610822457,"~/dotfiles/.xinitrc"
--'  1  0  ~/dotfiles/.xinitrc
-|4,39,1,0,1610822457,"~/dotfiles/.xinitrc"
--'  1  0  ~/dotfiles/.xinitrc
-|4,39,1,0,1610822457,"~/dotfiles/.xinitrc"
--'  1  0  ~/dotfiles/.xinitrc
-|4,39,1,0,1610822457,"~/dotfiles/.xinitrc"
--'  1  0  ~/dotfiles/.xinitrc
-|4,39,1,0,1610822457,"~/dotfiles/.xinitrc"
--'  1  0  ~/dotfiles/.xinitrc
-|4,39,1,0,1610822457,"~/dotfiles/.xinitrc"
--'  1  0  ~/dotfiles/.xinitrc
-|4,39,1,0,1610822457,"~/dotfiles/.xinitrc"
 
 # History of marks within files (newest to oldest):
+
+> ~/dotfiles/README.md
+	*	1610828170	0
+	"	1	0
+	.	10	0
+	+	10	0
 
 > ~/dotfiles/.gitignore
 	*	1610828065	0

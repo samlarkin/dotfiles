@@ -7,7 +7,6 @@ reusability.
 
 * .profile
 * .zshrc
-* .zsh_history
 
 ## Vim configuration
 
