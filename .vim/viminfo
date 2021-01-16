@@ -21,9 +21,17 @@ $'.txt'
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1610819008,,"wq"
+|2,0,1610822528,,"wq"
+:b3
+|2,0,1610822062,,"b3"
+:b2
+|2,0,1610822032,,"b2"
+:b1
+|2,0,1610819847,,"b1"
 :w
-|2,0,1610818875,,"w"
+|2,0,1610819845,,"w"
+:e ~/bin/,volume.sh
+|2,0,1610819832,,"e ~/bin/,volume.sh"
 :ls
 |2,0,1610818814,,"ls"
 :b6
@@ -32,10 +40,6 @@ $'.txt'
 |2,0,1610818795,,"b5"
 :b4
 |2,0,1610818790,,"b4"
-:b3
-|2,0,1610818784,,"b3"
-:b2
-|2,0,1610818762,,"b2"
 :b
 |2,0,1610818750,,"b"
 :q
@@ -44,8 +48,6 @@ $'.txt'
 |2,0,1610644474,,"!r python ,task_reading_list.py"
 :r !python ,task_reading_list.py
 |2,0,1610643912,,"r !python ,task_reading_list.py"
-:b1
-|2,0,1610643685,,"b1"
 :grep "-reading" ~/notes/*.md
 |2,0,1610643635,,"grep \"-reading\" ~/notes/*.md"
 :vimgrep /-reading/g *
@@ -93,35 +95,43 @@ $'.txt'
 
 # Registers:
 "0	LINE	0
-	#!/usr/bin/python3
-|3,0,0,1,1,0,1610818725,"#!/usr/bin/python3"
+	static const char *volumeupcmd[]  = { "amixer", "-q", "-c", "1", "set", "Master", "5%+", "unmute", NULL };
+	static const char *volumedowncmd[]  = { "amixer", "-q", "-c", "1", "set", "Master", "5%-", "unmute", NULL };
+	static const char *volumemutecmd[]  = { "amixer", "-q", "-c", "1", "set", "Master", "toggle", "unmute", NULL };
+|3,0,0,1,3,0,1610819815,"static const char *volumeupcmd[]  = { \"amixer\", \"-q\", \"-c\", \"1\", \"set\", \"Master\", \"5%+\", \"unmute\", NULL };","static const char *volumedowncmd[]  = { \"amixer\", \"-q\", \"-c\", \"1\", \"set\", \"Master\", \"5%-\", \"unmute\", NULL };","static const char *volumemutecmd[]  = { \"amixer\", \"-q\", \"-c\", \"1\", \"set\", \"Master\", \"toggle\", \"unmute\", NULL };"
 ""1	LINE	0
 	
-|3,1,1,1,1,0,1610818805,""
+|3,1,1,1,1,0,1610822334,""
 "2	LINE	0
-	#        weather=$(curl http://wttr.in/?format=3)
-|3,0,2,1,1,0,1610817658,"#        weather=$(curl http://wttr.in/?format=3)"
+	
+|3,0,2,1,1,0,1610822332,""
 "3	LINE	0
 	
-|3,0,3,1,1,0,1610743155,""
+|3,0,3,1,1,0,1610822331,""
 "4	LINE	0
-	(( $# )) && { icon=$1; }
-|3,0,4,1,1,0,1610743154,"(( $# )) && { icon=$1; }"
+	
+|3,0,4,1,1,0,1610822330,""
 "5	LINE	0
-	convert "$tmpbg" "$icon" -gravity center -composite -matte "$tmpbg"
-|3,0,5,1,1,0,1610743105,"convert \"$tmpbg\" \"$icon\" -gravity center -composite -matte \"$tmpbg\""
+	
+	static const char *volumedowncmd[]  = { "amixer", "-q", "-c", "1", "set", "Master", "5%-", "unmute", NULL };
+	static const char *volumemutecmd[]  = { "amixer", "-q", "-c", "1", "set", "Master", "toggle", "unmute", NULL };
+|3,0,5,1,3,0,1610822087,"","static const char *volumedowncmd[]  = { \"amixer\", \"-q\", \"-c\", \"1\", \"set\", \"Master\", \"5%-\", \"unmute\", NULL };","static const char *volumemutecmd[]  = { \"amixer\", \"-q\", \"-c\", \"1\", \"set\", \"Master\", \"toggle\", \"unmute\", NULL };"
 "6	LINE	0
-	icon="$HOME/scripts/lock_screen/lock-icon.png"
-|3,0,6,1,1,0,1610743073,"icon=\"$HOME/scripts/lock_screen/lock-icon.png\""
+	
+	static const char *volumedowncmd[]  = { "amixer", "-q", "-c", "1", "set", "Master", "5%-", "unmute", NULL };
+	static const char *volumemutecmd[]  = { "amixer", "-q", "-c", "1", "set", "Master", "toggle", "unmute", NULL };
+|3,0,6,1,3,0,1610822051,"","static const char *volumedowncmd[]  = { \"amixer\", \"-q\", \"-c\", \"1\", \"set\", \"Master\", \"5%-\", \"unmute\", NULL };","static const char *volumemutecmd[]  = { \"amixer\", \"-q\", \"-c\", \"1\", \"set\", \"Master\", \"toggle\", \"unmute\", NULL };"
 "7	LINE	0
 	
-|3,0,7,1,1,0,1610646186,""
+	static const char *volumedowncmd[]  = { "amixer", "-q", "-c", "1", "set", "Master", "5%-", "unmute", NULL };
+	static const char *volumemutecmd[]  = { "amixer", "-q", "-c", "1", "set", "Master", "toggle", "unmute", NULL };
+|3,0,7,1,3,0,1610822025,"","static const char *volumedowncmd[]  = { \"amixer\", \"-q\", \"-c\", \"1\", \"set\", \"Master\", \"5%-\", \"unmute\", NULL };","static const char *volumemutecmd[]  = { \"amixer\", \"-q\", \"-c\", \"1\", \"set\", \"Master\", \"toggle\", \"unmute\", NULL };"
 "8	LINE	0
-	* Akala *Natives** Harari, Y.N. *Homo Deus*
-|3,0,8,1,1,0,1610646185,"* Akala *Natives** Harari, Y.N. *Homo Deus*"
+		{ MODKEY,                       XK_Escape, spawn,          {.v = shutdowndmenucmd } },
+|3,0,8,1,1,0,1610819873,"	{ MODKEY,                       XK_Escape, spawn,          {.v = shutdowndmenucmd } },"
 "9	LINE	0
-	* [Derek Sivers' book list](https://sive.rs/book)
-|3,0,9,1,1,0,1610646181,"* [Derek Sivers' book list](https://sive.rs/book)"
+	
+|3,0,9,1,1,0,1610819835,""
 "a	CHAR	0
 	$?*lDj
 |3,0,10,0,1,0,1610645586,"$?*lDj"
@@ -129,264 +139,297 @@ $'.txt'
 	0/:dt*
 |3,2,11,0,1,0,1610645685,"0/:dt*"
 "-	CHAR	0
-	'/home/sam/notes/2020-08-28_5.md'
-|3,0,36,0,1,0,1610645973,"'/home/sam/notes/2020-08-28_5.md'"
+	amixer", "-q", "-c", "1", "set", "Master", "toggle", "unmute", 
+|3,0,36,0,1,0,1610822275,"amixer\", \"-q\", \"-c\", \"1\", \"set\", \"Master\", \"toggle\", \"unmute\", "
 
 # File marks:
-'0  151  0  ~/dotfiles/.vim/vimrc
-|4,48,151,0,1610819009,"~/dotfiles/.vim/vimrc"
-'1  1  0  ~/bin/,qr.py
-|4,49,1,0,1610818961,"~/bin/,qr.py"
-'2  1  0  ~/bin/,key_gen.py
-|4,50,1,0,1610818935,"~/bin/,key_gen.py"
-'3  1  0  ~/bin/,contacts_csv.py
-|4,51,1,0,1610818901,"~/bin/,contacts_csv.py"
-'4  1  0  ~/bin/,task_reading_list.py
-|4,52,1,0,1610818826,"~/bin/,task_reading_list.py"
-'5  1  0  ~/bin/xsetloop.sh
-|4,53,1,0,1610817677,"~/bin/xsetloop.sh"
-'6  1  0  ~/bin/,lock.sh
-|4,54,1,0,1610743161,"~/bin/,lock.sh"
-'7  1  0  ~/notes/2020-08-28_5.md
-|4,55,1,0,1610646411,"~/notes/2020-08-28_5.md"
-'8  25  37  ~/bin/,task_reading_list.py
-|4,56,25,37,1610646377,"~/bin/,task_reading_list.py"
-'9  24  37  ~/bin/,task_reading_list.py
-|4,57,24,37,1610646377,"~/bin/,task_reading_list.py"
+'0  6  16  ~/dotfiles/.xinitrc
+|4,48,6,16,1610822528,"~/dotfiles/.xinitrc"
+'1  128  0  ~/src/dwm/config.h
+|4,49,128,0,1610822361,"~/src/dwm/config.h"
+'2  2  0  ~/bin/,volume_up.sh
+|4,50,2,0,1610822089,"~/bin/,volume_up.sh"
+'3  1  0  ~/bin/,volume_up.sh
+|4,51,1,0,1610821990,"~/bin/,volume_up.sh"
+'4  1  0  ~/bin/,volume_up.sh
+|4,52,1,0,1610821990,"~/bin/,volume_up.sh"
+'5  132  0  ~/src/dwm/config.h
+|4,53,132,0,1610819973,"~/src/dwm/config.h"
+'6  26  0  ~/bin/,task_reading_list.py
+|4,54,26,0,1610819392,"~/bin/,task_reading_list.py"
+'7  151  0  ~/dotfiles/.vim/vimrc
+|4,55,151,0,1610819009,"~/dotfiles/.vim/vimrc"
+'8  1  0  ~/bin/,qr.py
+|4,56,1,0,1610818961,"~/bin/,qr.py"
+'9  1  0  ~/bin/,key_gen.py
+|4,57,1,0,1610818935,"~/bin/,key_gen.py"
 
 # Jumplist (newest first):
--'  151  0  ~/dotfiles/.vim/vimrc
-|4,39,151,0,1610819009,"~/dotfiles/.vim/vimrc"
--'  2  0  ~/dotfiles/.vim/vimrc
-|4,39,2,0,1610818988,"~/dotfiles/.vim/vimrc"
--'  1  0  ~/dotfiles/.vim/vimrc
-|4,39,1,0,1610818985,"~/dotfiles/.vim/vimrc"
--'  1  0  ~/bin/,qr.py
-|4,39,1,0,1610818961,"~/bin/,qr.py"
--'  1  0  ~/bin/,qr.py
-|4,39,1,0,1610818961,"~/bin/,qr.py"
--'  1  0  ~/bin/,key_gen.py
-|4,39,1,0,1610818935,"~/bin/,key_gen.py"
--'  1  0  ~/bin/,key_gen.py
-|4,39,1,0,1610818935,"~/bin/,key_gen.py"
--'  1  0  ~/bin/,key_gen.py
-|4,39,1,0,1610818935,"~/bin/,key_gen.py"
--'  1  0  ~/bin/,key_gen.py
-|4,39,1,0,1610818935,"~/bin/,key_gen.py"
--'  1  0  ~/bin/,contacts_csv.py
-|4,39,1,0,1610818901,"~/bin/,contacts_csv.py"
--'  1  0  ~/bin/,contacts_csv.py
-|4,39,1,0,1610818901,"~/bin/,contacts_csv.py"
--'  1  0  ~/bin/,contacts_csv.py
-|4,39,1,0,1610818901,"~/bin/,contacts_csv.py"
--'  1  0  ~/bin/,contacts_csv.py
-|4,39,1,0,1610818901,"~/bin/,contacts_csv.py"
--'  1  0  ~/bin/,contacts_csv.py
-|4,39,1,0,1610818901,"~/bin/,contacts_csv.py"
--'  1  0  ~/bin/,contacts_csv.py
-|4,39,1,0,1610818901,"~/bin/,contacts_csv.py"
--'  1  0  ~/bin/,contacts_csv.py
-|4,39,1,0,1610818901,"~/bin/,contacts_csv.py"
--'  1  0  ~/bin/,contacts_csv.py
-|4,39,1,0,1610818901,"~/bin/,contacts_csv.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610818826,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,qr.py
-|4,39,1,0,1610818795,"~/bin/,qr.py"
--'  1  0  ~/bin/,qr.py
-|4,39,1,0,1610818795,"~/bin/,qr.py"
--'  1  0  ~/bin/,qr.py
-|4,39,1,0,1610818795,"~/bin/,qr.py"
--'  1  0  ~/bin/,qr.py
-|4,39,1,0,1610818795,"~/bin/,qr.py"
--'  1  0  ~/bin/,qr.py
-|4,39,1,0,1610818795,"~/bin/,qr.py"
--'  1  0  ~/bin/,qr.py
-|4,39,1,0,1610818795,"~/bin/,qr.py"
--'  1  0  ~/bin/,qr.py
-|4,39,1,0,1610818795,"~/bin/,qr.py"
--'  1  0  ~/bin/,qr.py
-|4,39,1,0,1610818795,"~/bin/,qr.py"
--'  1  0  ~/bin/,key_gen.py
-|4,39,1,0,1610818790,"~/bin/,key_gen.py"
--'  1  0  ~/bin/,key_gen.py
-|4,39,1,0,1610818790,"~/bin/,key_gen.py"
--'  1  0  ~/bin/,key_gen.py
-|4,39,1,0,1610818790,"~/bin/,key_gen.py"
--'  1  0  ~/bin/,key_gen.py
-|4,39,1,0,1610818790,"~/bin/,key_gen.py"
--'  1  0  ~/bin/,key_gen.py
-|4,39,1,0,1610818790,"~/bin/,key_gen.py"
--'  1  0  ~/bin/,key_gen.py
-|4,39,1,0,1610818790,"~/bin/,key_gen.py"
--'  1  0  ~/bin/,key_gen.py
-|4,39,1,0,1610818790,"~/bin/,key_gen.py"
--'  1  0  ~/bin/,key_gen.py
-|4,39,1,0,1610818790,"~/bin/,key_gen.py"
--'  1  0  ~/bin/,contacts_csv.py
-|4,39,1,0,1610818784,"~/bin/,contacts_csv.py"
--'  1  0  ~/bin/,contacts_csv.py
-|4,39,1,0,1610818784,"~/bin/,contacts_csv.py"
--'  1  0  ~/bin/,contacts_csv.py
-|4,39,1,0,1610818784,"~/bin/,contacts_csv.py"
--'  1  0  ~/bin/,contacts_csv.py
-|4,39,1,0,1610818784,"~/bin/,contacts_csv.py"
--'  1  0  ~/bin/,contacts_csv.py
-|4,39,1,0,1610818784,"~/bin/,contacts_csv.py"
--'  1  0  ~/bin/,contacts_csv.py
-|4,39,1,0,1610818784,"~/bin/,contacts_csv.py"
--'  1  0  ~/bin/,contacts_csv.py
-|4,39,1,0,1610818784,"~/bin/,contacts_csv.py"
--'  1  0  ~/bin/,contacts_csv.py
-|4,39,1,0,1610818784,"~/bin/,contacts_csv.py"
--'  1  0  ~/bin/,change_file_ext.py
-|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
--'  1  0  ~/bin/,change_file_ext.py
-|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
--'  1  0  ~/bin/,change_file_ext.py
-|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
--'  1  0  ~/bin/,change_file_ext.py
-|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
--'  1  0  ~/bin/,change_file_ext.py
-|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
--'  1  0  ~/bin/,change_file_ext.py
-|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
--'  1  0  ~/bin/,change_file_ext.py
-|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
--'  1  0  ~/bin/,change_file_ext.py
-|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
--'  1  0  ~/bin/,change_file_ext.py
-|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
--'  1  0  ~/bin/,change_file_ext.py
-|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
--'  1  0  ~/bin/,change_file_ext.py
-|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
--'  1  0  ~/bin/,change_file_ext.py
-|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
--'  1  0  ~/bin/,change_file_ext.py
-|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
--'  1  0  ~/bin/,change_file_ext.py
-|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
--'  1  0  ~/bin/,change_file_ext.py
-|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
--'  1  0  ~/bin/,change_file_ext.py
-|4,39,1,0,1610818762,"~/bin/,change_file_ext.py"
--'  2  0  ~/bin/,change_file_ext.py
-|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
--'  2  0  ~/bin/,change_file_ext.py
-|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
--'  2  0  ~/bin/,change_file_ext.py
-|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
--'  2  0  ~/bin/,change_file_ext.py
-|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
--'  2  0  ~/bin/,change_file_ext.py
-|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
--'  2  0  ~/bin/,change_file_ext.py
-|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
--'  2  0  ~/bin/,change_file_ext.py
-|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
--'  2  0  ~/bin/,change_file_ext.py
-|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
--'  2  0  ~/bin/,change_file_ext.py
-|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
--'  2  0  ~/bin/,change_file_ext.py
-|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
--'  2  0  ~/bin/,change_file_ext.py
-|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
--'  2  0  ~/bin/,change_file_ext.py
-|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
--'  2  0  ~/bin/,change_file_ext.py
-|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
--'  2  0  ~/bin/,change_file_ext.py
-|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
--'  2  0  ~/bin/,change_file_ext.py
-|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
--'  2  0  ~/bin/,change_file_ext.py
-|4,39,2,0,1610818643,"~/bin/,change_file_ext.py"
--'  1  0  ~/bin/xsetloop.sh
-|4,39,1,0,1610817677,"~/bin/xsetloop.sh"
--'  1  0  ~/bin/xsetloop.sh
-|4,39,1,0,1610817677,"~/bin/xsetloop.sh"
--'  1  0  ~/bin/xsetloop.sh
-|4,39,1,0,1610817677,"~/bin/xsetloop.sh"
--'  1  0  ~/bin/xsetloop.sh
-|4,39,1,0,1610817677,"~/bin/xsetloop.sh"
--'  1  0  ~/bin/xsetloop.sh
-|4,39,1,0,1610817677,"~/bin/xsetloop.sh"
--'  1  0  ~/bin/xsetloop.sh
-|4,39,1,0,1610817677,"~/bin/xsetloop.sh"
--'  1  0  ~/bin/xsetloop.sh
-|4,39,1,0,1610817677,"~/bin/xsetloop.sh"
--'  1  0  ~/bin/xsetloop.sh
-|4,39,1,0,1610817677,"~/bin/xsetloop.sh"
--'  1  0  ~/bin/xsetloop.sh
-|4,39,1,0,1610817677,"~/bin/xsetloop.sh"
--'  1  0  ~/bin/xsetloop.sh
-|4,39,1,0,1610817677,"~/bin/xsetloop.sh"
--'  1  0  ~/bin/xsetloop.sh
-|4,39,1,0,1610817677,"~/bin/xsetloop.sh"
+-'  6  16  ~/dotfiles/.xinitrc
+|4,39,6,16,1610822528,"~/dotfiles/.xinitrc"
+-'  1  0  ~/dotfiles/.xinitrc
+|4,39,1,0,1610822457,"~/dotfiles/.xinitrc"
+-'  128  0  ~/src/dwm/config.h
+|4,39,128,0,1610822361,"~/src/dwm/config.h"
+-'  128  0  ~/src/dwm/config.h
+|4,39,128,0,1610822361,"~/src/dwm/config.h"
+-'  1  0  ~/src/dwm/config.h
+|4,39,1,0,1610822149,"~/src/dwm/config.h"
+-'  1  0  ~/src/dwm/config.h
+|4,39,1,0,1610822149,"~/src/dwm/config.h"
+-'  2  0  ~/bin/,volume_up.sh
+|4,39,2,0,1610822089,"~/bin/,volume_up.sh"
+-'  2  0  ~/bin/,volume_up.sh
+|4,39,2,0,1610822089,"~/bin/,volume_up.sh"
+-'  2  0  ~/bin/,volume_up.sh
+|4,39,2,0,1610822089,"~/bin/,volume_up.sh"
+-'  2  0  ~/bin/,volume_up.sh
+|4,39,2,0,1610822089,"~/bin/,volume_up.sh"
+-'  2  0  ~/bin/,volume_mute.sh
+|4,39,2,0,1610822062,"~/bin/,volume_mute.sh"
+-'  2  0  ~/bin/,volume_mute.sh
+|4,39,2,0,1610822062,"~/bin/,volume_mute.sh"
+-'  2  0  ~/bin/,volume_mute.sh
+|4,39,2,0,1610822062,"~/bin/,volume_mute.sh"
+-'  2  0  ~/bin/,volume_mute.sh
+|4,39,2,0,1610822062,"~/bin/,volume_mute.sh"
+-'  2  0  ~/bin/,volume_down.sh
+|4,39,2,0,1610822032,"~/bin/,volume_down.sh"
+-'  2  0  ~/bin/,volume_down.sh
+|4,39,2,0,1610822032,"~/bin/,volume_down.sh"
+-'  2  0  ~/bin/,volume_down.sh
+|4,39,2,0,1610822032,"~/bin/,volume_down.sh"
+-'  2  0  ~/bin/,volume_down.sh
+|4,39,2,0,1610822032,"~/bin/,volume_down.sh"
+-'  1  0  ~/bin/,volume_down.sh
+|4,39,1,0,1610822021,"~/bin/,volume_down.sh"
+-'  1  0  ~/bin/,volume_down.sh
+|4,39,1,0,1610822021,"~/bin/,volume_down.sh"
+-'  1  0  ~/bin/,volume_down.sh
+|4,39,1,0,1610822021,"~/bin/,volume_down.sh"
+-'  1  0  ~/bin/,volume_down.sh
+|4,39,1,0,1610822021,"~/bin/,volume_down.sh"
+-'  1  0  ~/bin/,volume_up.sh
+|4,39,1,0,1610821990,"~/bin/,volume_up.sh"
+-'  1  0  ~/bin/,volume_up.sh
+|4,39,1,0,1610821990,"~/bin/,volume_up.sh"
+-'  1  0  ~/bin/,volume_up.sh
+|4,39,1,0,1610821990,"~/bin/,volume_up.sh"
+-'  1  0  ~/bin/,volume_up.sh
+|4,39,1,0,1610821990,"~/bin/,volume_up.sh"
+-'  1  0  ~/bin/,volume_up.sh
+|4,39,1,0,1610821990,"~/bin/,volume_up.sh"
+-'  1  0  ~/bin/,volume_up.sh
+|4,39,1,0,1610821990,"~/bin/,volume_up.sh"
+-'  1  0  ~/bin/,volume_up.sh
+|4,39,1,0,1610821990,"~/bin/,volume_up.sh"
+-'  1  0  ~/bin/,volume_up.sh
+|4,39,1,0,1610821990,"~/bin/,volume_up.sh"
+-'  2  0  ~/bin/,volume_up.sh
+|4,39,2,0,1610821882,"~/bin/,volume_up.sh"
+-'  2  0  ~/bin/,volume_up.sh
+|4,39,2,0,1610821882,"~/bin/,volume_up.sh"
+-'  2  0  ~/bin/,volume_up.sh
+|4,39,2,0,1610821882,"~/bin/,volume_up.sh"
+-'  2  0  ~/bin/,volume_up.sh
+|4,39,2,0,1610821882,"~/bin/,volume_up.sh"
+-'  132  0  ~/src/dwm/config.h
+|4,39,132,0,1610819973,"~/src/dwm/config.h"
+-'  132  0  ~/src/dwm/config.h
+|4,39,132,0,1610819973,"~/src/dwm/config.h"
+-'  132  0  ~/src/dwm/config.h
+|4,39,132,0,1610819973,"~/src/dwm/config.h"
+-'  132  0  ~/src/dwm/config.h
+|4,39,132,0,1610819973,"~/src/dwm/config.h"
+-'  132  0  ~/src/dwm/config.h
+|4,39,132,0,1610819973,"~/src/dwm/config.h"
+-'  132  0  ~/src/dwm/config.h
+|4,39,132,0,1610819973,"~/src/dwm/config.h"
+-'  132  0  ~/src/dwm/config.h
+|4,39,132,0,1610819973,"~/src/dwm/config.h"
+-'  132  0  ~/src/dwm/config.h
+|4,39,132,0,1610819973,"~/src/dwm/config.h"
+-'  1  0  ~/bin/,volume.sh
+|4,39,1,0,1610819847,"~/bin/,volume.sh"
+-'  1  0  ~/bin/,volume.sh
+|4,39,1,0,1610819847,"~/bin/,volume.sh"
+-'  1  0  ~/bin/,volume.sh
+|4,39,1,0,1610819847,"~/bin/,volume.sh"
+-'  1  0  ~/bin/,volume.sh
+|4,39,1,0,1610819847,"~/bin/,volume.sh"
+-'  1  0  ~/bin/,volume.sh
+|4,39,1,0,1610819847,"~/bin/,volume.sh"
+-'  1  0  ~/bin/,volume.sh
+|4,39,1,0,1610819847,"~/bin/,volume.sh"
+-'  1  0  ~/bin/,volume.sh
+|4,39,1,0,1610819847,"~/bin/,volume.sh"
+-'  1  0  ~/bin/,volume.sh
+|4,39,1,0,1610819847,"~/bin/,volume.sh"
+-'  1  0  ~/bin/,volume.sh
+|4,39,1,0,1610819847,"~/bin/,volume.sh"
+-'  1  0  ~/bin/,volume.sh
+|4,39,1,0,1610819847,"~/bin/,volume.sh"
+-'  1  0  ~/bin/,volume.sh
+|4,39,1,0,1610819847,"~/bin/,volume.sh"
+-'  1  0  ~/bin/,volume.sh
+|4,39,1,0,1610819847,"~/bin/,volume.sh"
+-'  1  0  ~/bin/,volume.sh
+|4,39,1,0,1610819847,"~/bin/,volume.sh"
+-'  1  0  ~/bin/,volume.sh
+|4,39,1,0,1610819847,"~/bin/,volume.sh"
+-'  1  0  ~/bin/,volume.sh
+|4,39,1,0,1610819847,"~/bin/,volume.sh"
+-'  1  0  ~/bin/,volume.sh
+|4,39,1,0,1610819847,"~/bin/,volume.sh"
+-'  62  0  ~/src/dwm/config.h
+|4,39,62,0,1610819832,"~/src/dwm/config.h"
+-'  64  0  ~/src/dwm/config.h
+|4,39,64,0,1610819832,"~/src/dwm/config.h"
+-'  64  0  ~/src/dwm/config.h
+|4,39,64,0,1610819832,"~/src/dwm/config.h"
+-'  64  0  ~/src/dwm/config.h
+|4,39,64,0,1610819832,"~/src/dwm/config.h"
+-'  64  0  ~/src/dwm/config.h
+|4,39,64,0,1610819832,"~/src/dwm/config.h"
+-'  62  0  ~/src/dwm/config.h
+|4,39,62,0,1610819832,"~/src/dwm/config.h"
+-'  64  0  ~/src/dwm/config.h
+|4,39,64,0,1610819832,"~/src/dwm/config.h"
+-'  64  0  ~/src/dwm/config.h
+|4,39,64,0,1610819832,"~/src/dwm/config.h"
+-'  64  0  ~/src/dwm/config.h
+|4,39,64,0,1610819832,"~/src/dwm/config.h"
+-'  64  0  ~/src/dwm/config.h
+|4,39,64,0,1610819832,"~/src/dwm/config.h"
+-'  1  0  ~/src/dwm/config.h
+|4,39,1,0,1610819541,"~/src/dwm/config.h"
+-'  1  0  ~/src/dwm/config.h
+|4,39,1,0,1610819541,"~/src/dwm/config.h"
+-'  1  0  ~/src/dwm/config.h
+|4,39,1,0,1610819541,"~/src/dwm/config.h"
+-'  1  0  ~/src/dwm/config.h
+|4,39,1,0,1610819541,"~/src/dwm/config.h"
+-'  1  0  ~/src/dwm/config.h
+|4,39,1,0,1610819541,"~/src/dwm/config.h"
+-'  1  0  ~/src/dwm/config.h
+|4,39,1,0,1610819541,"~/src/dwm/config.h"
+-'  1  0  ~/src/dwm/config.h
+|4,39,1,0,1610819541,"~/src/dwm/config.h"
+-'  1  0  ~/src/dwm/config.h
+|4,39,1,0,1610819541,"~/src/dwm/config.h"
+-'  26  0  ~/bin/,task_reading_list.py
+|4,39,26,0,1610819392,"~/bin/,task_reading_list.py"
+-'  26  0  ~/bin/,task_reading_list.py
+|4,39,26,0,1610819392,"~/bin/,task_reading_list.py"
+-'  26  0  ~/bin/,task_reading_list.py
+|4,39,26,0,1610819392,"~/bin/,task_reading_list.py"
+-'  26  0  ~/bin/,task_reading_list.py
+|4,39,26,0,1610819392,"~/bin/,task_reading_list.py"
+-'  26  0  ~/bin/,task_reading_list.py
+|4,39,26,0,1610819392,"~/bin/,task_reading_list.py"
+-'  26  0  ~/bin/,task_reading_list.py
+|4,39,26,0,1610819392,"~/bin/,task_reading_list.py"
+-'  26  0  ~/bin/,task_reading_list.py
+|4,39,26,0,1610819392,"~/bin/,task_reading_list.py"
+-'  26  0  ~/bin/,task_reading_list.py
+|4,39,26,0,1610819392,"~/bin/,task_reading_list.py"
+-'  26  0  ~/bin/,task_reading_list.py
+|4,39,26,0,1610819392,"~/bin/,task_reading_list.py"
+-'  26  0  ~/bin/,task_reading_list.py
+|4,39,26,0,1610819392,"~/bin/,task_reading_list.py"
+-'  26  0  ~/bin/,task_reading_list.py
+|4,39,26,0,1610819392,"~/bin/,task_reading_list.py"
+-'  26  0  ~/bin/,task_reading_list.py
+|4,39,26,0,1610819392,"~/bin/,task_reading_list.py"
+-'  26  0  ~/bin/,task_reading_list.py
+|4,39,26,0,1610819392,"~/bin/,task_reading_list.py"
+-'  26  0  ~/bin/,task_reading_list.py
+|4,39,26,0,1610819392,"~/bin/,task_reading_list.py"
+-'  26  0  ~/bin/,task_reading_list.py
+|4,39,26,0,1610819392,"~/bin/,task_reading_list.py"
+-'  26  0  ~/bin/,task_reading_list.py
+|4,39,26,0,1610819392,"~/bin/,task_reading_list.py"
+-'  26  0  ~/bin/,task_reading_list.py
+|4,39,26,0,1610819392,"~/bin/,task_reading_list.py"
+-'  26  0  ~/bin/,task_reading_list.py
+|4,39,26,0,1610819392,"~/bin/,task_reading_list.py"
+-'  26  0  ~/bin/,task_reading_list.py
+|4,39,26,0,1610819392,"~/bin/,task_reading_list.py"
+-'  26  0  ~/bin/,task_reading_list.py
+|4,39,26,0,1610819392,"~/bin/,task_reading_list.py"
+-'  26  0  ~/bin/,task_reading_list.py
+|4,39,26,0,1610819392,"~/bin/,task_reading_list.py"
+-'  26  0  ~/bin/,task_reading_list.py
+|4,39,26,0,1610819392,"~/bin/,task_reading_list.py"
+-'  26  0  ~/bin/,task_reading_list.py
+|4,39,26,0,1610819392,"~/bin/,task_reading_list.py"
+-'  26  0  ~/bin/,task_reading_list.py
+|4,39,26,0,1610819392,"~/bin/,task_reading_list.py"
 
 # History of marks within files (newest to oldest):
 
-> ~/dotfiles/.vim/vimrc
-	*	1610819007	0
-	"	151	0
+> ~/dotfiles/.xinitrc
+	*	1610822525	0
+	"	6	16
+	^	6	17
+	.	6	16
+	+	1	29
+	+	6	16
 
-> ~/bin/,qr.py
-	*	1610818959	0
-	"	1	0
-	^	1	0
-	.	1	5
-	+	1	5
+> ~/src/dwm/config.h
+	*	1610822359	0
+	"	128	0
+	^	64	0
+	.	67	0
+	+	65	56
+	+	66	73
+	+	67	53
+	+	66	63
+	+	65	61
+	+	67	0
+	+	76	0
+	+	62	65
+	+	63	69
+	+	64	69
+	+	60	0
+	+	62	0
+	+	65	0
+	+	67	0
 
-> ~/bin/,key_gen.py
-	*	1610818925	0
-	"	1	0
-	^	1	0
-	.	1	5
-	+	1	5
+> ~/bin/,volume_up.sh
+	*	1610822087	0
+	"	2	0
+	^	2	33
+	.	3	0
+	+	3	0
+	+	1	8
+	+	2	32
+	+	3	0
 
-> ~/bin/,contacts_csv.py
-	*	1610818899	0
-	"	1	0
-	^	1	6
-	.	1	5
-	+	1	5
+> ~/bin/,volume_mute.sh
+	*	1610822055	0
+	"	2	0
+	.	3	0
+	+	2	28
+	+	3	0
 
-> ~/bin/,task_reading_list.py
-	*	1610818825	0
+> ~/bin/,volume_down.sh
+	*	1610822027	0
+	"	2	0
+	.	3	0
+	+	3	0
+
+> ~/bin/,volume.sh
+	*	1610819845	0
 	"	1	0
 	.	1	0
+	+	1	0
+
+> ~/bin/,task_reading_list.py
+	*	1610819384	0
+	"	26	0
+	^	28	21
+	.	28	20
 	+	2	70
 	+	3	45
 	+	6	2
@@ -445,6 +488,33 @@ $'.txt'
 	+	25	0
 	+	23	54
 	+	1	0
+	+	27	29
+	+	28	20
+
+> ~/dotfiles/.vim/vimrc
+	*	1610819007	0
+	"	151	0
+
+> ~/bin/,qr.py
+	*	1610818959	0
+	"	1	0
+	^	1	0
+	.	1	5
+	+	1	5
+
+> ~/bin/,key_gen.py
+	*	1610818925	0
+	"	1	0
+	^	1	0
+	.	1	5
+	+	1	5
+
+> ~/bin/,contacts_csv.py
+	*	1610818899	0
+	"	1	0
+	^	1	6
+	.	1	5
+	+	1	5
 
 > ~/bin/,change_file_ext.py
 	*	1610818760	0
