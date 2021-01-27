@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/(
+~MSle0~/task add
 
 # Last Substitute Search Pattern:
 ~MSle0&\\
@@ -21,15 +21,21 @@ $\\\/g
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1611750560,,"wq"
+|2,0,1611756918,,"wq"
 :w
-|2,0,1611750551,,"w"
+|2,0,1611756636,,"w"
+:red
+|2,0,1611755926,,"red"
+:q
+|2,0,1611755923,,"q"
+:help u
+|2,0,1611755895,,"help u"
+:e reading_list_sync.py
+|2,0,1611755542,,"e reading_list_sync.py"
 :tabe letter_template.tex
 |2,0,1611696041,,"tabe letter_template.tex"
 :%s/\\/\\\/g
 |2,0,1611694428,,"%s/\\\\/\\\\\\/g"
-:q
-|2,0,1611694409,,"q"
 :tabe config
 |2,0,1611693971,,"tabe config"
 :e compile_letter.py
@@ -70,8 +76,6 @@ $\\\/g
 |2,0,1611239713,,"e ../audio/"
 :e finance_tools.py
 |2,0,1611173058,,"e finance_tools.py"
-:e reading_list_sync.py
-|2,0,1611004974,,"e reading_list_sync.py"
 :e ,reading_list_sync.py
 |2,0,1610969496,,"e ,reading_list_sync.py"
 :tabe ,test.py
@@ -116,6 +120,8 @@ $\\\/g
 |2,0,1610118249,,"e templates/templates/template.html"
 
 # Search String History (newest to oldest):
+?/task add
+|2,1,1611755548,47,"task add"
 ?/(
 |2,1,1611744006,47,"("
 ?/.md
@@ -193,298 +199,280 @@ $\\\/g
 
 # Registers:
 "0	LINE	0
-	report.next.columns=id,project,due,description,urgency
-|3,0,0,1,1,0,1611747433,"report.next.columns=id,project,due,description,urgency"
-""1	LINE	0
-	
-|3,1,1,1,1,0,1611750548,""
+	urgency.user.project.jobs.coeffiecient=5.0
+|3,0,0,1,1,0,1611756366,"urgency.user.project.jobs.coeffiecient=5.0"
+"1	LINE	0
+	urgency.user.project.jobs.coeffiecient=5.0
+|3,0,1,1,1,0,1611756184,"urgency.user.project.jobs.coeffiecient=5.0"
 "2	LINE	0
-	report.reading.sort=entry+
-|3,0,2,1,1,0,1611749326,"report.reading.sort=entry+"
+	urgency.project.mindline.coefficient=3
+|3,0,2,1,1,0,1611756011,"urgency.project.mindline.coefficient=3"
 "3	LINE	0
+	# Customize calendar report [task calendar]
+	calendar.details.report=all
+	
+|3,0,3,1,3,0,1611755857,"# Customize calendar report [task calendar]","calendar.details.report=all",""
+"4	LINE	0
+	report.next.filter=project.not:reading
+|3,0,4,1,1,0,1611754462,"report.next.filter=project.not:reading"
+"5	LINE	0
+	
+|3,0,5,1,1,0,1611753685,""
+"6	LINE	0
+	
+	# Customize calendar report [task calendar]
+|3,0,6,1,2,0,1611753680,"","# Customize calendar report [task calendar]"
+"7	LINE	0
+	
+|3,0,7,1,1,0,1611750548,""
+"8	LINE	0
+	report.reading.sort=entry+
+|3,0,8,1,1,0,1611749326,"report.reading.sort=entry+"
+"9	LINE	0
 	report.reading.columns=id,project,status,wait,description.desc
 	report.reading.labels=ID,Project,Status,Wait,Description
-|3,0,3,1,2,0,1611749240,"report.reading.columns=id,project,status,wait,description.desc","report.reading.labels=ID,Project,Status,Wait,Description"
-"4	LINE	0
-	
-|3,0,4,1,1,0,1611745367,""
-"5	LINE	0
-	report.next.
-|3,0,5,1,1,0,1611745366,"report.next."
-"6	LINE	0
-	# Here is an example of entries that use the default, override and blank values
-	#   variable=foo   -- By specifying a value, this overrides the default
-	#   variable=      -- By specifying no value, this means no default
-	#   #variable=foo  -- By commenting out the line, or deleting it, this uses the default
-	
-|3,0,6,1,5,0,1611744111,"# Here is an example of entries that use the default, override and blank values","#   variable=foo   -- By specifying a value, this overrides the default","#   variable=      -- By specifying no value, this means no default","#   #variable=foo  -- By commenting out the line, or deleting it, this uses the default",""
-"7	LINE	0
-	#include /usr/share/doc/task/rc/dark-red-256.theme
-	#include /usr/share/doc/task/rc/dark-green-256.theme
-	#include /usr/share/doc/task/rc/dark-blue-256.theme
-	#include /usr/share/doc/task/rc/dark-violets-256.theme
-	#include /usr/share/doc/task/rc/dark-yellow-green.theme
-	#include /usr/share/doc/task/rc/dark-gray-256.theme
-	#include /usr/share/doc/task/rc/dark-gray-blue-256.theme
-	#include /usr/share/doc/task/rc/solarized-dark-256.theme
-	#include /usr/share/doc/task/rc/solarized-light-256.theme
-	#include /usr/share/doc/task/rc/no-color.theme
-|3,0,7,1,10,0,1611744022,"#include /usr/share/doc/task/rc/dark-red-256.theme","#include /usr/share/doc/task/rc/dark-green-256.theme","#include /usr/share/doc/task/rc/dark-blue-256.theme","#include /usr/share/doc/task/rc/dark-violets-256.theme","#include /usr/share/doc/task/rc/dark-yellow-green.theme","#include /usr/share/doc/task/rc/dark-gray-256.theme","#include /usr/share/doc/task/rc/dark-gray-blue-256.theme",>58
-|<"#include /usr/share/doc/task/rc/solarized-dark-256.theme","#include /usr/share/doc/task/rc/solarized-light-256.theme","#include /usr/share/doc/task/rc/no-color.theme"
-"8	LINE	0
-	#include /usr/share/doc/task/rc/light-16.theme
-	#include /usr/share/doc/task/rc/light-256.theme
-	#include /usr/share/doc/task/rc/dark-16.theme
-|3,0,8,1,3,0,1611744015,"#include /usr/share/doc/task/rc/light-16.theme","#include /usr/share/doc/task/rc/light-256.theme","#include /usr/share/doc/task/rc/dark-16.theme"
-"9	LINE	0
-	\setkomafont{fromname}{\sffamily \LARGE}
-	\setkomafont{fromaddress}{\sffamily}%% statt \small
-	\setkomafont{pagenumber}{\sffamily}
-	\setkomafont{subject}{\bfseries}
-	\setkomafont{backaddress}{\mdseries}
-	
-|3,0,9,1,6,0,1611699471,"\\setkomafont{fromname}{\\sffamily \\LARGE}","\\setkomafont{fromaddress}{\\sffamily}%% statt \\small","\\setkomafont{pagenumber}{\\sffamily}","\\setkomafont{subject}{\\bfseries}","\\setkomafont{backaddress}{\\mdseries}",""
-"a@	CHAR	0
+|3,0,9,1,2,0,1611749240,"report.reading.columns=id,project,status,wait,description.desc","report.reading.labels=ID,Project,Status,Wait,Description"
+"a	CHAR	0
 	i'€ıaf:i'€ıa?'€kd
-|3,2,10,0,1,0,1611692453,"i'€ıaf:i'€ıa?'€kd"
+|3,0,10,0,1,0,1611692453,"i'€ıaf:i'€ıa?'€kd"
 "b	CHAR	0
 	0/:dt*
 |3,0,11,0,1,0,1610645685,"0/:dt*"
-"-	CHAR	0
-	or status:pending) and limit:page
-|3,0,36,0,1,0,1611750535,"or status:pending) and limit:page"
+""-	CHAR	0
+	e
+|3,1,36,0,1,0,1611756895,"e"
 
 # File marks:
-'0  34  0  ~/.taskrc
-|4,48,34,0,1611750560,"~/.taskrc"
-'1  34  77  ~/.taskrc
-|4,49,34,77,1611750154,"~/.taskrc"
-'2  34  37  ~/.taskrc
-|4,50,34,37,1611749795,"~/.taskrc"
-'3  34  37  ~/.taskrc
-|4,51,34,37,1611749795,"~/.taskrc"
-'4  34  51  ~/.taskrc
-|4,52,34,51,1611749780,"~/.taskrc"
-'5  34  51  ~/.taskrc
-|4,53,34,51,1611749780,"~/.taskrc"
-'6  34  51  ~/.taskrc
-|4,54,34,51,1611749780,"~/.taskrc"
-'7  34  51  ~/.taskrc
-|4,55,34,51,1611749780,"~/.taskrc"
-'8  34  76  ~/.taskrc
-|4,56,34,76,1611749751,"~/.taskrc"
-'9  34  76  ~/.taskrc
-|4,57,34,76,1611749751,"~/.taskrc"
+'0  42  0  ~/.taskrc
+|4,48,42,0,1611756918,"~/.taskrc"
+'1  39  0  ~/.taskrc
+|4,49,39,0,1611756643,"~/.taskrc"
+'2  38  0  ~/.taskrc
+|4,50,38,0,1611756643,"~/.taskrc"
+'3  42  40  ~/.taskrc
+|4,51,42,40,1611756600,"~/.taskrc"
+'4  41  40  ~/.taskrc
+|4,52,41,40,1611756600,"~/.taskrc"
+'5  41  40  ~/.taskrc
+|4,53,41,40,1611756600,"~/.taskrc"
+'6  42  43  ~/.taskrc
+|4,54,42,43,1611756518,"~/.taskrc"
+'7  42  43  ~/.taskrc
+|4,55,42,43,1611756518,"~/.taskrc"
+'8  41  43  ~/.taskrc
+|4,56,41,43,1611756518,"~/.taskrc"
+'9  41  43  ~/.taskrc
+|4,57,41,43,1611756518,"~/.taskrc"
 
 # Jumplist (newest first):
--'  34  0  ~/.taskrc
-|4,39,34,0,1611750560,"~/.taskrc"
+-'  42  0  ~/.taskrc
+|4,39,42,0,1611756918,"~/.taskrc"
 -'  1  0  ~/.taskrc
-|4,39,1,0,1611750510,"~/.taskrc"
--'  34  77  ~/.taskrc
-|4,39,34,77,1611750154,"~/.taskrc"
+|4,39,1,0,1611756852,"~/.taskrc"
+-'  39  0  ~/.taskrc
+|4,39,39,0,1611756643,"~/.taskrc"
+-'  38  0  ~/.taskrc
+|4,39,38,0,1611756643,"~/.taskrc"
 -'  1  0  ~/.taskrc
-|4,39,1,0,1611750114,"~/.taskrc"
--'  34  37  ~/.taskrc
-|4,39,34,37,1611749795,"~/.taskrc"
+|4,39,1,0,1611756617,"~/.taskrc"
+-'  41  40  ~/.taskrc
+|4,39,41,40,1611756600,"~/.taskrc"
+-'  41  40  ~/.taskrc
+|4,39,41,40,1611756600,"~/.taskrc"
+-'  2  0  ~/.taskrc
+|4,39,2,0,1611756578,"~/.taskrc"
+-'  2  0  ~/.taskrc
+|4,39,2,0,1611756578,"~/.taskrc"
+-'  2  0  ~/.taskrc
+|4,39,2,0,1611756578,"~/.taskrc"
 -'  1  0  ~/.taskrc
-|4,39,1,0,1611749789,"~/.taskrc"
--'  34  51  ~/.taskrc
-|4,39,34,51,1611749780,"~/.taskrc"
+|4,39,1,0,1611756576,"~/.taskrc"
+-'  41  43  ~/.taskrc
+|4,39,41,43,1611756518,"~/.taskrc"
 -'  1  0  ~/.taskrc
-|4,39,1,0,1611749770,"~/.taskrc"
--'  34  76  ~/.taskrc
-|4,39,34,76,1611749751,"~/.taskrc"
+|4,39,1,0,1611756503,"~/.taskrc"
+-'  38  25  ~/.taskrc
+|4,39,38,25,1611756375,"~/.taskrc"
+-'  38  25  ~/.taskrc
+|4,39,38,25,1611756375,"~/.taskrc"
+-'  38  25  ~/.taskrc
+|4,39,38,25,1611756375,"~/.taskrc"
+-'  2  0  ~/.taskrc
+|4,39,2,0,1611756337,"~/.taskrc"
+-'  2  0  ~/.taskrc
+|4,39,2,0,1611756337,"~/.taskrc"
 -'  1  0  ~/.taskrc
-|4,39,1,0,1611749747,"~/.taskrc"
--'  35  11  ~/.taskrc
-|4,39,35,11,1611749735,"~/.taskrc"
--'  35  12  ~/.taskrc
-|4,39,35,12,1611749735,"~/.taskrc"
--'  35  12  ~/.taskrc
-|4,39,35,12,1611749735,"~/.taskrc"
--'  35  12  ~/.taskrc
-|4,39,35,12,1611749735,"~/.taskrc"
+|4,39,1,0,1611756334,"~/.taskrc"
+-'  37  70  ~/.taskrc
+|4,39,37,70,1611756318,"~/.taskrc"
+-'  37  39  ~/.taskrc
+|4,39,37,39,1611756318,"~/.taskrc"
+-'  37  39  ~/.taskrc
+|4,39,37,39,1611756318,"~/.taskrc"
+-'  37  39  ~/.taskrc
+|4,39,37,39,1611756318,"~/.taskrc"
+-'  37  39  ~/.taskrc
+|4,39,37,39,1611756318,"~/.taskrc"
+-'  37  39  ~/.taskrc
+|4,39,37,39,1611756318,"~/.taskrc"
 -'  1  0  ~/.taskrc
-|4,39,1,0,1611749645,"~/.taskrc"
--'  33  26  ~/.taskrc
-|4,39,33,26,1611749473,"~/.taskrc"
--'  33  26  ~/.taskrc
-|4,39,33,26,1611749473,"~/.taskrc"
--'  33  26  ~/.taskrc
-|4,39,33,26,1611749473,"~/.taskrc"
--'  33  26  ~/.taskrc
-|4,39,33,26,1611749473,"~/.taskrc"
--'  33  26  ~/.taskrc
-|4,39,33,26,1611749473,"~/.taskrc"
--'  33  26  ~/.taskrc
-|4,39,33,26,1611749473,"~/.taskrc"
--'  33  26  ~/.taskrc
-|4,39,33,26,1611749473,"~/.taskrc"
+|4,39,1,0,1611756267,"~/.taskrc"
+-'  37  39  ~/.taskrc
+|4,39,37,39,1611756254,"~/.taskrc"
+-'  2  0  ~/.taskrc
+|4,39,2,0,1611756234,"~/.taskrc"
+-'  2  0  ~/.taskrc
+|4,39,2,0,1611756234,"~/.taskrc"
 -'  1  0  ~/.taskrc
-|4,39,1,0,1611749465,"~/.taskrc"
--'  33  25  ~/.taskrc
-|4,39,33,25,1611749434,"~/.taskrc"
+|4,39,1,0,1611756232,"~/.taskrc"
+-'  37  0  ~/.taskrc
+|4,39,37,0,1611756214,"~/.taskrc"
 -'  1  0  ~/.taskrc
-|4,39,1,0,1611749416,"~/.taskrc"
--'  34  0  ~/.taskrc
-|4,39,34,0,1611749332,"~/.taskrc"
--'  34  0  ~/.taskrc
-|4,39,34,0,1611749332,"~/.taskrc"
--'  34  0  ~/.taskrc
-|4,39,34,0,1611749332,"~/.taskrc"
--'  34  0  ~/.taskrc
-|4,39,34,0,1611749332,"~/.taskrc"
+|4,39,1,0,1611756203,"~/.taskrc"
+-'  37  0  ~/.taskrc
+|4,39,37,0,1611756193,"~/.taskrc"
+-'  2  0  ~/.taskrc
+|4,39,2,0,1611756175,"~/.taskrc"
+-'  2  0  ~/.taskrc
+|4,39,2,0,1611756175,"~/.taskrc"
 -'  1  0  ~/.taskrc
-|4,39,1,0,1611748175,"~/.taskrc"
--'  26  65  ~/.taskrc
-|4,39,26,65,1611747689,"~/.taskrc"
--'  26  65  ~/.taskrc
-|4,39,26,65,1611747689,"~/.taskrc"
--'  26  65  ~/.taskrc
-|4,39,26,65,1611747689,"~/.taskrc"
--'  26  65  ~/.taskrc
-|4,39,26,65,1611747689,"~/.taskrc"
--'  26  65  ~/.taskrc
-|4,39,26,65,1611747689,"~/.taskrc"
--'  26  65  ~/.taskrc
-|4,39,26,65,1611747689,"~/.taskrc"
--'  26  65  ~/.taskrc
-|4,39,26,65,1611747689,"~/.taskrc"
--'  26  65  ~/.taskrc
-|4,39,26,65,1611747689,"~/.taskrc"
--'  26  65  ~/.taskrc
-|4,39,26,65,1611747689,"~/.taskrc"
--'  26  65  ~/.taskrc
-|4,39,26,65,1611747689,"~/.taskrc"
+|4,39,1,0,1611756173,"~/.taskrc"
+-'  40  0  ~/.taskrc
+|4,39,40,0,1611756150,"~/.taskrc"
+-'  39  0  ~/.taskrc
+|4,39,39,0,1611756150,"~/.taskrc"
+-'  39  0  ~/.taskrc
+|4,39,39,0,1611756150,"~/.taskrc"
+-'  39  0  ~/.taskrc
+|4,39,39,0,1611756150,"~/.taskrc"
+-'  39  0  ~/.taskrc
+|4,39,39,0,1611756150,"~/.taskrc"
+-'  38  0  ~/.taskrc
+|4,39,38,0,1611756150,"~/.taskrc"
+-'  38  0  ~/.taskrc
+|4,39,38,0,1611756150,"~/.taskrc"
+-'  38  0  ~/.taskrc
+|4,39,38,0,1611756150,"~/.taskrc"
+-'  38  0  ~/.taskrc
+|4,39,38,0,1611756150,"~/.taskrc"
+-'  37  0  ~/.taskrc
+|4,39,37,0,1611756150,"~/.taskrc"
 -'  1  0  ~/.taskrc
-|4,39,1,0,1611747268,"~/.taskrc"
--'  24  49  ~/.taskrc
-|4,39,24,49,1611747132,"~/.taskrc"
--'  24  49  ~/.taskrc
-|4,39,24,49,1611747132,"~/.taskrc"
--'  24  49  ~/.taskrc
-|4,39,24,49,1611747132,"~/.taskrc"
--'  24  49  ~/.taskrc
-|4,39,24,49,1611747132,"~/.taskrc"
--'  24  49  ~/.taskrc
-|4,39,24,49,1611747132,"~/.taskrc"
--'  24  49  ~/.taskrc
-|4,39,24,49,1611747132,"~/.taskrc"
--'  24  49  ~/.taskrc
-|4,39,24,49,1611747132,"~/.taskrc"
--'  24  49  ~/.taskrc
-|4,39,24,49,1611747132,"~/.taskrc"
--'  24  49  ~/.taskrc
-|4,39,24,49,1611747132,"~/.taskrc"
--'  24  49  ~/.taskrc
-|4,39,24,49,1611747132,"~/.taskrc"
--'  24  49  ~/.taskrc
-|4,39,24,49,1611747132,"~/.taskrc"
+|4,39,1,0,1611756078,"~/.taskrc"
+-'  41  36  ~/.taskrc
+|4,39,41,36,1611756039,"~/.taskrc"
+-'  40  36  ~/.taskrc
+|4,39,40,36,1611756039,"~/.taskrc"
+-'  40  36  ~/.taskrc
+|4,39,40,36,1611756039,"~/.taskrc"
+-'  40  36  ~/.taskrc
+|4,39,40,36,1611756039,"~/.taskrc"
+-'  41  36  ~/.taskrc
+|4,39,41,36,1611756039,"~/.taskrc"
+-'  40  36  ~/.taskrc
+|4,39,40,36,1611756039,"~/.taskrc"
+-'  40  36  ~/.taskrc
+|4,39,40,36,1611756039,"~/.taskrc"
+-'  40  36  ~/.taskrc
+|4,39,40,36,1611756039,"~/.taskrc"
+-'  40  36  ~/.taskrc
+|4,39,40,36,1611756039,"~/.taskrc"
+-'  40  36  ~/.taskrc
+|4,39,40,36,1611756039,"~/.taskrc"
+-'  40  36  ~/.taskrc
+|4,39,40,36,1611756039,"~/.taskrc"
+-'  36  0  ~/.taskrc
+|4,39,36,0,1611755878,"~/.taskrc"
+-'  36  0  ~/.taskrc
+|4,39,36,0,1611755878,"~/.taskrc"
+-'  36  0  ~/.taskrc
+|4,39,36,0,1611755878,"~/.taskrc"
+-'  36  0  ~/.taskrc
+|4,39,36,0,1611755878,"~/.taskrc"
+-'  36  0  ~/.taskrc
+|4,39,36,0,1611755878,"~/.taskrc"
+-'  36  0  ~/.taskrc
+|4,39,36,0,1611755878,"~/.taskrc"
+-'  36  0  ~/.taskrc
+|4,39,36,0,1611755878,"~/.taskrc"
+-'  36  0  ~/.taskrc
+|4,39,36,0,1611755878,"~/.taskrc"
+-'  36  0  ~/.taskrc
+|4,39,36,0,1611755878,"~/.taskrc"
+-'  36  0  ~/.taskrc
+|4,39,36,0,1611755878,"~/.taskrc"
+-'  36  0  ~/.taskrc
+|4,39,36,0,1611755878,"~/.taskrc"
+-'  40  0  ~/.taskrc
+|4,39,40,0,1611755875,"~/.taskrc"
+-'  39  0  ~/.taskrc
+|4,39,39,0,1611755875,"~/.taskrc"
+-'  39  0  ~/.taskrc
+|4,39,39,0,1611755875,"~/.taskrc"
+-'  39  0  ~/.taskrc
+|4,39,39,0,1611755875,"~/.taskrc"
+-'  39  0  ~/.taskrc
+|4,39,39,0,1611755875,"~/.taskrc"
+-'  38  0  ~/.taskrc
+|4,39,38,0,1611755875,"~/.taskrc"
+-'  38  0  ~/.taskrc
+|4,39,38,0,1611755875,"~/.taskrc"
 -'  1  0  ~/.taskrc
-|4,39,1,0,1611745549,"~/.taskrc"
--'  23  0  ~/.taskrc
-|4,39,23,0,1611745376,"~/.taskrc"
--'  19  0  ~/.taskrc
-|4,39,19,0,1611745376,"~/.taskrc"
--'  23  0  ~/.taskrc
-|4,39,23,0,1611745376,"~/.taskrc"
--'  19  0  ~/.taskrc
-|4,39,19,0,1611745376,"~/.taskrc"
--'  23  0  ~/.taskrc
-|4,39,23,0,1611745376,"~/.taskrc"
--'  19  0  ~/.taskrc
-|4,39,19,0,1611745376,"~/.taskrc"
--'  23  0  ~/.taskrc
-|4,39,23,0,1611745376,"~/.taskrc"
--'  19  0  ~/.taskrc
-|4,39,19,0,1611745376,"~/.taskrc"
--'  23  0  ~/.taskrc
-|4,39,23,0,1611745376,"~/.taskrc"
--'  19  0  ~/.taskrc
-|4,39,19,0,1611745376,"~/.taskrc"
--'  23  0  ~/.taskrc
-|4,39,23,0,1611745376,"~/.taskrc"
--'  19  0  ~/.taskrc
-|4,39,19,0,1611745376,"~/.taskrc"
--'  23  0  ~/.taskrc
-|4,39,23,0,1611745376,"~/.taskrc"
--'  19  0  ~/.taskrc
-|4,39,19,0,1611745376,"~/.taskrc"
--'  23  0  ~/.taskrc
-|4,39,23,0,1611745376,"~/.taskrc"
--'  19  0  ~/.taskrc
-|4,39,19,0,1611745376,"~/.taskrc"
--'  23  0  ~/.taskrc
-|4,39,23,0,1611745376,"~/.taskrc"
--'  19  0  ~/.taskrc
-|4,39,19,0,1611745376,"~/.taskrc"
--'  23  0  ~/.taskrc
-|4,39,23,0,1611745376,"~/.taskrc"
--'  19  0  ~/.taskrc
-|4,39,19,0,1611745376,"~/.taskrc"
--'  23  0  ~/.taskrc
-|4,39,23,0,1611745376,"~/.taskrc"
--'  19  0  ~/.taskrc
-|4,39,19,0,1611745376,"~/.taskrc"
--'  16  8  ~/.taskrc
-|4,39,16,8,1611745352,"~/.taskrc"
--'  12  8  ~/.taskrc
-|4,39,12,8,1611745352,"~/.taskrc"
--'  16  8  ~/.taskrc
-|4,39,16,8,1611745352,"~/.taskrc"
--'  12  8  ~/.taskrc
-|4,39,12,8,1611745352,"~/.taskrc"
--'  16  8  ~/.taskrc
-|4,39,16,8,1611745352,"~/.taskrc"
--'  12  8  ~/.taskrc
-|4,39,12,8,1611745352,"~/.taskrc"
--'  16  8  ~/.taskrc
-|4,39,16,8,1611745352,"~/.taskrc"
--'  12  8  ~/.taskrc
-|4,39,12,8,1611745352,"~/.taskrc"
--'  16  8  ~/.taskrc
-|4,39,16,8,1611745352,"~/.taskrc"
--'  12  8  ~/.taskrc
-|4,39,12,8,1611745352,"~/.taskrc"
--'  16  8  ~/.taskrc
-|4,39,16,8,1611745352,"~/.taskrc"
--'  12  8  ~/.taskrc
-|4,39,12,8,1611745352,"~/.taskrc"
--'  16  8  ~/.taskrc
-|4,39,16,8,1611745352,"~/.taskrc"
--'  12  8  ~/.taskrc
-|4,39,12,8,1611745352,"~/.taskrc"
--'  16  8  ~/.taskrc
-|4,39,16,8,1611745352,"~/.taskrc"
--'  12  8  ~/.taskrc
-|4,39,12,8,1611745352,"~/.taskrc"
--'  16  8  ~/.taskrc
-|4,39,16,8,1611745352,"~/.taskrc"
--'  12  8  ~/.taskrc
-|4,39,12,8,1611745352,"~/.taskrc"
--'  16  8  ~/.taskrc
-|4,39,16,8,1611745352,"~/.taskrc"
--'  12  8  ~/.taskrc
-|4,39,12,8,1611745352,"~/.taskrc"
--'  16  8  ~/.taskrc
-|4,39,16,8,1611745352,"~/.taskrc"
--'  12  8  ~/.taskrc
-|4,39,12,8,1611745352,"~/.taskrc"
--'  15  0  ~/.taskrc
-|4,39,15,0,1611744006,"~/.taskrc"
--'  11  0  ~/.taskrc
-|4,39,11,0,1611744006,"~/.taskrc"
--'  15  0  ~/.taskrc
-|4,39,15,0,1611744006,"~/.taskrc"
+|4,39,1,0,1611755843,"~/.taskrc"
+-'  53  39  ~/notes/2020-08-28_5.md
+|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
+-'  53  39  ~/notes/2020-08-28_5.md
+|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
+-'  53  39  ~/notes/2020-08-28_5.md
+|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
+-'  53  39  ~/notes/2020-08-28_5.md
+|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
+-'  53  39  ~/notes/2020-08-28_5.md
+|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
+-'  53  39  ~/notes/2020-08-28_5.md
+|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
+-'  53  39  ~/notes/2020-08-28_5.md
+|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
+-'  53  39  ~/notes/2020-08-28_5.md
+|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
+-'  53  39  ~/notes/2020-08-28_5.md
+|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
+-'  53  39  ~/notes/2020-08-28_5.md
+|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
+-'  53  39  ~/notes/2020-08-28_5.md
+|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
+-'  53  39  ~/notes/2020-08-28_5.md
+|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
+-'  53  39  ~/notes/2020-08-28_5.md
+|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
+-'  53  39  ~/notes/2020-08-28_5.md
+|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
+-'  53  39  ~/notes/2020-08-28_5.md
+|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
+-'  53  39  ~/notes/2020-08-28_5.md
+|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
+-'  53  39  ~/notes/2020-08-28_5.md
+|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
+-'  53  39  ~/notes/2020-08-28_5.md
+|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
+-'  53  39  ~/notes/2020-08-28_5.md
+|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
+-'  53  39  ~/notes/2020-08-28_5.md
+|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
+-'  53  39  ~/notes/2020-08-28_5.md
+|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
+-'  53  39  ~/notes/2020-08-28_5.md
+|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
+-'  53  39  ~/notes/2020-08-28_5.md
+|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
 
 # History of marks within files (newest to oldest):
 
 > ~/.taskrc
-	*	1611750555	0
-	"	34	0
-	^	34	78
-	.	35	0
+	*	1611756917	0
+	"	42	0
+	^	38	32
+	.	40	42
 	+	16	0
 	+	17	0
 	+	19	7
@@ -527,6 +515,168 @@ $\\\/g
 	+	35	0
 	+	34	77
 	+	35	0
+	+	29	0
+	+	29	56
+	+	28	0
+	+	34	59
+	+	29	65
+	+	34	60
+	+	29	26
+	+	36	0
+	+	29	0
+	+	41	0
+	+	36	0
+	+	41	0
+	+	36	25
+	+	42	0
+	+	40	0
+	+	42	36
+	+	40	39
+	+	41	36
+	+	41	34
+	+	42	38
+	+	41	0
+	+	37	70
+	+	40	42
+	+	37	70
+	+	39	25
+	+	37	70
+	+	39	40
+	+	40	42
+	+	41	37
+	+	37	70
+	+	39	40
+	+	40	42
+	+	41	37
+	+	37	30
+	+	38	32
+	+	39	33
+	+	40	42
+
+> /usr/share/vim/vim82/doc/undo.txt
+	*	1611755922	0
+	"	20	0
+
+> ~/notes/2020-08-28_5.md
+	*	1611755676	0
+	"	53	39
+	^	53	40
+	.	53	39
+	+	16	27
+	+	17	23
+	+	18	24
+	+	19	34
+	+	20	34
+	+	21	23
+	+	22	29
+	+	23	42
+	+	28	40
+	+	29	44
+	+	30	61
+	+	31	25
+	+	32	0
+	+	31	0
+	+	32	33
+	+	33	86
+	+	34	39
+	+	35	27
+	+	36	42
+	+	37	21
+	+	38	62
+	+	39	61
+	+	40	58
+	+	40	68
+	+	41	118
+	+	41	33
+	+	30	30
+	+	33	20
+	+	38	24
+	+	39	27
+	+	40	35
+	+	40	32
+	+	42	0
+	+	44	14
+	+	45	14
+	+	31	14
+	+	36	34
+	+	31	14
+	+	36	33
+	+	51	0
+	+	40	39
+	+	52	59
+	+	40	0
+	+	26	0
+	+	52	0
+	+	27	0
+	+	26	55
+	+	27	75
+	+	53	39
+
+> ~/projects/task_extensions/reading_list_sync.py
+	*	1611755573	0
+	"	94	24
+	^	93	76
+	.	93	76
+	+	1	0
+	+	4	0
+	+	40	0
+	+	107	0
+	+	73	0
+	+	108	0
+	+	40	0
+	+	73	0
+	+	109	0
+	+	1	0
+	+	73	9
+	+	73	0
+	+	74	0
+	+	105	9
+	+	105	0
+	+	110	0
+	+	105	0
+	+	111	0
+	+	105	0
+	+	108	32
+	+	110	36
+	+	108	0
+	+	15	0
+	+	18	0
+	+	35	0
+	+	29	0
+	+	23	0
+	+	43	8
+	+	45	0
+	+	65	0
+	+	79	0
+	+	82	0
+	+	85	0
+	+	91	0
+	+	97	0
+	+	75	48
+	+	95	18
+	+	93	13
+	+	95	20
+	+	71	0
+	+	106	9
+	+	107	3
+	+	108	3
+	+	109	3
+	+	110	3
+	+	111	3
+	+	115	9
+	+	106	10
+	+	113	0
+	+	1	0
+	+	71	16
+	+	70	48
+	+	71	13
+	+	70	48
+	+	94	15
+	+	93	76
+
+> ~/projects/task_extensions/reading_list_sync.
+	*	1611755469	0
+	"	1	0
 
 > ~/documents/templates/letter_template/letter_template.tex
 	*	1611700248	0
@@ -865,60 +1015,6 @@ $\\\/g
 	+	2	9
 	+	2	41
 
-> ~/notes/2020-08-28_5.md
-	*	1611240163	0
-	"	26	0
-	^	27	76
-	.	27	75
-	+	16	27
-	+	17	23
-	+	18	24
-	+	19	34
-	+	20	34
-	+	21	23
-	+	22	29
-	+	23	42
-	+	28	40
-	+	29	44
-	+	30	61
-	+	31	25
-	+	32	0
-	+	31	0
-	+	32	33
-	+	33	86
-	+	34	39
-	+	35	27
-	+	36	42
-	+	37	21
-	+	38	62
-	+	39	61
-	+	40	58
-	+	40	68
-	+	41	118
-	+	41	33
-	+	30	30
-	+	33	20
-	+	38	24
-	+	39	27
-	+	40	35
-	+	40	32
-	+	42	0
-	+	44	14
-	+	45	14
-	+	31	14
-	+	36	34
-	+	31	14
-	+	36	33
-	+	51	0
-	+	40	39
-	+	52	59
-	+	40	0
-	+	26	0
-	+	52	0
-	+	27	0
-	+	26	55
-	+	27	75
-
 > ~/notes/2021-01-21_1.md
 	*	1611240143	0
 	"	20	46
@@ -991,70 +1087,6 @@ $\\\/g
 	^	2	63
 	.	2	62
 	+	2	62
-
-> ~/projects/task_extensions/reading_list_sync.py
-	*	1611005046	0
-	"	70	48
-	^	70	49
-	.	70	48
-	+	1	0
-	+	4	0
-	+	40	0
-	+	106	0
-	+	73	0
-	+	107	0
-	+	40	0
-	+	73	0
-	+	108	0
-	+	1	0
-	+	73	9
-	+	73	0
-	+	74	0
-	+	104	9
-	+	104	0
-	+	109	0
-	+	104	0
-	+	110	0
-	+	104	0
-	+	107	32
-	+	109	36
-	+	107	0
-	+	15	0
-	+	18	0
-	+	35	0
-	+	29	0
-	+	23	0
-	+	43	8
-	+	45	0
-	+	65	0
-	+	79	0
-	+	82	0
-	+	85	0
-	+	91	0
-	+	96	0
-	+	75	48
-	+	94	18
-	+	93	13
-	+	94	20
-	+	71	0
-	+	105	9
-	+	106	3
-	+	107	3
-	+	108	3
-	+	109	3
-	+	110	3
-	+	114	9
-	+	105	10
-	+	112	0
-	+	1	0
-	+	71	16
-	+	70	48
-	+	71	13
-	+	70	48
-
-> ~/projects/task_extensions/reading_list_sync.
-	*	1611004284	0
-	"	1	0
 
 > ~/bin/,reading_list_sync.py
 	*	1610989333	0

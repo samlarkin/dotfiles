@@ -31,4 +31,12 @@ report.reading.description=Reading list report, showing open entries
 report.reading.columns=id,project,status,wait,description.desc
 report.reading.labels=ID,Project,Status,Wait,Description
 report.reading.sort=status-,entry+
-report.reading.filter=project:reading and (status:waiting or status:completed or status:pending) and limit:page
+report.reading.filter=project:reading and status.not:deleted and limit:page
+
+# Custom urgency settings
+urgency.project.coefficient=0.0
+urgency.user.project.jobs.coefficient=5.0
+urgency.user.project.house.coefficient=5.0
+urgency.user.project.mindline.coefficient=3.0
+urgency.user.project.car.coefficient=2.0
+urgency.user.project.reading.coefficient=0.0
