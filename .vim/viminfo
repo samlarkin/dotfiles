@@ -11,41 +11,87 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/add_to
+~MSle0~/(
 
 # Last Substitute Search Pattern:
-~MSle0&'.raw'
+~MSle0&\\
 
 # Last Substitute String:
-$'.txt'
+$\\\/g
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1610828172,,"wq"
+|2,0,1611750560,,"wq"
+:w
+|2,0,1611750551,,"w"
+:tabe letter_template.tex
+|2,0,1611696041,,"tabe letter_template.tex"
+:%s/\\/\\\/g
+|2,0,1611694428,,"%s/\\\\/\\\\\\/g"
+:q
+|2,0,1611694409,,"q"
+:tabe config
+|2,0,1611693971,,"tabe config"
+:e compile_letter.py
+|2,0,1611693715,,"e compile_letter.py"
+:setlocal spell
+|2,0,1611682817,,"setlocal spell"
+:tabe letter.tex
+|2,0,1611682460,,"tabe letter.tex"
+:vimgrep /- peterson/g *
+|2,0,1611679055,,"vimgrep /- peterson/g *"
+:%s
+|2,0,1611675602,,"%s"
+:%s/p (?=\d{2})/**p/g
+|2,0,1611675565,,"%s/p (?=\\d{2})/**p/g"
+:vimgrep /-pet/g *
+|2,0,1611675449,,"vimgrep /-pet/g *"
+:vimgrep /-peter/g *
+|2,0,1611659313,,"vimgrep /-peter/g *"
+:vimgrep /-peterson/g *
+|2,0,1611659206,,"vimgrep /-peterson/g *"
+:e 2021-01-21_0.md
+|2,0,1611240173,,"e 2021-01-21_0.md"
+:b3
+|2,0,1611240088,,"b3"
+:b5
+|2,0,1611240081,,"b5"
+:ls
+|2,0,1611240071,,"ls"
+:b2
+|2,0,1611239867,,"b2"
+:e 2020-08-28_0.md
+|2,0,1611239846,,"e 2020-08-28_0.md"
+:r !grep "Fox" 2020-08-28_5.md
+|2,0,1611239763,,"r !grep \"Fox\" 2020-08-28_5.md"
+:e 2021-01-21_1.md
+|2,0,1611239726,,"e 2021-01-21_1.md"
+:e ../audio/
+|2,0,1611239713,,"e ../audio/"
+:e finance_tools.py
+|2,0,1611173058,,"e finance_tools.py"
+:e reading_list_sync.py
+|2,0,1611004974,,"e reading_list_sync.py"
+:e ,reading_list_sync.py
+|2,0,1610969496,,"e ,reading_list_sync.py"
+:tabe ,test.py
+|2,0,1610966640,,"tabe ,test.py"
+:%s/add_to_reading_list/add_to_md_list/g
+|2,0,1610966300,,"%s/add_to_reading_list/add_to_md_list/g"
+:tabe ,reading_list_sync.py
+|2,0,1610962769,,"tabe ,reading_list_sync.py"
 :e ,task_reading_list.py
 |2,0,1610826075,,"e ,task_reading_list.py"
-:w
-|2,0,1610825658,,"w"
-:b3
-|2,0,1610822062,,"b3"
-:b2
-|2,0,1610822032,,"b2"
 :b1
 |2,0,1610819847,,"b1"
 :e ~/bin/,volume.sh
 |2,0,1610819832,,"e ~/bin/,volume.sh"
-:ls
-|2,0,1610818814,,"ls"
 :b6
 |2,0,1610818812,,"b6"
-:b5
-|2,0,1610818795,,"b5"
 :b4
 |2,0,1610818790,,"b4"
 :b
 |2,0,1610818750,,"b"
-:q
-|2,0,1610646188,,"q"
 :!r python ,task_reading_list.py
 |2,0,1610644474,,"!r python ,task_reading_list.py"
 :r !python ,task_reading_list.py
@@ -70,6 +116,56 @@ $'.txt'
 |2,0,1610118249,,"e templates/templates/template.html"
 
 # Search String History (newest to oldest):
+?/(
+|2,1,1611744006,47,"("
+?/.md
+|2,1,1611699023,47,".md"
+?/tex_file
+|2,1,1611696271,47,"tex_file"
+?/\
+|2,1,1611694437,47,"\\"
+? \\
+|2,1,1611694428,,"\\\\"
+?/params
+|2,1,1611692726,47,"params"
+?/ump
+|2,1,1611692682,47,"ump"
+??'
+|2,1,1611692463,63,"'"
+?/pp
+|2,1,1611675612,47,"pp"
+? p (?=\d{2})
+|2,1,1611675565,,"p (?=\\d{2})"
+?/###
+|2,1,1611659211,47,"###"
+?/*
+|2,1,1611240214,47,"*"
+?/line.csv
+|2,1,1611231405,47,"line.csv"
+?/gen_df
+|2,1,1611175940,47,"gen_df"
+?/main(
+|2,1,1611173282,47,"main("
+?/_dt
+|2,1,1611173064,47,"_dt"
+?/main
+|2,1,1611173027,47,"main"
+?/f"
+|2,1,1611005031,47,"f\""
+?/test
+|2,1,1611004498,47,"test"
+?/}
+|2,1,1610989327,47,"}"
+?/tasks added
+|2,1,1610970151,47,"tasks added"
+? add_to_reading_list
+|2,1,1610966300,,"add_to_reading_list"
+?/path_to
+|2,1,1610965915,47,"path_to"
+?/_4
+|2,1,1610965574,47,"_4"
+?/'
+|2,1,1610907579,47,"'"
 ?/add_to
 |2,1,1610825387,47,"add_to"
 ?/flake
@@ -78,8 +174,6 @@ $'.txt'
 |2,1,1610645709,47,":"
 ??*
 |2,1,1610645633,63,"*"
-?/gen_df
-|2,1,1610469437,47,"gen_df"
 ?/raw
 |2,1,1610466563,47,"raw"
 ? '.raw'
@@ -98,285 +192,1188 @@ $'.txt'
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	'/home/sam/notes/2020-08-28_5.md'
-|3,0,0,0,1,0,1610825256,"'/home/sam/notes/2020-08-28_5.md'"
+"0	LINE	0
+	report.next.columns=id,project,due,description,urgency
+|3,0,0,1,1,0,1611747433,"report.next.columns=id,project,due,description,urgency"
 ""1	LINE	0
-	* .zsh_history
-|3,1,1,1,1,0,1610828154,"* .zsh_history"
+	
+|3,1,1,1,1,0,1611750548,""
 "2	LINE	0
-	        append_md_line(task)
-|3,0,2,1,1,0,1610825372,"        append_md_line(task)"
+	report.reading.sort=entry+
+|3,0,2,1,1,0,1611749326,"report.reading.sort=entry+"
 "3	LINE	0
-	    reading_list_path = '/home/sam/notes/2020-08-28_5.md'
-|3,0,3,1,1,0,1610825262,"    reading_list_path = '/home/sam/notes/2020-08-28_5.md'"
+	report.reading.columns=id,project,status,wait,description.desc
+	report.reading.labels=ID,Project,Status,Wait,Description
+|3,0,3,1,2,0,1611749240,"report.reading.columns=id,project,status,wait,description.desc","report.reading.labels=ID,Project,Status,Wait,Description"
 "4	LINE	0
-	def main():
-	    reading_list_path = '/home/sam/notes/2020-08-28_5.md'
-	    pass
 	
-	
-|3,0,4,1,5,0,1610825092,"def main():","    reading_list_path = '/home/sam/notes/2020-08-28_5.md'","    pass","",""
+|3,0,4,1,1,0,1611745367,""
 "5	LINE	0
-	def main():
-	    reading_list_path = '/home/sam/notes/2020-08-28_5.md'
-	    pass
-	
-	
-	if __name__ == '__main__':
-|3,0,5,1,6,0,1610825089,"def main():","    reading_list_path = '/home/sam/notes/2020-08-28_5.md'","    pass","","","if __name__ == '__main__':"
+	report.next.
+|3,0,5,1,1,0,1611745366,"report.next."
 "6	LINE	0
+	# Here is an example of entries that use the default, override and blank values
+	#   variable=foo   -- By specifying a value, this overrides the default
+	#   variable=      -- By specifying no value, this means no default
+	#   #variable=foo  -- By commenting out the line, or deleting it, this uses the default
 	
-|3,0,6,1,1,0,1610825057,""
+|3,0,6,1,5,0,1611744111,"# Here is an example of entries that use the default, override and blank values","#   variable=foo   -- By specifying a value, this overrides the default","#   variable=      -- By specifying no value, this means no default","#   #variable=foo  -- By commenting out the line, or deleting it, this uses the default",""
 "7	LINE	0
-	for task in task_data:
-	   if task['description'] not in reading_list:
-	       md_line = f"* {task['description']}" + '\n'
-	       with open(reading_list_path, 'a') as md_file:
-	           md_file.write(md_line)
-	
-|3,0,7,1,6,0,1610825054,"for task in task_data:","   if task['description'] not in reading_list:","       md_line = f\"* {task['description']}\" + '\\n'","       with open(reading_list_path, 'a') as md_file:","           md_file.write(md_line)",""
+	#include /usr/share/doc/task/rc/dark-red-256.theme
+	#include /usr/share/doc/task/rc/dark-green-256.theme
+	#include /usr/share/doc/task/rc/dark-blue-256.theme
+	#include /usr/share/doc/task/rc/dark-violets-256.theme
+	#include /usr/share/doc/task/rc/dark-yellow-green.theme
+	#include /usr/share/doc/task/rc/dark-gray-256.theme
+	#include /usr/share/doc/task/rc/dark-gray-blue-256.theme
+	#include /usr/share/doc/task/rc/solarized-dark-256.theme
+	#include /usr/share/doc/task/rc/solarized-light-256.theme
+	#include /usr/share/doc/task/rc/no-color.theme
+|3,0,7,1,10,0,1611744022,"#include /usr/share/doc/task/rc/dark-red-256.theme","#include /usr/share/doc/task/rc/dark-green-256.theme","#include /usr/share/doc/task/rc/dark-blue-256.theme","#include /usr/share/doc/task/rc/dark-violets-256.theme","#include /usr/share/doc/task/rc/dark-yellow-green.theme","#include /usr/share/doc/task/rc/dark-gray-256.theme","#include /usr/share/doc/task/rc/dark-gray-blue-256.theme",>58
+|<"#include /usr/share/doc/task/rc/solarized-dark-256.theme","#include /usr/share/doc/task/rc/solarized-light-256.theme","#include /usr/share/doc/task/rc/no-color.theme"
 "8	LINE	0
-	        with open
-|3,0,8,1,1,0,1610824840,"        with open"
+	#include /usr/share/doc/task/rc/light-16.theme
+	#include /usr/share/doc/task/rc/light-256.theme
+	#include /usr/share/doc/task/rc/dark-16.theme
+|3,0,8,1,3,0,1611744015,"#include /usr/share/doc/task/rc/light-16.theme","#include /usr/share/doc/task/rc/light-256.theme","#include /usr/share/doc/task/rc/dark-16.theme"
 "9	LINE	0
-	    md_line = 
-|3,0,9,1,1,0,1610824557,"    md_line = "
-"a	CHAR	0
-	$?*lDj
-|3,0,10,0,1,0,1610645586,"$?*lDj"
-"b@	CHAR	0
+	\setkomafont{fromname}{\sffamily \LARGE}
+	\setkomafont{fromaddress}{\sffamily}%% statt \small
+	\setkomafont{pagenumber}{\sffamily}
+	\setkomafont{subject}{\bfseries}
+	\setkomafont{backaddress}{\mdseries}
+	
+|3,0,9,1,6,0,1611699471,"\\setkomafont{fromname}{\\sffamily \\LARGE}","\\setkomafont{fromaddress}{\\sffamily}%% statt \\small","\\setkomafont{pagenumber}{\\sffamily}","\\setkomafont{subject}{\\bfseries}","\\setkomafont{backaddress}{\\mdseries}",""
+"a@	CHAR	0
+	i'€ýaf:i'€ýa?'€kd
+|3,2,10,0,1,0,1611692453,"i'€ýaf:i'€ýa?'€kd"
+"b	CHAR	0
 	0/:dt*
-|3,2,11,0,1,0,1610645685,"0/:dt*"
+|3,0,11,0,1,0,1610645685,"0/:dt*"
 "-	CHAR	0
-	pass
-|3,0,36,0,1,0,1610825502,"pass"
+	or status:pending) and limit:page
+|3,0,36,0,1,0,1611750535,"or status:pending) and limit:page"
 
 # File marks:
-'0  1  0  ~/dotfiles/README.md
-|4,48,1,0,1610828172,"~/dotfiles/README.md"
-'1  1  0  ~/dotfiles/.gitignore
-|4,49,1,0,1610828066,"~/dotfiles/.gitignore"
-'2  44  14  ~/notes/2020-08-28_5.md
-|4,50,44,14,1610826362,"~/notes/2020-08-28_5.md"
-'3  19  0  ~/bin/,task_reading_list.py
-|4,51,19,0,1610826108,"~/bin/,task_reading_list.py"
-'4  1  0  ~/bin/,task_reading_list.py
-|4,52,1,0,1610825696,"~/bin/,task_reading_list.py"
-'5  1  0  ~/bin/,task_reading_list.py
-|4,53,1,0,1610825696,"~/bin/,task_reading_list.py"
-'6  6  16  ~/dotfiles/.xinitrc
-|4,54,6,16,1610822528,"~/dotfiles/.xinitrc"
-'7  128  0  ~/src/dwm/config.h
-|4,55,128,0,1610822361,"~/src/dwm/config.h"
-'8  2  0  ~/bin/,volume_up.sh
-|4,56,2,0,1610822089,"~/bin/,volume_up.sh"
-'9  1  0  ~/bin/,volume_up.sh
-|4,57,1,0,1610821990,"~/bin/,volume_up.sh"
+'0  34  0  ~/.taskrc
+|4,48,34,0,1611750560,"~/.taskrc"
+'1  34  77  ~/.taskrc
+|4,49,34,77,1611750154,"~/.taskrc"
+'2  34  37  ~/.taskrc
+|4,50,34,37,1611749795,"~/.taskrc"
+'3  34  37  ~/.taskrc
+|4,51,34,37,1611749795,"~/.taskrc"
+'4  34  51  ~/.taskrc
+|4,52,34,51,1611749780,"~/.taskrc"
+'5  34  51  ~/.taskrc
+|4,53,34,51,1611749780,"~/.taskrc"
+'6  34  51  ~/.taskrc
+|4,54,34,51,1611749780,"~/.taskrc"
+'7  34  51  ~/.taskrc
+|4,55,34,51,1611749780,"~/.taskrc"
+'8  34  76  ~/.taskrc
+|4,56,34,76,1611749751,"~/.taskrc"
+'9  34  76  ~/.taskrc
+|4,57,34,76,1611749751,"~/.taskrc"
 
 # Jumplist (newest first):
--'  1  0  ~/dotfiles/README.md
-|4,39,1,0,1610828172,"~/dotfiles/README.md"
--'  1  0  ~/dotfiles/.gitignore
-|4,39,1,0,1610828066,"~/dotfiles/.gitignore"
--'  1  0  ~/dotfiles/.gitignore
-|4,39,1,0,1610828066,"~/dotfiles/.gitignore"
--'  44  14  ~/notes/2020-08-28_5.md
-|4,39,44,14,1610826362,"~/notes/2020-08-28_5.md"
--'  44  14  ~/notes/2020-08-28_5.md
-|4,39,44,14,1610826362,"~/notes/2020-08-28_5.md"
--'  44  14  ~/notes/2020-08-28_5.md
-|4,39,44,14,1610826362,"~/notes/2020-08-28_5.md"
--'  44  14  ~/notes/2020-08-28_5.md
-|4,39,44,14,1610826362,"~/notes/2020-08-28_5.md"
--'  1  0  ~/notes/2020-08-28_5.md
-|4,39,1,0,1610826349,"~/notes/2020-08-28_5.md"
--'  1  0  ~/notes/2020-08-28_5.md
-|4,39,1,0,1610826349,"~/notes/2020-08-28_5.md"
--'  1  0  ~/notes/2020-08-28_5.md
-|4,39,1,0,1610826349,"~/notes/2020-08-28_5.md"
--'  1  0  ~/notes/2020-08-28_5.md
-|4,39,1,0,1610826349,"~/notes/2020-08-28_5.md"
--'  19  0  ~/bin/,task_reading_list.py
-|4,39,19,0,1610826108,"~/bin/,task_reading_list.py"
--'  19  0  ~/bin/,task_reading_list.py
-|4,39,19,0,1610826108,"~/bin/,task_reading_list.py"
--'  19  0  ~/bin/,task_reading_list.py
-|4,39,19,0,1610826108,"~/bin/,task_reading_list.py"
--'  19  0  ~/bin/,task_reading_list.py
-|4,39,19,0,1610826108,"~/bin/,task_reading_list.py"
--'  19  0  ~/bin/,task_reading_list.py
-|4,39,19,0,1610826108,"~/bin/,task_reading_list.py"
--'  19  0  ~/bin/,task_reading_list.py
-|4,39,19,0,1610826108,"~/bin/,task_reading_list.py"
--'  19  0  ~/bin/,task_reading_list.py
-|4,39,19,0,1610826108,"~/bin/,task_reading_list.py"
--'  19  0  ~/bin/,task_reading_list.py
-|4,39,19,0,1610826108,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610825961,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610825961,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610825961,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610825961,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610825961,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610825961,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610825961,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610825961,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610825696,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610825696,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610825696,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610825696,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610825696,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610825696,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610825696,"~/bin/,task_reading_list.py"
--'  1  0  ~/bin/,task_reading_list.py
-|4,39,1,0,1610825696,"~/bin/,task_reading_list.py"
--'  13  52  ~/bin/,task_reading_list.py
-|4,39,13,52,1610825427,"~/bin/,task_reading_list.py"
--'  13  52  ~/bin/,task_reading_list.py
-|4,39,13,52,1610825427,"~/bin/,task_reading_list.py"
--'  13  52  ~/bin/,task_reading_list.py
-|4,39,13,52,1610825427,"~/bin/,task_reading_list.py"
--'  13  52  ~/bin/,task_reading_list.py
-|4,39,13,52,1610825427,"~/bin/,task_reading_list.py"
--'  13  52  ~/bin/,task_reading_list.py
-|4,39,13,52,1610825427,"~/bin/,task_reading_list.py"
--'  13  52  ~/bin/,task_reading_list.py
-|4,39,13,52,1610825427,"~/bin/,task_reading_list.py"
--'  13  52  ~/bin/,task_reading_list.py
-|4,39,13,52,1610825427,"~/bin/,task_reading_list.py"
--'  13  52  ~/bin/,task_reading_list.py
-|4,39,13,52,1610825427,"~/bin/,task_reading_list.py"
--'  13  52  ~/bin/,task_reading_list.py
-|4,39,13,52,1610825427,"~/bin/,task_reading_list.py"
--'  13  52  ~/bin/,task_reading_list.py
-|4,39,13,52,1610825427,"~/bin/,task_reading_list.py"
--'  13  52  ~/bin/,task_reading_list.py
-|4,39,13,52,1610825427,"~/bin/,task_reading_list.py"
--'  13  52  ~/bin/,task_reading_list.py
-|4,39,13,52,1610825427,"~/bin/,task_reading_list.py"
--'  13  52  ~/bin/,task_reading_list.py
-|4,39,13,52,1610825427,"~/bin/,task_reading_list.py"
--'  13  52  ~/bin/,task_reading_list.py
-|4,39,13,52,1610825427,"~/bin/,task_reading_list.py"
--'  13  52  ~/bin/,task_reading_list.py
-|4,39,13,52,1610825427,"~/bin/,task_reading_list.py"
--'  13  52  ~/bin/,task_reading_list.py
-|4,39,13,52,1610825427,"~/bin/,task_reading_list.py"
--'  15  47  ~/bin/,task_reading_list.py
-|4,39,15,47,1610825421,"~/bin/,task_reading_list.py"
--'  15  47  ~/bin/,task_reading_list.py
-|4,39,15,47,1610825421,"~/bin/,task_reading_list.py"
--'  15  47  ~/bin/,task_reading_list.py
-|4,39,15,47,1610825421,"~/bin/,task_reading_list.py"
--'  15  47  ~/bin/,task_reading_list.py
-|4,39,15,47,1610825421,"~/bin/,task_reading_list.py"
--'  15  47  ~/bin/,task_reading_list.py
-|4,39,15,47,1610825421,"~/bin/,task_reading_list.py"
--'  15  47  ~/bin/,task_reading_list.py
-|4,39,15,47,1610825421,"~/bin/,task_reading_list.py"
--'  15  47  ~/bin/,task_reading_list.py
-|4,39,15,47,1610825421,"~/bin/,task_reading_list.py"
--'  15  47  ~/bin/,task_reading_list.py
-|4,39,15,47,1610825421,"~/bin/,task_reading_list.py"
--'  15  47  ~/bin/,task_reading_list.py
-|4,39,15,47,1610825421,"~/bin/,task_reading_list.py"
--'  15  47  ~/bin/,task_reading_list.py
-|4,39,15,47,1610825421,"~/bin/,task_reading_list.py"
--'  15  47  ~/bin/,task_reading_list.py
-|4,39,15,47,1610825421,"~/bin/,task_reading_list.py"
--'  15  47  ~/bin/,task_reading_list.py
-|4,39,15,47,1610825421,"~/bin/,task_reading_list.py"
--'  15  47  ~/bin/,task_reading_list.py
-|4,39,15,47,1610825421,"~/bin/,task_reading_list.py"
--'  15  47  ~/bin/,task_reading_list.py
-|4,39,15,47,1610825421,"~/bin/,task_reading_list.py"
--'  15  47  ~/bin/,task_reading_list.py
-|4,39,15,47,1610825421,"~/bin/,task_reading_list.py"
--'  15  47  ~/bin/,task_reading_list.py
-|4,39,15,47,1610825421,"~/bin/,task_reading_list.py"
--'  52  4  ~/bin/,task_reading_list.py
-|4,39,52,4,1610825394,"~/bin/,task_reading_list.py"
--'  49  4  ~/bin/,task_reading_list.py
-|4,39,49,4,1610825394,"~/bin/,task_reading_list.py"
--'  52  4  ~/bin/,task_reading_list.py
-|4,39,52,4,1610825394,"~/bin/,task_reading_list.py"
--'  49  4  ~/bin/,task_reading_list.py
-|4,39,49,4,1610825394,"~/bin/,task_reading_list.py"
--'  52  4  ~/bin/,task_reading_list.py
-|4,39,52,4,1610825394,"~/bin/,task_reading_list.py"
--'  49  4  ~/bin/,task_reading_list.py
-|4,39,49,4,1610825394,"~/bin/,task_reading_list.py"
--'  52  4  ~/bin/,task_reading_list.py
-|4,39,52,4,1610825394,"~/bin/,task_reading_list.py"
--'  49  4  ~/bin/,task_reading_list.py
-|4,39,49,4,1610825394,"~/bin/,task_reading_list.py"
--'  52  4  ~/bin/,task_reading_list.py
-|4,39,52,4,1610825394,"~/bin/,task_reading_list.py"
--'  49  4  ~/bin/,task_reading_list.py
-|4,39,49,4,1610825394,"~/bin/,task_reading_list.py"
--'  52  4  ~/bin/,task_reading_list.py
-|4,39,52,4,1610825394,"~/bin/,task_reading_list.py"
--'  49  4  ~/bin/,task_reading_list.py
-|4,39,49,4,1610825394,"~/bin/,task_reading_list.py"
--'  52  4  ~/bin/,task_reading_list.py
-|4,39,52,4,1610825394,"~/bin/,task_reading_list.py"
--'  49  4  ~/bin/,task_reading_list.py
-|4,39,49,4,1610825394,"~/bin/,task_reading_list.py"
--'  52  4  ~/bin/,task_reading_list.py
-|4,39,52,4,1610825394,"~/bin/,task_reading_list.py"
--'  49  4  ~/bin/,task_reading_list.py
-|4,39,49,4,1610825394,"~/bin/,task_reading_list.py"
--'  18  21  ~/bin/,task_reading_list.py
-|4,39,18,21,1610825387,"~/bin/,task_reading_list.py"
--'  17  21  ~/bin/,task_reading_list.py
-|4,39,17,21,1610825387,"~/bin/,task_reading_list.py"
--'  18  21  ~/bin/,task_reading_list.py
-|4,39,18,21,1610825387,"~/bin/,task_reading_list.py"
--'  17  21  ~/bin/,task_reading_list.py
-|4,39,17,21,1610825387,"~/bin/,task_reading_list.py"
--'  18  21  ~/bin/,task_reading_list.py
-|4,39,18,21,1610825387,"~/bin/,task_reading_list.py"
--'  17  21  ~/bin/,task_reading_list.py
-|4,39,17,21,1610825387,"~/bin/,task_reading_list.py"
--'  18  21  ~/bin/,task_reading_list.py
-|4,39,18,21,1610825387,"~/bin/,task_reading_list.py"
--'  17  21  ~/bin/,task_reading_list.py
-|4,39,17,21,1610825387,"~/bin/,task_reading_list.py"
--'  18  21  ~/bin/,task_reading_list.py
-|4,39,18,21,1610825387,"~/bin/,task_reading_list.py"
--'  17  21  ~/bin/,task_reading_list.py
-|4,39,17,21,1610825387,"~/bin/,task_reading_list.py"
--'  18  21  ~/bin/,task_reading_list.py
-|4,39,18,21,1610825387,"~/bin/,task_reading_list.py"
--'  17  21  ~/bin/,task_reading_list.py
-|4,39,17,21,1610825387,"~/bin/,task_reading_list.py"
--'  18  21  ~/bin/,task_reading_list.py
-|4,39,18,21,1610825387,"~/bin/,task_reading_list.py"
--'  17  21  ~/bin/,task_reading_list.py
-|4,39,17,21,1610825387,"~/bin/,task_reading_list.py"
--'  18  21  ~/bin/,task_reading_list.py
-|4,39,18,21,1610825387,"~/bin/,task_reading_list.py"
--'  17  21  ~/bin/,task_reading_list.py
-|4,39,17,21,1610825387,"~/bin/,task_reading_list.py"
--'  65  4  ~/bin/,task_reading_list.py
-|4,39,65,4,1610825090,"~/bin/,task_reading_list.py"
+-'  34  0  ~/.taskrc
+|4,39,34,0,1611750560,"~/.taskrc"
+-'  1  0  ~/.taskrc
+|4,39,1,0,1611750510,"~/.taskrc"
+-'  34  77  ~/.taskrc
+|4,39,34,77,1611750154,"~/.taskrc"
+-'  1  0  ~/.taskrc
+|4,39,1,0,1611750114,"~/.taskrc"
+-'  34  37  ~/.taskrc
+|4,39,34,37,1611749795,"~/.taskrc"
+-'  1  0  ~/.taskrc
+|4,39,1,0,1611749789,"~/.taskrc"
+-'  34  51  ~/.taskrc
+|4,39,34,51,1611749780,"~/.taskrc"
+-'  1  0  ~/.taskrc
+|4,39,1,0,1611749770,"~/.taskrc"
+-'  34  76  ~/.taskrc
+|4,39,34,76,1611749751,"~/.taskrc"
+-'  1  0  ~/.taskrc
+|4,39,1,0,1611749747,"~/.taskrc"
+-'  35  11  ~/.taskrc
+|4,39,35,11,1611749735,"~/.taskrc"
+-'  35  12  ~/.taskrc
+|4,39,35,12,1611749735,"~/.taskrc"
+-'  35  12  ~/.taskrc
+|4,39,35,12,1611749735,"~/.taskrc"
+-'  35  12  ~/.taskrc
+|4,39,35,12,1611749735,"~/.taskrc"
+-'  1  0  ~/.taskrc
+|4,39,1,0,1611749645,"~/.taskrc"
+-'  33  26  ~/.taskrc
+|4,39,33,26,1611749473,"~/.taskrc"
+-'  33  26  ~/.taskrc
+|4,39,33,26,1611749473,"~/.taskrc"
+-'  33  26  ~/.taskrc
+|4,39,33,26,1611749473,"~/.taskrc"
+-'  33  26  ~/.taskrc
+|4,39,33,26,1611749473,"~/.taskrc"
+-'  33  26  ~/.taskrc
+|4,39,33,26,1611749473,"~/.taskrc"
+-'  33  26  ~/.taskrc
+|4,39,33,26,1611749473,"~/.taskrc"
+-'  33  26  ~/.taskrc
+|4,39,33,26,1611749473,"~/.taskrc"
+-'  1  0  ~/.taskrc
+|4,39,1,0,1611749465,"~/.taskrc"
+-'  33  25  ~/.taskrc
+|4,39,33,25,1611749434,"~/.taskrc"
+-'  1  0  ~/.taskrc
+|4,39,1,0,1611749416,"~/.taskrc"
+-'  34  0  ~/.taskrc
+|4,39,34,0,1611749332,"~/.taskrc"
+-'  34  0  ~/.taskrc
+|4,39,34,0,1611749332,"~/.taskrc"
+-'  34  0  ~/.taskrc
+|4,39,34,0,1611749332,"~/.taskrc"
+-'  34  0  ~/.taskrc
+|4,39,34,0,1611749332,"~/.taskrc"
+-'  1  0  ~/.taskrc
+|4,39,1,0,1611748175,"~/.taskrc"
+-'  26  65  ~/.taskrc
+|4,39,26,65,1611747689,"~/.taskrc"
+-'  26  65  ~/.taskrc
+|4,39,26,65,1611747689,"~/.taskrc"
+-'  26  65  ~/.taskrc
+|4,39,26,65,1611747689,"~/.taskrc"
+-'  26  65  ~/.taskrc
+|4,39,26,65,1611747689,"~/.taskrc"
+-'  26  65  ~/.taskrc
+|4,39,26,65,1611747689,"~/.taskrc"
+-'  26  65  ~/.taskrc
+|4,39,26,65,1611747689,"~/.taskrc"
+-'  26  65  ~/.taskrc
+|4,39,26,65,1611747689,"~/.taskrc"
+-'  26  65  ~/.taskrc
+|4,39,26,65,1611747689,"~/.taskrc"
+-'  26  65  ~/.taskrc
+|4,39,26,65,1611747689,"~/.taskrc"
+-'  26  65  ~/.taskrc
+|4,39,26,65,1611747689,"~/.taskrc"
+-'  1  0  ~/.taskrc
+|4,39,1,0,1611747268,"~/.taskrc"
+-'  24  49  ~/.taskrc
+|4,39,24,49,1611747132,"~/.taskrc"
+-'  24  49  ~/.taskrc
+|4,39,24,49,1611747132,"~/.taskrc"
+-'  24  49  ~/.taskrc
+|4,39,24,49,1611747132,"~/.taskrc"
+-'  24  49  ~/.taskrc
+|4,39,24,49,1611747132,"~/.taskrc"
+-'  24  49  ~/.taskrc
+|4,39,24,49,1611747132,"~/.taskrc"
+-'  24  49  ~/.taskrc
+|4,39,24,49,1611747132,"~/.taskrc"
+-'  24  49  ~/.taskrc
+|4,39,24,49,1611747132,"~/.taskrc"
+-'  24  49  ~/.taskrc
+|4,39,24,49,1611747132,"~/.taskrc"
+-'  24  49  ~/.taskrc
+|4,39,24,49,1611747132,"~/.taskrc"
+-'  24  49  ~/.taskrc
+|4,39,24,49,1611747132,"~/.taskrc"
+-'  24  49  ~/.taskrc
+|4,39,24,49,1611747132,"~/.taskrc"
+-'  1  0  ~/.taskrc
+|4,39,1,0,1611745549,"~/.taskrc"
+-'  23  0  ~/.taskrc
+|4,39,23,0,1611745376,"~/.taskrc"
+-'  19  0  ~/.taskrc
+|4,39,19,0,1611745376,"~/.taskrc"
+-'  23  0  ~/.taskrc
+|4,39,23,0,1611745376,"~/.taskrc"
+-'  19  0  ~/.taskrc
+|4,39,19,0,1611745376,"~/.taskrc"
+-'  23  0  ~/.taskrc
+|4,39,23,0,1611745376,"~/.taskrc"
+-'  19  0  ~/.taskrc
+|4,39,19,0,1611745376,"~/.taskrc"
+-'  23  0  ~/.taskrc
+|4,39,23,0,1611745376,"~/.taskrc"
+-'  19  0  ~/.taskrc
+|4,39,19,0,1611745376,"~/.taskrc"
+-'  23  0  ~/.taskrc
+|4,39,23,0,1611745376,"~/.taskrc"
+-'  19  0  ~/.taskrc
+|4,39,19,0,1611745376,"~/.taskrc"
+-'  23  0  ~/.taskrc
+|4,39,23,0,1611745376,"~/.taskrc"
+-'  19  0  ~/.taskrc
+|4,39,19,0,1611745376,"~/.taskrc"
+-'  23  0  ~/.taskrc
+|4,39,23,0,1611745376,"~/.taskrc"
+-'  19  0  ~/.taskrc
+|4,39,19,0,1611745376,"~/.taskrc"
+-'  23  0  ~/.taskrc
+|4,39,23,0,1611745376,"~/.taskrc"
+-'  19  0  ~/.taskrc
+|4,39,19,0,1611745376,"~/.taskrc"
+-'  23  0  ~/.taskrc
+|4,39,23,0,1611745376,"~/.taskrc"
+-'  19  0  ~/.taskrc
+|4,39,19,0,1611745376,"~/.taskrc"
+-'  23  0  ~/.taskrc
+|4,39,23,0,1611745376,"~/.taskrc"
+-'  19  0  ~/.taskrc
+|4,39,19,0,1611745376,"~/.taskrc"
+-'  23  0  ~/.taskrc
+|4,39,23,0,1611745376,"~/.taskrc"
+-'  19  0  ~/.taskrc
+|4,39,19,0,1611745376,"~/.taskrc"
+-'  16  8  ~/.taskrc
+|4,39,16,8,1611745352,"~/.taskrc"
+-'  12  8  ~/.taskrc
+|4,39,12,8,1611745352,"~/.taskrc"
+-'  16  8  ~/.taskrc
+|4,39,16,8,1611745352,"~/.taskrc"
+-'  12  8  ~/.taskrc
+|4,39,12,8,1611745352,"~/.taskrc"
+-'  16  8  ~/.taskrc
+|4,39,16,8,1611745352,"~/.taskrc"
+-'  12  8  ~/.taskrc
+|4,39,12,8,1611745352,"~/.taskrc"
+-'  16  8  ~/.taskrc
+|4,39,16,8,1611745352,"~/.taskrc"
+-'  12  8  ~/.taskrc
+|4,39,12,8,1611745352,"~/.taskrc"
+-'  16  8  ~/.taskrc
+|4,39,16,8,1611745352,"~/.taskrc"
+-'  12  8  ~/.taskrc
+|4,39,12,8,1611745352,"~/.taskrc"
+-'  16  8  ~/.taskrc
+|4,39,16,8,1611745352,"~/.taskrc"
+-'  12  8  ~/.taskrc
+|4,39,12,8,1611745352,"~/.taskrc"
+-'  16  8  ~/.taskrc
+|4,39,16,8,1611745352,"~/.taskrc"
+-'  12  8  ~/.taskrc
+|4,39,12,8,1611745352,"~/.taskrc"
+-'  16  8  ~/.taskrc
+|4,39,16,8,1611745352,"~/.taskrc"
+-'  12  8  ~/.taskrc
+|4,39,12,8,1611745352,"~/.taskrc"
+-'  16  8  ~/.taskrc
+|4,39,16,8,1611745352,"~/.taskrc"
+-'  12  8  ~/.taskrc
+|4,39,12,8,1611745352,"~/.taskrc"
+-'  16  8  ~/.taskrc
+|4,39,16,8,1611745352,"~/.taskrc"
+-'  12  8  ~/.taskrc
+|4,39,12,8,1611745352,"~/.taskrc"
+-'  16  8  ~/.taskrc
+|4,39,16,8,1611745352,"~/.taskrc"
+-'  12  8  ~/.taskrc
+|4,39,12,8,1611745352,"~/.taskrc"
+-'  15  0  ~/.taskrc
+|4,39,15,0,1611744006,"~/.taskrc"
+-'  11  0  ~/.taskrc
+|4,39,11,0,1611744006,"~/.taskrc"
+-'  15  0  ~/.taskrc
+|4,39,15,0,1611744006,"~/.taskrc"
 
 # History of marks within files (newest to oldest):
+
+> ~/.taskrc
+	*	1611750555	0
+	"	34	0
+	^	34	78
+	.	35	0
+	+	16	0
+	+	17	0
+	+	19	7
+	+	15	13
+	+	16	0
+	+	17	0
+	+	18	24
+	+	10	0
+	+	16	37
+	+	21	9
+	+	22	15
+	+	23	15
+	+	24	11
+	+	16	0
+	+	19	8
+	+	24	0
+	+	5	12
+	+	6	1
+	+	8	1
+	+	6	18
+	+	3	0
+	+	24	0
+	+	25	17
+	+	26	53
+	+	27	48
+	+	26	65
+	+	25	37
+	+	29	28
+	+	34	75
+	+	35	50
+	+	34	38
+	+	30	25
+	+	34	37
+	+	30	67
+	+	34	76
+	+	31	0
+	+	34	76
+	+	33	26
+	+	34	77
+	+	35	0
+	+	34	77
+	+	35	0
+
+> ~/documents/templates/letter_template/letter_template.tex
+	*	1611700248	0
+	"	26	28
+	^	26	29
+	.	26	28
+	+	32	12
+	+	11	19
+	+	4	24
+	+	5	12
+	+	6	0
+	+	5	12
+	+	6	0
+	+	5	12
+	+	5	11
+	+	28	0
+	+	8	19
+	+	28	0
+	+	31	0
+	+	32	0
+	+	31	0
+	+	32	0
+	+	10	12
+	+	11	12
+	+	15	11
+	+	9	14
+	+	26	28
+
+> ~/documents/templates/letter_template/compile_letter.py
+	*	1611699029	0
+	"	60	17
+	^	60	18
+	.	60	17
+	+	32	33
+	+	33	37
+	+	40	15
+	+	3	1
+	+	5	0
+	+	3	0
+	+	33	14
+	+	40	28
+	+	40	16
+	+	5	29
+	+	18	0
+	+	19	7
+	+	18	24
+	+	5	40
+	+	5	0
+	+	5	11
+	+	7	0
+	+	5	0
+	+	6	0
+	+	7	3
+	+	7	33
+	+	6	12
+	+	17	41
+	+	23	0
+	+	7	28
+	+	7	24
+	+	7	0
+	+	7	28
+	+	7	16
+	+	14	0
+	+	8	18
+	+	23	52
+	+	26	0
+	+	25	26
+	+	22	0
+	+	29	0
+	+	23	54
+	+	15	0
+	+	24	32
+	+	20	16
+	+	27	18
+	+	30	37
+	+	33	0
+	+	31	53
+	+	36	0
+	+	30	39
+	+	40	15
+	+	4	0
+	+	7	12
+	+	8	14
+	+	9	37
+	+	34	18
+	+	9	24
+	+	5	19
+	+	7	0
+	+	60	17
+	+	37	19
+	+	38	57
+	+	40	14
+	+	40	4
+	+	42	0
+	+	43	0
+	+	37	27
+	+	10	27
+	+	44	46
+	+	57	0
+	+	39	48
+	+	40	43
+	+	58	0
+	+	45	43
+	+	41	18
+	+	10	14
+	+	46	14
+	+	44	43
+	+	46	34
+	+	48	55
+	+	50	37
+	+	11	4
+	+	10	8
+	+	11	56
+	+	39	8
+	+	40	40
+	+	41	15
+	+	44	40
+	+	46	18
+	+	58	0
+	+	13	0
+	+	11	8
+	+	50	11
+	+	49	14
+	+	50	18
+	+	57	0
+	+	53	29
+	+	55	37
+	+	56	23
+	+	54	24
+	+	13	0
+	+	12	26
+	+	13	17
+	+	60	17
+
+> ~/documents/templates/letter_template/body.txt
+	*	1611698951	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/documents/templates/letter_template/body.tex
+	*	1611697573	0
+	"	2	6
+	^	2	7
+	.	2	6
+	+	2	6
+
+> ~/documents/templates/letter_template/config.json
+	*	1611694521	0
+	"	1	93
+	^	1	94
+	.	1	93
+	+	1	93
+
+> ~/documents/templates/letter_template/config
+	*	1611694407	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/documents/templates/letter_template/letter.tex
+	*	1611689667	0
+	"	48	18
+	^	45	25
+	.	45	24
+	+	32	30
+	+	33	36
+	+	34	32
+	+	35	32
+	+	37	32
+	+	38	24
+	+	46	28
+	+	45	17
+	+	47	16
+	+	48	16
+	+	45	24
+
+> ~/documents/templates/letter_template/letter
+	*	1611681602	0
+	"	1	0
+
+> ~/documents/templates/letter_template/make_letter.py
+	*	1611681567	0
+	"	6	10
+	^	6	11
+	.	6	10
+	+	2	8
+	+	4	41
+	+	5	23
+	+	6	10
+
+> ~/documents/templates/letter_template/letter_content.md
+	*	1611681425	0
+	"	3	31
+	^	3	32
+	.	3	31
+	+	1	15
+	+	3	31
+
+> ~/documents/templates/letter_template/cover.tex
+	*	1611681173	0
+	"	50	0
+	^	19	0
+	.	45	15
+	+	4	0
+	+	2	12
+	+	3	11
+	+	33	77
+	+	34	29
+	+	48	0
+	+	25	1
+	+	26	0
+	+	19	0
+	+	10	13
+	+	9	16
+	+	8	20
+	+	12	19
+	+	13	14
+	+	14	16
+	+	15	22
+	+	16	16
+	+	17	14
+	+	46	21
+	+	47	9
+	+	48	9
+	+	45	15
+
+> ~/bin/,change_file_ext.py
+	*	1611680239	0
+	"	1	0
+	^	11	19
+	.	6	56
+	+	1	5
+	+	5	62
+	+	10	28
+	+	6	61
+	+	7	49
+	+	8	0
+	+	10	0
+	+	11	29
+	+	13	36
+	+	8	0
+	+	8	19
+	+	11	16
+	+	8	31
+	+	11	19
+	+	7	49
+	+	6	56
+
+> ~/notes/2021-01-21_0.md
+	*	1611679205	0
+	"	5	0
+	^	81	4
+	.	81	3
+	+	15	0
+	+	2	39
+	+	11	5
+	+	10	5
+	+	11	5
+	+	15	0
+	+	16	12
+	+	18	42
+	+	20	38
+	+	13	12
+	+	25	9
+	+	22	10
+	+	26	0
+	+	23	0
+	+	25	63
+	+	84	75
+	+	84	72
+	+	84	75
+	+	29	4
+	+	52	0
+	+	51	0
+	+	31	28
+	+	29	17
+	+	34	3
+	+	35	22
+	+	36	22
+	+	36	72
+	+	34	20
+	+	34	68
+	+	35	71
+	+	51	0
+	+	37	27
+	+	39	53
+	+	41	12
+	+	42	18
+	+	46	78
+	+	47	22
+	+	49	6
+	+	49	60
+	+	49	27
+	+	52	45
+	+	55	0
+	+	78	0
+	+	52	66
+	+	54	41
+	+	58	70
+	+	59	16
+	+	60	32
+	+	61	27
+	+	64	73
+	+	65	75
+	+	66	24
+	+	71	7
+	+	74	0
+	+	77	76
+	+	79	0
+	+	83	0
+	+	82	0
+	+	79	65
+	+	81	44
+	+	73	53
+	+	84	71
+	+	25	58
+	+	29	5
+	+	40	5
+	+	49	31
+	+	50	5
+	+	53	5
+	+	57	5
+	+	64	2
+	+	65	3
+	+	66	3
+	+	64	3
+	+	65	0
+	+	81	3
+
+> ~/bin/,compile_notes.sh
+	*	1611240700	0
+	"	2	40
+	^	2	41
+	.	2	41
+	+	2	9
+	+	2	41
+
+> ~/notes/2020-08-28_5.md
+	*	1611240163	0
+	"	26	0
+	^	27	76
+	.	27	75
+	+	16	27
+	+	17	23
+	+	18	24
+	+	19	34
+	+	20	34
+	+	21	23
+	+	22	29
+	+	23	42
+	+	28	40
+	+	29	44
+	+	30	61
+	+	31	25
+	+	32	0
+	+	31	0
+	+	32	33
+	+	33	86
+	+	34	39
+	+	35	27
+	+	36	42
+	+	37	21
+	+	38	62
+	+	39	61
+	+	40	58
+	+	40	68
+	+	41	118
+	+	41	33
+	+	30	30
+	+	33	20
+	+	38	24
+	+	39	27
+	+	40	35
+	+	40	32
+	+	42	0
+	+	44	14
+	+	45	14
+	+	31	14
+	+	36	34
+	+	31	14
+	+	36	33
+	+	51	0
+	+	40	39
+	+	52	59
+	+	40	0
+	+	26	0
+	+	52	0
+	+	27	0
+	+	26	55
+	+	27	75
+
+> ~/notes/2021-01-21_1.md
+	*	1611240143	0
+	"	20	46
+	^	20	47
+	.	20	46
+	+	13	0
+	+	2	21
+	+	2	22
+	+	3	0
+	+	2	20
+	+	9	8
+	+	11	16
+	+	13	0
+	+	15	0
+	+	14	0
+	+	15	0
+	+	16	14
+	+	17	0
+	+	16	0
+	+	17	0
+	+	16	63
+	+	18	26
+	+	20	46
+
+> ~/notes/2020-08-28_0.md
+	*	1611240083	0
+	"	1	0
+
+> ~/projects/finance/altair_viz.py
+	*	1611239232	0
+	"	103	0
+
+> ~/projects/finance/finance_tools.py
+	*	1611231426	0
+	"	80	60
+	^	80	61
+	.	80	60
+	+	98	42
+	+	57	41
+	+	13	7
+	+	22	62
+	+	28	11
+	+	15	22
+	+	34	39
+	+	39	65
+	+	45	34
+	+	47	22
+	+	54	54
+	+	58	74
+	+	71	37
+	+	86	62
+	+	71	7
+	+	86	7
+	+	88	22
+	+	93	71
+	+	95	10
+	+	95	0
+	+	140	71
+	+	123	0
+	+	107	8
+	+	107	0
+	+	144	0
+	+	134	60
+	+	135	42
+	+	80	60
+
+> ~/bin/,reading_list_sync.sh
+	*	1611006167	0
+	"	2	62
+	^	2	63
+	.	2	62
+	+	2	62
+
+> ~/projects/task_extensions/reading_list_sync.py
+	*	1611005046	0
+	"	70	48
+	^	70	49
+	.	70	48
+	+	1	0
+	+	4	0
+	+	40	0
+	+	106	0
+	+	73	0
+	+	107	0
+	+	40	0
+	+	73	0
+	+	108	0
+	+	1	0
+	+	73	9
+	+	73	0
+	+	74	0
+	+	104	9
+	+	104	0
+	+	109	0
+	+	104	0
+	+	110	0
+	+	104	0
+	+	107	32
+	+	109	36
+	+	107	0
+	+	15	0
+	+	18	0
+	+	35	0
+	+	29	0
+	+	23	0
+	+	43	8
+	+	45	0
+	+	65	0
+	+	79	0
+	+	82	0
+	+	85	0
+	+	91	0
+	+	96	0
+	+	75	48
+	+	94	18
+	+	93	13
+	+	94	20
+	+	71	0
+	+	105	9
+	+	106	3
+	+	107	3
+	+	108	3
+	+	109	3
+	+	110	3
+	+	114	9
+	+	105	10
+	+	112	0
+	+	1	0
+	+	71	16
+	+	70	48
+	+	71	13
+	+	70	48
+
+> ~/projects/task_extensions/reading_list_sync.
+	*	1611004284	0
+	"	1	0
+
+> ~/bin/,reading_list_sync.py
+	*	1610989333	0
+	"	18	67
+	^	18	68
+	.	18	67
+	+	108	14
+	+	108	12
+	+	108	52
+	+	108	93
+	+	108	53
+	+	109	0
+	+	108	54
+	+	108	76
+	+	57	30
+	+	60	18
+	+	29	13
+	+	47	0
+	+	108	0
+	+	63	46
+	+	65	0
+	+	64	0
+	+	64	7
+	+	65	0
+	+	64	40
+	+	108	0
+	+	107	27
+	+	67	23
+	+	69	23
+	+	73	11
+	+	68	67
+	+	54	22
+	+	55	35
+	+	65	0
+	+	108	19
+	+	111	0
+	+	74	0
+	+	69	35
+	+	70	41
+	+	73	0
+	+	76	43
+	+	71	23
+	+	73	0
+	+	5	8
+	+	79	30
+	+	104	0
+	+	79	33
+	+	80	14
+	+	106	6
+	+	107	6
+	+	108	6
+	+	17	0
+	+	17	23
+	+	18	61
+	+	67	20
+	+	69	46
+	+	72	33
+	+	82	25
+	+	103	0
+	+	83	35
+	+	84	37
+	+	82	35
+	+	86	8
+	+	105	0
+	+	88	33
+	+	89	38
+	+	88	31
+	+	89	59
+	+	90	15
+	+	103	0
+	+	110	65
+	+	110	86
+	+	112	0
+	+	111	26
+	+	112	48
+	+	112	0
+	+	112	47
+	+	112	0
+	+	112	16
+	+	112	25
+	+	112	43
+	+	112	19
+	+	110	53
+	+	112	0
+	+	112	46
+	+	112	12
+	+	112	24
+	+	112	60
+	+	113	0
+	+	50	32
+	+	44	0
+	+	43	76
+	+	112	26
+	+	92	30
+	+	96	49
+	+	99	59
+	+	101	64
+	+	97	21
+	+	98	42
+	+	99	24
+	+	102	7
+	+	111	30
+	+	110	55
+	+	112	0
+	+	9	74
+	+	18	67
+
+> ~/bin/README.md
+	*	1610970907	0
+	"	1	0
+	^	6	70
+	.	6	69
+	+	3	23
+	+	14	74
+	+	8	57
+	+	3	57
+	+	9	75
+	+	11	0
+	+	5	77
+	+	6	69
+
+> ~/bin/,test.py
+	*	1610968796	0
+	"	33	14
+	^	1	0
+	.	1	0
+	+	1	0
+
+> ~/bin/,task_reading_list.py
+	*	1610962680	0
+	"	90	0
+	.	63	0
+	+	64	21
+	+	63	18
+	+	64	37
+	+	65	3
+	+	69	9
+	+	70	0
+	+	69	0
+	+	69	4
+	+	70	0
+	+	46	22
+	+	47	13
+	+	47	0
+	+	49	0
+	+	48	17
+	+	61	0
+	+	56	30
+	+	57	46
+	+	56	41
+	+	58	25
+	+	61	0
+	+	63	0
+	+	54	0
+	+	51	34
+	+	52	34
+	+	53	28
+	+	52	22
+	+	59	36
+	+	56	47
+	+	63	0
+	+	68	0
+	+	11	0
+	+	12	27
+	+	58	17
+	+	13	26
+	+	15	4
+	+	15	0
+	+	13	11
+	+	15	4
+	+	26	0
+	+	18	51
+	+	15	36
+	+	15	0
+	+	14	3
+	+	15	39
+	+	26	20
+	+	18	15
+	+	27	22
+	+	60	15
+	+	27	60
+	+	18	8
+	+	20	23
+	+	16	12
+	+	19	17
+	+	24	21
+	+	27	24
+	+	62	0
+	+	63	29
+	+	63	16
+	+	63	19
+	+	63	24
+	+	63	50
+	+	26	0
+	+	24	22
+	+	26	0
+	+	63	51
+	+	63	0
+	+	16	0
+	+	26	0
+	+	26	46
+	+	26	47
+	+	26	17
+	+	9	8
+	+	16	43
+	+	26	0
+	+	26	17
+	+	63	11
+	+	27	0
+	+	25	0
+	+	26	12
+	+	26	0
+	+	26	9
+	+	26	21
+	+	26	0
+	+	26	16
+	+	26	30
+	+	26	0
+	+	26	53
+	+	26	24
+	+	26	23
+	+	26	15
+	+	26	27
+	+	26	18
+	+	26	26
+	+	26	53
+	+	63	53
+	+	26	0
+	+	16	0
+	+	9	0
+	+	63	0
+
+> ~/src/dwm/config.h
+	*	1610960696	0
+	"	62	75
+	^	62	76
+	.	62	76
+	+	64	56
+	+	65	73
+	+	66	53
+	+	65	63
+	+	64	61
+	+	66	0
+	+	75	0
+	+	62	65
+	+	63	69
+	+	60	0
+	+	62	0
+	+	64	0
+	+	66	0
+	+	63	0
+	+	62	76
+
+> ~/bin/,volume_mute.sh
+	*	1610910224	0
+	"	2	31
+	^	2	32
+	.	2	31
+	+	2	28
+	+	3	0
+	+	2	31
+
+> ~/bin/,volume_down.sh
+	*	1610910211	0
+	"	2	28
+	.	2	28
+	+	3	0
+	+	2	28
+
+> ~/bin/,volume_up.sh
+	*	1610910198	0
+	"	2	28
+	^	2	29
+	.	2	28
+	+	3	0
+	+	1	8
+	+	2	32
+	+	3	0
+	+	2	28
+
+> ~/bin/,task_reading_list_dev.py
+	*	1610908153	0
+	"	90	0
+	^	39	31
+	.	33	0
+	+	38	33
+	+	79	11
+	+	80	28
+	+	80	11
+	+	80	0
+	+	79	0
+	+	79	7
+	+	79	52
+	+	38	0
+	+	39	52
+	+	40	30
+	+	33	26
+	+	79	54
+	+	40	0
+	+	39	30
+	+	33	0
+
+> ~/bin/,monitor_right_of.sh
+	*	1610900994	0
+	"	2	0
+	.	3	0
+	+	1	7
+	+	3	0
+
+> ~/bin/,monitor_off.sh
+	*	1610900985	0
+	"	1	7
+	.	1	7
+	+	3	0
+	+	1	7
+
+> ~/README.md
+	*	1610828537	0
+	"	1	0
 
 > ~/dotfiles/README.md
 	*	1610828170	0
@@ -391,153 +1388,6 @@ $'.txt'
 	.	1	7
 	+	1	7
 
-> ~/notes/2020-08-28_5.md
-	*	1610826361	0
-	"	44	14
-	^	44	15
-	.	44	14
-	+	16	27
-	+	17	23
-	+	18	24
-	+	19	34
-	+	20	34
-	+	21	23
-	+	22	29
-	+	23	42
-	+	26	40
-	+	27	44
-	+	28	61
-	+	29	25
-	+	30	0
-	+	29	0
-	+	30	33
-	+	31	86
-	+	32	39
-	+	33	27
-	+	34	42
-	+	35	21
-	+	36	62
-	+	37	61
-	+	38	58
-	+	39	68
-	+	40	118
-	+	40	33
-	+	28	30
-	+	31	20
-	+	36	24
-	+	37	27
-	+	38	35
-	+	39	32
-	+	41	0
-	+	43	14
-	+	44	14
-
-> ~/bin/,task_reading_list.py
-	*	1610826106	0
-	"	19	0
-	^	19	18
-	.	19	17
-	+	58	0
-	+	58	48
-	+	58	18
-	+	37	12
-	+	37	0
-	+	37	12
-	+	37	25
-	+	58	47
-	+	37	0
-	+	58	53
-	+	58	32
-	+	37	16
-	+	58	11
-	+	58	0
-	+	58	54
-	+	1	0
-	+	58	29
-	+	61	20
-	+	25	28
-	+	26	57
-	+	27	16
-	+	10	0
-	+	29	0
-	+	10	0
-	+	65	9
-	+	65	7
-	+	63	0
-	+	65	0
-	+	34	0
-	+	30	25
-	+	31	48
-	+	32	38
-	+	37	0
-	+	33	19
-	+	32	38
-	+	36	26
-	+	37	0
-	+	66	0
-	+	38	0
-	+	37	14
-	+	39	22
-	+	41	0
-	+	66	1
-	+	66	0
-	+	58	0
-	+	59	14
-	+	61	0
-	+	60	21
-	+	59	18
-	+	60	37
-	+	61	3
-	+	65	9
-	+	66	0
-	+	65	0
-	+	65	4
-	+	66	0
-	+	42	22
-	+	43	13
-	+	43	0
-	+	45	0
-	+	44	17
-	+	57	0
-	+	52	30
-	+	53	46
-	+	52	41
-	+	54	25
-	+	57	0
-	+	58	0
-	+	50	0
-	+	47	34
-	+	48	34
-	+	49	28
-	+	48	22
-	+	55	36
-	+	52	47
-	+	58	0
-	+	64	0
-	+	11	0
-	+	12	27
-	+	54	17
-	+	13	26
-	+	15	4
-	+	15	0
-	+	13	11
-	+	15	4
-	+	21	0
-	+	18	51
-	+	15	36
-	+	15	0
-	+	14	3
-	+	15	39
-	+	21	20
-	+	18	15
-	+	22	22
-	+	56	15
-	+	22	60
-	+	18	8
-	+	20	23
-	+	16	12
-	+	19	17
-
 > ~/dotfiles/.xinitrc
 	*	1610822525	0
 	"	6	16
@@ -545,49 +1395,6 @@ $'.txt'
 	.	6	16
 	+	1	29
 	+	6	16
-
-> ~/src/dwm/config.h
-	*	1610822359	0
-	"	128	0
-	^	64	0
-	.	67	0
-	+	65	56
-	+	66	73
-	+	67	53
-	+	66	63
-	+	65	61
-	+	67	0
-	+	76	0
-	+	62	65
-	+	63	69
-	+	64	69
-	+	60	0
-	+	62	0
-	+	65	0
-	+	67	0
-
-> ~/bin/,volume_up.sh
-	*	1610822087	0
-	"	2	0
-	^	2	33
-	.	3	0
-	+	3	0
-	+	1	8
-	+	2	32
-	+	3	0
-
-> ~/bin/,volume_mute.sh
-	*	1610822055	0
-	"	2	0
-	.	3	0
-	+	2	28
-	+	3	0
-
-> ~/bin/,volume_down.sh
-	*	1610822027	0
-	"	2	0
-	.	3	0
-	+	3	0
 
 > ~/bin/,volume.sh
 	*	1610819845	0
@@ -620,13 +1427,6 @@ $'.txt'
 	.	1	5
 	+	1	5
 
-> ~/bin/,change_file_ext.py
-	*	1610818760	0
-	"	1	0
-	^	1	18
-	.	1	5
-	+	1	5
-
 > ~/bin/xsetloop.sh
 	*	1610817675	0
 	"	1	0
@@ -640,39 +1440,6 @@ $'.txt'
 	+	3	0
 	+	7	0
 	+	5	0
-
-> ~/notes/2020-08-28_0.md
-	*	1610643679	0
-	"	13	15
-
-> ~/projects/finance/finance_tools.py
-	*	1610469521	0
-	"	96	8
-	.	107	0
-	+	98	42
-	+	57	41
-	+	13	7
-	+	22	62
-	+	28	11
-	+	15	22
-	+	34	39
-	+	39	65
-	+	45	34
-	+	47	22
-	+	54	54
-	+	58	74
-	+	71	37
-	+	86	62
-	+	71	7
-	+	86	7
-	+	88	22
-	+	93	71
-	+	95	10
-	+	95	0
-	+	140	71
-	+	123	0
-	+	107	8
-	+	107	0
 
 > ~/projects/finance/2020_q4/mv.py
 	*	1610468617	0
