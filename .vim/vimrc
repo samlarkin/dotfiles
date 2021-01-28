@@ -29,7 +29,6 @@ set ruler
 set laststatus=2
 set cmdheight=2
 set number
-"set relativenumber
 set shiftwidth=4
 set softtabstop=4
 set ts=4
@@ -140,12 +139,9 @@ function! NewNote()
     echomsg 'Editing new note:' fname
     execute '-1read $HOME/.vim/snippets/skeleton.md'
 endfunction
-nnoremap <leader>nn :call NewNote()<CR>3j5l"=strftime("%Y-%m-%d")<C-M>p2kA
 
-" MUST RUN VIM IN ~/notes
-" compile notes:
+nnoremap <leader>nn :call NewNote()<CR>3j5l"=strftime("%Y-%m-%d")<C-M>p2kA
 nnoremap <leader>cn :!/home/sam/notes/compiler/compile_notes.sh<CR><CR>
-" to search notes in ~/notes for a particular 'keyword'
 nnoremap <leader>sn :vimgrep //g *<Left><Left><Left><Left>
 nnoremap <leader>n :cnext<CR>
 nnoremap <leader>p :cprev<CR>

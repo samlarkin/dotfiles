@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/to_csv
+~MSle0~/search
 
 # Last Substitute Search Pattern:
 ~MSle0&\\
@@ -21,11 +21,23 @@ $\\\/g
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1611851744,,"wq"
+|2,0,1611874665,,"wq"
+:e ~/.vim/vimrc
+|2,0,1611874392,,"e ~/.vim/vimrc"
+:vimgrep /mind/g *
+|2,0,1611874374,,"vimgrep /mind/g *"
+:cnext
+|2,0,1611874333,,"cnext"
 :q
-|2,0,1611851556,,"q"
+|2,0,1611874319,,"q"
 :w
-|2,0,1611851294,,"w"
+|2,0,1611874060,,"w"
+:tabe calcurse.ical
+|2,0,1611871791,,"tabe calcurse.ical"
+:b1
+|2,0,1611871766,,"b1"
+:e calcurse.ical
+|2,0,1611871624,,"e calcurse.ical"
 :e savings_2019-04.txt
 |2,0,1611849023,,"e savings_2019-04.txt"
 :e savings_2019-05.txt
@@ -86,8 +98,6 @@ $\\\/g
 |2,0,1611846695,,"e current_2019-10.txt"
 :b2
 |2,0,1611846650,,"b2"
-:b1
-|2,0,1611846644,,"b1"
 :e current_2019-11.txt
 |2,0,1611846622,,"e current_2019-11.txt"
 :e current_2020-01.txt
@@ -110,18 +120,16 @@ $\\\/g
 |2,0,1611845083,,"e current_2020-08.txt"
 :e current_2021-01.txt
 |2,0,1611845056,,"e current_2021-01.txt"
-:e curren
-|2,0,1611845030,,"e curren"
-:setlocal tw=1000
-|2,0,1611844673,,"setlocal tw=1000"
-:tabe ~/.vim/vimrc
-|2,0,1611838863,,"tabe ~/.vim/vimrc"
-:vimgrep /- peterson/g *
-|2,0,1611838848,,"vimgrep /- peterson/g *"
-:red
-|2,0,1611755926,,"red"
 
 # Search String History (newest to oldest):
+?/search
+|2,1,1611874396,47,"search"
+?/>
+|2,1,1611872352,47,">"
+?/Mind
+|2,1,1611871795,47,"Mind"
+?/mind
+|2,1,1611871630,47,"mind"
 ?/to_csv
 |2,1,1611851565,47,"to_csv"
 ?/.to_csv
@@ -206,108 +214,36 @@ $\\\/g
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-	        current_df.to_csv('current.csv')
-|3,0,0,1,1,0,1611851276,"        current_df.to_csv('current.csv')"
-"1	LINE	0
-	23 Mar 20   DescriptionOpening balance this month       Balance17.64
-	Date25 Mar 20   Description402054 70226009 INTERNETTRANSFER Amount200.00    Balance not applicable
-	Date25 Mar 20   DescriptionSam Larkin Monzo Amount-50.00    Balance not applicable
-	Date25 Mar 20   DescriptionIZ *BRISTOL MIND BRISTOL Amount-35.00    Balance132.64
-	Date31 Mar 20   DescriptionBRISTOL CC PAYROLL   Amount1,549.54  Balance not applicable
-	Date31 Mar 20   Description402054 70226009 INTERNETTRANSFER Amount-700.00   Balance not applicable
-	Date31 Mar 20   DescriptionSam Larkin Monzo Amount-250.00   Balance732.18
-	Date01 Apr 20   DescriptionBRISTOL CC L TAX Amount-129.04   Balance not applicable
-	Date01 Apr 20   DescriptionABODE PROPERTY MAN T25598    Amount-400.00   Balance203.14
-	Date02 Apr 20   DescriptionPAYPAL PAYMENT   Amount-2.40 Balance200.74
-	Date03 Apr 20   DescriptionELIZABETH ROGOZINS COUNCILTAX April  Amount80.00 Balance not applicable
-	Date03 Apr 20   DescriptionIZ *BRISTOL MIND BRISTOL Amount-35.00    Balance245.74
-	Date10 Apr 20   DescriptionNatasha Owen covidshopping   Amount-150.00   Balance95.74
-	Date21 Apr 20   DescriptionEl Rincon Sam Larkin Amount-60.00    Balance35.74
-	Date23 Apr 20   DescriptionClosing balance this month       Balance35.74
-|3,0,1,1,15,0,1611847993,"23 Mar 20   DescriptionOpening balance this month       Balance17.64","Date25 Mar 20   Description402054 70226009 INTERNETTRANSFER Amount200.00    Balance not applicable","Date25 Mar 20   DescriptionSam Larkin Monzo Amount-50.00    Balance not applicable","Date25 Mar 20   DescriptionIZ *BRISTOL MIND BRISTOL Amount-35.00    Balance132.64","Date31 Mar 20   DescriptionBRISTOL CC PAYROLL   Amount1,549.54  Balance not applicable",>100
-|<"Date31 Mar 20   Description402054 70226009 INTERNETTRANSFER Amount-700.00   Balance not applicable","Date31 Mar 20   DescriptionSam Larkin Monzo Amount-250.00   Balance732.18","Date01 Apr 20   DescriptionBRISTOL CC L TAX Amount-129.04   Balance not applicable","Date01 Apr 20   DescriptionABODE PROPERTY MAN T25598    Amount-400.00   Balance203.14","Date02 Apr 20   DescriptionPAYPAL PAYMENT   Amount-2.40 Balance200.74",>100
-|<"Date03 Apr 20   DescriptionELIZABETH ROGOZINS COUNCILTAX April  Amount80.00 Balance not applicable","Date03 Apr 20   DescriptionIZ *BRISTOL MIND BRISTOL Amount-35.00    Balance245.74","Date10 Apr 20   DescriptionNatasha Owen covidshopping   Amount-150.00   Balance95.74","Date21 Apr 20   DescriptionEl Rincon Sam Larkin Amount-60.00    Balance35.74","Date23 Apr 20   DescriptionClosing balance this month       Balance35.74"
+"0	CHAR	0
+	MindLine Shift: WFH w/Kathy
+|3,0,0,0,1,0,1611873794,"MindLine Shift: WFH w/Kathy"
+""1	LINE	0
+	"set relativenumber
+|3,1,1,1,1,0,1611874594,"\"set relativenumber"
 "2	LINE	0
-	23 Feb 19   DescriptionOpening balance this month       Balance274.61
-	Date25 Feb 19   DescriptionSam Larkin Monzo Amount-50.00    Balance not applicable
-	Date25 Feb 19   DescriptionCASH RB SCOT FEB25 TESCOBISHOP@13:39 Amount-20.00    Balance not applicable
-	Date25 Feb 19   DescriptionFULL BASKET LTD BRISTOL  Amount-11.01    Balance193.60
-	Date26 Feb 19   DescriptionBIKE (BRISTOL) LTD BRISTOL   Amount-12.99    Balance180.61
-	Date08 Mar 19   DescriptionPAYPAL *DHPFAMILYL35314369001    Amount-33.30    Balance not applicable
-	Date08 Mar 19   DescriptionASDA SUPERSTORE BEDMINSTER   Amount-4.14 Balance not applicable
-	Date08 Mar 19   DescriptionHORTS 01179252520    Amount-4.95 Balance138.22
-	Date11 Mar 19   DescriptionCHATTERTON'S CAFE BRISTOL    Amount-2.00 Balance not applicable
-	Date11 Mar 19   DescriptionFOSTERS EVENTS CAT BRISTOLBS2    Amount-9.30 Balance not applicable
-	Date11 Mar 19   DescriptionTHE GEORGE LOUNGE BACKWELL   Amount-16.00    Balance not applicable
-	Date11 Mar 19   DescriptionSAINSBURYS S/MKTS BRISTOL    Amount-2.30 Balance not applicable
-	Date11 Mar 19   DescriptionTHE MINERS ARMS BRISTOL  Amount-24.70    Balance not applicable
-	Date11 Mar 19   DescriptionTESCO STORES-2136 BRISTOL    Amount-6.30 Balance77.62
-	Date12 Mar 19   DescriptionGIFFGAFFWWW.GIFFGAFF Amount-7.50 Balance70.12
-	Date13 Mar 19   DescriptionTHE WAITING GAME Amount226.88    Balance not applicable
-	Date13 Mar 19   DescriptionSam Larkin Monzo Amount-100.00   Balance197.00
-	Date18 Mar 19   DescriptionCASH BNKM MAR18COOPERATIVE @15:41    Amount-20.00    Balance177.00
-	Date23 Mar 19   DescriptionClosing balance this month       Balance177.00
-|3,0,2,1,19,0,1611847341,"23 Feb 19   DescriptionOpening balance this month       Balance274.61","Date25 Feb 19   DescriptionSam Larkin Monzo Amount-50.00    Balance not applicable","Date25 Feb 19   DescriptionCASH RB SCOT FEB25 TESCOBISHOP@13:39 Amount-20.00    Balance not applicable","Date25 Feb 19   DescriptionFULL BASKET LTD BRISTOL  Amount-11.01    Balance193.60","Date26 Feb 19   DescriptionBIKE (BRISTOL) LTD BRISTOL   Amount-12.99    Balance180.61",>100
-|<"Date08 Mar 19   DescriptionPAYPAL *DHPFAMILYL35314369001    Amount-33.30    Balance not applicable","Date08 Mar 19   DescriptionASDA SUPERSTORE BEDMINSTER   Amount-4.14 Balance not applicable","Date08 Mar 19   DescriptionHORTS 01179252520    Amount-4.95 Balance138.22","Date11 Mar 19   DescriptionCHATTERTON'S CAFE BRISTOL    Amount-2.00 Balance not applicable","Date11 Mar 19   DescriptionFOSTERS EVENTS CAT BRISTOLBS2    Amount-9.30 Balance not applicable",>96
-|<"Date11 Mar 19   DescriptionTHE GEORGE LOUNGE BACKWELL   Amount-16.00    Balance not applicable","Date11 Mar 19   DescriptionSAINSBURYS S/MKTS BRISTOL    Amount-2.30 Balance not applicable","Date11 Mar 19   DescriptionTHE MINERS ARMS BRISTOL  Amount-24.70    Balance not applicable","Date11 Mar 19   DescriptionTESCO STORES-2136 BRISTOL    Amount-6.30 Balance77.62","Date12 Mar 19   DescriptionGIFFGAFFWWW.GIFFGAFF Amount-7.50 Balance70.12",>84
-|<"Date13 Mar 19   DescriptionTHE WAITING GAME Amount226.88    Balance not applicable","Date13 Mar 19   DescriptionSam Larkin Monzo Amount-100.00   Balance197.00","Date18 Mar 19   DescriptionCASH BNKM MAR18COOPERATIVE @15:41    Amount-20.00    Balance177.00","Date23 Mar 19   DescriptionClosing balance this month       Balance177.00"
+	
+|3,0,2,1,1,0,1611874563,""
 "3	LINE	0
-	te
-	    
-	    Description
-	        
-	        Amount
-	            
-	            Balance
-	            Date23 Dec 20   DescriptionOpening balance this month
-	            Balance405.29
-	            Date29 Dec 20   DescriptionSARAH KENNY RESIDE   Amount-447.50
-	            Balance not applicable
-	            Date29 Dec 20   Description402054 70226009 INTERNETTRANSFER
-	            Amount100.00    Balance57.79
-	            Date31 Dec 20   DescriptionBRISTOL CC PAYROLL   Amount1,620.07
-	            Balance1,677.86
-	            Date04 Jan 21   DescriptionBRISTOL CC L TAX FIRSTPAYMENT
-	            Amount-175.03   Balance1,502.83
-	            Date06 Jan 21   DescriptionPAYPAL PAYMENT   Amount-3.22
-	            Balance1,499.61
-	            Date13 Jan 21   DescriptionPAYPAL PAYMENT   Amount-35.00
-	            Balance1,464.61
-	            Date18 Jan 21   DescriptionBETTER FOOD BRISTOL  Amount-11.17
-	            Balance1,453.44
-	            Date19 Jan 21   Description402054 70226009 INTERNETTRANSFER
-	            Amount-500.00   Balance not applicable
-	            Date19 Jan 21   DescriptionSam Larkin Monzo Amount-200.00
-	            Balance753.44
-	            Date20 Jan 21   DescriptionPAYPAL *GOOGLE HEA35314369001
-	            Amount-37.47    Balance715.97
-	            Date23 Jan 21   DescriptionClosing balance this month
-	            Balance715.97
-|3,0,3,1,31,0,1611844606,"te","    ","    Description","        ","        Amount","            ","            Balance","            Date23 Dec 20   DescriptionOpening balance this month","            Balance405.29","            Date29 Dec 20   DescriptionSARAH KENNY RESIDE   Amount-447.50","            Balance not applicable","            Date29 Dec 20   Description402054 70226009 INTERNETTRANSFER","            Amount100.00    Balance57.79",>76
-|<"            Date31 Dec 20   DescriptionBRISTOL CC PAYROLL   Amount1,620.07","            Balance1,677.86","            Date04 Jan 21   DescriptionBRISTOL CC L TAX FIRSTPAYMENT","            Amount-175.03   Balance1,502.83","            Date06 Jan 21   DescriptionPAYPAL PAYMENT   Amount-3.22","            Balance1,499.61","            Date13 Jan 21   DescriptionPAYPAL PAYMENT   Amount-35.00","            Balance1,464.61",>74
-|<"            Date18 Jan 21   DescriptionBETTER FOOD BRISTOL  Amount-11.17","            Balance1,453.44","            Date19 Jan 21   Description402054 70226009 INTERNETTRANSFER","            Amount-500.00   Balance not applicable","            Date19 Jan 21   DescriptionSam Larkin Monzo Amount-200.00","            Balance753.44","            Date20 Jan 21   DescriptionPAYPAL *GOOGLE HEA35314369001","            Amount-37.47    Balance715.97",>67
-|<"            Date23 Jan 21   DescriptionClosing balance this month","            Balance715.97"
+	
+|3,0,3,1,1,0,1611874562,""
 "4	LINE	0
-	
-|3,0,4,1,1,0,1611839084,""
+	" to search notes in ~/notes for a particular 'keyword'
+|3,0,4,1,1,0,1611874556,"\" to search notes in ~/notes for a particular 'keyword'"
 "5	LINE	0
-	urgency.user.project.jobs.coeffiecient=5.0
-|3,0,5,1,1,0,1611756184,"urgency.user.project.jobs.coeffiecient=5.0"
+	" compile notes:
+|3,0,5,1,1,0,1611874555,"\" compile notes:"
 "6	LINE	0
-	urgency.project.mindline.coefficient=3
-|3,0,6,1,1,0,1611756011,"urgency.project.mindline.coefficient=3"
+	" MUST RUN VIM IN ~/notes
+|3,0,6,1,1,0,1611874553,"\" MUST RUN VIM IN ~/notes"
 "7	LINE	0
-	# Customize calendar report [task calendar]
-	calendar.details.report=all
 	
-|3,0,7,1,3,0,1611755857,"# Customize calendar report [task calendar]","calendar.details.report=all",""
+|3,0,7,1,1,0,1611874019,""
 "8	LINE	0
-	report.next.filter=project.not:reading
-|3,0,8,1,1,0,1611754462,"report.next.filter=project.not:reading"
+	
+|3,0,8,1,1,0,1611874017,""
 "9	LINE	0
 	
-|3,0,9,1,1,0,1611753685,""
+|3,0,9,1,1,0,1611874010,""
 "a	CHAR	0
 	i'€ýaf:i'€ýa?'€kd
 |3,0,10,0,1,0,1611692453,"i'€ýaf:i'€ýa?'€kd"
@@ -317,235 +253,378 @@ $\\\/g
 "u	CHAR	0
 	u€ýa€ýa
 |3,0,30,0,1,0,1611844516,"u€ýa€ýa"
-""-	CHAR	0
-	current
-|3,1,36,0,1,0,1611851284,"current"
+"-	CHAR	0
+	MindLine 
+|3,0,36,0,1,0,1611873986,"MindLine "
 
 # File marks:
-'0  1  0  ~/projects/finance/2019-2021/current.csv
-|4,48,1,0,1611851744,"~/projects/finance/2019-2021/current.csv"
-'1  137  76  ~/projects/finance/finance_tools.py
-|4,49,137,76,1611851589,"~/projects/finance/finance_tools.py"
-'2  461  0  ~/projects/finance/2019-2021/current.csv
-|4,50,461,0,1611851556,"~/projects/finance/2019-2021/current.csv"
-'3  461  0  ~/projects/finance/2019-2021/current.csv
-|4,51,461,0,1611851556,"~/projects/finance/2019-2021/current.csv"
-'4  137  64  ~/projects/finance/finance_tools.py
-|4,52,137,64,1611851439,"~/projects/finance/finance_tools.py"
-'5  151  0  ~/projects/finance/finance_tools.py
-|4,53,151,0,1611851301,"~/projects/finance/finance_tools.py"
-'6  151  0  ~/projects/finance/finance_tools.py
-|4,54,151,0,1611851301,"~/projects/finance/finance_tools.py"
-'7  151  0  ~/projects/finance/finance_tools.py
-|4,55,151,0,1611851301,"~/projects/finance/finance_tools.py"
-'8  151  0  ~/projects/finance/finance_tools.py
-|4,56,151,0,1611851301,"~/projects/finance/finance_tools.py"
-'9  149  0  ~/projects/finance/finance_tools.py
-|4,57,149,0,1611850902,"~/projects/finance/finance_tools.py"
+'0  147  0  ~/dotfiles/.vim/vimrc
+|4,48,147,0,1611874666,"~/dotfiles/.vim/vimrc"
+'1  1  0  ~/notes/2021-01-28_0.md
+|4,49,1,0,1611874319,"~/notes/2021-01-28_0.md"
+'2  1  0  ~/notes/2021-01-28_0.md
+|4,50,1,0,1611874319,"~/notes/2021-01-28_0.md"
+'3  1  0  ~/notes/2021-01-28_0.md
+|4,51,1,0,1611874061,"~/notes/2021-01-28_0.md"
+'4  1  0  ~/notes/2021-01-28_0.md
+|4,52,1,0,1611874061,"~/notes/2021-01-28_0.md"
+'5  1  0  ~/projects/finance/2019-2021/current.csv
+|4,53,1,0,1611851744,"~/projects/finance/2019-2021/current.csv"
+'6  1  0  ~/projects/finance/2019-2021/current.csv
+|4,54,1,0,1611851744,"~/projects/finance/2019-2021/current.csv"
+'7  137  76  ~/projects/finance/finance_tools.py
+|4,55,137,76,1611851589,"~/projects/finance/finance_tools.py"
+'8  137  76  ~/projects/finance/finance_tools.py
+|4,56,137,76,1611851589,"~/projects/finance/finance_tools.py"
+'9  461  0  ~/projects/finance/2019-2021/current.csv
+|4,57,461,0,1611851556,"~/projects/finance/2019-2021/current.csv"
 
 # Jumplist (newest first):
+-'  147  0  ~/dotfiles/.vim/vimrc
+|4,39,147,0,1611874666,"~/dotfiles/.vim/vimrc"
+-'  87  2  ~/dotfiles/.vim/vimrc
+|4,39,87,2,1611874399,"~/dotfiles/.vim/vimrc"
+-'  1  0  ~/dotfiles/.vim/vimrc
+|4,39,1,0,1611874396,"~/dotfiles/.vim/vimrc"
+-'  6  6  ~/notes/2021-01-28_0.md
+|4,39,6,6,1611874392,"~/notes/2021-01-28_0.md"
+-'  8  6  ~/notes/2021-01-21_1.md
+|4,39,8,6,1611874378,"~/notes/2021-01-21_1.md"
+-'  10  0  ~/notes/2021-01-28_0.md
+|4,39,10,0,1611874374,"~/notes/2021-01-28_0.md"
+-'  1  0  ~/notes/2021-01-28_0.md
+|4,39,1,0,1611874358,"~/notes/2021-01-28_0.md"
+-'  1  0  ~/notes/2021-01-28_0.md
+|4,39,1,0,1611874319,"~/notes/2021-01-28_0.md"
+-'  8  6  ~/notes/2021-01-21_1.md
+|4,39,8,6,1611874302,"~/notes/2021-01-21_1.md"
+-'  1  0  ~/notes/2021-01-28_0.md
+|4,39,1,0,1611874061,"~/notes/2021-01-28_0.md"
+-'  40  1  ~/notes/2021-01-28_0.md
+|4,39,40,1,1611873403,"~/notes/2021-01-28_0.md"
+-'  40  1  ~/notes/2021-01-28_0.md
+|4,39,40,1,1611873403,"~/notes/2021-01-28_0.md"
+-'  40  1  ~/notes/2021-01-28_0.md
+|4,39,40,1,1611873403,"~/notes/2021-01-28_0.md"
+-'  24  31  ~/notes/2021-01-28_0.md
+|4,39,24,31,1611872352,"~/notes/2021-01-28_0.md"
+-'  24  31  ~/notes/2021-01-28_0.md
+|4,39,24,31,1611872352,"~/notes/2021-01-28_0.md"
+-'  24  31  ~/notes/2021-01-28_0.md
+|4,39,24,31,1611872352,"~/notes/2021-01-28_0.md"
+-'  22  0  ~/notes/2021-01-28_0.md
+|4,39,22,0,1611872256,"~/notes/2021-01-28_0.md"
+-'  22  0  ~/notes/2021-01-28_0.md
+|4,39,22,0,1611872256,"~/notes/2021-01-28_0.md"
+-'  22  0  ~/notes/2021-01-28_0.md
+|4,39,22,0,1611872256,"~/notes/2021-01-28_0.md"
+-'  53  0  ~/notes/2021-01-28_0.md
+|4,39,53,0,1611872091,"~/notes/2021-01-28_0.md"
+-'  53  0  ~/notes/2021-01-28_0.md
+|4,39,53,0,1611872091,"~/notes/2021-01-28_0.md"
+-'  53  0  ~/notes/2021-01-28_0.md
+|4,39,53,0,1611872091,"~/notes/2021-01-28_0.md"
+-'  48  0  ~/notes/2021-01-28_0.md
+|4,39,48,0,1611871913,"~/notes/2021-01-28_0.md"
+-'  48  0  ~/notes/2021-01-28_0.md
+|4,39,48,0,1611871913,"~/notes/2021-01-28_0.md"
+-'  48  0  ~/notes/2021-01-28_0.md
+|4,39,48,0,1611871913,"~/notes/2021-01-28_0.md"
+-'  67  0  ~/dotfiles/.vim/snippets/skeleton.md
+|4,39,67,0,1611871766,"~/dotfiles/.vim/snippets/skeleton.md"
+-'  66  0  ~/dotfiles/.vim/vimrc
+|4,39,66,0,1611871766,"~/dotfiles/.vim/vimrc"
+-'  67  0  ~/dotfiles/.vim/snippets/skeleton.md
+|4,39,67,0,1611871766,"~/dotfiles/.vim/snippets/skeleton.md"
+-'  67  0  ~/notes/calcurse.ical
+|4,39,67,0,1611871766,"~/notes/calcurse.ical"
+-'  1  0  ~/dotfiles/.vim/snippets/skeleton.md
+|4,39,1,0,1611871704,"~/dotfiles/.vim/snippets/skeleton.md"
+-'  1  0  ~/dotfiles/.vim/snippets/skeleton.md
+|4,39,1,0,1611871704,"~/dotfiles/.vim/snippets/skeleton.md"
+-'  1  0  ~/notes/calcurse.ical
+|4,39,1,0,1611871704,"~/notes/calcurse.ical"
+-'  83  12  ~/dotfiles/.vim/snippets/skeleton.md
+|4,39,83,12,1611871653,"~/dotfiles/.vim/snippets/skeleton.md"
+-'  82  12  ~/dotfiles/.vim/vimrc
+|4,39,82,12,1611871653,"~/dotfiles/.vim/vimrc"
+-'  83  12  ~/dotfiles/.vim/snippets/skeleton.md
+|4,39,83,12,1611871653,"~/dotfiles/.vim/snippets/skeleton.md"
+-'  83  12  ~/notes/calcurse.ical
+|4,39,83,12,1611871653,"~/notes/calcurse.ical"
+-'  82  8  ~/dotfiles/.vim/snippets/skeleton.md
+|4,39,82,8,1611871649,"~/dotfiles/.vim/snippets/skeleton.md"
+-'  72  12  ~/dotfiles/.vim/snippets/skeleton.md
+|4,39,72,12,1611871649,"~/dotfiles/.vim/snippets/skeleton.md"
+-'  81  8  ~/dotfiles/.vim/vimrc
+|4,39,81,8,1611871649,"~/dotfiles/.vim/vimrc"
+-'  71  12  ~/dotfiles/.vim/vimrc
+|4,39,71,12,1611871649,"~/dotfiles/.vim/vimrc"
+-'  82  8  ~/dotfiles/.vim/snippets/skeleton.md
+|4,39,82,8,1611871649,"~/dotfiles/.vim/snippets/skeleton.md"
+-'  72  12  ~/dotfiles/.vim/snippets/skeleton.md
+|4,39,72,12,1611871649,"~/dotfiles/.vim/snippets/skeleton.md"
+-'  82  8  ~/notes/calcurse.ical
+|4,39,82,8,1611871649,"~/notes/calcurse.ical"
+-'  72  12  ~/notes/calcurse.ical
+|4,39,72,12,1611871649,"~/notes/calcurse.ical"
+-'  71  8  ~/dotfiles/.vim/snippets/skeleton.md
+|4,39,71,8,1611871648,"~/dotfiles/.vim/snippets/skeleton.md"
+-'  290  8  ~/dotfiles/.vim/snippets/skeleton.md
+|4,39,290,8,1611871648,"~/dotfiles/.vim/snippets/skeleton.md"
+-'  70  8  ~/dotfiles/.vim/vimrc
+|4,39,70,8,1611871648,"~/dotfiles/.vim/vimrc"
+-'  286  8  ~/dotfiles/.vim/vimrc
+|4,39,286,8,1611871648,"~/dotfiles/.vim/vimrc"
+-'  71  8  ~/dotfiles/.vim/snippets/skeleton.md
+|4,39,71,8,1611871648,"~/dotfiles/.vim/snippets/skeleton.md"
+-'  290  8  ~/dotfiles/.vim/snippets/skeleton.md
+|4,39,290,8,1611871648,"~/dotfiles/.vim/snippets/skeleton.md"
+-'  71  8  ~/notes/calcurse.ical
+|4,39,71,8,1611871648,"~/notes/calcurse.ical"
+-'  290  8  ~/notes/calcurse.ical
+|4,39,290,8,1611871648,"~/notes/calcurse.ical"
+-'  285  8  ~/dotfiles/.vim/snippets/skeleton.md
+|4,39,285,8,1611871647,"~/dotfiles/.vim/snippets/skeleton.md"
+-'  280  8  ~/dotfiles/.vim/snippets/skeleton.md
+|4,39,280,8,1611871647,"~/dotfiles/.vim/snippets/skeleton.md"
+-'  275  8  ~/dotfiles/.vim/snippets/skeleton.md
+|4,39,275,8,1611871647,"~/dotfiles/.vim/snippets/skeleton.md"
+-'  281  8  ~/dotfiles/.vim/vimrc
+|4,39,281,8,1611871647,"~/dotfiles/.vim/vimrc"
+-'  276  8  ~/dotfiles/.vim/vimrc
+|4,39,276,8,1611871647,"~/dotfiles/.vim/vimrc"
+-'  271  8  ~/dotfiles/.vim/vimrc
+|4,39,271,8,1611871647,"~/dotfiles/.vim/vimrc"
+-'  285  8  ~/dotfiles/.vim/snippets/skeleton.md
+|4,39,285,8,1611871647,"~/dotfiles/.vim/snippets/skeleton.md"
+-'  280  8  ~/dotfiles/.vim/snippets/skeleton.md
+|4,39,280,8,1611871647,"~/dotfiles/.vim/snippets/skeleton.md"
+-'  275  8  ~/dotfiles/.vim/snippets/skeleton.md
+|4,39,275,8,1611871647,"~/dotfiles/.vim/snippets/skeleton.md"
+-'  285  8  ~/notes/calcurse.ical
+|4,39,285,8,1611871647,"~/notes/calcurse.ical"
+-'  280  8  ~/notes/calcurse.ical
+|4,39,280,8,1611871647,"~/notes/calcurse.ical"
+-'  275  8  ~/notes/calcurse.ical
+|4,39,275,8,1611871647,"~/notes/calcurse.ical"
+-'  270  8  ~/dotfiles/.vim/snippets/skeleton.md
+|4,39,270,8,1611871646,"~/dotfiles/.vim/snippets/skeleton.md"
+-'  266  8  ~/dotfiles/.vim/vimrc
+|4,39,266,8,1611871646,"~/dotfiles/.vim/vimrc"
+-'  270  8  ~/dotfiles/.vim/snippets/skeleton.md
+|4,39,270,8,1611871646,"~/dotfiles/.vim/snippets/skeleton.md"
+-'  270  8  ~/notes/calcurse.ical
+|4,39,270,8,1611871646,"~/notes/calcurse.ical"
+-'  255  8  ~/dotfiles/.vim/snippets/skeleton.md
+|4,39,255,8,1611871645,"~/dotfiles/.vim/snippets/skeleton.md"
+-'  249  8  ~/dotfiles/.vim/snippets/skeleton.md
+|4,39,249,8,1611871645,"~/dotfiles/.vim/snippets/skeleton.md"
+-'  251  8  ~/dotfiles/.vim/vimrc
+|4,39,251,8,1611871645,"~/dotfiles/.vim/vimrc"
+-'  245  8  ~/dotfiles/.vim/vimrc
+|4,39,245,8,1611871645,"~/dotfiles/.vim/vimrc"
+-'  255  8  ~/dotfiles/.vim/snippets/skeleton.md
+|4,39,255,8,1611871645,"~/dotfiles/.vim/snippets/skeleton.md"
+-'  249  8  ~/dotfiles/.vim/snippets/skeleton.md
+|4,39,249,8,1611871645,"~/dotfiles/.vim/snippets/skeleton.md"
+-'  255  8  ~/notes/calcurse.ical
+|4,39,255,8,1611871645,"~/notes/calcurse.ical"
+-'  249  8  ~/notes/calcurse.ical
+|4,39,249,8,1611871645,"~/notes/calcurse.ical"
+-'  14  10  ~/notes/2021-01-28_0.md
+|4,39,14,10,1611871624,"~/notes/2021-01-28_0.md"
+-'  14  10  ~/notes/2021-01-28_0.md
+|4,39,14,10,1611871624,"~/notes/2021-01-28_0.md"
+-'  14  10  ~/notes/2021-01-28_0.md
+|4,39,14,10,1611871624,"~/notes/2021-01-28_0.md"
 -'  1  0  ~/projects/finance/2019-2021/current.csv
 |4,39,1,0,1611851744,"~/projects/finance/2019-2021/current.csv"
+-'  1  0  ~/projects/finance/2019-2021/current.csv
+|4,39,1,0,1611851744,"~/projects/finance/2019-2021/current.csv"
+-'  1  0  ~/projects/finance/2019-2021/current.csv
+|4,39,1,0,1611851744,"~/projects/finance/2019-2021/current.csv"
+-'  1  0  ~/projects/finance/2019-2021/current.csv
+|4,39,1,0,1611851744,"~/projects/finance/2019-2021/current.csv"
+-'  1  0  ~/projects/finance/2019-2021/current.csv
+|4,39,1,0,1611851744,"~/projects/finance/2019-2021/current.csv"
+-'  1  0  ~/projects/finance/2019-2021/current.csv
+|4,39,1,0,1611851744,"~/projects/finance/2019-2021/current.csv"
+-'  1  0  ~/projects/finance/2019-2021/current.csv
+|4,39,1,0,1611851744,"~/projects/finance/2019-2021/current.csv"
+-'  1  0  ~/projects/finance/2019-2021/current.csv
+|4,39,1,0,1611851744,"~/projects/finance/2019-2021/current.csv"
+-'  461  0  ~/projects/finance/2019-2021/current.csv
+|4,39,461,0,1611851742,"~/projects/finance/2019-2021/current.csv"
+-'  461  0  ~/projects/finance/2019-2021/current.csv
+|4,39,461,0,1611851742,"~/projects/finance/2019-2021/current.csv"
+-'  461  0  ~/projects/finance/2019-2021/current.csv
+|4,39,461,0,1611851742,"~/projects/finance/2019-2021/current.csv"
+-'  461  0  ~/projects/finance/2019-2021/current.csv
+|4,39,461,0,1611851742,"~/projects/finance/2019-2021/current.csv"
+-'  461  0  ~/projects/finance/2019-2021/current.csv
+|4,39,461,0,1611851742,"~/projects/finance/2019-2021/current.csv"
+-'  461  0  ~/projects/finance/2019-2021/current.csv
+|4,39,461,0,1611851742,"~/projects/finance/2019-2021/current.csv"
+-'  461  0  ~/projects/finance/2019-2021/current.csv
+|4,39,461,0,1611851742,"~/projects/finance/2019-2021/current.csv"
 -'  461  0  ~/projects/finance/2019-2021/current.csv
 |4,39,461,0,1611851742,"~/projects/finance/2019-2021/current.csv"
 -'  137  76  ~/projects/finance/finance_tools.py
 |4,39,137,76,1611851589,"~/projects/finance/finance_tools.py"
 -'  137  76  ~/projects/finance/finance_tools.py
 |4,39,137,76,1611851589,"~/projects/finance/finance_tools.py"
--'  1  0  ~/projects/finance/finance_tools.py
-|4,39,1,0,1611851565,"~/projects/finance/finance_tools.py"
--'  1  0  ~/projects/finance/finance_tools.py
-|4,39,1,0,1611851565,"~/projects/finance/finance_tools.py"
--'  461  0  ~/projects/finance/2019-2021/current.csv
-|4,39,461,0,1611851556,"~/projects/finance/2019-2021/current.csv"
--'  461  0  ~/projects/finance/2019-2021/current.csv
-|4,39,461,0,1611851556,"~/projects/finance/2019-2021/current.csv"
--'  1  0  ~/projects/finance/2019-2021/current.csv
-|4,39,1,0,1611851519,"~/projects/finance/2019-2021/current.csv"
--'  1  0  ~/projects/finance/2019-2021/current.csv
-|4,39,1,0,1611851519,"~/projects/finance/2019-2021/current.csv"
--'  137  64  ~/projects/finance/finance_tools.py
-|4,39,137,64,1611851439,"~/projects/finance/finance_tools.py"
--'  137  64  ~/projects/finance/finance_tools.py
-|4,39,137,64,1611851439,"~/projects/finance/finance_tools.py"
--'  137  64  ~/projects/finance/finance_tools.py
-|4,39,137,64,1611851439,"~/projects/finance/finance_tools.py"
--'  137  64  ~/projects/finance/finance_tools.py
-|4,39,137,64,1611851439,"~/projects/finance/finance_tools.py"
--'  1  0  ~/projects/finance/finance_tools.py
-|4,39,1,0,1611851367,"~/projects/finance/finance_tools.py"
--'  1  0  ~/projects/finance/finance_tools.py
-|4,39,1,0,1611851367,"~/projects/finance/finance_tools.py"
--'  1  0  ~/projects/finance/finance_tools.py
-|4,39,1,0,1611851367,"~/projects/finance/finance_tools.py"
--'  1  0  ~/projects/finance/finance_tools.py
-|4,39,1,0,1611851367,"~/projects/finance/finance_tools.py"
--'  151  0  ~/projects/finance/finance_tools.py
-|4,39,151,0,1611851301,"~/projects/finance/finance_tools.py"
--'  151  0  ~/projects/finance/finance_tools.py
-|4,39,151,0,1611851301,"~/projects/finance/finance_tools.py"
--'  151  0  ~/projects/finance/finance_tools.py
-|4,39,151,0,1611851301,"~/projects/finance/finance_tools.py"
--'  151  0  ~/projects/finance/finance_tools.py
-|4,39,151,0,1611851301,"~/projects/finance/finance_tools.py"
--'  151  0  ~/projects/finance/finance_tools.py
-|4,39,151,0,1611851301,"~/projects/finance/finance_tools.py"
--'  151  0  ~/projects/finance/finance_tools.py
-|4,39,151,0,1611851301,"~/projects/finance/finance_tools.py"
--'  151  0  ~/projects/finance/finance_tools.py
-|4,39,151,0,1611851301,"~/projects/finance/finance_tools.py"
--'  151  0  ~/projects/finance/finance_tools.py
-|4,39,151,0,1611851301,"~/projects/finance/finance_tools.py"
--'  151  0  ~/projects/finance/finance_tools.py
-|4,39,151,0,1611851301,"~/projects/finance/finance_tools.py"
--'  151  0  ~/projects/finance/finance_tools.py
-|4,39,151,0,1611851301,"~/projects/finance/finance_tools.py"
--'  1  0  ~/projects/finance/finance_tools.py
-|4,39,1,0,1611851054,"~/projects/finance/finance_tools.py"
--'  1  0  ~/projects/finance/finance_tools.py
-|4,39,1,0,1611851054,"~/projects/finance/finance_tools.py"
--'  1  0  ~/projects/finance/finance_tools.py
-|4,39,1,0,1611851054,"~/projects/finance/finance_tools.py"
--'  1  0  ~/projects/finance/finance_tools.py
-|4,39,1,0,1611851054,"~/projects/finance/finance_tools.py"
--'  149  0  ~/projects/finance/finance_tools.py
-|4,39,149,0,1611850902,"~/projects/finance/finance_tools.py"
--'  149  0  ~/projects/finance/finance_tools.py
-|4,39,149,0,1611850902,"~/projects/finance/finance_tools.py"
--'  149  0  ~/projects/finance/finance_tools.py
-|4,39,149,0,1611850902,"~/projects/finance/finance_tools.py"
--'  149  0  ~/projects/finance/finance_tools.py
-|4,39,149,0,1611850902,"~/projects/finance/finance_tools.py"
--'  149  0  ~/projects/finance/finance_tools.py
-|4,39,149,0,1611850902,"~/projects/finance/finance_tools.py"
--'  149  0  ~/projects/finance/finance_tools.py
-|4,39,149,0,1611850902,"~/projects/finance/finance_tools.py"
--'  149  0  ~/projects/finance/finance_tools.py
-|4,39,149,0,1611850902,"~/projects/finance/finance_tools.py"
--'  149  0  ~/projects/finance/finance_tools.py
-|4,39,149,0,1611850902,"~/projects/finance/finance_tools.py"
--'  149  0  ~/projects/finance/finance_tools.py
-|4,39,149,0,1611850902,"~/projects/finance/finance_tools.py"
--'  149  0  ~/projects/finance/finance_tools.py
-|4,39,149,0,1611850902,"~/projects/finance/finance_tools.py"
--'  1  0  ~/projects/finance/finance_tools.py
-|4,39,1,0,1611850871,"~/projects/finance/finance_tools.py"
--'  1  0  ~/projects/finance/finance_tools.py
-|4,39,1,0,1611850871,"~/projects/finance/finance_tools.py"
--'  1  0  ~/projects/finance/finance_tools.py
-|4,39,1,0,1611850871,"~/projects/finance/finance_tools.py"
--'  1  0  ~/projects/finance/finance_tools.py
-|4,39,1,0,1611850871,"~/projects/finance/finance_tools.py"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
--'  141  0  ~/projects/finance/.gitignore
-|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  137  76  ~/projects/finance/finance_tools.py
+|4,39,137,76,1611851589,"~/projects/finance/finance_tools.py"
+-'  137  76  ~/projects/finance/finance_tools.py
+|4,39,137,76,1611851589,"~/projects/finance/finance_tools.py"
 
 # History of marks within files (newest to oldest):
+
+> ~/dotfiles/.vim/vimrc
+	*	1611874662	0
+	"	147	0
+	.	32	0
+	+	145	30
+	+	142	0
+	+	144	0
+	+	145	0
+	+	144	0
+	+	145	0
+	+	32	0
+
+> ~/notes/2021-01-28_0.md
+	*	1611874383	0
+	"	6	6
+	.	1	0
+	+	14	11
+	+	24	0
+	+	24	176
+	+	17	0
+	+	16	29
+	+	24	0
+	+	17	0
+	+	24	0
+	+	23	0
+	+	19	11
+	+	20	9
+	+	21	9
+	+	22	0
+	+	18	1
+	+	20	0
+	+	24	25
+	+	26	31
+	+	29	25
+	+	37	0
+	+	37	177
+	+	30	0
+	+	25	0
+	+	27	9
+	+	28	9
+	+	24	10
+	+	24	76
+	+	24	0
+	+	37	17
+	+	16	8
+	+	14	11
+	+	35	0
+	+	38	31
+	+	27	0
+	+	38	8
+	+	31	4
+	+	33	1
+	+	38	0
+	+	33	2
+	+	38	0
+	+	34	46
+	+	40	18
+	+	44	18
+	+	48	15
+	+	48	54
+	+	53	18
+	+	48	18
+	+	53	57
+	+	53	18
+	+	58	20
+	+	59	0
+	+	38	0
+	+	40	0
+	+	44	0
+	+	40	33
+	+	44	0
+	+	38	0
+	+	39	43
+	+	40	7
+	+	41	39
+	+	44	0
+	+	40	2
+	+	42	5
+	+	43	8
+	+	44	0
+	+	46	11
+	+	48	0
+	+	45	26
+	+	47	5
+	+	48	13
+	+	50	5
+	+	53	8
+	+	49	37
+	+	53	11
+	+	52	4
+	+	45	18
+	+	52	24
+	+	53	1
+	+	54	23
+	+	55	9
+	+	56	0
+	+	58	0
+	+	59	0
+	+	57	0
+	+	56	0
+	+	58	1
+	+	60	8
+	+	62	5
+	+	39	4
+	+	45	4
+	+	52	4
+	+	57	4
+	+	36	0
+	+	44	0
+	+	51	0
+	+	56	0
+	+	24	0
+	+	31	0
+	+	1	0
+
+> ~/notes/2021-01-21_1.md
+	*	1611874374	0
+	"	8	6
+	^	20	47
+	.	20	46
+	+	13	0
+	+	2	21
+	+	2	22
+	+	3	0
+	+	2	20
+	+	9	8
+	+	11	16
+	+	13	0
+	+	15	0
+	+	14	0
+	+	15	0
+	+	16	14
+	+	17	0
+	+	16	0
+	+	17	0
+	+	16	63
+	+	18	26
+	+	20	46
+
+> ~/notes/calcurse.ical
+	*	1611871974	0
+	"	71	8
+	.	84	0
+	+	84	0
 
 > ~/projects/finance/2019-2021/current.csv
 	*	1611851742	0
@@ -985,12 +1064,6 @@ $\\\/g
 	+	91	0
 	+	96	0
 	+	93	0
-
-> ~/dotfiles/.vim/vimrc
-	*	1611838950	0
-	"	149	33
-	.	149	30
-	+	149	30
 
 > ~/.taskrc
 	*	1611756917	0
@@ -1457,30 +1530,6 @@ $\\\/g
 	.	2	41
 	+	2	9
 	+	2	41
-
-> ~/notes/2021-01-21_1.md
-	*	1611240143	0
-	"	20	46
-	^	20	47
-	.	20	46
-	+	13	0
-	+	2	21
-	+	2	22
-	+	3	0
-	+	2	20
-	+	9	8
-	+	11	16
-	+	13	0
-	+	15	0
-	+	14	0
-	+	15	0
-	+	16	14
-	+	17	0
-	+	16	0
-	+	17	0
-	+	16	63
-	+	18	26
-	+	20	46
 
 > ~/notes/2020-08-28_0.md
 	*	1611240083	0
@@ -2192,11 +2241,3 @@ $\\\/g
 	+	6	0
 	+	92	0
 	+	6	0
-
-> ~/notes/2020-09-01_0.md
-	*	1610122856	0
-	"	6	4
-
-> ~/notes/compiler/style.css
-	*	1610120018	0
-	"	37	0
