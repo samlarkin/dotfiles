@@ -11,7 +11,7 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/task add
+~MSle0~/to_csv
 
 # Last Substitute Search Pattern:
 ~MSle0&\\
@@ -21,105 +21,113 @@ $\\\/g
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1611756918,,"wq"
+|2,0,1611851744,,"wq"
+:q
+|2,0,1611851556,,"q"
 :w
-|2,0,1611756636,,"w"
+|2,0,1611851294,,"w"
+:e savings_2019-04.txt
+|2,0,1611849023,,"e savings_2019-04.txt"
+:e savings_2019-05.txt
+|2,0,1611848986,,"e savings_2019-05.txt"
+:e savings_2019-07.txt
+|2,0,1611848942,,"e savings_2019-07.txt"
+:e savings_2019-08.txt
+|2,0,1611848893,,"e savings_2019-08.txt"
+:e savings_2019-09.txt
+|2,0,1611848857,,"e savings_2019-09.txt"
+:e savings_2019-10.txt
+|2,0,1611848816,,"e savings_2019-10.txt"
+:e savings_2019-11.txt
+|2,0,1611848774,,"e savings_2019-11.txt"
+:set tw=1000
+|2,0,1611848764,,"set tw=1000"
+:e savings_2020-01.txt
+|2,0,1611848166,,"e savings_2020-01.txt"
+:e savings_2020-02.txt
+|2,0,1611848126,,"e savings_2020-02.txt"
+:e savings_2020-03.txt
+|2,0,1611848096,,"e savings_2020-03.txt"
+:e savings_2020-04.txt
+|2,0,1611847986,,"e savings_2020-04.txt"
+:e savings_2020-05.txt
+|2,0,1611847886,,"e savings_2020-05.txt"
+:e savings_2020-06.txt
+|2,0,1611847847,,"e savings_2020-06.txt"
+:e savings_2020-07.txt
+|2,0,1611847788,,"e savings_2020-07.txt"
+:e savings_2020-08.txt
+|2,0,1611847713,,"e savings_2020-08.txt"
+:e savings_2020-09.txt
+|2,0,1611847676,,"e savings_2020-09.txt"
+:e current_2019-01.txt
+|2,0,1611847393,,"e current_2019-01.txt"
+:e current_2019-02.txt
+|2,0,1611847335,,"e current_2019-02.txt"
+:e current_2019-03.txt
+|2,0,1611847325,,"e current_2019-03.txt"
+:ls
+|2,0,1611847309,,"ls"
+:e current_2019-04.txt
+|2,0,1611847137,,"e current_2019-04.txt"
+:e current_2019-05.txt
+|2,0,1611847078,,"e current_2019-05.txt"
+:e current_2019-06.txt
+|2,0,1611846974,,"e current_2019-06.txt"
+:e current_2019-07.txt
+|2,0,1611846908,,"e current_2019-07.txt"
+:e current_2019-08.txt
+|2,0,1611846841,,"e current_2019-08.txt"
+:e current_2019-09.txt
+|2,0,1611846791,,"e current_2019-09.txt"
+:e current
+|2,0,1611846734,,"e current"
+:e current_2019-10.txt
+|2,0,1611846695,,"e current_2019-10.txt"
+:b2
+|2,0,1611846650,,"b2"
+:b1
+|2,0,1611846644,,"b1"
+:e current_2019-11.txt
+|2,0,1611846622,,"e current_2019-11.txt"
+:e current_2020-01.txt
+|2,0,1611845435,,"e current_2020-01.txt"
+:e current_2020-02.txt
+|2,0,1611845395,,"e current_2020-02.txt"
+:e current_2020-03.txt
+|2,0,1611845341,,"e current_2020-03.txt"
+:e current_2020-04.txt
+|2,0,1611845300,,"e current_2020-04.txt"
+:e current_2020-05.txt
+|2,0,1611845258,,"e current_2020-05.txt"
+:e current_2020-06.txt
+|2,0,1611845209,,"e current_2020-06.txt"
+:e current_2020-07.txt
+|2,0,1611845159,,"e current_2020-07.txt"
+:e current_2020-12.txt
+|2,0,1611845150,,"e current_2020-12.txt"
+:e current_2020-08.txt
+|2,0,1611845083,,"e current_2020-08.txt"
+:e current_2021-01.txt
+|2,0,1611845056,,"e current_2021-01.txt"
+:e curren
+|2,0,1611845030,,"e curren"
+:setlocal tw=1000
+|2,0,1611844673,,"setlocal tw=1000"
+:tabe ~/.vim/vimrc
+|2,0,1611838863,,"tabe ~/.vim/vimrc"
+:vimgrep /- peterson/g *
+|2,0,1611838848,,"vimgrep /- peterson/g *"
 :red
 |2,0,1611755926,,"red"
-:q
-|2,0,1611755923,,"q"
-:help u
-|2,0,1611755895,,"help u"
-:e reading_list_sync.py
-|2,0,1611755542,,"e reading_list_sync.py"
-:tabe letter_template.tex
-|2,0,1611696041,,"tabe letter_template.tex"
-:%s/\\/\\\/g
-|2,0,1611694428,,"%s/\\\\/\\\\\\/g"
-:tabe config
-|2,0,1611693971,,"tabe config"
-:e compile_letter.py
-|2,0,1611693715,,"e compile_letter.py"
-:setlocal spell
-|2,0,1611682817,,"setlocal spell"
-:tabe letter.tex
-|2,0,1611682460,,"tabe letter.tex"
-:vimgrep /- peterson/g *
-|2,0,1611679055,,"vimgrep /- peterson/g *"
-:%s
-|2,0,1611675602,,"%s"
-:%s/p (?=\d{2})/**p/g
-|2,0,1611675565,,"%s/p (?=\\d{2})/**p/g"
-:vimgrep /-pet/g *
-|2,0,1611675449,,"vimgrep /-pet/g *"
-:vimgrep /-peter/g *
-|2,0,1611659313,,"vimgrep /-peter/g *"
-:vimgrep /-peterson/g *
-|2,0,1611659206,,"vimgrep /-peterson/g *"
-:e 2021-01-21_0.md
-|2,0,1611240173,,"e 2021-01-21_0.md"
-:b3
-|2,0,1611240088,,"b3"
-:b5
-|2,0,1611240081,,"b5"
-:ls
-|2,0,1611240071,,"ls"
-:b2
-|2,0,1611239867,,"b2"
-:e 2020-08-28_0.md
-|2,0,1611239846,,"e 2020-08-28_0.md"
-:r !grep "Fox" 2020-08-28_5.md
-|2,0,1611239763,,"r !grep \"Fox\" 2020-08-28_5.md"
-:e 2021-01-21_1.md
-|2,0,1611239726,,"e 2021-01-21_1.md"
-:e ../audio/
-|2,0,1611239713,,"e ../audio/"
-:e finance_tools.py
-|2,0,1611173058,,"e finance_tools.py"
-:e ,reading_list_sync.py
-|2,0,1610969496,,"e ,reading_list_sync.py"
-:tabe ,test.py
-|2,0,1610966640,,"tabe ,test.py"
-:%s/add_to_reading_list/add_to_md_list/g
-|2,0,1610966300,,"%s/add_to_reading_list/add_to_md_list/g"
-:tabe ,reading_list_sync.py
-|2,0,1610962769,,"tabe ,reading_list_sync.py"
-:e ,task_reading_list.py
-|2,0,1610826075,,"e ,task_reading_list.py"
-:b1
-|2,0,1610819847,,"b1"
-:e ~/bin/,volume.sh
-|2,0,1610819832,,"e ~/bin/,volume.sh"
-:b6
-|2,0,1610818812,,"b6"
-:b4
-|2,0,1610818790,,"b4"
-:b
-|2,0,1610818750,,"b"
-:!r python ,task_reading_list.py
-|2,0,1610644474,,"!r python ,task_reading_list.py"
-:r !python ,task_reading_list.py
-|2,0,1610643912,,"r !python ,task_reading_list.py"
-:grep "-reading" ~/notes/*.md
-|2,0,1610643635,,"grep \"-reading\" ~/notes/*.md"
-:vimgrep /-reading/g *
-|2,0,1610643603,,"vimgrep /-reading/g *"
-:e mv.py
-|2,0,1610468597,,"e mv.py"
-:%s/'.raw'/'.txt'/g
-|2,0,1610466476,,"%s/'.raw'/'.txt'/g"
-:vimgrep /-cv/g *
-|2,0,1610122835,,"vimgrep /-cv/g *"
-:r !cat ~/notes/compiled/plain/2020-09-01_0.html
-|2,0,1610122865,,"r !cat ~/notes/compiled/plain/2020-09-01_0.html"
-:e ~/notes/compiler/style.css
-|2,0,1610120001,,"e ~/notes/compiler/style.css"
-:r !grep "code" ~/notes/compiler/style.css
-|2,0,1610119964,,"r !grep \"code\" ~/notes/compiler/style.css"
-:e templates/templates/template.html
-|2,0,1610118249,,"e templates/templates/template.html"
 
 # Search String History (newest to oldest):
+?/to_csv
+|2,1,1611851565,47,"to_csv"
+?/.to_csv
+|2,1,1611851367,47,".to_csv"
+?/20
+|2,1,1611850755,47,"20"
 ?/task add
 |2,1,1611755548,47,"task add"
 ?/(
@@ -199,274 +207,790 @@ $\\\/g
 
 # Registers:
 "0	LINE	0
-	urgency.user.project.jobs.coeffiecient=5.0
-|3,0,0,1,1,0,1611756366,"urgency.user.project.jobs.coeffiecient=5.0"
+	        current_df.to_csv('current.csv')
+|3,0,0,1,1,0,1611851276,"        current_df.to_csv('current.csv')"
 "1	LINE	0
-	urgency.user.project.jobs.coeffiecient=5.0
-|3,0,1,1,1,0,1611756184,"urgency.user.project.jobs.coeffiecient=5.0"
+	23 Mar 20   DescriptionOpening balance this month       Balance17.64
+	Date25 Mar 20   Description402054 70226009 INTERNETTRANSFER Amount200.00    Balance not applicable
+	Date25 Mar 20   DescriptionSam Larkin Monzo Amount-50.00    Balance not applicable
+	Date25 Mar 20   DescriptionIZ *BRISTOL MIND BRISTOL Amount-35.00    Balance132.64
+	Date31 Mar 20   DescriptionBRISTOL CC PAYROLL   Amount1,549.54  Balance not applicable
+	Date31 Mar 20   Description402054 70226009 INTERNETTRANSFER Amount-700.00   Balance not applicable
+	Date31 Mar 20   DescriptionSam Larkin Monzo Amount-250.00   Balance732.18
+	Date01 Apr 20   DescriptionBRISTOL CC L TAX Amount-129.04   Balance not applicable
+	Date01 Apr 20   DescriptionABODE PROPERTY MAN T25598    Amount-400.00   Balance203.14
+	Date02 Apr 20   DescriptionPAYPAL PAYMENT   Amount-2.40 Balance200.74
+	Date03 Apr 20   DescriptionELIZABETH ROGOZINS COUNCILTAX April  Amount80.00 Balance not applicable
+	Date03 Apr 20   DescriptionIZ *BRISTOL MIND BRISTOL Amount-35.00    Balance245.74
+	Date10 Apr 20   DescriptionNatasha Owen covidshopping   Amount-150.00   Balance95.74
+	Date21 Apr 20   DescriptionEl Rincon Sam Larkin Amount-60.00    Balance35.74
+	Date23 Apr 20   DescriptionClosing balance this month       Balance35.74
+|3,0,1,1,15,0,1611847993,"23 Mar 20   DescriptionOpening balance this month       Balance17.64","Date25 Mar 20   Description402054 70226009 INTERNETTRANSFER Amount200.00    Balance not applicable","Date25 Mar 20   DescriptionSam Larkin Monzo Amount-50.00    Balance not applicable","Date25 Mar 20   DescriptionIZ *BRISTOL MIND BRISTOL Amount-35.00    Balance132.64","Date31 Mar 20   DescriptionBRISTOL CC PAYROLL   Amount1,549.54  Balance not applicable",>100
+|<"Date31 Mar 20   Description402054 70226009 INTERNETTRANSFER Amount-700.00   Balance not applicable","Date31 Mar 20   DescriptionSam Larkin Monzo Amount-250.00   Balance732.18","Date01 Apr 20   DescriptionBRISTOL CC L TAX Amount-129.04   Balance not applicable","Date01 Apr 20   DescriptionABODE PROPERTY MAN T25598    Amount-400.00   Balance203.14","Date02 Apr 20   DescriptionPAYPAL PAYMENT   Amount-2.40 Balance200.74",>100
+|<"Date03 Apr 20   DescriptionELIZABETH ROGOZINS COUNCILTAX April  Amount80.00 Balance not applicable","Date03 Apr 20   DescriptionIZ *BRISTOL MIND BRISTOL Amount-35.00    Balance245.74","Date10 Apr 20   DescriptionNatasha Owen covidshopping   Amount-150.00   Balance95.74","Date21 Apr 20   DescriptionEl Rincon Sam Larkin Amount-60.00    Balance35.74","Date23 Apr 20   DescriptionClosing balance this month       Balance35.74"
 "2	LINE	0
-	urgency.project.mindline.coefficient=3
-|3,0,2,1,1,0,1611756011,"urgency.project.mindline.coefficient=3"
+	23 Feb 19   DescriptionOpening balance this month       Balance274.61
+	Date25 Feb 19   DescriptionSam Larkin Monzo Amount-50.00    Balance not applicable
+	Date25 Feb 19   DescriptionCASH RB SCOT FEB25 TESCOBISHOP@13:39 Amount-20.00    Balance not applicable
+	Date25 Feb 19   DescriptionFULL BASKET LTD BRISTOL  Amount-11.01    Balance193.60
+	Date26 Feb 19   DescriptionBIKE (BRISTOL) LTD BRISTOL   Amount-12.99    Balance180.61
+	Date08 Mar 19   DescriptionPAYPAL *DHPFAMILYL35314369001    Amount-33.30    Balance not applicable
+	Date08 Mar 19   DescriptionASDA SUPERSTORE BEDMINSTER   Amount-4.14 Balance not applicable
+	Date08 Mar 19   DescriptionHORTS 01179252520    Amount-4.95 Balance138.22
+	Date11 Mar 19   DescriptionCHATTERTON'S CAFE BRISTOL    Amount-2.00 Balance not applicable
+	Date11 Mar 19   DescriptionFOSTERS EVENTS CAT BRISTOLBS2    Amount-9.30 Balance not applicable
+	Date11 Mar 19   DescriptionTHE GEORGE LOUNGE BACKWELL   Amount-16.00    Balance not applicable
+	Date11 Mar 19   DescriptionSAINSBURYS S/MKTS BRISTOL    Amount-2.30 Balance not applicable
+	Date11 Mar 19   DescriptionTHE MINERS ARMS BRISTOL  Amount-24.70    Balance not applicable
+	Date11 Mar 19   DescriptionTESCO STORES-2136 BRISTOL    Amount-6.30 Balance77.62
+	Date12 Mar 19   DescriptionGIFFGAFFWWW.GIFFGAFF Amount-7.50 Balance70.12
+	Date13 Mar 19   DescriptionTHE WAITING GAME Amount226.88    Balance not applicable
+	Date13 Mar 19   DescriptionSam Larkin Monzo Amount-100.00   Balance197.00
+	Date18 Mar 19   DescriptionCASH BNKM MAR18COOPERATIVE @15:41    Amount-20.00    Balance177.00
+	Date23 Mar 19   DescriptionClosing balance this month       Balance177.00
+|3,0,2,1,19,0,1611847341,"23 Feb 19   DescriptionOpening balance this month       Balance274.61","Date25 Feb 19   DescriptionSam Larkin Monzo Amount-50.00    Balance not applicable","Date25 Feb 19   DescriptionCASH RB SCOT FEB25 TESCOBISHOP@13:39 Amount-20.00    Balance not applicable","Date25 Feb 19   DescriptionFULL BASKET LTD BRISTOL  Amount-11.01    Balance193.60","Date26 Feb 19   DescriptionBIKE (BRISTOL) LTD BRISTOL   Amount-12.99    Balance180.61",>100
+|<"Date08 Mar 19   DescriptionPAYPAL *DHPFAMILYL35314369001    Amount-33.30    Balance not applicable","Date08 Mar 19   DescriptionASDA SUPERSTORE BEDMINSTER   Amount-4.14 Balance not applicable","Date08 Mar 19   DescriptionHORTS 01179252520    Amount-4.95 Balance138.22","Date11 Mar 19   DescriptionCHATTERTON'S CAFE BRISTOL    Amount-2.00 Balance not applicable","Date11 Mar 19   DescriptionFOSTERS EVENTS CAT BRISTOLBS2    Amount-9.30 Balance not applicable",>96
+|<"Date11 Mar 19   DescriptionTHE GEORGE LOUNGE BACKWELL   Amount-16.00    Balance not applicable","Date11 Mar 19   DescriptionSAINSBURYS S/MKTS BRISTOL    Amount-2.30 Balance not applicable","Date11 Mar 19   DescriptionTHE MINERS ARMS BRISTOL  Amount-24.70    Balance not applicable","Date11 Mar 19   DescriptionTESCO STORES-2136 BRISTOL    Amount-6.30 Balance77.62","Date12 Mar 19   DescriptionGIFFGAFFWWW.GIFFGAFF Amount-7.50 Balance70.12",>84
+|<"Date13 Mar 19   DescriptionTHE WAITING GAME Amount226.88    Balance not applicable","Date13 Mar 19   DescriptionSam Larkin Monzo Amount-100.00   Balance197.00","Date18 Mar 19   DescriptionCASH BNKM MAR18COOPERATIVE @15:41    Amount-20.00    Balance177.00","Date23 Mar 19   DescriptionClosing balance this month       Balance177.00"
 "3	LINE	0
+	te
+	    
+	    Description
+	        
+	        Amount
+	            
+	            Balance
+	            Date23 Dec 20   DescriptionOpening balance this month
+	            Balance405.29
+	            Date29 Dec 20   DescriptionSARAH KENNY RESIDE   Amount-447.50
+	            Balance not applicable
+	            Date29 Dec 20   Description402054 70226009 INTERNETTRANSFER
+	            Amount100.00    Balance57.79
+	            Date31 Dec 20   DescriptionBRISTOL CC PAYROLL   Amount1,620.07
+	            Balance1,677.86
+	            Date04 Jan 21   DescriptionBRISTOL CC L TAX FIRSTPAYMENT
+	            Amount-175.03   Balance1,502.83
+	            Date06 Jan 21   DescriptionPAYPAL PAYMENT   Amount-3.22
+	            Balance1,499.61
+	            Date13 Jan 21   DescriptionPAYPAL PAYMENT   Amount-35.00
+	            Balance1,464.61
+	            Date18 Jan 21   DescriptionBETTER FOOD BRISTOL  Amount-11.17
+	            Balance1,453.44
+	            Date19 Jan 21   Description402054 70226009 INTERNETTRANSFER
+	            Amount-500.00   Balance not applicable
+	            Date19 Jan 21   DescriptionSam Larkin Monzo Amount-200.00
+	            Balance753.44
+	            Date20 Jan 21   DescriptionPAYPAL *GOOGLE HEA35314369001
+	            Amount-37.47    Balance715.97
+	            Date23 Jan 21   DescriptionClosing balance this month
+	            Balance715.97
+|3,0,3,1,31,0,1611844606,"te","    ","    Description","        ","        Amount","            ","            Balance","            Date23 Dec 20   DescriptionOpening balance this month","            Balance405.29","            Date29 Dec 20   DescriptionSARAH KENNY RESIDE   Amount-447.50","            Balance not applicable","            Date29 Dec 20   Description402054 70226009 INTERNETTRANSFER","            Amount100.00    Balance57.79",>76
+|<"            Date31 Dec 20   DescriptionBRISTOL CC PAYROLL   Amount1,620.07","            Balance1,677.86","            Date04 Jan 21   DescriptionBRISTOL CC L TAX FIRSTPAYMENT","            Amount-175.03   Balance1,502.83","            Date06 Jan 21   DescriptionPAYPAL PAYMENT   Amount-3.22","            Balance1,499.61","            Date13 Jan 21   DescriptionPAYPAL PAYMENT   Amount-35.00","            Balance1,464.61",>74
+|<"            Date18 Jan 21   DescriptionBETTER FOOD BRISTOL  Amount-11.17","            Balance1,453.44","            Date19 Jan 21   Description402054 70226009 INTERNETTRANSFER","            Amount-500.00   Balance not applicable","            Date19 Jan 21   DescriptionSam Larkin Monzo Amount-200.00","            Balance753.44","            Date20 Jan 21   DescriptionPAYPAL *GOOGLE HEA35314369001","            Amount-37.47    Balance715.97",>67
+|<"            Date23 Jan 21   DescriptionClosing balance this month","            Balance715.97"
+"4	LINE	0
+	
+|3,0,4,1,1,0,1611839084,""
+"5	LINE	0
+	urgency.user.project.jobs.coeffiecient=5.0
+|3,0,5,1,1,0,1611756184,"urgency.user.project.jobs.coeffiecient=5.0"
+"6	LINE	0
+	urgency.project.mindline.coefficient=3
+|3,0,6,1,1,0,1611756011,"urgency.project.mindline.coefficient=3"
+"7	LINE	0
 	# Customize calendar report [task calendar]
 	calendar.details.report=all
 	
-|3,0,3,1,3,0,1611755857,"# Customize calendar report [task calendar]","calendar.details.report=all",""
-"4	LINE	0
-	report.next.filter=project.not:reading
-|3,0,4,1,1,0,1611754462,"report.next.filter=project.not:reading"
-"5	LINE	0
-	
-|3,0,5,1,1,0,1611753685,""
-"6	LINE	0
-	
-	# Customize calendar report [task calendar]
-|3,0,6,1,2,0,1611753680,"","# Customize calendar report [task calendar]"
-"7	LINE	0
-	
-|3,0,7,1,1,0,1611750548,""
+|3,0,7,1,3,0,1611755857,"# Customize calendar report [task calendar]","calendar.details.report=all",""
 "8	LINE	0
-	report.reading.sort=entry+
-|3,0,8,1,1,0,1611749326,"report.reading.sort=entry+"
+	report.next.filter=project.not:reading
+|3,0,8,1,1,0,1611754462,"report.next.filter=project.not:reading"
 "9	LINE	0
-	report.reading.columns=id,project,status,wait,description.desc
-	report.reading.labels=ID,Project,Status,Wait,Description
-|3,0,9,1,2,0,1611749240,"report.reading.columns=id,project,status,wait,description.desc","report.reading.labels=ID,Project,Status,Wait,Description"
+	
+|3,0,9,1,1,0,1611753685,""
 "a	CHAR	0
 	i'€ýaf:i'€ýa?'€kd
 |3,0,10,0,1,0,1611692453,"i'€ýaf:i'€ýa?'€kd"
 "b	CHAR	0
 	0/:dt*
 |3,0,11,0,1,0,1610645685,"0/:dt*"
+"u	CHAR	0
+	u€ýa€ýa
+|3,0,30,0,1,0,1611844516,"u€ýa€ýa"
 ""-	CHAR	0
-	e
-|3,1,36,0,1,0,1611756895,"e"
+	current
+|3,1,36,0,1,0,1611851284,"current"
 
 # File marks:
-'0  42  0  ~/.taskrc
-|4,48,42,0,1611756918,"~/.taskrc"
-'1  39  0  ~/.taskrc
-|4,49,39,0,1611756643,"~/.taskrc"
-'2  38  0  ~/.taskrc
-|4,50,38,0,1611756643,"~/.taskrc"
-'3  42  40  ~/.taskrc
-|4,51,42,40,1611756600,"~/.taskrc"
-'4  41  40  ~/.taskrc
-|4,52,41,40,1611756600,"~/.taskrc"
-'5  41  40  ~/.taskrc
-|4,53,41,40,1611756600,"~/.taskrc"
-'6  42  43  ~/.taskrc
-|4,54,42,43,1611756518,"~/.taskrc"
-'7  42  43  ~/.taskrc
-|4,55,42,43,1611756518,"~/.taskrc"
-'8  41  43  ~/.taskrc
-|4,56,41,43,1611756518,"~/.taskrc"
-'9  41  43  ~/.taskrc
-|4,57,41,43,1611756518,"~/.taskrc"
+'0  1  0  ~/projects/finance/2019-2021/current.csv
+|4,48,1,0,1611851744,"~/projects/finance/2019-2021/current.csv"
+'1  137  76  ~/projects/finance/finance_tools.py
+|4,49,137,76,1611851589,"~/projects/finance/finance_tools.py"
+'2  461  0  ~/projects/finance/2019-2021/current.csv
+|4,50,461,0,1611851556,"~/projects/finance/2019-2021/current.csv"
+'3  461  0  ~/projects/finance/2019-2021/current.csv
+|4,51,461,0,1611851556,"~/projects/finance/2019-2021/current.csv"
+'4  137  64  ~/projects/finance/finance_tools.py
+|4,52,137,64,1611851439,"~/projects/finance/finance_tools.py"
+'5  151  0  ~/projects/finance/finance_tools.py
+|4,53,151,0,1611851301,"~/projects/finance/finance_tools.py"
+'6  151  0  ~/projects/finance/finance_tools.py
+|4,54,151,0,1611851301,"~/projects/finance/finance_tools.py"
+'7  151  0  ~/projects/finance/finance_tools.py
+|4,55,151,0,1611851301,"~/projects/finance/finance_tools.py"
+'8  151  0  ~/projects/finance/finance_tools.py
+|4,56,151,0,1611851301,"~/projects/finance/finance_tools.py"
+'9  149  0  ~/projects/finance/finance_tools.py
+|4,57,149,0,1611850902,"~/projects/finance/finance_tools.py"
 
 # Jumplist (newest first):
--'  42  0  ~/.taskrc
-|4,39,42,0,1611756918,"~/.taskrc"
--'  1  0  ~/.taskrc
-|4,39,1,0,1611756852,"~/.taskrc"
--'  39  0  ~/.taskrc
-|4,39,39,0,1611756643,"~/.taskrc"
--'  38  0  ~/.taskrc
-|4,39,38,0,1611756643,"~/.taskrc"
--'  1  0  ~/.taskrc
-|4,39,1,0,1611756617,"~/.taskrc"
--'  41  40  ~/.taskrc
-|4,39,41,40,1611756600,"~/.taskrc"
--'  41  40  ~/.taskrc
-|4,39,41,40,1611756600,"~/.taskrc"
--'  2  0  ~/.taskrc
-|4,39,2,0,1611756578,"~/.taskrc"
--'  2  0  ~/.taskrc
-|4,39,2,0,1611756578,"~/.taskrc"
--'  2  0  ~/.taskrc
-|4,39,2,0,1611756578,"~/.taskrc"
--'  1  0  ~/.taskrc
-|4,39,1,0,1611756576,"~/.taskrc"
--'  41  43  ~/.taskrc
-|4,39,41,43,1611756518,"~/.taskrc"
--'  1  0  ~/.taskrc
-|4,39,1,0,1611756503,"~/.taskrc"
--'  38  25  ~/.taskrc
-|4,39,38,25,1611756375,"~/.taskrc"
--'  38  25  ~/.taskrc
-|4,39,38,25,1611756375,"~/.taskrc"
--'  38  25  ~/.taskrc
-|4,39,38,25,1611756375,"~/.taskrc"
--'  2  0  ~/.taskrc
-|4,39,2,0,1611756337,"~/.taskrc"
--'  2  0  ~/.taskrc
-|4,39,2,0,1611756337,"~/.taskrc"
--'  1  0  ~/.taskrc
-|4,39,1,0,1611756334,"~/.taskrc"
--'  37  70  ~/.taskrc
-|4,39,37,70,1611756318,"~/.taskrc"
--'  37  39  ~/.taskrc
-|4,39,37,39,1611756318,"~/.taskrc"
--'  37  39  ~/.taskrc
-|4,39,37,39,1611756318,"~/.taskrc"
--'  37  39  ~/.taskrc
-|4,39,37,39,1611756318,"~/.taskrc"
--'  37  39  ~/.taskrc
-|4,39,37,39,1611756318,"~/.taskrc"
--'  37  39  ~/.taskrc
-|4,39,37,39,1611756318,"~/.taskrc"
--'  1  0  ~/.taskrc
-|4,39,1,0,1611756267,"~/.taskrc"
--'  37  39  ~/.taskrc
-|4,39,37,39,1611756254,"~/.taskrc"
--'  2  0  ~/.taskrc
-|4,39,2,0,1611756234,"~/.taskrc"
--'  2  0  ~/.taskrc
-|4,39,2,0,1611756234,"~/.taskrc"
--'  1  0  ~/.taskrc
-|4,39,1,0,1611756232,"~/.taskrc"
--'  37  0  ~/.taskrc
-|4,39,37,0,1611756214,"~/.taskrc"
--'  1  0  ~/.taskrc
-|4,39,1,0,1611756203,"~/.taskrc"
--'  37  0  ~/.taskrc
-|4,39,37,0,1611756193,"~/.taskrc"
--'  2  0  ~/.taskrc
-|4,39,2,0,1611756175,"~/.taskrc"
--'  2  0  ~/.taskrc
-|4,39,2,0,1611756175,"~/.taskrc"
--'  1  0  ~/.taskrc
-|4,39,1,0,1611756173,"~/.taskrc"
--'  40  0  ~/.taskrc
-|4,39,40,0,1611756150,"~/.taskrc"
--'  39  0  ~/.taskrc
-|4,39,39,0,1611756150,"~/.taskrc"
--'  39  0  ~/.taskrc
-|4,39,39,0,1611756150,"~/.taskrc"
--'  39  0  ~/.taskrc
-|4,39,39,0,1611756150,"~/.taskrc"
--'  39  0  ~/.taskrc
-|4,39,39,0,1611756150,"~/.taskrc"
--'  38  0  ~/.taskrc
-|4,39,38,0,1611756150,"~/.taskrc"
--'  38  0  ~/.taskrc
-|4,39,38,0,1611756150,"~/.taskrc"
--'  38  0  ~/.taskrc
-|4,39,38,0,1611756150,"~/.taskrc"
--'  38  0  ~/.taskrc
-|4,39,38,0,1611756150,"~/.taskrc"
--'  37  0  ~/.taskrc
-|4,39,37,0,1611756150,"~/.taskrc"
--'  1  0  ~/.taskrc
-|4,39,1,0,1611756078,"~/.taskrc"
--'  41  36  ~/.taskrc
-|4,39,41,36,1611756039,"~/.taskrc"
--'  40  36  ~/.taskrc
-|4,39,40,36,1611756039,"~/.taskrc"
--'  40  36  ~/.taskrc
-|4,39,40,36,1611756039,"~/.taskrc"
--'  40  36  ~/.taskrc
-|4,39,40,36,1611756039,"~/.taskrc"
--'  41  36  ~/.taskrc
-|4,39,41,36,1611756039,"~/.taskrc"
--'  40  36  ~/.taskrc
-|4,39,40,36,1611756039,"~/.taskrc"
--'  40  36  ~/.taskrc
-|4,39,40,36,1611756039,"~/.taskrc"
--'  40  36  ~/.taskrc
-|4,39,40,36,1611756039,"~/.taskrc"
--'  40  36  ~/.taskrc
-|4,39,40,36,1611756039,"~/.taskrc"
--'  40  36  ~/.taskrc
-|4,39,40,36,1611756039,"~/.taskrc"
--'  40  36  ~/.taskrc
-|4,39,40,36,1611756039,"~/.taskrc"
--'  36  0  ~/.taskrc
-|4,39,36,0,1611755878,"~/.taskrc"
--'  36  0  ~/.taskrc
-|4,39,36,0,1611755878,"~/.taskrc"
--'  36  0  ~/.taskrc
-|4,39,36,0,1611755878,"~/.taskrc"
--'  36  0  ~/.taskrc
-|4,39,36,0,1611755878,"~/.taskrc"
--'  36  0  ~/.taskrc
-|4,39,36,0,1611755878,"~/.taskrc"
--'  36  0  ~/.taskrc
-|4,39,36,0,1611755878,"~/.taskrc"
--'  36  0  ~/.taskrc
-|4,39,36,0,1611755878,"~/.taskrc"
--'  36  0  ~/.taskrc
-|4,39,36,0,1611755878,"~/.taskrc"
--'  36  0  ~/.taskrc
-|4,39,36,0,1611755878,"~/.taskrc"
--'  36  0  ~/.taskrc
-|4,39,36,0,1611755878,"~/.taskrc"
--'  36  0  ~/.taskrc
-|4,39,36,0,1611755878,"~/.taskrc"
--'  40  0  ~/.taskrc
-|4,39,40,0,1611755875,"~/.taskrc"
--'  39  0  ~/.taskrc
-|4,39,39,0,1611755875,"~/.taskrc"
--'  39  0  ~/.taskrc
-|4,39,39,0,1611755875,"~/.taskrc"
--'  39  0  ~/.taskrc
-|4,39,39,0,1611755875,"~/.taskrc"
--'  39  0  ~/.taskrc
-|4,39,39,0,1611755875,"~/.taskrc"
--'  38  0  ~/.taskrc
-|4,39,38,0,1611755875,"~/.taskrc"
--'  38  0  ~/.taskrc
-|4,39,38,0,1611755875,"~/.taskrc"
--'  1  0  ~/.taskrc
-|4,39,1,0,1611755843,"~/.taskrc"
--'  53  39  ~/notes/2020-08-28_5.md
-|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
--'  53  39  ~/notes/2020-08-28_5.md
-|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
--'  53  39  ~/notes/2020-08-28_5.md
-|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
--'  53  39  ~/notes/2020-08-28_5.md
-|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
--'  53  39  ~/notes/2020-08-28_5.md
-|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
--'  53  39  ~/notes/2020-08-28_5.md
-|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
--'  53  39  ~/notes/2020-08-28_5.md
-|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
--'  53  39  ~/notes/2020-08-28_5.md
-|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
--'  53  39  ~/notes/2020-08-28_5.md
-|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
--'  53  39  ~/notes/2020-08-28_5.md
-|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
--'  53  39  ~/notes/2020-08-28_5.md
-|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
--'  53  39  ~/notes/2020-08-28_5.md
-|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
--'  53  39  ~/notes/2020-08-28_5.md
-|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
--'  53  39  ~/notes/2020-08-28_5.md
-|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
--'  53  39  ~/notes/2020-08-28_5.md
-|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
--'  53  39  ~/notes/2020-08-28_5.md
-|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
--'  53  39  ~/notes/2020-08-28_5.md
-|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
--'  53  39  ~/notes/2020-08-28_5.md
-|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
--'  53  39  ~/notes/2020-08-28_5.md
-|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
--'  53  39  ~/notes/2020-08-28_5.md
-|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
--'  53  39  ~/notes/2020-08-28_5.md
-|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
--'  53  39  ~/notes/2020-08-28_5.md
-|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
--'  53  39  ~/notes/2020-08-28_5.md
-|4,39,53,39,1611755678,"~/notes/2020-08-28_5.md"
+-'  1  0  ~/projects/finance/2019-2021/current.csv
+|4,39,1,0,1611851744,"~/projects/finance/2019-2021/current.csv"
+-'  461  0  ~/projects/finance/2019-2021/current.csv
+|4,39,461,0,1611851742,"~/projects/finance/2019-2021/current.csv"
+-'  137  76  ~/projects/finance/finance_tools.py
+|4,39,137,76,1611851589,"~/projects/finance/finance_tools.py"
+-'  137  76  ~/projects/finance/finance_tools.py
+|4,39,137,76,1611851589,"~/projects/finance/finance_tools.py"
+-'  1  0  ~/projects/finance/finance_tools.py
+|4,39,1,0,1611851565,"~/projects/finance/finance_tools.py"
+-'  1  0  ~/projects/finance/finance_tools.py
+|4,39,1,0,1611851565,"~/projects/finance/finance_tools.py"
+-'  461  0  ~/projects/finance/2019-2021/current.csv
+|4,39,461,0,1611851556,"~/projects/finance/2019-2021/current.csv"
+-'  461  0  ~/projects/finance/2019-2021/current.csv
+|4,39,461,0,1611851556,"~/projects/finance/2019-2021/current.csv"
+-'  1  0  ~/projects/finance/2019-2021/current.csv
+|4,39,1,0,1611851519,"~/projects/finance/2019-2021/current.csv"
+-'  1  0  ~/projects/finance/2019-2021/current.csv
+|4,39,1,0,1611851519,"~/projects/finance/2019-2021/current.csv"
+-'  137  64  ~/projects/finance/finance_tools.py
+|4,39,137,64,1611851439,"~/projects/finance/finance_tools.py"
+-'  137  64  ~/projects/finance/finance_tools.py
+|4,39,137,64,1611851439,"~/projects/finance/finance_tools.py"
+-'  137  64  ~/projects/finance/finance_tools.py
+|4,39,137,64,1611851439,"~/projects/finance/finance_tools.py"
+-'  137  64  ~/projects/finance/finance_tools.py
+|4,39,137,64,1611851439,"~/projects/finance/finance_tools.py"
+-'  1  0  ~/projects/finance/finance_tools.py
+|4,39,1,0,1611851367,"~/projects/finance/finance_tools.py"
+-'  1  0  ~/projects/finance/finance_tools.py
+|4,39,1,0,1611851367,"~/projects/finance/finance_tools.py"
+-'  1  0  ~/projects/finance/finance_tools.py
+|4,39,1,0,1611851367,"~/projects/finance/finance_tools.py"
+-'  1  0  ~/projects/finance/finance_tools.py
+|4,39,1,0,1611851367,"~/projects/finance/finance_tools.py"
+-'  151  0  ~/projects/finance/finance_tools.py
+|4,39,151,0,1611851301,"~/projects/finance/finance_tools.py"
+-'  151  0  ~/projects/finance/finance_tools.py
+|4,39,151,0,1611851301,"~/projects/finance/finance_tools.py"
+-'  151  0  ~/projects/finance/finance_tools.py
+|4,39,151,0,1611851301,"~/projects/finance/finance_tools.py"
+-'  151  0  ~/projects/finance/finance_tools.py
+|4,39,151,0,1611851301,"~/projects/finance/finance_tools.py"
+-'  151  0  ~/projects/finance/finance_tools.py
+|4,39,151,0,1611851301,"~/projects/finance/finance_tools.py"
+-'  151  0  ~/projects/finance/finance_tools.py
+|4,39,151,0,1611851301,"~/projects/finance/finance_tools.py"
+-'  151  0  ~/projects/finance/finance_tools.py
+|4,39,151,0,1611851301,"~/projects/finance/finance_tools.py"
+-'  151  0  ~/projects/finance/finance_tools.py
+|4,39,151,0,1611851301,"~/projects/finance/finance_tools.py"
+-'  151  0  ~/projects/finance/finance_tools.py
+|4,39,151,0,1611851301,"~/projects/finance/finance_tools.py"
+-'  151  0  ~/projects/finance/finance_tools.py
+|4,39,151,0,1611851301,"~/projects/finance/finance_tools.py"
+-'  1  0  ~/projects/finance/finance_tools.py
+|4,39,1,0,1611851054,"~/projects/finance/finance_tools.py"
+-'  1  0  ~/projects/finance/finance_tools.py
+|4,39,1,0,1611851054,"~/projects/finance/finance_tools.py"
+-'  1  0  ~/projects/finance/finance_tools.py
+|4,39,1,0,1611851054,"~/projects/finance/finance_tools.py"
+-'  1  0  ~/projects/finance/finance_tools.py
+|4,39,1,0,1611851054,"~/projects/finance/finance_tools.py"
+-'  149  0  ~/projects/finance/finance_tools.py
+|4,39,149,0,1611850902,"~/projects/finance/finance_tools.py"
+-'  149  0  ~/projects/finance/finance_tools.py
+|4,39,149,0,1611850902,"~/projects/finance/finance_tools.py"
+-'  149  0  ~/projects/finance/finance_tools.py
+|4,39,149,0,1611850902,"~/projects/finance/finance_tools.py"
+-'  149  0  ~/projects/finance/finance_tools.py
+|4,39,149,0,1611850902,"~/projects/finance/finance_tools.py"
+-'  149  0  ~/projects/finance/finance_tools.py
+|4,39,149,0,1611850902,"~/projects/finance/finance_tools.py"
+-'  149  0  ~/projects/finance/finance_tools.py
+|4,39,149,0,1611850902,"~/projects/finance/finance_tools.py"
+-'  149  0  ~/projects/finance/finance_tools.py
+|4,39,149,0,1611850902,"~/projects/finance/finance_tools.py"
+-'  149  0  ~/projects/finance/finance_tools.py
+|4,39,149,0,1611850902,"~/projects/finance/finance_tools.py"
+-'  149  0  ~/projects/finance/finance_tools.py
+|4,39,149,0,1611850902,"~/projects/finance/finance_tools.py"
+-'  149  0  ~/projects/finance/finance_tools.py
+|4,39,149,0,1611850902,"~/projects/finance/finance_tools.py"
+-'  1  0  ~/projects/finance/finance_tools.py
+|4,39,1,0,1611850871,"~/projects/finance/finance_tools.py"
+-'  1  0  ~/projects/finance/finance_tools.py
+|4,39,1,0,1611850871,"~/projects/finance/finance_tools.py"
+-'  1  0  ~/projects/finance/finance_tools.py
+|4,39,1,0,1611850871,"~/projects/finance/finance_tools.py"
+-'  1  0  ~/projects/finance/finance_tools.py
+|4,39,1,0,1611850871,"~/projects/finance/finance_tools.py"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
+-'  141  0  ~/projects/finance/.gitignore
+|4,39,141,0,1611850764,"~/projects/finance/.gitignore"
 
 # History of marks within files (newest to oldest):
+
+> ~/projects/finance/2019-2021/current.csv
+	*	1611851742	0
+	"	1	0
+
+> ~/projects/finance/finance_tools.py
+	*	1611851586	0
+	"	137	76
+	^	137	77
+	.	137	76
+	+	98	42
+	+	57	41
+	+	13	7
+	+	22	62
+	+	28	11
+	+	15	22
+	+	34	39
+	+	39	65
+	+	45	34
+	+	47	22
+	+	54	54
+	+	58	74
+	+	71	37
+	+	86	62
+	+	71	7
+	+	86	7
+	+	88	22
+	+	93	71
+	+	95	10
+	+	95	0
+	+	142	71
+	+	123	0
+	+	107	8
+	+	107	0
+	+	146	0
+	+	134	60
+	+	135	42
+	+	80	60
+	+	136	37
+	+	137	17
+	+	136	49
+	+	137	64
+	+	136	76
+	+	137	76
+
+> ~/projects/finance/.gitignore
+	*	1611850761	0
+	"	141	0
+
+> ~/documents/finance/banking/hsbc/savings_2019-04.txt
+	*	1611849128	0
+	"	19	74
+	^	19	75
+	.	19	74
+	+	19	74
+
+> ~/documents/finance/banking/hsbc/savings_2019-05.txt
+	*	1611849013	0
+	"	6	74
+	^	6	75
+	.	6	74
+	+	6	74
+
+> ~/documents/finance/banking/hsbc/savings_2019-07.txt
+	*	1611848976	0
+	"	6	74
+	^	6	75
+	.	6	71
+	+	6	71
+
+> ~/documents/finance/banking/hsbc/savings_2019-08.txt
+	*	1611848933	0
+	"	4	74
+	^	4	75
+	.	4	71
+	+	4	71
+
+> ~/documents/finance/banking/hsbc/savings_2019-09.txt
+	*	1611848883	0
+	"	4	74
+	^	4	75
+	.	4	71
+	+	4	71
+
+> ~/documents/finance/banking/hsbc/savings_2019-10.txt
+	*	1611848846	0
+	"	4	74
+	^	4	75
+	.	4	71
+	+	4	71
+
+> ~/documents/finance/banking/hsbc/savings_2019-11.txt
+	*	1611848805	0
+	"	4	74
+	^	4	75
+	.	4	71
+	+	4	71
+
+> ~/documents/finance/banking/hsbc/savings_2019-12.txt
+	*	1611848767	0
+	"	4	74
+	^	4	75
+	.	4	71
+	+	4	71
+
+> ~/documents/finance/banking/hsbc/savings_2020-01.txt
+	*	1611848194	0
+	"	4	74
+	^	4	75
+	.	4	71
+	+	4	71
+
+> ~/documents/finance/banking/hsbc/savings_2020-02.txt
+	*	1611848158	0
+	"	4	74
+	^	4	75
+	.	4	74
+	+	4	74
+
+> ~/documents/finance/banking/hsbc/savings_2020-03.txt
+	*	1611848119	0
+	"	5	74
+	^	5	75
+	.	5	74
+	+	5	74
+
+> ~/documents/finance/banking/hsbc/savings_2020-04.txt
+	*	1611848080	0
+	"	5	74
+	^	5	75
+	.	5	71
+	+	1	71
+	+	5	71
+
+> ~/documents/finance/banking/hsbc/savings_2020-05.txt
+	*	1611847901	0
+	"	4	74
+	^	4	75
+	.	4	71
+	+	4	71
+
+> ~/documents/finance/banking/hsbc/savings_2020-06.txt
+	*	1611847874	0
+	"	5	74
+	^	5	75
+	.	5	71
+	+	5	71
+
+> ~/documents/finance/banking/hsbc/savings_2020-07.txt
+	*	1611847838	0
+	"	5	74
+	^	5	75
+	.	5	71
+	+	5	71
+
+> ~/documents/finance/banking/hsbc/savings_2020-08.txt
+	*	1611847733	0
+	"	4	74
+	^	4	75
+	.	4	71
+	+	4	71
+
+> ~/documents/finance/banking/hsbc/savings_2020-09.txt
+	*	1611847706	0
+	"	4	74
+	^	4	75
+	.	4	60
+	+	4	60
+
+> ~/documents/finance/banking/hsbc/savings_2021-01.txt
+	*	1611847667	0
+	"	5	75
+	^	5	76
+	.	5	73
+	+	5	73
+
+> ~/documents/finance/banking/hsbc/current_2019-01.txt
+	*	1611847610	0
+	"	16	74
+	^	16	75
+	.	16	60
+	+	16	60
+
+> ~/documents/finance/banking/hsbc/current_2019-02.txt
+	*	1611847386	0
+	"	32	72
+	^	32	73
+	.	32	60
+	+	1	71
+	+	32	60
+
+> ~/documents/finance/banking/hsbc/current_2019-03.txt
+	*	1611847328	0
+	"	1	0
+	^	19	73
+	.	19	72
+	+	19	72
+
+> ~/documents/finance/banking/hsbc/current_2019-04.txt
+	*	1611847179	0
+	"	23	72
+	^	23	73
+	.	23	60
+	+	23	60
+
+> ~/documents/finance/banking/hsbc/current_2019-05.txt
+	*	1611847127	0
+	"	17	72
+	^	17	73
+	.	17	60
+	+	1	4
+	+	1	69
+	+	17	60
+
+> ~/documents/finance/banking/hsbc/current_2019-06.txt
+	*	1611847071	0
+	"	22	72
+	^	22	73
+	.	22	72
+	+	22	72
+
+> ~/documents/finance/banking/hsbc/current_2019-07.txt
+	*	1611846962	0
+	"	18	72
+	^	18	73
+	.	18	60
+	+	18	60
+
+> ~/documents/finance/banking/hsbc/current_2019-08.txt
+	*	1611846895	0
+	"	28	72
+	^	28	73
+	.	28	60
+	+	28	60
+
+> ~/documents/finance/banking/hsbc/current_2019-09.txt
+	*	1611846828	0
+	"	19	72
+	^	19	73
+	.	19	60
+	+	19	60
+
+> ~/documents/finance/banking/hsbc/current_2019-10.txt
+	*	1611846782	0
+	"	25	72
+	^	25	73
+	.	25	60
+	+	1	69
+	+	25	60
+
+> ~/documents/finance/banking/hsbc/current_2019-11.txt
+	*	1611846688	0
+	"	19	71
+	^	19	72
+	.	19	60
+	+	19	60
+
+> ~/documents/finance/banking/hsbc/current_2019-12.txt
+	*	1611846644	0
+	"	15	0
+	^	15	73
+	.	15	60
+	+	1	68
+	+	15	60
+
+> ~/documents/finance/banking/hsbc/current_2020-01.txt
+	*	1611846543	0
+	"	13	70
+	^	13	72
+	.	22	69
+	+	22	69
+
+> ~/documents/finance/banking/hsbc/current_2020-02.txt
+	*	1611845427	0
+	"	20	70
+	^	20	71
+	.	20	60
+	+	20	60
+
+> ~/documents/finance/banking/hsbc/current_2020-03.txt
+	*	1611845384	0
+	"	20	71
+	^	20	72
+	.	20	60
+	+	20	60
+
+> ~/documents/finance/banking/hsbc/current_2020-04.txt
+	*	1611845331	0
+	"	15	71
+	^	15	72
+	.	15	60
+	+	15	60
+
+> ~/documents/finance/banking/hsbc/current_2020-05.txt
+	*	1611845292	0
+	"	12	71
+	^	12	72
+	.	12	60
+	+	12	60
+
+> ~/documents/finance/banking/hsbc/current_2020-06.txt
+	*	1611845250	0
+	"	16	72
+	^	16	73
+	.	16	70
+	+	16	70
+
+> ~/documents/finance/banking/hsbc/current_2020-07.txt
+	*	1611845190	0
+	"	16	72
+	^	16	73
+	.	16	60
+	+	16	60
+
+> ~/documents/finance/banking/hsbc/current_2020-08.txt
+	*	1611845150	0
+	"	1	2
+	^	1	4
+	.	1	3
+	+	1	69
+	+	10	71
+	+	1	3
+
+> ~/documents/finance/banking/hsbc/current_2021-01.txt
+	*	1611845071	0
+	"	1	10
+	^	1	11
+	.	1	10
+	+	1	2
+	+	1	4
+	+	1	2
+	+	1	61
+	+	12	60
+	+	1	10
+
+> ~/documents/finance/banking/hsbc/current_2020-09.txt
+	*	1611845047	0
+	"	1	7
+	^	1	8
+	.	1	7
+	+	16	70
+	+	1	7
+
+> ~/documents/finance/banking/hsbc/current_2020-10.txt
+	*	1611844583	0
+	"	1	0
+
+> ~/notes/2021-01-21_0.md
+	*	1611839263	0
+	"	96	0
+	^	93	0
+	.	93	0
+	+	15	0
+	+	2	39
+	+	11	5
+	+	10	5
+	+	11	5
+	+	15	0
+	+	16	12
+	+	18	42
+	+	20	38
+	+	13	12
+	+	25	9
+	+	22	10
+	+	26	0
+	+	23	0
+	+	25	63
+	+	84	75
+	+	84	72
+	+	84	75
+	+	29	4
+	+	52	0
+	+	51	0
+	+	31	28
+	+	29	17
+	+	34	3
+	+	35	22
+	+	36	22
+	+	36	72
+	+	34	20
+	+	34	68
+	+	35	71
+	+	51	0
+	+	37	27
+	+	39	53
+	+	41	12
+	+	42	18
+	+	46	78
+	+	47	22
+	+	49	6
+	+	49	60
+	+	49	27
+	+	52	45
+	+	55	0
+	+	78	0
+	+	52	66
+	+	54	41
+	+	58	70
+	+	59	16
+	+	60	32
+	+	61	27
+	+	64	73
+	+	65	75
+	+	66	24
+	+	71	7
+	+	74	0
+	+	77	76
+	+	79	0
+	+	83	0
+	+	82	0
+	+	79	65
+	+	81	44
+	+	73	53
+	+	84	71
+	+	25	58
+	+	29	5
+	+	40	5
+	+	49	31
+	+	50	5
+	+	53	5
+	+	57	5
+	+	64	2
+	+	65	3
+	+	66	3
+	+	64	3
+	+	65	0
+	+	81	3
+	+	86	1
+	+	88	0
+	+	87	0
+	+	88	0
+	+	89	71
+	+	90	0
+	+	92	0
+	+	94	0
+	+	94	79
+	+	91	0
+	+	96	0
+	+	93	0
+
+> ~/dotfiles/.vim/vimrc
+	*	1611838950	0
+	"	149	33
+	.	149	30
+	+	149	30
 
 > ~/.taskrc
 	*	1611756917	0
@@ -926,87 +1450,6 @@ $\\\/g
 	+	7	49
 	+	6	56
 
-> ~/notes/2021-01-21_0.md
-	*	1611679205	0
-	"	5	0
-	^	81	4
-	.	81	3
-	+	15	0
-	+	2	39
-	+	11	5
-	+	10	5
-	+	11	5
-	+	15	0
-	+	16	12
-	+	18	42
-	+	20	38
-	+	13	12
-	+	25	9
-	+	22	10
-	+	26	0
-	+	23	0
-	+	25	63
-	+	84	75
-	+	84	72
-	+	84	75
-	+	29	4
-	+	52	0
-	+	51	0
-	+	31	28
-	+	29	17
-	+	34	3
-	+	35	22
-	+	36	22
-	+	36	72
-	+	34	20
-	+	34	68
-	+	35	71
-	+	51	0
-	+	37	27
-	+	39	53
-	+	41	12
-	+	42	18
-	+	46	78
-	+	47	22
-	+	49	6
-	+	49	60
-	+	49	27
-	+	52	45
-	+	55	0
-	+	78	0
-	+	52	66
-	+	54	41
-	+	58	70
-	+	59	16
-	+	60	32
-	+	61	27
-	+	64	73
-	+	65	75
-	+	66	24
-	+	71	7
-	+	74	0
-	+	77	76
-	+	79	0
-	+	83	0
-	+	82	0
-	+	79	65
-	+	81	44
-	+	73	53
-	+	84	71
-	+	25	58
-	+	29	5
-	+	40	5
-	+	49	31
-	+	50	5
-	+	53	5
-	+	57	5
-	+	64	2
-	+	65	3
-	+	66	3
-	+	64	3
-	+	65	0
-	+	81	3
-
 > ~/bin/,compile_notes.sh
 	*	1611240700	0
 	"	2	40
@@ -1046,40 +1489,6 @@ $\\\/g
 > ~/projects/finance/altair_viz.py
 	*	1611239232	0
 	"	103	0
-
-> ~/projects/finance/finance_tools.py
-	*	1611231426	0
-	"	80	60
-	^	80	61
-	.	80	60
-	+	98	42
-	+	57	41
-	+	13	7
-	+	22	62
-	+	28	11
-	+	15	22
-	+	34	39
-	+	39	65
-	+	45	34
-	+	47	22
-	+	54	54
-	+	58	74
-	+	71	37
-	+	86	62
-	+	71	7
-	+	86	7
-	+	88	22
-	+	93	71
-	+	95	10
-	+	95	0
-	+	140	71
-	+	123	0
-	+	107	8
-	+	107	0
-	+	144	0
-	+	134	60
-	+	135	42
-	+	80	60
 
 > ~/bin/,reading_list_sync.sh
 	*	1611006167	0
@@ -1433,10 +1842,6 @@ $\\\/g
 	"	1	0
 	.	1	0
 	+	1	0
-
-> ~/dotfiles/.vim/vimrc
-	*	1610819007	0
-	"	151	0
 
 > ~/bin/,qr.py
 	*	1610818959	0
@@ -1795,44 +2200,3 @@ $\\\/g
 > ~/notes/compiler/style.css
 	*	1610120018	0
 	"	37	0
-
-> ~/projects/samlarkin.xyz/templates/index.html
-	*	1610119859	0
-	"	16	53
-	^	16	54
-	.	16	53
-	+	12	12
-	+	13	0
-	+	16	53
-
-> ~/projects/samlarkin.xyz/templates/templates/template.html
-	*	1610119470	0
-	"	1	0
-	.	23	0
-	+	1	0
-	+	23	0
-
-> ~/projects/samlarkin.xyz/templates/gallery.html
-	*	1610118755	0
-	"	5	14
-	^	5	15
-	.	5	14
-	+	9	11
-	+	16	8
-	+	11	0
-	+	7	0
-	+	11	75
-	+	12	27
-	+	10	0
-	+	13	0
-	+	14	0
-	+	14	2
-	+	15	0
-	+	8	0
-	+	5	0
-	+	18	0
-	+	11	3
-	+	12	4
-	+	14	3
-	+	7	28
-	+	5	14
