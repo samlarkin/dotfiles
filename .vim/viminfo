@@ -11,2233 +11,2524 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/search
+~MSle0~/1
 
 # Last Substitute Search Pattern:
-~MSle0&\\
+~MSle0&sequence
 
 # Last Substitute String:
-$\\\/g
+$seq
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1611874665,,"wq"
-:e ~/.vim/vimrc
-|2,0,1611874392,,"e ~/.vim/vimrc"
-:vimgrep /mind/g *
-|2,0,1611874374,,"vimgrep /mind/g *"
-:cnext
-|2,0,1611874333,,"cnext"
+|2,0,1613665968,,"wq"
+:e .mutt/neomuttrc
+|2,0,1613662985,,"e .mutt/neomuttrc"
+:r tetrominoes.py
+|2,0,1613651045,,"r tetrominoes.py"
 :q
-|2,0,1611874319,,"q"
+|2,0,1613590986,,"q"
+:%s/sequence/seq/g
+|2,0,1613586478,,"%s/sequence/seq/g"
+:e gruvbox/colors-gruvbox-shuber-extended.muttrc
+|2,0,1613507662,,"e gruvbox/colors-gruvbox-shuber-extended.muttrc"
+:%s/\\^\\[\\[0m//g
+|2,0,1613484748,,"%s/\\\\^\\\\[\\\\[0m//g"
+:%s/\^\[\[0m//g
+|2,0,1613484739,,"%s/\\^\\[\\[0m//g"
+:r !pass show email/samuel.e.larkin@gmail.com_offlineimap_rick
+|2,0,1613483026,,"r !pass show email/samuel.e.larkin@gmail.com_offlineimap_rick"
+:r !<~/projects.txt
+|2,0,1613479998,,"r !<~/projects.txt"
+:%s/=/ = /g
+|2,0,1613477798,,"%s/=/ = /g"
+:r !pass show email/samuel.e.larkin@gmail.com_msmtp_rick
+|2,0,1613472101,,"r !pass show email/samuel.e.larkin@gmail.com_msmtp_rick"
+:%s/ = /=/g
+|2,0,1613469456,,"%s/ = /=/g"
+:r !pass show email/samuel.e.larkin@gmail.com_mutt_rick_config
+|2,0,1613468385,,"r !pass show email/samuel.e.larkin@gmail.com_mutt_rick_config"
+:tabe gmail
+|2,0,1613425812,,"tabe gmail"
+:r !pass show email/samuel.e.larkin@gmail.com_mutt_rick
+|2,0,1613425342,,"r !pass show email/samuel.e.larkin@gmail.com_mutt_rick"
+:tabe conf.py
+|2,0,1613330387,,"tabe conf.py"
+:%s/contact_tmp/Config.edit_tmp/g
+|2,0,1613330222,,"%s/contact_tmp/Config.edit_tmp/g"
+:%s/unittest.mock.patch/patch/g
+|2,0,1613325198,,"%s/unittest.mock.patch/patch/g"
+:%s/patch/unittest.mock.patch/g
+|2,0,1613324087,,"%s/patch/unittest.mock.patch/g"
+:%s/TestCase/unittest.TestCase/g
+|2,0,1613324054,,"%s/TestCase/unittest.TestCase/g"
+:r ../LICENSE
+|2,0,1613323145,,"r ../LICENSE"
+:tabe contacts/contacts.py
+|2,0,1613231974,,"tabe contacts/contacts.py"
+:tabe contacts.py
+|2,0,1613229054,,"tabe contacts.py"
 :w
-|2,0,1611874060,,"w"
-:tabe calcurse.ical
-|2,0,1611871791,,"tabe calcurse.ical"
-:b1
-|2,0,1611871766,,"b1"
-:e calcurse.ical
-|2,0,1611871624,,"e calcurse.ical"
-:e savings_2019-04.txt
-|2,0,1611849023,,"e savings_2019-04.txt"
-:e savings_2019-05.txt
-|2,0,1611848986,,"e savings_2019-05.txt"
-:e savings_2019-07.txt
-|2,0,1611848942,,"e savings_2019-07.txt"
-:e savings_2019-08.txt
-|2,0,1611848893,,"e savings_2019-08.txt"
-:e savings_2019-09.txt
-|2,0,1611848857,,"e savings_2019-09.txt"
-:e savings_2019-10.txt
-|2,0,1611848816,,"e savings_2019-10.txt"
-:e savings_2019-11.txt
-|2,0,1611848774,,"e savings_2019-11.txt"
-:set tw=1000
-|2,0,1611848764,,"set tw=1000"
-:e savings_2020-01.txt
-|2,0,1611848166,,"e savings_2020-01.txt"
-:e savings_2020-02.txt
-|2,0,1611848126,,"e savings_2020-02.txt"
-:e savings_2020-03.txt
-|2,0,1611848096,,"e savings_2020-03.txt"
-:e savings_2020-04.txt
-|2,0,1611847986,,"e savings_2020-04.txt"
-:e savings_2020-05.txt
-|2,0,1611847886,,"e savings_2020-05.txt"
-:e savings_2020-06.txt
-|2,0,1611847847,,"e savings_2020-06.txt"
-:e savings_2020-07.txt
-|2,0,1611847788,,"e savings_2020-07.txt"
-:e savings_2020-08.txt
-|2,0,1611847713,,"e savings_2020-08.txt"
-:e savings_2020-09.txt
-|2,0,1611847676,,"e savings_2020-09.txt"
-:e current_2019-01.txt
-|2,0,1611847393,,"e current_2019-01.txt"
-:e current_2019-02.txt
-|2,0,1611847335,,"e current_2019-02.txt"
-:e current_2019-03.txt
-|2,0,1611847325,,"e current_2019-03.txt"
-:ls
-|2,0,1611847309,,"ls"
-:e current_2019-04.txt
-|2,0,1611847137,,"e current_2019-04.txt"
-:e current_2019-05.txt
-|2,0,1611847078,,"e current_2019-05.txt"
-:e current_2019-06.txt
-|2,0,1611846974,,"e current_2019-06.txt"
-:e current_2019-07.txt
-|2,0,1611846908,,"e current_2019-07.txt"
-:e current_2019-08.txt
-|2,0,1611846841,,"e current_2019-08.txt"
-:e current_2019-09.txt
-|2,0,1611846791,,"e current_2019-09.txt"
-:e current
-|2,0,1611846734,,"e current"
-:e current_2019-10.txt
-|2,0,1611846695,,"e current_2019-10.txt"
-:b2
-|2,0,1611846650,,"b2"
-:e current_2019-11.txt
-|2,0,1611846622,,"e current_2019-11.txt"
-:e current_2020-01.txt
-|2,0,1611845435,,"e current_2020-01.txt"
-:e current_2020-02.txt
-|2,0,1611845395,,"e current_2020-02.txt"
-:e current_2020-03.txt
-|2,0,1611845341,,"e current_2020-03.txt"
-:e current_2020-04.txt
-|2,0,1611845300,,"e current_2020-04.txt"
-:e current_2020-05.txt
-|2,0,1611845258,,"e current_2020-05.txt"
-:e current_2020-06.txt
-|2,0,1611845209,,"e current_2020-06.txt"
-:e current_2020-07.txt
-|2,0,1611845159,,"e current_2020-07.txt"
-:e current_2020-12.txt
-|2,0,1611845150,,"e current_2020-12.txt"
-:e current_2020-08.txt
-|2,0,1611845083,,"e current_2020-08.txt"
-:e current_2021-01.txt
-|2,0,1611845056,,"e current_2021-01.txt"
+|2,0,1613164824,,"w"
+:%s/method"/method."/g
+|2,0,1613164175,,"%s/method\"/method.\"/g"
+:r !grep "def " contacts.py
+|2,0,1613161690,,"r !grep \"def \" contacts.py"
+:tabe ~/projects/finance/finance_tools/test_finance_tools.py
+|2,0,1613160175,,"tabe ~/projects/finance/finance_tools/test_finance_tools.py"
+:tabe ../contacts/contacts.py
+|2,0,1613159494,,"tabe ../contacts/contacts.py"
+:VimwikiAll2HTML
+|2,0,1613137703,,"VimwikiAll2HTML"
+:Vimwi
+|2,0,1613137688,,"Vimwi"
+:%s/\.//g
+|2,0,1613136884,,"%s/\\.//g"
+:%s/.//g
+|2,0,1613136877,,"%s/.//g"
+:%s///g
+|2,0,1613136872,,"%s///g"
+:%s/\\[//g
+|2,0,1613136230,,"%s/\\\\[//g"
+:%s/[//g
+|2,0,1613136220,,"%s/[//g"
+:help vimwiki
+|2,0,1613135952,,"help vimwiki"
+:r Reading\ Notes\ Boyle,\ M.\ \*The\ Way\ Home\*.wikiqq
+|2,0,1613135640,,"r Reading\\ Notes\\ Boyle,\\ M.\\ \\*The\\ Way\\ Home\\*.wikiqq"
+:r Reading\ Notes\ Boyle,\ M.\ \*The\ Way\ Home\*.wiki
+|2,0,1613135576,,"r Reading\\ Notes\\ Boyle,\\ M.\\ \\*The\\ Way\\ Home\\*.wiki"
+:tabe Reading\ List.wiki
+|2,0,1613134650,,"tabe Reading\\ List.wiki"
+:e index.wiki
+|2,0,1613134598,,"e index.wiki"
+:r 2021-01-21_1.wiki
+|2,0,1613134303,,"r 2021-01-21_1.wiki"
+:r 2021-01-21_0.wiki
+|2,0,1613133974,,"r 2021-01-21_0.wiki"
+:r 2020-11-23_0.wiki
+|2,0,1613133680,,"r 2020-11-23_0.wiki"
+:r 2020-11-13_1.wiki
+|2,0,1613133528,,"r 2020-11-13_1.wiki"
+:r 2020-11-13_0.wiki
+|2,0,1613133350,,"r 2020-11-13_0.wiki"
+:r 2020-08-28_4.wiki
+|2,0,1613133090,,"r 2020-08-28_4.wiki"
+:r 2020-08-28_3.wiki
+|2,0,1613132975,,"r 2020-08-28_3.wiki"
+:r 2020-08-28_2.wiki
+|2,0,1613132817,,"r 2020-08-28_2.wiki"
+:r 2020-08-28_1.wiki
+|2,0,1613132084,,"r 2020-08-28_1.wiki"
 
 # Search String History (newest to oldest):
-?/search
-|2,1,1611874396,47,"search"
-?/>
-|2,1,1611872352,47,">"
-?/Mind
-|2,1,1611871795,47,"Mind"
-?/mind
-|2,1,1611871630,47,"mind"
-?/to_csv
-|2,1,1611851565,47,"to_csv"
-?/.to_csv
-|2,1,1611851367,47,".to_csv"
-?/20
-|2,1,1611850755,47,"20"
-?/task add
-|2,1,1611755548,47,"task add"
+?/1
+|2,1,1613666207,47,"1"
+?/4
+|2,1,1613641876,47,"4"
+? sequence
+|2,1,1613586478,,"sequence"
+? \\^\\[\\[0m//g
+|2,1,1613484748,,"\\\\^\\\\[\\\\[0m//g"
+? \^\[\[0m
+|2,1,1613484739,,"\\^\\[\\[0m"
+? @$
+|2,1,1613482848,,"@$"
+? =
+|2,1,1613477798,,"="
+?  = 
+|2,1,1613469456,," = "
+?/json
+|2,1,1613330540,47,"json"
+? contact_tmp
+|2,1,1613330222,,"contact_tmp"
+?/contact_tmp
+|2,1,1613330196,47,"contact_tmp"
+? unittest.mock.patch
+|2,1,1613325198,,"unittest.mock.patch"
+?/txt
+|2,1,1613325090,47,"txt"
+?/c
+|2,1,1613324795,47,"c"
+? patch
+|2,1,1613324087,,"patch"
+? TestCase
+|2,1,1613324054,,"TestCase"
+?/show
+|2,1,1613322878,47,"show"
+?/export
+|2,1,1613232411,47,"export"
+?/unittest
+|2,1,1613230908,47,"unittest"
+?/print
+|2,1,1613230532,47,"print"
+?/list_m
+|2,1,1613229911,47,"list_m"
+?/list_contacts
+|2,1,1613229901,47,"list_contacts"
+?/list_matches
+|2,1,1613229859,47,"list_matches"
+??{
+|2,1,1613229254,63,"{"
+?/list_mat
+|2,1,1613229057,47,"list_mat"
+?/set
+|2,1,1613228665,47,"set"
+?/query
+|2,1,1613228613,47,"query"
+? method"
+|2,1,1613164175,,"method\""
+?/l
+|2,1,1613158605,47,"l"
+?/Hara
+|2,1,1613137194,47,"Hara"
+?/harar
+|2,1,1613137191,47,"harar"
+? \.
+|2,1,1613136884,,"\\."
+? .
+|2,1,1613136877,,"."
+? \\[//g
+|2,1,1613136230,,"\\\\[//g"
+? [//g
+|2,1,1613136220,,"[//g"
+?/===
+|2,1,1613134248,47,"==="
+?/,
+|2,1,1613134237,47,","
+?/#
+|2,1,1613134153,47,"#"
 ?/(
-|2,1,1611744006,47,"("
-?/.md
-|2,1,1611699023,47,".md"
-?/tex_file
-|2,1,1611696271,47,"tex_file"
-?/\
-|2,1,1611694437,47,"\\"
-? \\
-|2,1,1611694428,,"\\\\"
-?/params
-|2,1,1611692726,47,"params"
-?/ump
-|2,1,1611692682,47,"ump"
-??'
-|2,1,1611692463,63,"'"
-?/pp
-|2,1,1611675612,47,"pp"
-? p (?=\d{2})
-|2,1,1611675565,,"p (?=\\d{2})"
-?/###
-|2,1,1611659211,47,"###"
-?/*
-|2,1,1611240214,47,"*"
-?/line.csv
-|2,1,1611231405,47,"line.csv"
-?/gen_df
-|2,1,1611175940,47,"gen_df"
-?/main(
-|2,1,1611173282,47,"main("
-?/_dt
-|2,1,1611173064,47,"_dt"
-?/main
-|2,1,1611173027,47,"main"
-?/f"
-|2,1,1611005031,47,"f\""
-?/test
-|2,1,1611004498,47,"test"
-?/}
-|2,1,1610989327,47,"}"
-?/tasks added
-|2,1,1610970151,47,"tasks added"
-? add_to_reading_list
-|2,1,1610966300,,"add_to_reading_list"
-?/path_to
-|2,1,1610965915,47,"path_to"
-?/_4
-|2,1,1610965574,47,"_4"
-?/'
-|2,1,1610907579,47,"'"
-?/add_to
-|2,1,1610825387,47,"add_to"
-?/flake
-|2,1,1610818988,47,"flake"
-?/:
-|2,1,1610645709,47,":"
-??*
-|2,1,1610645633,63,"*"
-?/raw
-|2,1,1610466563,47,"raw"
-? '.raw'
-|2,1,1610466476,,"'.raw'"
-?/size
-|2,1,1610120912,47,"size"
-?/code
-|2,1,1610120010,47,"code"
-?/galler
-|2,1,1610117986,47,"galler"
+|2,1,1613133457,47,"("
+? \<Reading\>
+|2,1,1613132950,,"\\<Reading\\>"
+?/|
+|2,1,1613129312,47,"|"
+?/<
+|2,1,1613129250,47,"<"
+? #
+|2,1,1613127166,,"#"
+?/]
+|2,1,1613126822,47,"]"
+?/comment
+|2,1,1613123997,47,"comment"
+?/notes
+|2,1,1613078209,47,"notes"
+? file_list
+|2,1,1613074896,,"file_list"
+?/-
+|2,1,1613064128,47,"-"
+?/add
+|2,1,1612968578,47,"add"
+?/`
+|2,1,1612958833,47,"`"
 
 # Expression History (newest to oldest):
 
 # Input Line History (newest to oldest):
+@y
+|2,3,1613123900,,"y"
 
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	MindLine Shift: WFH w/Kathy
-|3,0,0,0,1,0,1611873794,"MindLine Shift: WFH w/Kathy"
+"0	LINE	0
+	        i, j = pixel
+|3,0,0,1,1,0,1613648762,"        i, j = pixel"
 ""1	LINE	0
-	"set relativenumber
-|3,1,1,1,1,0,1611874594,"\"set relativenumber"
+	
+|3,1,1,1,1,0,1613665937,""
 "2	LINE	0
-	
-|3,0,2,1,1,0,1611874563,""
+	                if pixel[0] < self.height and pixel[1] < self.width:
+|3,0,2,1,1,0,1613660833,"                if pixel[0] < self.height and pixel[1] < self.width:"
 "3	LINE	0
-	
-|3,0,3,1,1,0,1611874562,""
-"4	LINE	0
-	" to search notes in ~/notes for a particular 'keyword'
-|3,0,4,1,1,0,1611874556,"\" to search notes in ~/notes for a particular 'keyword'"
+	        #  
+	        #  
+	        #  
+|3,0,3,1,3,0,1613660520,"        #  ","        #  ","        #  "
+"4	BLOCK	20
+	self.on = []
+	self.get_state()
+	self.new_tetromino()
+|3,0,4,2,3,20,1613660505,"self.on = []","self.get_state()","self.new_tetromino()"
 "5	LINE	0
-	" compile notes:
-|3,0,5,1,1,0,1611874555,"\" compile notes:"
-"6	LINE	0
-	" MUST RUN VIM IN ~/notes
-|3,0,6,1,1,0,1611874553,"\" MUST RUN VIM IN ~/notes"
-"7	LINE	0
-	
-|3,0,7,1,1,0,1611874019,""
+	        self.on = new_on
+|3,0,5,1,1,0,1613660477,"        self.on = new_on"
+"6	BLOCK	29
+	for pixel in self.on:
+	    self.locked.append(pixel)
+|3,0,6,2,2,29,1613660396,"for pixel in self.on:","    self.locked.append(pixel)"
+"7	BLOCK	6
+	       
+	       
+	       
+	       
+	       
+|3,0,7,2,5,6,1613660345,"       ","       ","       ","       ","       "
 "8	LINE	0
-	
-|3,0,8,1,1,0,1611874017,""
+	            p
+|3,0,8,1,1,0,1613660286,"            p"
 "9	LINE	0
-	
-|3,0,9,1,1,0,1611874010,""
-"a	CHAR	0
-	i'€ýaf:i'€ýa?'€kd
-|3,0,10,0,1,0,1611692453,"i'€ýaf:i'€ýa?'€kd"
+	        self.on = new_on
+|3,0,9,1,1,0,1613660275,"        self.on = new_on"
+"a@	CHAR	0
+	0elD€ýa0j@a
+|3,2,10,0,1,0,1613479961,"0elD€ýa0j@a"
 "b	CHAR	0
 	0/:dt*
 |3,0,11,0,1,0,1610645685,"0/:dt*"
+"d	CHAR	0
+	f.x€ýaf.x€ýaj0@d
+|3,0,13,0,1,0,1613136576,"f.x€ýaf.x€ýaj0@d"
+"l	CHAR	0
+	v$€ýaj@l
+|3,0,21,0,1,0,1613136933,"v$€ýaj@l"
+"r	CHAR	0
+	0f[i[€ýaf]a]€ýalD€ýa0f[laReading Notes €ýaj@r
+|3,0,27,0,1,0,1613134536,"0f[i[€ýaf]a]€ýalD€ýa0f[laReading Notes €ýaj@r"
+"s	CHAR	0
+	0ct ===€ýaA ===€ýa/#@s
+|3,0,28,0,1,0,1613131543,"0ct ===€ýaA ===€ýa/#@s"
+"t	CHAR	0
+	ct ===€ýaA ===€ýa€ýa/#@t
+|3,0,29,0,1,0,1613134151,"ct ===€ýaA ===€ýa€ýa/#@t"
 "u	CHAR	0
 	u€ýa€ýa
 |3,0,30,0,1,0,1611844516,"u€ýa€ýa"
+"w	CHAR	0
+	€ýa€ýa
+|3,0,32,0,1,0,1613486263,"€ýa€ýa"
 "-	CHAR	0
-	MindLine 
-|3,0,36,0,1,0,1611873986,"MindLine "
+	 
+|3,0,36,0,1,0,1613662855," "
 
 # File marks:
-'0  147  0  ~/dotfiles/.vim/vimrc
-|4,48,147,0,1611874666,"~/dotfiles/.vim/vimrc"
-'1  1  0  ~/notes/2021-01-28_0.md
-|4,49,1,0,1611874319,"~/notes/2021-01-28_0.md"
-'2  1  0  ~/notes/2021-01-28_0.md
-|4,50,1,0,1611874319,"~/notes/2021-01-28_0.md"
-'3  1  0  ~/notes/2021-01-28_0.md
-|4,51,1,0,1611874061,"~/notes/2021-01-28_0.md"
-'4  1  0  ~/notes/2021-01-28_0.md
-|4,52,1,0,1611874061,"~/notes/2021-01-28_0.md"
-'5  1  0  ~/projects/finance/2019-2021/current.csv
-|4,53,1,0,1611851744,"~/projects/finance/2019-2021/current.csv"
-'6  1  0  ~/projects/finance/2019-2021/current.csv
-|4,54,1,0,1611851744,"~/projects/finance/2019-2021/current.csv"
-'7  137  76  ~/projects/finance/finance_tools.py
-|4,55,137,76,1611851589,"~/projects/finance/finance_tools.py"
-'8  137  76  ~/projects/finance/finance_tools.py
-|4,56,137,76,1611851589,"~/projects/finance/finance_tools.py"
-'9  461  0  ~/projects/finance/2019-2021/current.csv
-|4,57,461,0,1611851556,"~/projects/finance/2019-2021/current.csv"
+'0  4  61  ~/.mutt/mailcap
+|4,48,4,61,1613666211,"~/.mutt/mailcap"
+'1  1  0  ~/.mutt/mailcap
+|4,49,1,0,1613665968,"~/.mutt/mailcap"
+'2  1  0  ~/.mutt/mailcap
+|4,50,1,0,1613665968,"~/.mutt/mailcap"
+'3  41  32  ~/.mutt/neomuttrc
+|4,51,41,32,1613665780,"~/.mutt/neomuttrc"
+'4  2  26  ~/.mailcap
+|4,52,2,26,1613663190,"~/.mailcap"
+'5  2  13  ~/.mailcap
+|4,53,2,13,1613663067,"~/.mailcap"
+'6  42  18  ~/.mutt/neomuttrc
+|4,54,42,18,1613663003,"~/.mutt/neomuttrc"
+'7  41  18  ~/.mutt/neomuttrc
+|4,55,41,18,1613663003,"~/.mutt/neomuttrc"
+'8  3  22  ~/.mailcap
+|4,56,3,22,1613662946,"~/.mailcap"
+'9  3  22  ~/.mailcap
+|4,57,3,22,1613662946,"~/.mailcap"
 
 # Jumplist (newest first):
--'  147  0  ~/dotfiles/.vim/vimrc
-|4,39,147,0,1611874666,"~/dotfiles/.vim/vimrc"
--'  87  2  ~/dotfiles/.vim/vimrc
-|4,39,87,2,1611874399,"~/dotfiles/.vim/vimrc"
--'  1  0  ~/dotfiles/.vim/vimrc
-|4,39,1,0,1611874396,"~/dotfiles/.vim/vimrc"
--'  6  6  ~/notes/2021-01-28_0.md
-|4,39,6,6,1611874392,"~/notes/2021-01-28_0.md"
--'  8  6  ~/notes/2021-01-21_1.md
-|4,39,8,6,1611874378,"~/notes/2021-01-21_1.md"
--'  10  0  ~/notes/2021-01-28_0.md
-|4,39,10,0,1611874374,"~/notes/2021-01-28_0.md"
--'  1  0  ~/notes/2021-01-28_0.md
-|4,39,1,0,1611874358,"~/notes/2021-01-28_0.md"
--'  1  0  ~/notes/2021-01-28_0.md
-|4,39,1,0,1611874319,"~/notes/2021-01-28_0.md"
--'  8  6  ~/notes/2021-01-21_1.md
-|4,39,8,6,1611874302,"~/notes/2021-01-21_1.md"
--'  1  0  ~/notes/2021-01-28_0.md
-|4,39,1,0,1611874061,"~/notes/2021-01-28_0.md"
--'  40  1  ~/notes/2021-01-28_0.md
-|4,39,40,1,1611873403,"~/notes/2021-01-28_0.md"
--'  40  1  ~/notes/2021-01-28_0.md
-|4,39,40,1,1611873403,"~/notes/2021-01-28_0.md"
--'  40  1  ~/notes/2021-01-28_0.md
-|4,39,40,1,1611873403,"~/notes/2021-01-28_0.md"
--'  24  31  ~/notes/2021-01-28_0.md
-|4,39,24,31,1611872352,"~/notes/2021-01-28_0.md"
--'  24  31  ~/notes/2021-01-28_0.md
-|4,39,24,31,1611872352,"~/notes/2021-01-28_0.md"
--'  24  31  ~/notes/2021-01-28_0.md
-|4,39,24,31,1611872352,"~/notes/2021-01-28_0.md"
--'  22  0  ~/notes/2021-01-28_0.md
-|4,39,22,0,1611872256,"~/notes/2021-01-28_0.md"
--'  22  0  ~/notes/2021-01-28_0.md
-|4,39,22,0,1611872256,"~/notes/2021-01-28_0.md"
--'  22  0  ~/notes/2021-01-28_0.md
-|4,39,22,0,1611872256,"~/notes/2021-01-28_0.md"
--'  53  0  ~/notes/2021-01-28_0.md
-|4,39,53,0,1611872091,"~/notes/2021-01-28_0.md"
--'  53  0  ~/notes/2021-01-28_0.md
-|4,39,53,0,1611872091,"~/notes/2021-01-28_0.md"
--'  53  0  ~/notes/2021-01-28_0.md
-|4,39,53,0,1611872091,"~/notes/2021-01-28_0.md"
--'  48  0  ~/notes/2021-01-28_0.md
-|4,39,48,0,1611871913,"~/notes/2021-01-28_0.md"
--'  48  0  ~/notes/2021-01-28_0.md
-|4,39,48,0,1611871913,"~/notes/2021-01-28_0.md"
--'  48  0  ~/notes/2021-01-28_0.md
-|4,39,48,0,1611871913,"~/notes/2021-01-28_0.md"
--'  67  0  ~/dotfiles/.vim/snippets/skeleton.md
-|4,39,67,0,1611871766,"~/dotfiles/.vim/snippets/skeleton.md"
--'  66  0  ~/dotfiles/.vim/vimrc
-|4,39,66,0,1611871766,"~/dotfiles/.vim/vimrc"
--'  67  0  ~/dotfiles/.vim/snippets/skeleton.md
-|4,39,67,0,1611871766,"~/dotfiles/.vim/snippets/skeleton.md"
--'  67  0  ~/notes/calcurse.ical
-|4,39,67,0,1611871766,"~/notes/calcurse.ical"
--'  1  0  ~/dotfiles/.vim/snippets/skeleton.md
-|4,39,1,0,1611871704,"~/dotfiles/.vim/snippets/skeleton.md"
--'  1  0  ~/dotfiles/.vim/snippets/skeleton.md
-|4,39,1,0,1611871704,"~/dotfiles/.vim/snippets/skeleton.md"
--'  1  0  ~/notes/calcurse.ical
-|4,39,1,0,1611871704,"~/notes/calcurse.ical"
--'  83  12  ~/dotfiles/.vim/snippets/skeleton.md
-|4,39,83,12,1611871653,"~/dotfiles/.vim/snippets/skeleton.md"
--'  82  12  ~/dotfiles/.vim/vimrc
-|4,39,82,12,1611871653,"~/dotfiles/.vim/vimrc"
--'  83  12  ~/dotfiles/.vim/snippets/skeleton.md
-|4,39,83,12,1611871653,"~/dotfiles/.vim/snippets/skeleton.md"
--'  83  12  ~/notes/calcurse.ical
-|4,39,83,12,1611871653,"~/notes/calcurse.ical"
--'  82  8  ~/dotfiles/.vim/snippets/skeleton.md
-|4,39,82,8,1611871649,"~/dotfiles/.vim/snippets/skeleton.md"
--'  72  12  ~/dotfiles/.vim/snippets/skeleton.md
-|4,39,72,12,1611871649,"~/dotfiles/.vim/snippets/skeleton.md"
--'  81  8  ~/dotfiles/.vim/vimrc
-|4,39,81,8,1611871649,"~/dotfiles/.vim/vimrc"
--'  71  12  ~/dotfiles/.vim/vimrc
-|4,39,71,12,1611871649,"~/dotfiles/.vim/vimrc"
--'  82  8  ~/dotfiles/.vim/snippets/skeleton.md
-|4,39,82,8,1611871649,"~/dotfiles/.vim/snippets/skeleton.md"
--'  72  12  ~/dotfiles/.vim/snippets/skeleton.md
-|4,39,72,12,1611871649,"~/dotfiles/.vim/snippets/skeleton.md"
--'  82  8  ~/notes/calcurse.ical
-|4,39,82,8,1611871649,"~/notes/calcurse.ical"
--'  72  12  ~/notes/calcurse.ical
-|4,39,72,12,1611871649,"~/notes/calcurse.ical"
--'  71  8  ~/dotfiles/.vim/snippets/skeleton.md
-|4,39,71,8,1611871648,"~/dotfiles/.vim/snippets/skeleton.md"
--'  290  8  ~/dotfiles/.vim/snippets/skeleton.md
-|4,39,290,8,1611871648,"~/dotfiles/.vim/snippets/skeleton.md"
--'  70  8  ~/dotfiles/.vim/vimrc
-|4,39,70,8,1611871648,"~/dotfiles/.vim/vimrc"
--'  286  8  ~/dotfiles/.vim/vimrc
-|4,39,286,8,1611871648,"~/dotfiles/.vim/vimrc"
--'  71  8  ~/dotfiles/.vim/snippets/skeleton.md
-|4,39,71,8,1611871648,"~/dotfiles/.vim/snippets/skeleton.md"
--'  290  8  ~/dotfiles/.vim/snippets/skeleton.md
-|4,39,290,8,1611871648,"~/dotfiles/.vim/snippets/skeleton.md"
--'  71  8  ~/notes/calcurse.ical
-|4,39,71,8,1611871648,"~/notes/calcurse.ical"
--'  290  8  ~/notes/calcurse.ical
-|4,39,290,8,1611871648,"~/notes/calcurse.ical"
--'  285  8  ~/dotfiles/.vim/snippets/skeleton.md
-|4,39,285,8,1611871647,"~/dotfiles/.vim/snippets/skeleton.md"
--'  280  8  ~/dotfiles/.vim/snippets/skeleton.md
-|4,39,280,8,1611871647,"~/dotfiles/.vim/snippets/skeleton.md"
--'  275  8  ~/dotfiles/.vim/snippets/skeleton.md
-|4,39,275,8,1611871647,"~/dotfiles/.vim/snippets/skeleton.md"
--'  281  8  ~/dotfiles/.vim/vimrc
-|4,39,281,8,1611871647,"~/dotfiles/.vim/vimrc"
--'  276  8  ~/dotfiles/.vim/vimrc
-|4,39,276,8,1611871647,"~/dotfiles/.vim/vimrc"
--'  271  8  ~/dotfiles/.vim/vimrc
-|4,39,271,8,1611871647,"~/dotfiles/.vim/vimrc"
--'  285  8  ~/dotfiles/.vim/snippets/skeleton.md
-|4,39,285,8,1611871647,"~/dotfiles/.vim/snippets/skeleton.md"
--'  280  8  ~/dotfiles/.vim/snippets/skeleton.md
-|4,39,280,8,1611871647,"~/dotfiles/.vim/snippets/skeleton.md"
--'  275  8  ~/dotfiles/.vim/snippets/skeleton.md
-|4,39,275,8,1611871647,"~/dotfiles/.vim/snippets/skeleton.md"
--'  285  8  ~/notes/calcurse.ical
-|4,39,285,8,1611871647,"~/notes/calcurse.ical"
--'  280  8  ~/notes/calcurse.ical
-|4,39,280,8,1611871647,"~/notes/calcurse.ical"
--'  275  8  ~/notes/calcurse.ical
-|4,39,275,8,1611871647,"~/notes/calcurse.ical"
--'  270  8  ~/dotfiles/.vim/snippets/skeleton.md
-|4,39,270,8,1611871646,"~/dotfiles/.vim/snippets/skeleton.md"
--'  266  8  ~/dotfiles/.vim/vimrc
-|4,39,266,8,1611871646,"~/dotfiles/.vim/vimrc"
--'  270  8  ~/dotfiles/.vim/snippets/skeleton.md
-|4,39,270,8,1611871646,"~/dotfiles/.vim/snippets/skeleton.md"
--'  270  8  ~/notes/calcurse.ical
-|4,39,270,8,1611871646,"~/notes/calcurse.ical"
--'  255  8  ~/dotfiles/.vim/snippets/skeleton.md
-|4,39,255,8,1611871645,"~/dotfiles/.vim/snippets/skeleton.md"
--'  249  8  ~/dotfiles/.vim/snippets/skeleton.md
-|4,39,249,8,1611871645,"~/dotfiles/.vim/snippets/skeleton.md"
--'  251  8  ~/dotfiles/.vim/vimrc
-|4,39,251,8,1611871645,"~/dotfiles/.vim/vimrc"
--'  245  8  ~/dotfiles/.vim/vimrc
-|4,39,245,8,1611871645,"~/dotfiles/.vim/vimrc"
--'  255  8  ~/dotfiles/.vim/snippets/skeleton.md
-|4,39,255,8,1611871645,"~/dotfiles/.vim/snippets/skeleton.md"
--'  249  8  ~/dotfiles/.vim/snippets/skeleton.md
-|4,39,249,8,1611871645,"~/dotfiles/.vim/snippets/skeleton.md"
--'  255  8  ~/notes/calcurse.ical
-|4,39,255,8,1611871645,"~/notes/calcurse.ical"
--'  249  8  ~/notes/calcurse.ical
-|4,39,249,8,1611871645,"~/notes/calcurse.ical"
--'  14  10  ~/notes/2021-01-28_0.md
-|4,39,14,10,1611871624,"~/notes/2021-01-28_0.md"
--'  14  10  ~/notes/2021-01-28_0.md
-|4,39,14,10,1611871624,"~/notes/2021-01-28_0.md"
--'  14  10  ~/notes/2021-01-28_0.md
-|4,39,14,10,1611871624,"~/notes/2021-01-28_0.md"
--'  1  0  ~/projects/finance/2019-2021/current.csv
-|4,39,1,0,1611851744,"~/projects/finance/2019-2021/current.csv"
--'  1  0  ~/projects/finance/2019-2021/current.csv
-|4,39,1,0,1611851744,"~/projects/finance/2019-2021/current.csv"
--'  1  0  ~/projects/finance/2019-2021/current.csv
-|4,39,1,0,1611851744,"~/projects/finance/2019-2021/current.csv"
--'  1  0  ~/projects/finance/2019-2021/current.csv
-|4,39,1,0,1611851744,"~/projects/finance/2019-2021/current.csv"
--'  1  0  ~/projects/finance/2019-2021/current.csv
-|4,39,1,0,1611851744,"~/projects/finance/2019-2021/current.csv"
--'  1  0  ~/projects/finance/2019-2021/current.csv
-|4,39,1,0,1611851744,"~/projects/finance/2019-2021/current.csv"
--'  1  0  ~/projects/finance/2019-2021/current.csv
-|4,39,1,0,1611851744,"~/projects/finance/2019-2021/current.csv"
--'  1  0  ~/projects/finance/2019-2021/current.csv
-|4,39,1,0,1611851744,"~/projects/finance/2019-2021/current.csv"
--'  461  0  ~/projects/finance/2019-2021/current.csv
-|4,39,461,0,1611851742,"~/projects/finance/2019-2021/current.csv"
--'  461  0  ~/projects/finance/2019-2021/current.csv
-|4,39,461,0,1611851742,"~/projects/finance/2019-2021/current.csv"
--'  461  0  ~/projects/finance/2019-2021/current.csv
-|4,39,461,0,1611851742,"~/projects/finance/2019-2021/current.csv"
--'  461  0  ~/projects/finance/2019-2021/current.csv
-|4,39,461,0,1611851742,"~/projects/finance/2019-2021/current.csv"
--'  461  0  ~/projects/finance/2019-2021/current.csv
-|4,39,461,0,1611851742,"~/projects/finance/2019-2021/current.csv"
--'  461  0  ~/projects/finance/2019-2021/current.csv
-|4,39,461,0,1611851742,"~/projects/finance/2019-2021/current.csv"
--'  461  0  ~/projects/finance/2019-2021/current.csv
-|4,39,461,0,1611851742,"~/projects/finance/2019-2021/current.csv"
--'  461  0  ~/projects/finance/2019-2021/current.csv
-|4,39,461,0,1611851742,"~/projects/finance/2019-2021/current.csv"
--'  137  76  ~/projects/finance/finance_tools.py
-|4,39,137,76,1611851589,"~/projects/finance/finance_tools.py"
--'  137  76  ~/projects/finance/finance_tools.py
-|4,39,137,76,1611851589,"~/projects/finance/finance_tools.py"
--'  137  76  ~/projects/finance/finance_tools.py
-|4,39,137,76,1611851589,"~/projects/finance/finance_tools.py"
--'  137  76  ~/projects/finance/finance_tools.py
-|4,39,137,76,1611851589,"~/projects/finance/finance_tools.py"
+-'  4  61  ~/.mutt/mailcap
+|4,39,4,61,1613666211,"~/.mutt/mailcap"
+-'  5  0  ~/.mutt/mailcap
+|4,39,5,0,1613666205,"~/.mutt/mailcap"
+-'  1  0  ~/.mutt/mailcap
+|4,39,1,0,1613666194,"~/.mutt/mailcap"
+-'  1  0  ~/.mutt/mailcap
+|4,39,1,0,1613665968,"~/.mutt/mailcap"
+-'  41  32  ~/.mutt/neomuttrc
+|4,39,41,32,1613665780,"~/.mutt/neomuttrc"
+-'  41  32  ~/.mutt/neomuttrc
+|4,39,41,32,1613665780,"~/.mutt/neomuttrc"
+-'  41  32  ~/.mutt/neomuttrc
+|4,39,41,32,1613665780,"~/.mutt/neomuttrc"
+-'  41  32  ~/.mutt/neomuttrc
+|4,39,41,32,1613665780,"~/.mutt/neomuttrc"
+-'  1  0  ~/.mutt/neomuttrc
+|4,39,1,0,1613665736,"~/.mutt/neomuttrc"
+-'  1  0  ~/.mutt/neomuttrc
+|4,39,1,0,1613665736,"~/.mutt/neomuttrc"
+-'  1  0  ~/.mutt/neomuttrc
+|4,39,1,0,1613665736,"~/.mutt/neomuttrc"
+-'  1  0  ~/.mutt/neomuttrc
+|4,39,1,0,1613665736,"~/.mutt/neomuttrc"
+-'  2  26  ~/.mailcap
+|4,39,2,26,1613663190,"~/.mailcap"
+-'  2  26  ~/.mailcap
+|4,39,2,26,1613663190,"~/.mailcap"
+-'  2  26  ~/.mailcap
+|4,39,2,26,1613663190,"~/.mailcap"
+-'  2  26  ~/.mailcap
+|4,39,2,26,1613663190,"~/.mailcap"
+-'  2  26  ~/.mailcap
+|4,39,2,26,1613663190,"~/.mailcap"
+-'  2  26  ~/.mailcap
+|4,39,2,26,1613663190,"~/.mailcap"
+-'  2  26  ~/.mailcap
+|4,39,2,26,1613663190,"~/.mailcap"
+-'  2  26  ~/.mailcap
+|4,39,2,26,1613663190,"~/.mailcap"
+-'  1  0  ~/.mailcap
+|4,39,1,0,1613663143,"~/.mailcap"
+-'  1  0  ~/.mailcap
+|4,39,1,0,1613663143,"~/.mailcap"
+-'  1  0  ~/.mailcap
+|4,39,1,0,1613663143,"~/.mailcap"
+-'  1  0  ~/.mailcap
+|4,39,1,0,1613663143,"~/.mailcap"
+-'  1  0  ~/.mailcap
+|4,39,1,0,1613663143,"~/.mailcap"
+-'  1  0  ~/.mailcap
+|4,39,1,0,1613663143,"~/.mailcap"
+-'  1  0  ~/.mailcap
+|4,39,1,0,1613663143,"~/.mailcap"
+-'  1  0  ~/.mailcap
+|4,39,1,0,1613663143,"~/.mailcap"
+-'  2  13  ~/.mailcap
+|4,39,2,13,1613663067,"~/.mailcap"
+-'  2  13  ~/.mailcap
+|4,39,2,13,1613663067,"~/.mailcap"
+-'  2  13  ~/.mailcap
+|4,39,2,13,1613663067,"~/.mailcap"
+-'  2  13  ~/.mailcap
+|4,39,2,13,1613663067,"~/.mailcap"
+-'  2  13  ~/.mailcap
+|4,39,2,13,1613663067,"~/.mailcap"
+-'  2  13  ~/.mailcap
+|4,39,2,13,1613663067,"~/.mailcap"
+-'  2  13  ~/.mailcap
+|4,39,2,13,1613663067,"~/.mailcap"
+-'  2  13  ~/.mailcap
+|4,39,2,13,1613663067,"~/.mailcap"
+-'  1  0  ~/.mailcap
+|4,39,1,0,1613663057,"~/.mailcap"
+-'  1  0  ~/.mailcap
+|4,39,1,0,1613663057,"~/.mailcap"
+-'  1  0  ~/.mailcap
+|4,39,1,0,1613663057,"~/.mailcap"
+-'  1  0  ~/.mailcap
+|4,39,1,0,1613663057,"~/.mailcap"
+-'  1  0  ~/.mailcap
+|4,39,1,0,1613663057,"~/.mailcap"
+-'  1  0  ~/.mailcap
+|4,39,1,0,1613663057,"~/.mailcap"
+-'  1  0  ~/.mailcap
+|4,39,1,0,1613663057,"~/.mailcap"
+-'  1  0  ~/.mailcap
+|4,39,1,0,1613663057,"~/.mailcap"
+-'  42  18  ~/.mutt/neomuttrc
+|4,39,42,18,1613663003,"~/.mutt/neomuttrc"
+-'  41  18  ~/.mutt/neomuttrc
+|4,39,41,18,1613663003,"~/.mutt/neomuttrc"
+-'  41  18  ~/.mutt/neomuttrc
+|4,39,41,18,1613663003,"~/.mutt/neomuttrc"
+-'  41  18  ~/.mutt/neomuttrc
+|4,39,41,18,1613663003,"~/.mutt/neomuttrc"
+-'  41  18  ~/.mutt/neomuttrc
+|4,39,41,18,1613663003,"~/.mutt/neomuttrc"
+-'  42  18  ~/.mutt/neomuttrc
+|4,39,42,18,1613663003,"~/.mutt/neomuttrc"
+-'  41  18  ~/.mutt/neomuttrc
+|4,39,41,18,1613663003,"~/.mutt/neomuttrc"
+-'  41  18  ~/.mutt/neomuttrc
+|4,39,41,18,1613663003,"~/.mutt/neomuttrc"
+-'  41  18  ~/.mutt/neomuttrc
+|4,39,41,18,1613663003,"~/.mutt/neomuttrc"
+-'  41  18  ~/.mutt/neomuttrc
+|4,39,41,18,1613663003,"~/.mutt/neomuttrc"
+-'  42  18  ~/.mutt/neomuttrc
+|4,39,42,18,1613663003,"~/.mutt/neomuttrc"
+-'  41  18  ~/.mutt/neomuttrc
+|4,39,41,18,1613663003,"~/.mutt/neomuttrc"
+-'  41  18  ~/.mutt/neomuttrc
+|4,39,41,18,1613663003,"~/.mutt/neomuttrc"
+-'  41  18  ~/.mutt/neomuttrc
+|4,39,41,18,1613663003,"~/.mutt/neomuttrc"
+-'  41  18  ~/.mutt/neomuttrc
+|4,39,41,18,1613663003,"~/.mutt/neomuttrc"
+-'  42  18  ~/.mutt/neomuttrc
+|4,39,42,18,1613663003,"~/.mutt/neomuttrc"
+-'  41  18  ~/.mutt/neomuttrc
+|4,39,41,18,1613663003,"~/.mutt/neomuttrc"
+-'  41  18  ~/.mutt/neomuttrc
+|4,39,41,18,1613663003,"~/.mutt/neomuttrc"
+-'  41  18  ~/.mutt/neomuttrc
+|4,39,41,18,1613663003,"~/.mutt/neomuttrc"
+-'  41  18  ~/.mutt/neomuttrc
+|4,39,41,18,1613663003,"~/.mutt/neomuttrc"
+-'  1  0  ~/.mutt/neomuttrc
+|4,39,1,0,1613662988,"~/.mutt/neomuttrc"
+-'  1  0  ~/.mutt/neomuttrc
+|4,39,1,0,1613662988,"~/.mutt/neomuttrc"
+-'  1  0  ~/.mutt/neomuttrc
+|4,39,1,0,1613662988,"~/.mutt/neomuttrc"
+-'  1  0  ~/.mutt/neomuttrc
+|4,39,1,0,1613662988,"~/.mutt/neomuttrc"
+-'  1  0  ~/.mutt/neomuttrc
+|4,39,1,0,1613662988,"~/.mutt/neomuttrc"
+-'  1  0  ~/.mutt/neomuttrc
+|4,39,1,0,1613662988,"~/.mutt/neomuttrc"
+-'  1  0  ~/.mutt/neomuttrc
+|4,39,1,0,1613662988,"~/.mutt/neomuttrc"
+-'  1  0  ~/.mutt/neomuttrc
+|4,39,1,0,1613662988,"~/.mutt/neomuttrc"
+-'  1  0  ~/.mutt/neomuttrc
+|4,39,1,0,1613662988,"~/.mutt/neomuttrc"
+-'  1  0  ~/.mutt/neomuttrc
+|4,39,1,0,1613662988,"~/.mutt/neomuttrc"
+-'  1  0  ~/.mutt/neomuttrc
+|4,39,1,0,1613662988,"~/.mutt/neomuttrc"
+-'  1  0  ~/.mutt/neomuttrc
+|4,39,1,0,1613662988,"~/.mutt/neomuttrc"
+-'  1  0  ~/.mutt/neomuttrc
+|4,39,1,0,1613662988,"~/.mutt/neomuttrc"
+-'  1  0  ~/.mutt/neomuttrc
+|4,39,1,0,1613662988,"~/.mutt/neomuttrc"
+-'  1  0  ~/.mutt/neomuttrc
+|4,39,1,0,1613662988,"~/.mutt/neomuttrc"
+-'  1  0  ~/.mutt/neomuttrc
+|4,39,1,0,1613662988,"~/.mutt/neomuttrc"
+-'  1  0  ~/.mutt/muttrc
+|4,39,1,0,1613662985,"~/.mutt/muttrc"
+-'  1  0  ~/.mutt/muttrc
+|4,39,1,0,1613662985,"~/.mutt/muttrc"
+-'  1  0  ~/.mutt/muttrc
+|4,39,1,0,1613662985,"~/.mutt/muttrc"
+-'  1  0  ~/.mutt/muttrc
+|4,39,1,0,1613662985,"~/.mutt/muttrc"
+-'  1  0  ~/.mutt/muttrc
+|4,39,1,0,1613662985,"~/.mutt/muttrc"
+-'  1  0  ~/.mutt/muttrc
+|4,39,1,0,1613662985,"~/.mutt/muttrc"
+-'  1  0  ~/.mutt/muttrc
+|4,39,1,0,1613662985,"~/.mutt/muttrc"
+-'  1  0  ~/.mutt/muttrc
+|4,39,1,0,1613662985,"~/.mutt/muttrc"
+-'  1  0  ~/.mutt/muttrc
+|4,39,1,0,1613662985,"~/.mutt/muttrc"
+-'  1  0  ~/.mutt/muttrc
+|4,39,1,0,1613662985,"~/.mutt/muttrc"
+-'  1  0  ~/.mutt/muttrc
+|4,39,1,0,1613662985,"~/.mutt/muttrc"
+-'  1  0  ~/.mutt/muttrc
+|4,39,1,0,1613662985,"~/.mutt/muttrc"
+-'  1  0  ~/.mutt/muttrc
+|4,39,1,0,1613662985,"~/.mutt/muttrc"
+-'  1  0  ~/.mutt/muttrc
+|4,39,1,0,1613662985,"~/.mutt/muttrc"
+-'  1  0  ~/.mutt/muttrc
+|4,39,1,0,1613662985,"~/.mutt/muttrc"
+-'  1  0  ~/.mutt/muttrc
+|4,39,1,0,1613662985,"~/.mutt/muttrc"
+-'  1  0  ~/.mutt/muttrc
+|4,39,1,0,1613662985,"~/.mutt/muttrc"
+-'  1  0  ~/.mutt/muttrc
+|4,39,1,0,1613662985,"~/.mutt/muttrc"
+-'  1  0  ~/.mutt/muttrc
+|4,39,1,0,1613662985,"~/.mutt/muttrc"
+-'  1  0  ~/.mutt/muttrc
+|4,39,1,0,1613662985,"~/.mutt/muttrc"
 
 # History of marks within files (newest to oldest):
 
-> ~/dotfiles/.vim/vimrc
-	*	1611874662	0
-	"	147	0
-	.	32	0
-	+	145	30
-	+	142	0
-	+	144	0
-	+	145	0
-	+	144	0
-	+	145	0
-	+	32	0
+> ~/.mutt/mailcap
+	*	1613666210	0
+	"	4	61
+	^	5	90
+	.	4	61
+	+	4	0
+	+	4	122
+	+	5	89
+	+	4	0
+	+	5	0
+	+	4	61
 
-> ~/notes/2021-01-28_0.md
-	*	1611874383	0
-	"	6	6
-	.	1	0
-	+	14	11
-	+	24	0
-	+	24	176
-	+	17	0
-	+	16	29
-	+	24	0
-	+	17	0
-	+	24	0
-	+	23	0
-	+	19	11
-	+	20	9
-	+	21	9
-	+	22	0
-	+	18	1
-	+	20	0
-	+	24	25
-	+	26	31
-	+	29	25
-	+	37	0
-	+	37	177
-	+	30	0
-	+	25	0
-	+	27	9
-	+	28	9
-	+	24	10
-	+	24	76
-	+	24	0
-	+	37	17
-	+	16	8
-	+	14	11
-	+	35	0
-	+	38	31
-	+	27	0
-	+	38	8
-	+	31	4
-	+	33	1
-	+	38	0
-	+	33	2
-	+	38	0
-	+	34	46
-	+	40	18
-	+	44	18
-	+	48	15
-	+	48	54
-	+	53	18
-	+	48	18
-	+	53	57
-	+	53	18
-	+	58	20
-	+	59	0
-	+	38	0
-	+	40	0
-	+	44	0
-	+	40	33
-	+	44	0
-	+	38	0
-	+	39	43
-	+	40	7
-	+	41	39
-	+	44	0
-	+	40	2
-	+	42	5
-	+	43	8
-	+	44	0
-	+	46	11
-	+	48	0
-	+	45	26
-	+	47	5
-	+	48	13
-	+	50	5
-	+	53	8
-	+	49	37
-	+	53	11
-	+	52	4
-	+	45	18
-	+	52	24
-	+	53	1
-	+	54	23
-	+	55	9
-	+	56	0
-	+	58	0
-	+	59	0
-	+	57	0
-	+	56	0
-	+	58	1
-	+	60	8
-	+	62	5
-	+	39	4
-	+	45	4
-	+	52	4
-	+	57	4
-	+	36	0
-	+	44	0
+> ~/.mutt/neomuttrc
+	*	1613665776	0
+	"	41	32
+	^	41	33
+	.	41	32
 	+	51	0
-	+	56	0
-	+	24	0
-	+	31	0
-	+	1	0
+	+	47	0
+	+	42	18
+	+	41	32
 
-> ~/notes/2021-01-21_1.md
-	*	1611874374	0
-	"	8	6
-	^	20	47
-	.	20	46
+> ~/.mailcap
+	*	1613663188	0
+	"	2	26
+	^	2	27
+	.	2	26
+	+	1	32
+	+	2	35
+	+	3	53
+	+	2	26
+
+> ~/.mutt/muttrc
+	*	1613662978	0
+	"	1	0
+	^	1	7
+	.	1	2
+	+	18	19
+	+	18	65
+	+	18	2
+	+	18	9
+	+	18	25
+	+	18	14
+	+	18	11
+	+	18	9
+	+	18	14
+	+	18	9
+	+	18	13
+	+	18	35
+	+	18	26
+	+	18	0
+	+	18	6
+	+	18	0
+	+	18	15
+	+	18	22
+	+	18	12
+	+	18	19
+	+	18	27
+	+	18	0
+	+	19	1
+	+	21	0
+	+	18	0
+	+	6	10
+	+	18	13
+	+	18	0
+	+	7	0
+	+	18	0
+	+	9	0
+	+	18	0
+	+	9	0
+	+	12	0
+	+	18	0
+	+	11	0
+	+	10	0
+	+	18	0
+	+	19	0
+	+	18	0
+	+	43	0
+	+	35	0
+	+	18	0
+	+	36	20
+	+	43	0
+	+	39	0
+	+	20	0
+	+	12	0
 	+	13	0
-	+	2	21
-	+	2	22
-	+	3	0
-	+	2	20
-	+	9	8
-	+	11	16
-	+	13	0
+	+	15	0
+	+	13	69
+	+	12	0
+	+	16	16
+	+	12	14
+	+	13	14
+	+	15	13
+	+	16	14
+	+	16	69
+	+	13	20
+	+	16	20
+	+	13	66
+	+	16	66
+	+	19	1
+	+	20	0
+	+	19	0
 	+	15	0
 	+	14	0
+	+	35	0
+	+	28	14
+	+	30	19
+	+	31	34
+	+	32	42
+	+	35	0
+	+	33	43
+	+	34	35
+	+	35	0
+	+	29	20
+	+	43	0
+	+	37	0
+	+	43	0
+	+	38	0
+	+	43	18
+	+	41	0
+	+	42	17
+	+	44	42
+	+	30	18
+	+	40	10
+	+	45	8
+	+	45	31
+	+	45	0
+	+	25	0
+	+	24	0
+	+	45	0
+	+	26	0
+	+	47	59
+	+	47	0
+	+	48	0
+	+	47	50
+	+	1	2
+
+> ~/projects/tetris/main.py
+	*	1613660861	0
+	"	116	15
+	^	116	16
+	.	116	16
+	+	55	25
+	+	47	20
+	+	67	0
+	+	129	0
+	+	132	21
+	+	121	0
+	+	104	14
+	+	105	18
+	+	104	42
+	+	105	39
+	+	107	28
+	+	106	27
+	+	107	19
+	+	108	38
+	+	103	18
+	+	121	23
+	+	133	0
+	+	121	8
+	+	121	15
+	+	121	0
+	+	107	33
+	+	121	0
+	+	111	32
+	+	111	28
+	+	112	29
+	+	115	23
+	+	131	19
+	+	111	0
+	+	109	39
+	+	112	15
+	+	115	0
+	+	115	39
+	+	115	36
+	+	115	19
+	+	112	0
+	+	115	0
+	+	112	11
+	+	111	11
+	+	112	0
+	+	120	0
+	+	100	46
+	+	116	28
+	+	116	39
+	+	120	35
+	+	121	0
+	+	120	12
+	+	106	57
+	+	112	35
+	+	106	29
+	+	112	0
+	+	120	0
+	+	129	12
+	+	133	0
+	+	115	0
+	+	116	0
+	+	129	0
+	+	120	0
+	+	120	31
+	+	120	0
+	+	129	0
+	+	111	8
+	+	112	12
+	+	112	15
+	+	113	29
+	+	113	23
+	+	115	8
+	+	115	0
+	+	115	12
+	+	115	0
+	+	116	0
+	+	115	10
+	+	113	16
+	+	113	20
+	+	113	26
+	+	113	33
+	+	115	21
+	+	115	0
+	+	115	15
+	+	115	0
+	+	113	11
+	+	120	10
+	+	115	0
+	+	115	15
+	+	115	0
+	+	120	0
+	+	116	36
+	+	115	32
+	+	111	0
+	+	110	0
+	+	116	67
+	+	116	16
+
+> ~/projects/tetris/tetrominoes.py
+	*	1613639971	0
+	"	16	0
+	^	15	56
+	.	16	0
+	+	6	15
+	+	7	11
+	+	8	10
+	+	7	11
+	+	9	12
+	+	10	12
+	+	11	5
+	+	12	5
+	+	13	5
+	+	14	0
+	+	7	22
+	+	7	29
+	+	8	30
+	+	9	15
+	+	10	0
+	+	9	28
+	+	8	20
+	+	7	22
+	+	10	28
+	+	11	30
+	+	12	30
+	+	13	15
+	+	4	16
+	+	7	0
+	+	4	0
+	+	5	22
+	+	6	7
+	+	7	6
+	+	8	0
+	+	15	28
+	+	1	25
+	+	2	0
+	+	3	0
+	+	1	25
+	+	15	33
+	+	33	13
+	+	4	15
+	+	17	19
+	+	18	56
+	+	23	18
+	+	21	26
+	+	23	15
+	+	22	27
+	+	23	28
+	+	20	21
+	+	25	30
+	+	27	35
+	+	28	32
+	+	29	30
+	+	16	18
+	+	15	55
+	+	13	33
+	+	16	0
+
+> ~/projects/R_for_Sam_from_Leo/Indicator_Calculation_Mother_Script.R
+	*	1613590982	0
+	"	404	0
+
+> ~/projects/noughtsandcrosses/main.py
+	*	1613590276	0
+	"	1	0
+	^	108	20
+	.	108	19
+	+	65	26
+	+	74	11
+	+	75	26
+	+	84	11
+	+	67	48
+	+	69	0
+	+	66	25
+	+	69	31
+	+	67	29
+	+	69	27
+	+	68	46
+	+	69	39
+	+	74	0
+	+	59	49
+	+	59	0
+	+	74	23
+	+	111	38
+	+	112	5
+	+	111	27
+	+	112	14
+	+	112	76
+	+	114	15
+	+	111	0
+	+	74	0
+	+	71	44
+	+	73	19
+	+	110	0
+	+	120	0
+	+	61	44
+	+	75	19
+	+	90	29
+	+	76	22
+	+	84	0
+	+	76	17
+	+	77	28
+	+	79	8
+	+	77	63
+	+	78	63
+	+	81	45
+	+	83	19
+	+	84	0
+	+	78	65
+	+	82	15
+	+	128	22
+	+	128	0
+	+	123	0
+	+	128	23
+	+	119	0
+	+	117	25
+	+	118	51
+	+	119	0
+	+	128	41
+	+	34	33
+	+	45	40
+	+	52	28
+	+	52	0
+	+	49	18
+	+	47	26
+	+	52	65
+	+	57	28
+	+	54	11
+	+	55	11
+	+	57	0
+	+	55	15
+	+	49	0
+	+	52	0
+	+	49	62
+	+	54	62
+	+	4	11
+	+	35	29
+	+	37	0
+	+	37	18
+	+	35	75
+	+	37	0
+	+	53	56
+	+	48	64
+	+	36	64
+	+	51	17
+	+	56	17
+	+	39	17
+	+	92	0
+	+	128	0
+	+	92	0
+	+	127	4
+	+	85	17
+	+	93	0
+	+	94	24
+	+	98	26
+	+	101	18
+	+	100	25
+	+	92	22
+	+	126	33
+	+	127	7
+	+	128	7
+	+	85	15
+	+	92	0
+	+	103	24
+	+	106	37
+	+	96	23
+	+	108	19
+
+> ~/.mailcaprc
+	*	1613572278	0
+	"	1	0
+	^	1	79
+	.	1	78
+	+	1	78
+
+> ~/vimwiki/index.wiki
+	*	1613570763	0
+	"	24	39
+	^	24	40
+	.	24	39
+	+	4	0
+	+	5	0
+	+	42	0
+	+	5	0
+	+	42	9
+	+	42	0
+	+	42	9
+	+	42	0
+	+	42	14
+	+	42	2
+	+	42	0
+	+	42	2
+	+	42	0
+	+	42	9
+	+	42	0
+	+	42	9
+	+	42	0
+	+	42	7
+	+	42	15
+	+	42	0
+	+	5	0
+	+	42	0
+	+	42	9
+	+	42	0
+	+	42	18
+	+	42	29
+	+	42	0
+	+	42	31
+	+	42	0
+	+	42	4
+	+	42	0
+	+	42	14
+	+	5	0
+	+	42	0
+	+	42	9
+	+	42	0
+	+	42	2
+	+	4	0
+	+	5	0
+	+	3	0
+	+	42	4
+	+	42	0
+	+	42	2
+	+	42	0
+	+	6	0
+	+	42	0
+	+	29	0
+	+	42	0
+	+	26	0
+	+	21	0
+	+	29	0
+	+	42	0
+	+	55	0
+	+	54	0
+	+	57	0
+	+	21	0
+	+	28	0
+	+	33	0
+	+	41	0
+	+	54	0
+	+	11	0
+	+	7	0
+	+	11	0
+	+	8	0
+	+	11	0
+	+	9	0
+	+	32	9
+	+	33	0
+	+	30	0
+	+	31	7
+	+	13	2
+	+	14	0
 	+	15	0
-	+	16	14
-	+	17	0
 	+	16	0
 	+	17	0
-	+	16	63
-	+	18	26
-	+	20	46
+	+	18	4
+	+	19	0
+	+	18	2
+	+	19	2
+	+	20	2
+	+	30	0
+	+	31	0
+	+	32	0
+	+	37	0
+	+	38	0
+	+	39	0
+	+	40	0
+	+	22	0
+	+	25	0
+	+	23	0
+	+	24	39
 
-> ~/notes/calcurse.ical
-	*	1611871974	0
-	"	71	8
-	.	84	0
-	+	84	0
+> ~/.mutt/signature
+	*	1613570479	0
+	"	4	0
+	.	5	0
+	+	5	0
 
-> ~/projects/finance/2019-2021/current.csv
-	*	1611851742	0
+> /tmp/neomutt-rick-1000-329307-2114903944687059166
+	*	1613570380	0
 	"	1	0
 
-> ~/projects/finance/finance_tools.py
-	*	1611851586	0
-	"	137	76
-	^	137	77
-	.	137	76
-	+	98	42
-	+	57	41
-	+	13	7
-	+	22	62
-	+	28	11
-	+	15	22
-	+	34	39
-	+	39	65
-	+	45	34
-	+	47	22
-	+	54	54
-	+	58	74
-	+	71	37
-	+	86	62
-	+	71	7
-	+	86	7
-	+	88	22
-	+	93	71
-	+	95	10
+> /tmp/neomutt-rick-1000-329307-16606855323971414705
+	*	1613570258	0
+	"	1	0
+	^	13	3
+	.	100	0
+	+	3	0
+	+	1	0
+	+	3	59
+	+	8	75
+	+	15	0
+	+	10	1
+	+	10	55
+	+	13	2
+	+	100	0
 	+	95	0
-	+	142	71
-	+	123	0
-	+	107	8
-	+	107	0
-	+	146	0
-	+	134	60
-	+	135	42
-	+	80	60
-	+	136	37
-	+	137	17
-	+	136	49
-	+	137	64
-	+	136	76
-	+	137	76
+	+	100	0
 
-> ~/projects/finance/.gitignore
-	*	1611850761	0
-	"	141	0
+> ~/vimwiki/Banking.wiki
+	*	1613565991	0
+	"	2	0
+	^	4	50
+	.	4	49
+	+	2	47
+	+	3	48
+	+	4	49
 
-> ~/documents/finance/banking/hsbc/savings_2019-04.txt
-	*	1611849128	0
-	"	19	74
-	^	19	75
-	.	19	74
-	+	19	74
+> /tmp/neomutt-rick-1000-212736-14673506102056635887
+	*	1613510018	0
+	"	3	15
+	^	3	16
+	.	3	15
+	+	3	15
 
-> ~/documents/finance/banking/hsbc/savings_2019-05.txt
-	*	1611849013	0
-	"	6	74
-	^	6	75
-	.	6	74
-	+	6	74
-
-> ~/documents/finance/banking/hsbc/savings_2019-07.txt
-	*	1611848976	0
-	"	6	74
-	^	6	75
-	.	6	71
-	+	6	71
-
-> ~/documents/finance/banking/hsbc/savings_2019-08.txt
-	*	1611848933	0
-	"	4	74
-	^	4	75
-	.	4	71
-	+	4	71
-
-> ~/documents/finance/banking/hsbc/savings_2019-09.txt
-	*	1611848883	0
-	"	4	74
-	^	4	75
-	.	4	71
-	+	4	71
-
-> ~/documents/finance/banking/hsbc/savings_2019-10.txt
-	*	1611848846	0
-	"	4	74
-	^	4	75
-	.	4	71
-	+	4	71
-
-> ~/documents/finance/banking/hsbc/savings_2019-11.txt
-	*	1611848805	0
-	"	4	74
-	^	4	75
-	.	4	71
-	+	4	71
-
-> ~/documents/finance/banking/hsbc/savings_2019-12.txt
-	*	1611848767	0
-	"	4	74
-	^	4	75
-	.	4	71
-	+	4	71
-
-> ~/documents/finance/banking/hsbc/savings_2020-01.txt
-	*	1611848194	0
-	"	4	74
-	^	4	75
-	.	4	71
-	+	4	71
-
-> ~/documents/finance/banking/hsbc/savings_2020-02.txt
-	*	1611848158	0
-	"	4	74
-	^	4	75
-	.	4	74
-	+	4	74
-
-> ~/documents/finance/banking/hsbc/savings_2020-03.txt
-	*	1611848119	0
-	"	5	74
-	^	5	75
-	.	5	74
-	+	5	74
-
-> ~/documents/finance/banking/hsbc/savings_2020-04.txt
-	*	1611848080	0
-	"	5	74
-	^	5	75
-	.	5	71
-	+	1	71
-	+	5	71
-
-> ~/documents/finance/banking/hsbc/savings_2020-05.txt
-	*	1611847901	0
-	"	4	74
-	^	4	75
-	.	4	71
-	+	4	71
-
-> ~/documents/finance/banking/hsbc/savings_2020-06.txt
-	*	1611847874	0
-	"	5	74
-	^	5	75
-	.	5	71
-	+	5	71
-
-> ~/documents/finance/banking/hsbc/savings_2020-07.txt
-	*	1611847838	0
-	"	5	74
-	^	5	75
-	.	5	71
-	+	5	71
-
-> ~/documents/finance/banking/hsbc/savings_2020-08.txt
-	*	1611847733	0
-	"	4	74
-	^	4	75
-	.	4	71
-	+	4	71
-
-> ~/documents/finance/banking/hsbc/savings_2020-09.txt
-	*	1611847706	0
-	"	4	74
-	^	4	75
-	.	4	60
-	+	4	60
-
-> ~/documents/finance/banking/hsbc/savings_2021-01.txt
-	*	1611847667	0
-	"	5	75
-	^	5	76
-	.	5	73
-	+	5	73
-
-> ~/documents/finance/banking/hsbc/current_2019-01.txt
-	*	1611847610	0
-	"	16	74
-	^	16	75
-	.	16	60
-	+	16	60
-
-> ~/documents/finance/banking/hsbc/current_2019-02.txt
-	*	1611847386	0
-	"	32	72
-	^	32	73
-	.	32	60
-	+	1	71
-	+	32	60
-
-> ~/documents/finance/banking/hsbc/current_2019-03.txt
-	*	1611847328	0
+> ~/.mutt/make_aliases.py
+	*	1613508450	0
 	"	1	0
-	^	19	73
-	.	19	72
-	+	19	72
+	^	4	0
+	.	16	24
+	+	20	22
+	+	20	10
+	+	20	43
+	+	20	52
+	+	20	14
+	+	20	27
+	+	20	32
+	+	20	46
+	+	20	52
+	+	20	31
+	+	20	35
+	+	20	7
+	+	20	0
+	+	20	47
+	+	20	8
+	+	20	31
+	+	20	19
+	+	22	13
+	+	20	8
+	+	20	18
+	+	22	19
+	+	20	18
+	+	22	0
+	+	20	13
+	+	20	15
+	+	22	6
+	+	20	34
+	+	20	7
+	+	20	11
+	+	20	27
+	+	22	41
+	+	22	0
+	+	20	0
+	+	20	40
+	+	20	24
+	+	20	0
+	+	22	0
+	+	20	0
+	+	5	33
+	+	20	0
+	+	12	2
+	+	13	4
+	+	19	15
+	+	5	0
+	+	20	0
+	+	5	0
+	+	20	0
+	+	42	9
+	+	39	0
+	+	22	10
+	+	20	0
+	+	30	3
+	+	31	7
+	+	20	0
+	+	22	0
+	+	20	0
+	+	33	3
+	+	33	0
+	+	20	0
+	+	32	0
+	+	21	0
+	+	22	0
+	+	22	20
+	+	5	26
+	+	8	37
+	+	10	6
+	+	8	12
+	+	9	17
+	+	11	0
+	+	27	7
+	+	28	0
+	+	37	19
+	+	34	0
+	+	35	43
+	+	36	38
+	+	33	0
+	+	37	54
+	+	36	23
+	+	5	32
+	+	16	33
+	+	5	37
+	+	15	24
+	+	16	7
+	+	17	9
+	+	18	24
+	+	22	26
+	+	36	46
+	+	23	29
+	+	24	13
+	+	27	0
+	+	24	4
+	+	23	29
+	+	24	7
+	+	26	18
+	+	27	0
+	+	4	0
+	+	38	0
+	+	16	24
+	a	29	0
 
-> ~/documents/finance/banking/hsbc/current_2019-04.txt
-	*	1611847179	0
-	"	23	72
-	^	23	73
-	.	23	60
-	+	23	60
+> ~/.mutt/gruvbox/colors-gruvbox-shuber-extended.muttrc
+	*	1613507667	0
+	"	1	0
 
-> ~/documents/finance/banking/hsbc/current_2019-05.txt
-	*	1611847127	0
-	"	17	72
-	^	17	73
-	.	17	60
-	+	1	4
-	+	1	69
-	+	17	60
+> ~/.mutt/gruvbox/colors-gruvbox-shuber
+	*	1613507652	0
+	"	1	0
 
-> ~/documents/finance/banking/hsbc/current_2019-06.txt
-	*	1611847071	0
-	"	22	72
-	^	22	73
-	.	22	72
-	+	22	72
+> /tmp/neomutt-rick-1000-176328-15497651097652566610
+	*	1613488198	0
+	"	1	0
 
-> ~/documents/finance/banking/hsbc/current_2019-07.txt
-	*	1611846962	0
-	"	18	72
-	^	18	73
-	.	18	60
-	+	18	60
+> /tmp/neomutt-rick-1000-176328-3346738713437058849
+	*	1613488181	0
+	"	1	0
 
-> ~/documents/finance/banking/hsbc/current_2019-08.txt
-	*	1611846895	0
-	"	28	72
-	^	28	73
-	.	28	60
-	+	28	60
+> /tmp/neomutt-rick-1000-176328-2452557039574285161
+	*	1613487947	0
+	"	1	0
 
-> ~/documents/finance/banking/hsbc/current_2019-09.txt
-	*	1611846828	0
-	"	19	72
-	^	19	73
-	.	19	60
-	+	19	60
+> ~/.mutt/aliases
+	*	1613487711	0
+	"	1	0
+	.	3	0
+	+	3	0
 
-> ~/documents/finance/banking/hsbc/current_2019-10.txt
-	*	1611846782	0
-	"	25	72
-	^	25	73
-	.	25	60
-	+	1	69
-	+	25	60
+> /tmp/neomutt-rick-1000-173938-14095104918183573093
+	*	1613487536	0
+	"	1	0
 
-> ~/documents/finance/banking/hsbc/current_2019-11.txt
-	*	1611846688	0
-	"	19	71
-	^	19	72
-	.	19	60
-	+	19	60
+> /tmp/neomutt-rick-1000-172946-4162147875862868975
+	*	1613487367	0
+	"	1	0
 
-> ~/documents/finance/banking/hsbc/current_2019-12.txt
-	*	1611846644	0
-	"	15	0
-	^	15	73
-	.	15	60
-	+	1	68
-	+	15	60
+> /tmp/neomutt-rick-1000-172627-11727697664901216493
+	*	1613487326	0
+	"	1	0
 
-> ~/documents/finance/banking/hsbc/current_2020-01.txt
-	*	1611846543	0
-	"	13	70
-	^	13	72
-	.	22	69
-	+	22	69
+> /tmp/neomutt-rick-1000-171883-4532302944342053390
+	*	1613487228	0
+	"	1	0
 
-> ~/documents/finance/banking/hsbc/current_2020-02.txt
-	*	1611845427	0
-	"	20	70
-	^	20	71
-	.	20	60
-	+	20	60
+> /tmp/neomutt-rick-1000-171078-17188973233383856439
+	*	1613487119	0
+	"	1	0
 
-> ~/documents/finance/banking/hsbc/current_2020-03.txt
-	*	1611845384	0
-	"	20	71
-	^	20	72
-	.	20	60
-	+	20	60
+> /tmp/neomutt-rick-1000-170550-5735046033061242646
+	*	1613487060	0
+	"	1	0
 
-> ~/documents/finance/banking/hsbc/current_2020-04.txt
-	*	1611845331	0
-	"	15	71
-	^	15	72
-	.	15	60
-	+	15	60
+> ~/.offlineimaprc
+	*	1613483405	0
+	"	17	74
+	^	17	75
+	.	17	74
+	+	4	0
+	+	3	4
+	+	4	15
+	+	6	15
+	+	10	24
+	+	11	13
+	+	3	3
+	+	4	9
+	+	7	0
+	+	12	24
+	+	4	9
+	+	6	9
+	+	7	22
+	+	8	23
+	+	10	17
+	+	7	21
+	+	8	17
+	+	12	20
+	+	4	10
+	+	7	16
+	+	8	17
+	+	10	12
+	+	14	24
+	+	16	36
+	+	20	4
+	+	17	11
+	+	18	0
+	+	17	12
+	+	17	14
+	+	17	13
+	+	2	38
+	+	17	74
 
-> ~/documents/finance/banking/hsbc/current_2020-05.txt
-	*	1611845292	0
-	"	12	71
-	^	12	72
-	.	12	60
-	+	12	60
+> ~/.offlineimap/get_pass.py
+	*	1613483325	0
+	"	6	68
+	^	6	69
+	.	6	68
+	+	5	11
+	+	3	1
+	+	4	0
+	+	3	0
+	+	5	22
+	+	6	68
 
-> ~/documents/finance/banking/hsbc/current_2020-06.txt
-	*	1611845250	0
+> ~/projects.txt
+	*	1613479964	0
+	"	17	0
+	.	17	7
+	+	1	0
+	+	18	0
+	+	1	5
+	+	17	7
+
+> ~/vimwiki/Email Setup.wiki
+	*	1613478296	0
+	"	8	9
+	^	8	10
+	.	8	9
+	+	2	0
+	+	3	17
+	+	3	18
+	+	4	11
+	+	5	13
+	+	6	17
+	+	7	11
+	+	8	9
+
+> /tmp/neomutt-rick-1000-114024-9352289802052293392
+	*	1613478036	0
+	"	1	12
+	^	1	13
+	.	1	12
+	+	1	12
+
+> ~/.msmtprc
+	*	1613477896	0
+	"	8	61
+	^	8	63
+	.	8	62
+	+	8	8
+	+	8	9
+	+	9	6
+	+	10	14
+	+	6	15
+	+	8	62
+
+> ~/.offlineimap/offlineimaprc
+	*	1613477845	0
 	"	16	72
 	^	16	73
 	.	16	70
+	+	16	11
+	+	2	0
 	+	16	70
 
-> ~/documents/finance/banking/hsbc/current_2020-07.txt
-	*	1611845190	0
-	"	16	72
-	^	16	73
-	.	16	60
-	+	16	60
+> /tmp/mutt-rick-1000-83485-416279685955659631
+	*	1613472461	0
+	"	1	19
+	^	1	20
+	.	1	19
+	+	1	19
 
-> ~/documents/finance/banking/hsbc/current_2020-08.txt
-	*	1611845150	0
-	"	1	2
-	^	1	4
-	.	1	3
-	+	1	69
-	+	10	71
-	+	1	3
+> /tmp/mutt-rick-1000-10448-9194579958350638786
+	*	1613426841	0
+	"	12	6
+	^	12	7
+	.	3	17
+	+	3	17
 
-> ~/documents/finance/banking/hsbc/current_2021-01.txt
-	*	1611845071	0
-	"	1	10
-	^	1	11
-	.	1	10
-	+	1	2
-	+	1	4
-	+	1	2
-	+	1	61
-	+	12	60
-	+	1	10
+> ~/.mutt/gmail
+	*	1613425833	0
+	"	1	0
+	.	1	0
+	+	1	0
 
-> ~/documents/finance/banking/hsbc/current_2020-09.txt
-	*	1611845047	0
-	"	1	7
-	^	1	8
-	.	1	7
-	+	16	70
-	+	1	7
+> ~/projects/golang_tutorial/play/play.go
+	*	1613392818	0
+	"	27	13
+	^	27	14
+	.	27	14
+	+	3	10
+	+	35	0
+	+	17	29
+	+	10	0
+	+	4	3
+	+	7	13
+	+	8	0
+	+	6	6
+	+	6	13
+	+	13	48
+	+	17	12
+	+	17	26
+	+	6	0
+	+	19	16
+	+	35	12
+	+	17	0
+	+	35	0
+	+	19	11
+	+	13	14
+	+	19	33
+	+	18	21
+	+	17	0
+	+	19	67
+	+	20	22
+	+	21	0
+	+	5	7
+	+	18	24
+	+	15	22
+	+	16	0
+	+	18	26
+	+	35	0
+	+	17	6
+	+	35	21
+	+	18	27
+	+	17	0
+	+	10	15
+	+	35	0
+	+	21	0
+	+	22	0
+	+	11	51
+	+	12	0
+	+	10	0
+	+	18	40
+	+	35	0
+	+	35	28
+	+	22	0
+	+	23	34
+	+	34	0
+	+	35	0
+	+	24	7
+	+	23	27
+	+	24	40
+	+	35	0
+	+	34	45
+	+	34	0
+	+	35	0
+	+	24	61
+	+	25	41
+	+	29	33
+	+	30	27
+	+	29	15
+	+	25	15
+	+	29	37
+	+	26	8
+	+	27	13
+	+	26	0
+	+	27	33
+	+	28	29
+	+	29	11
+	+	30	12
+	+	29	15
+	+	30	15
+	+	28	0
+	+	29	12
+	+	30	12
+	+	32	28
+	+	33	0
+	+	27	14
 
-> ~/documents/finance/banking/hsbc/current_2020-10.txt
-	*	1611844583	0
+> ~/projects/golang_tutorial/json/json_play.go
+	*	1613336413	0
+	"	9	4
+	.	9	0
+	+	7	0
+	+	3	7
+	+	4	19
+	+	5	9
+	+	6	0
+	+	4	4
+	+	9	0
+
+> ~/projects/golang_tutorial/json/json_test.go
+	*	1613336165	0
+	"	6	4
+	^	3	21
+	.	3	20
+	+	3	20
+
+> ~/projects/contacts/contacts/__main__.py
+	*	1613330547	0
+	"	1	0
+	^	24	51
+	.	24	50
+	+	24	51
+	+	9	22
+	+	24	50
+
+> ~/projects/contacts/contacts/conf.py
+	*	1613330474	0
+	"	15	26
+	^	15	27
+	.	15	25
+	+	9	16
+	+	6	0
+	+	3	8
+	+	9	15
+	+	5	30
+	+	6	0
+	+	9	30
+	+	6	21
+	+	5	28
+	+	6	0
+	+	5	61
+	+	7	0
+	+	10	63
+	+	11	66
+	+	12	72
+	+	13	75
+	+	1	63
+	+	14	35
+	+	10	32
+	+	14	45
+	+	15	25
+
+> ~/projects/contacts/contacts/cli.py
+	*	1613330455	0
+	"	163	16
+	^	136	33
+	.	136	32
+	+	64	14
+	+	46	28
+	+	59	28
+	+	48	51
+	+	47	12
+	+	48	31
+	+	49	8
+	+	60	21
+	+	62	8
+	+	51	14
+	+	52	21
+	+	53	21
+	+	55	73
+	+	61	23
+	+	64	24
+	+	66	21
+	+	68	0
+	+	64	14
+	+	65	18
+	+	67	66
+	+	68	0
+	+	69	0
+	+	70	14
+	+	71	19
+	+	74	68
+	+	72	20
+	+	75	9
+	+	76	0
+	+	77	14
+	+	78	19
+	+	81	45
+	+	90	0
+	+	83	0
+	+	84	14
+	+	85	18
+	+	88	36
+	+	92	25
+	+	122	28
+	+	133	26
+	+	123	21
+	+	125	8
+	+	93	30
+	+	63	0
+	+	93	10
+	+	99	10
+	+	106	10
+	+	113	10
+	+	97	35
+	+	104	36
+	+	111	43
+	+	118	34
+	+	130	8
+	+	127	24
+	+	129	34
+	+	134	33
+	+	138	8
+	+	135	23
+	+	136	32
+	+	137	0
+	+	136	34
+	+	137	47
+	+	21	0
+	+	22	0
+	+	21	22
+	+	22	22
+	+	23	20
+	+	24	22
+	+	25	20
+	+	19	54
+	+	28	11
+	+	29	11
+	+	32	35
+	+	33	21
+	+	2	9
+	+	30	23
+	+	31	53
+	+	140	35
+	+	141	67
+	+	143	11
+	+	142	12
+	+	144	8
+	+	146	24
+	+	147	45
+	+	148	8
+	+	146	13
+	+	26	34
+	+	142	13
+	+	146	13
+	+	150	11
+	+	151	20
+	+	152	18
+	+	153	23
+	+	161	0
+	+	156	20
+	+	158	74
+	+	155	20
+	+	27	31
+	+	157	38
+	+	4	22
+	+	136	32
+
+> ~/projects/contacts/contacts/contacts.py
+	*	1613330235	0
+	"	119	0
+	^	10	23
+	.	112	0
+	+	159	33
+	+	175	43
+	+	175	13
+	+	163	16
+	+	159	22
+	+	163	12
+	+	163	0
+	+	164	11
+	+	175	33
+	+	175	0
+	+	166	15
+	+	165	19
+	+	166	16
+	+	170	73
+	+	173	0
+	+	171	20
+	+	173	16
+	+	172	0
+	+	171	61
+	+	172	63
+	+	171	62
+	+	166	19
+	+	173	16
+	+	175	19
+	+	174	29
+	+	175	0
+	+	169	41
+	+	166	39
+	+	171	50
+	+	76	72
+	+	162	16
+	+	166	39
+	+	171	50
+	+	169	55
+	+	177	46
+	+	178	72
+	+	179	23
+	+	178	70
+	+	179	24
+	+	182	44
+	+	186	66
+	+	188	33
+	+	199	0
+	+	182	8
+	+	183	44
+	+	184	59
+	+	186	11
+	+	188	15
+	+	194	40
+	+	195	27
+	+	198	13
+	+	199	0
+	+	186	26
+	+	197	53
+	+	185	69
+	+	186	36
+	+	188	38
+	+	191	36
+	+	186	37
+	+	191	46
+	+	192	45
+	+	187	19
+	+	188	42
+	+	189	37
+	+	4	39
+	+	190	31
+	+	169	55
+	+	167	47
+	+	168	46
+	+	126	50
+	+	142	30
+	+	141	0
+	+	199	0
+	+	141	0
+	+	11	26
+	+	144	41
+	+	153	0
+	+	154	0
+	+	153	26
+	+	6	0
+	+	1	0
+	+	4	0
+	+	7	0
+	+	5	0
+	+	4	0
+	+	145	0
+	+	147	18
+	+	149	44
+	+	153	14
+	+	152	23
+	+	150	61
+	+	143	23
+	+	150	0
+	+	151	39
+	+	97	0
+	+	11	0
+	+	8	0
+	+	10	22
+	+	109	0
+	+	112	0
+
+> ~/projects/golang_tutorial/eg_1/hello_world/hello.go
+	*	1613328666	0
+	"	3	0
+
+> ~/.profile
+	*	1613328402	0
+	"	5	181
+	^	5	182
+	.	5	181
+	+	5	172
+	+	5	181
+
+> ~/projects/contacts/contacts/test/test_contacts.py
+	*	1613328081	0
+	"	161	0
+	^	62	51
+	.	62	50
+	+	5	14
+	+	8	0
+	+	161	12
+	+	8	0
+	+	25	52
+	+	26	30
+	+	36	23
+	+	66	23
+	+	114	27
+	+	7	30
+	+	60	0
+	+	62	50
+
+> ~/projects/contacts/contacts/run_tests.py
+	*	1613325389	0
+	"	1	0
+	^	9	28
+	.	9	27
+	+	1	17
+	+	11	15
+	+	3	0
+	+	4	14
+	+	7	0
+	+	12	7
+	+	11	0
+	+	12	8
+	+	13	31
+	+	14	32
+	+	11	0
+	+	14	24
+	+	4	0
+	+	6	0
+	+	4	9
+	+	8	36
+	+	5	9
+	+	10	34
+	+	9	27
+
+> ~/projects/contacts/contacts/test/test_uuids.py
+	*	1613325315	0
 	"	1	0
 
-> ~/notes/2021-01-21_0.md
-	*	1611839263	0
-	"	96	0
-	^	93	0
-	.	93	0
-	+	15	0
-	+	2	39
-	+	11	5
-	+	10	5
-	+	11	5
-	+	15	0
-	+	16	12
-	+	18	42
-	+	20	38
-	+	13	12
-	+	25	9
-	+	22	10
-	+	26	0
-	+	23	0
-	+	25	63
-	+	84	75
-	+	84	72
-	+	84	75
-	+	29	4
-	+	52	0
-	+	51	0
-	+	31	28
-	+	29	17
-	+	34	3
-	+	35	22
-	+	36	22
-	+	36	72
-	+	34	20
-	+	34	68
-	+	35	71
-	+	51	0
-	+	37	27
-	+	39	53
-	+	41	12
-	+	42	18
-	+	46	78
-	+	47	22
-	+	49	6
-	+	49	60
-	+	49	27
-	+	52	45
-	+	55	0
-	+	78	0
-	+	52	66
-	+	54	41
-	+	58	70
-	+	59	16
-	+	60	32
-	+	61	27
-	+	64	73
-	+	65	75
-	+	66	24
-	+	71	7
-	+	74	0
-	+	77	76
-	+	79	0
-	+	83	0
-	+	82	0
-	+	79	65
-	+	81	44
-	+	73	53
-	+	84	71
-	+	25	58
-	+	29	5
-	+	40	5
-	+	49	31
-	+	50	5
-	+	53	5
-	+	57	5
-	+	64	2
-	+	65	3
-	+	66	3
-	+	64	3
-	+	65	0
-	+	81	3
-	+	86	1
-	+	88	0
-	+	87	0
-	+	88	0
-	+	89	71
-	+	90	0
-	+	92	0
-	+	94	0
-	+	94	79
-	+	91	0
-	+	96	0
-	+	93	0
+> ~/projects/contacts/contacts/test/test_contacts.
+	*	1613325005	0
+	"	1	0
 
-> ~/.taskrc
-	*	1611756917	0
-	"	42	0
-	^	38	32
-	.	40	42
+> ~/projects/contacts/contacts/expected_show_result.txt
+	*	1613323380	0
+	"	1	0
+
+> ~/projects/contacts/contacts/__init__.py
+	*	1613323172	0
+	"	1	0
+	^	4	0
+	.	4	0
+	+	4	0
+	+	5	0
+	+	3	52
+	+	4	0
+
+> ~/projects/contacts/contacts/test_contacts.py
+	*	1613323102	0
+	"	1	0
+	^	117	54
+	.	117	53
+	+	77	19
+	+	79	69
+	+	80	28
+	+	85	53
+	+	73	62
+	+	91	57
+	+	90	29
+	+	92	26
+	+	93	12
+	+	103	8
+	+	93	77
+	+	93	90
+	+	93	35
+	+	93	12
+	+	93	38
+	+	93	60
+	+	93	23
+	+	103	0
+	+	93	24
+	+	93	35
+	+	105	0
+	+	93	0
+	+	93	82
+	+	93	36
+	+	93	12
+	+	93	38
+	+	93	60
+	+	93	23
+	+	93	0
+	+	93	35
+	+	93	0
+	+	104	52
+	+	90	28
+	+	93	0
+	+	93	24
+	+	97	24
+	+	93	0
+	+	98	0
+	+	97	24
+	+	102	24
+	+	92	0
+	+	3	0
+	+	6	0
+	+	7	30
+	+	15	19
+	+	10	22
+	+	61	65
+	+	62	11
+	+	64	66
+	+	63	63
+	+	61	37
+	+	162	4
+	+	8	24
+	+	61	29
+	+	65	0
+	+	67	0
+	+	69	0
+	+	65	0
+	+	67	0
+	+	69	0
+	+	147	0
+	+	148	36
+	+	1	33
+	+	2	0
+	+	127	64
+	+	132	0
+	+	131	29
+	+	129	59
+	+	131	0
+	+	129	48
+	+	130	44
+	+	132	0
+	+	131	0
+	+	126	0
+	+	130	49
+	+	131	55
+	+	128	56
+	+	122	8
+	+	121	0
+	+	122	70
+	+	124	15
+	+	108	0
+	+	110	38
+	+	112	64
+	+	113	54
+	+	118	0
+	+	114	45
+	+	112	21
+	+	112	0
+	+	112	40
+	+	112	20
+	+	112	8
+	+	112	20
+	+	112	0
+	+	115	57
+	+	116	28
+	+	115	11
+	+	116	15
+	+	115	51
+	+	117	53
+
+> ~/bin/rename.py
+	*	1613322225	0
+	"	1	0
+
+> ~/bin/,batch_task_add.sh
+	*	1613322211	0
+	"	1	0
+	^	20	26
+	.	20	17
+	+	26	0
+	+	12	0
+	+	11	7
+	+	10	9
+	+	10	24
+	+	8	68
+	+	9	0
+	+	11	40
+	+	13	0
+	+	14	0
+	+	6	0
+	+	22	0
+	+	23	0
+	+	18	0
+	+	22	0
+	+	19	2
+	+	20	11
+	+	3	12
+	+	4	16
+	+	18	34
+	+	20	18
 	+	16	0
+	+	19	0
 	+	17	0
-	+	19	7
-	+	15	13
-	+	16	0
-	+	17	0
-	+	18	24
-	+	10	0
-	+	16	37
-	+	21	9
-	+	22	15
-	+	23	15
-	+	24	11
-	+	16	0
-	+	19	8
-	+	24	0
-	+	5	12
-	+	6	1
-	+	8	1
+	+	16	65
+	+	20	25
+	+	10	24
+	+	20	17
+
+> ~/batch_task_add.sh
+	*	1613316367	0
+	"	5	64
+	^	5	65
+	.	5	64
+	+	3	26
+	+	6	3
+	+	5	0
+	+	3	7
+	+	5	64
+
+> ~/foo.txt
+	*	1613316178	0
+	"	13	0
+	.	14	0
+	+	13	11
+	+	14	0
+
+> contacts/test_contacts.py
+	*	1613232399	0
+	"	1	0
+
+> ~/projects/contacts/contacts/uuids.py
+	*	1613163205	0
+	"	10	11
+	^	10	12
+	.	10	11
 	+	6	18
 	+	3	0
-	+	24	0
-	+	25	17
-	+	26	53
-	+	27	48
-	+	26	65
-	+	25	37
-	+	29	28
-	+	34	75
-	+	35	50
-	+	34	38
-	+	30	25
-	+	34	37
-	+	30	67
-	+	34	76
-	+	31	0
-	+	34	76
-	+	33	26
-	+	34	77
-	+	35	0
-	+	34	77
-	+	35	0
-	+	29	0
-	+	29	56
-	+	28	0
-	+	34	59
-	+	29	65
-	+	34	60
-	+	29	26
-	+	36	0
-	+	29	0
-	+	41	0
-	+	36	0
-	+	41	0
-	+	36	25
-	+	42	0
-	+	40	0
-	+	42	36
-	+	40	39
-	+	41	36
-	+	41	34
-	+	42	38
-	+	41	0
-	+	37	70
-	+	40	42
-	+	37	70
-	+	39	25
-	+	37	70
-	+	39	40
-	+	40	42
-	+	41	37
-	+	37	70
-	+	39	40
-	+	40	42
-	+	41	37
-	+	37	30
-	+	38	32
-	+	39	33
-	+	40	42
-
-> /usr/share/vim/vim82/doc/undo.txt
-	*	1611755922	0
-	"	20	0
-
-> ~/notes/2020-08-28_5.md
-	*	1611755676	0
-	"	53	39
-	^	53	40
-	.	53	39
-	+	16	27
-	+	17	23
-	+	18	24
-	+	19	34
-	+	20	34
-	+	21	23
-	+	22	29
-	+	23	42
-	+	28	40
-	+	29	44
-	+	30	61
-	+	31	25
-	+	32	0
-	+	31	0
-	+	32	33
-	+	33	86
-	+	34	39
-	+	35	27
-	+	36	42
-	+	37	21
-	+	38	62
-	+	39	61
-	+	40	58
-	+	40	68
-	+	41	118
-	+	41	33
-	+	30	30
-	+	33	20
-	+	38	24
-	+	39	27
-	+	40	35
-	+	40	32
-	+	42	0
-	+	44	14
-	+	45	14
-	+	31	14
-	+	36	34
-	+	31	14
-	+	36	33
-	+	51	0
-	+	40	39
-	+	52	59
-	+	40	0
-	+	26	0
-	+	52	0
-	+	27	0
-	+	26	55
-	+	27	75
-	+	53	39
-
-> ~/projects/task_extensions/reading_list_sync.py
-	*	1611755573	0
-	"	94	24
-	^	93	76
-	.	93	76
-	+	1	0
-	+	4	0
-	+	40	0
-	+	107	0
-	+	73	0
-	+	108	0
-	+	40	0
-	+	73	0
-	+	109	0
-	+	1	0
-	+	73	9
-	+	73	0
-	+	74	0
-	+	105	9
-	+	105	0
-	+	110	0
-	+	105	0
-	+	111	0
-	+	105	0
-	+	108	32
-	+	110	36
-	+	108	0
-	+	15	0
-	+	18	0
-	+	35	0
-	+	29	0
-	+	23	0
-	+	43	8
-	+	45	0
-	+	65	0
-	+	79	0
-	+	82	0
-	+	85	0
-	+	91	0
-	+	97	0
-	+	75	48
-	+	95	18
-	+	93	13
-	+	95	20
-	+	71	0
-	+	106	9
-	+	107	3
-	+	108	3
-	+	109	3
-	+	110	3
-	+	111	3
-	+	115	9
-	+	106	10
-	+	113	0
-	+	1	0
-	+	71	16
-	+	70	48
-	+	71	13
-	+	70	48
-	+	94	15
-	+	93	76
-
-> ~/projects/task_extensions/reading_list_sync.
-	*	1611755469	0
-	"	1	0
-
-> ~/documents/templates/letter_template/letter_template.tex
-	*	1611700248	0
-	"	26	28
-	^	26	29
-	.	26	28
-	+	32	12
-	+	11	19
-	+	4	24
-	+	5	12
-	+	6	0
-	+	5	12
-	+	6	0
-	+	5	12
-	+	5	11
-	+	28	0
-	+	8	19
-	+	28	0
-	+	31	0
-	+	32	0
-	+	31	0
-	+	32	0
-	+	10	12
-	+	11	12
-	+	15	11
-	+	9	14
-	+	26	28
-
-> ~/documents/templates/letter_template/compile_letter.py
-	*	1611699029	0
-	"	60	17
-	^	60	18
-	.	60	17
-	+	32	33
-	+	33	37
-	+	40	15
-	+	3	1
-	+	5	0
-	+	3	0
-	+	33	14
-	+	40	28
-	+	40	16
-	+	5	29
-	+	18	0
-	+	19	7
-	+	18	24
-	+	5	40
-	+	5	0
-	+	5	11
+	+	9	26
+	+	10	7
 	+	7	0
-	+	5	0
-	+	6	0
-	+	7	3
-	+	7	33
-	+	6	12
-	+	17	41
-	+	23	0
-	+	7	28
-	+	7	24
-	+	7	0
-	+	7	28
-	+	7	16
-	+	14	0
-	+	8	18
-	+	23	52
-	+	26	0
-	+	25	26
-	+	22	0
-	+	29	0
-	+	23	54
-	+	15	0
-	+	24	32
-	+	20	16
-	+	27	18
-	+	30	37
-	+	33	0
-	+	31	53
-	+	36	0
-	+	30	39
-	+	40	15
-	+	4	0
-	+	7	12
-	+	8	14
-	+	9	37
-	+	34	18
-	+	9	24
-	+	5	19
-	+	7	0
-	+	60	17
-	+	37	19
-	+	38	57
-	+	40	14
-	+	40	4
-	+	42	0
-	+	43	0
-	+	37	27
-	+	10	27
-	+	44	46
-	+	57	0
-	+	39	48
-	+	40	43
-	+	58	0
-	+	45	43
-	+	41	18
-	+	10	14
-	+	46	14
-	+	44	43
-	+	46	34
-	+	48	55
-	+	50	37
-	+	11	4
-	+	10	8
-	+	11	56
-	+	39	8
-	+	40	40
-	+	41	15
-	+	44	40
-	+	46	18
-	+	58	0
-	+	13	0
-	+	11	8
-	+	50	11
-	+	49	14
-	+	50	18
-	+	57	0
-	+	53	29
-	+	55	37
-	+	56	23
-	+	54	24
-	+	13	0
-	+	12	26
-	+	13	17
-	+	60	17
-
-> ~/documents/templates/letter_template/body.txt
-	*	1611698951	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/documents/templates/letter_template/body.tex
-	*	1611697573	0
-	"	2	6
-	^	2	7
-	.	2	6
-	+	2	6
-
-> ~/documents/templates/letter_template/config.json
-	*	1611694521	0
-	"	1	93
-	^	1	94
-	.	1	93
-	+	1	93
-
-> ~/documents/templates/letter_template/config
-	*	1611694407	0
-	"	1	0
-	.	1	0
-	+	1	0
-
-> ~/documents/templates/letter_template/letter.tex
-	*	1611689667	0
-	"	48	18
-	^	45	25
-	.	45	24
-	+	32	30
-	+	33	36
-	+	34	32
-	+	35	32
-	+	37	32
-	+	38	24
-	+	46	28
-	+	45	17
-	+	47	16
-	+	48	16
-	+	45	24
-
-> ~/documents/templates/letter_template/letter
-	*	1611681602	0
-	"	1	0
-
-> ~/documents/templates/letter_template/make_letter.py
-	*	1611681567	0
-	"	6	10
-	^	6	11
-	.	6	10
-	+	2	8
-	+	4	41
-	+	5	23
-	+	6	10
-
-> ~/documents/templates/letter_template/letter_content.md
-	*	1611681425	0
-	"	3	31
-	^	3	32
-	.	3	31
-	+	1	15
-	+	3	31
-
-> ~/documents/templates/letter_template/cover.tex
-	*	1611681173	0
-	"	50	0
-	^	19	0
-	.	45	15
-	+	4	0
-	+	2	12
-	+	3	11
-	+	33	77
-	+	34	29
-	+	48	0
-	+	25	1
-	+	26	0
-	+	19	0
-	+	10	13
-	+	9	16
-	+	8	20
-	+	12	19
-	+	13	14
-	+	14	16
-	+	15	22
-	+	16	16
-	+	17	14
-	+	46	21
-	+	47	9
-	+	48	9
-	+	45	15
-
-> ~/bin/,change_file_ext.py
-	*	1611680239	0
-	"	1	0
-	^	11	19
-	.	6	56
-	+	1	5
-	+	5	62
-	+	10	28
-	+	6	61
-	+	7	49
-	+	8	0
-	+	10	0
-	+	11	29
-	+	13	36
-	+	8	0
-	+	8	19
-	+	11	16
-	+	8	31
-	+	11	19
-	+	7	49
-	+	6	56
-
-> ~/bin/,compile_notes.sh
-	*	1611240700	0
-	"	2	40
-	^	2	41
-	.	2	41
-	+	2	9
-	+	2	41
-
-> ~/notes/2020-08-28_0.md
-	*	1611240083	0
-	"	1	0
-
-> ~/projects/finance/altair_viz.py
-	*	1611239232	0
-	"	103	0
-
-> ~/bin/,reading_list_sync.sh
-	*	1611006167	0
-	"	2	62
-	^	2	63
-	.	2	62
-	+	2	62
-
-> ~/bin/,reading_list_sync.py
-	*	1610989333	0
-	"	18	67
-	^	18	68
-	.	18	67
-	+	108	14
-	+	108	12
-	+	108	52
-	+	108	93
-	+	108	53
-	+	109	0
-	+	108	54
-	+	108	76
-	+	57	30
-	+	60	18
-	+	29	13
-	+	47	0
-	+	108	0
-	+	63	46
-	+	65	0
-	+	64	0
-	+	64	7
-	+	65	0
-	+	64	40
-	+	108	0
-	+	107	27
-	+	67	23
-	+	69	23
-	+	73	11
-	+	68	67
-	+	54	22
-	+	55	35
-	+	65	0
-	+	108	19
-	+	111	0
-	+	74	0
-	+	69	35
-	+	70	41
-	+	73	0
-	+	76	43
-	+	71	23
-	+	73	0
-	+	5	8
-	+	79	30
-	+	104	0
-	+	79	33
-	+	80	14
-	+	106	6
-	+	107	6
-	+	108	6
-	+	17	0
-	+	17	23
-	+	18	61
-	+	67	20
-	+	69	46
-	+	72	33
-	+	82	25
-	+	103	0
-	+	83	35
-	+	84	37
-	+	82	35
-	+	86	8
-	+	105	0
-	+	88	33
-	+	89	38
-	+	88	31
-	+	89	59
-	+	90	15
-	+	103	0
-	+	110	65
-	+	110	86
-	+	112	0
-	+	111	26
-	+	112	48
-	+	112	0
-	+	112	47
-	+	112	0
-	+	112	16
-	+	112	25
-	+	112	43
-	+	112	19
-	+	110	53
-	+	112	0
-	+	112	46
-	+	112	12
-	+	112	24
-	+	112	60
-	+	113	0
-	+	50	32
-	+	44	0
-	+	43	76
-	+	112	26
-	+	92	30
-	+	96	49
-	+	99	59
-	+	101	64
-	+	97	21
-	+	98	42
-	+	99	24
-	+	102	7
-	+	111	30
-	+	110	55
-	+	112	0
-	+	9	74
-	+	18	67
-
-> ~/bin/README.md
-	*	1610970907	0
-	"	1	0
-	^	6	70
-	.	6	69
-	+	3	23
-	+	14	74
-	+	8	57
-	+	3	57
-	+	9	75
-	+	11	0
-	+	5	77
-	+	6	69
-
-> ~/bin/,test.py
-	*	1610968796	0
-	"	33	14
-	^	1	0
-	.	1	0
-	+	1	0
-
-> ~/bin/,task_reading_list.py
-	*	1610962680	0
-	"	90	0
-	.	63	0
-	+	64	21
-	+	63	18
-	+	64	37
-	+	65	3
-	+	69	9
-	+	70	0
-	+	69	0
-	+	69	4
-	+	70	0
-	+	46	22
-	+	47	13
-	+	47	0
-	+	49	0
-	+	48	17
-	+	61	0
-	+	56	30
-	+	57	46
-	+	56	41
-	+	58	25
-	+	61	0
-	+	63	0
-	+	54	0
-	+	51	34
-	+	52	34
-	+	53	28
-	+	52	22
-	+	59	36
-	+	56	47
-	+	63	0
-	+	68	0
-	+	11	0
-	+	12	27
-	+	58	17
-	+	13	26
-	+	15	4
-	+	15	0
-	+	13	11
-	+	15	4
-	+	26	0
-	+	18	51
-	+	15	36
-	+	15	0
-	+	14	3
-	+	15	39
-	+	26	20
-	+	18	15
-	+	27	22
-	+	60	15
-	+	27	60
-	+	18	8
-	+	20	23
-	+	16	12
-	+	19	17
-	+	24	21
-	+	27	24
-	+	62	0
-	+	63	29
-	+	63	16
-	+	63	19
-	+	63	24
-	+	63	50
-	+	26	0
-	+	24	22
-	+	26	0
-	+	63	51
-	+	63	0
-	+	16	0
-	+	26	0
-	+	26	46
-	+	26	47
-	+	26	17
-	+	9	8
-	+	16	43
-	+	26	0
-	+	26	17
-	+	63	11
-	+	27	0
-	+	25	0
-	+	26	12
-	+	26	0
-	+	26	9
-	+	26	21
-	+	26	0
-	+	26	16
-	+	26	30
-	+	26	0
-	+	26	53
-	+	26	24
-	+	26	23
-	+	26	15
-	+	26	27
-	+	26	18
-	+	26	26
-	+	26	53
-	+	63	53
-	+	26	0
-	+	16	0
+	+	9	10
 	+	9	0
-	+	63	0
+	+	8	0
+	+	9	0
+	+	10	11
 
-> ~/src/dwm/config.h
-	*	1610960696	0
-	"	62	75
-	^	62	76
-	.	62	76
-	+	64	56
-	+	65	73
-	+	66	53
-	+	65	63
-	+	64	61
-	+	66	0
-	+	75	0
-	+	62	65
-	+	63	69
-	+	60	0
-	+	62	0
-	+	64	0
-	+	66	0
-	+	63	0
-	+	62	76
-
-> ~/bin/,volume_mute.sh
-	*	1610910224	0
-	"	2	31
-	^	2	32
-	.	2	31
-	+	2	28
-	+	3	0
-	+	2	31
-
-> ~/bin/,volume_down.sh
-	*	1610910211	0
-	"	2	28
-	.	2	28
-	+	3	0
-	+	2	28
-
-> ~/bin/,volume_up.sh
-	*	1610910198	0
-	"	2	28
-	^	2	29
-	.	2	28
-	+	3	0
-	+	1	8
-	+	2	32
-	+	3	0
-	+	2	28
-
-> ~/bin/,task_reading_list_dev.py
-	*	1610908153	0
-	"	90	0
-	^	39	31
-	.	33	0
-	+	38	33
-	+	79	11
-	+	80	28
-	+	80	11
-	+	80	0
-	+	79	0
-	+	79	7
-	+	79	52
-	+	38	0
-	+	39	52
-	+	40	30
-	+	33	26
-	+	79	54
-	+	40	0
-	+	39	30
-	+	33	0
-
-> ~/bin/,monitor_right_of.sh
-	*	1610900994	0
-	"	2	0
-	.	3	0
-	+	1	7
-	+	3	0
-
-> ~/bin/,monitor_off.sh
-	*	1610900985	0
-	"	1	7
-	.	1	7
-	+	3	0
-	+	1	7
-
-> ~/README.md
-	*	1610828537	0
-	"	1	0
-
-> ~/dotfiles/README.md
-	*	1610828170	0
-	"	1	0
+> ~/projects/contacts/test/test_contacts.py
+	*	1613161103	0
+	"	10	0
 	.	10	0
+	+	22	26
+	+	24	19
+	+	19	54
+	+	18	46
+	+	24	46
+	+	28	0
+	+	7	12
+	+	8	10
+	+	25	0
+	+	24	32
+	+	25	38
+	+	27	57
+	+	25	25
+	+	27	58
+	+	28	0
+	+	10	13
+	+	11	0
 	+	10	0
 
-> ~/dotfiles/.gitignore
-	*	1610828065	0
+> ~/projects/contacts/test/__main__.py
+	*	1613161026	0
+	"	4	29
+	^	4	30
+	.	4	27
+	+	2	8
+	+	4	27
+
+> ~/projects/contacts/test/__init__.py
+	*	1613160823	0
+	"	4	2
+	^	4	3
+	.	4	2
+	+	4	2
+
+> ~/projects/finance/finance_tools/test_finance_tools.py
+	*	1613160191	0
+	"	37	0
+
+> ~/projects/contacts/tests/test_contacts.py
+	*	1613159928	0
+	"	21	32
+	^	21	33
+	.	21	32
+	+	9	10
+	+	10	0
+	+	9	7
+	+	8	0
+	+	5	2
+	+	1	20
+	+	2	0
+	+	5	0
+	+	6	0
+	+	12	38
+	+	18	11
+	+	13	39
+	+	3	18
+	+	4	4
+	+	4	5
+	+	11	0
+	+	15	18
+	+	25	18
+	+	15	12
+	+	16	13
+	+	15	11
+	+	17	0
+	+	18	57
+	+	20	29
+	+	21	0
+	+	18	12
+	+	21	32
+
+> ~/.zshrc
+	*	1613158617	0
+	"	16	13
+	^	16	14
+	.	16	13
+	+	30	0
+	+	19	58
+	+	16	13
+
+> ~/vimwiki/Reading Notes Heller, Z *Notes on a Scandal*.wiki
+	*	1613158541	0
 	"	1	0
-	^	1	0
-	.	1	7
-	+	1	7
 
-> ~/dotfiles/.xinitrc
-	*	1610822525	0
-	"	6	16
-	^	6	17
-	.	6	16
-	+	1	29
-	+	6	16
+> ~/vimwiki/Reading List.wiki
+	*	1613137650	0
+	"	16	2
+	.	16	2
+	+	1	0
+	+	3	0
+	+	3	12
+	+	3	20
+	+	3	12
+	+	3	0
+	+	1	0
+	+	2	0
+	+	1	0
+	+	4	7
+	+	5	0
+	+	4	9
+	+	14	7
+	+	5	17
+	+	6	17
+	+	7	6
+	+	12	4
+	+	7	0
+	+	16	4
+	+	5	40
+	+	6	36
+	+	7	38
+	+	8	47
+	+	8	97
+	+	10	36
+	+	11	42
+	+	12	55
+	+	15	2
+	+	16	70
+	+	1	0
+	+	5	2
+	+	6	2
+	+	7	2
+	+	43	0
+	+	14	10
+	+	8	50
+	+	8	2
+	+	9	2
+	+	10	2
+	+	11	2
+	+	12	2
+	+	15	2
+	+	16	2
 
-> ~/bin/,volume.sh
-	*	1610819845	0
+> ~/vimwiki/Reading Notes Mackesy, C *The Boy, the Mole, the Fox and the Horse*.wiki
+	*	1613137648	0
+	"	1	0
+
+> ~/vimwiki/Reading Notes Peterson, JB *12 Rules for Life*.wiki
+	*	1613137646	0
+	"	1	0
+
+> ~/vimwiki/Reading Notes Rooney, S *Conversations with Friends*.wiki
+	*	1613137645	0
+	"	1	0
+
+> ~/vimwiki/Reading Notes Rooney, S *Normal People*.wiki
+	*	1613137644	0
+	"	1	0
+	.	5	0
+	+	5	0
+
+> ~/vimwiki/Reading Notes Nabokov, V *Lolita*.wiki
+	*	1613137644	0
+	"	1	0
+
+> ~/vimwiki/Reading Notes Kay, A *This is Going to Hurt*.wiki
+	*	1613137643	0
+	"	1	0
+
+> ~/vimwiki/Reading Notes Harari, YN *Sapiens*.wiki
+	*	1613137641	0
+	"	1	0
+
+> ~/vimwiki/Reading Notes Faulks, S *Engleby*.wiki
+	*	1613137639	0
+	"	4	0
+
+> ~/vimwiki/Reading Notes Boyle, M *The Way Home*.wiki
+	*	1613137637	0
+	"	1	0
+
+> ~/vimwiki/Reading Notes Boyle, M The Way Home.wiki
+	*	1613137597	0
+	"	1	0
+
+> ~/vimwiki/Shell Script Performance.wiki
+	*	1613137585	0
+	"	1	0
+	^	4	65
+	.	4	64
+	+	1	27
+	+	2	0
+	+	2	6
+	+	2	16
+	+	2	19
+	+	2	24
+	+	2	30
+	+	3	0
+	+	2	42
+	+	4	64
+
+> ~/vimwiki/Empty dunder init files.wiki
+	*	1613137583	0
+	"	1	0
+	^	2	45
+	.	3	0
+	+	1	26
+	+	1	27
+	+	2	7
+	+	2	19
+	+	2	29
+	+	3	0
+	+	2	44
+	+	3	0
+
+> ~/vimwiki/MindLine Volunteering Log.wiki
+	*	1613137582	0
+	"	1	0
+	^	52	22
+	.	52	18
+	+	1	0
+	+	2	0
+	+	2	9
+	+	2	14
+	+	2	27
+	+	2	37
+	+	2	47
+	+	4	0
+	+	2	54
+	+	4	0
+	+	3	0
+	+	4	22
+	+	6	33
+	+	14	26
+	+	52	18
+
+> ~/vimwiki/Taskwarrior.wiki
+	*	1613137581	0
+	"	1	0
+	^	4	39
+	.	9	0
+	+	1	14
+	+	2	0
+	+	2	13
+	+	2	18
+	+	2	24
+	+	2	35
+	+	4	0
+	+	2	47
+	+	4	0
+	+	3	0
+	+	7	0
+	+	9	0
+
+> ~/vimwiki/Long Term Goals.wiki
+	*	1613137580	0
+	"	1	0
+	^	4	18
+	.	5	0
+	+	1	0
+	+	2	0
+	+	2	6
+	+	2	13
+	+	2	22
+	+	2	34
+	+	2	41
+	+	2	50
+	+	4	0
+	+	2	58
+	+	4	0
+	+	3	0
+	+	5	0
+	+	4	17
+	+	5	0
+
+> ~/vimwiki/Goals for 2021.wiki
+	*	1613137578	0
+	"	1	0
+	^	33	73
+	.	58	17
+	+	1	0
+	+	2	4
+	+	2	6
+	+	2	11
+	+	2	18
+	+	2	38
+	+	2	46
+	+	2	38
+	+	2	30
+	+	2	45
+	+	2	54
+	+	4	0
+	+	2	62
+	+	4	0
+	+	5	0
+	+	4	19
+	+	3	0
+	+	6	19
+	+	6	14
+	+	11	14
+	+	6	13
+	+	11	13
+	+	29	13
+	+	30	49
+	+	1	0
+	+	33	42
+	+	42	0
+	+	43	14
+	+	54	0
+	+	55	11
+	+	58	17
+
+> ~/vimwiki/Curriculum Vitae.wiki
+	*	1613137577	0
+	"	1	0
+	^	153	0
+	.	153	0
+	+	90	75
+	+	94	77
+	+	97	74
+	+	100	76
+	+	103	62
+	+	108	57
+	+	114	78
+	+	111	74
+	+	117	74
+	+	118	74
+	+	119	79
+	+	120	72
+	+	121	74
+	+	123	0
+	+	124	57
+	+	128	77
+	+	131	61
+	+	135	79
+	+	139	13
+	+	154	35
+	+	159	0
+	+	162	0
+	+	164	76
+	+	165	0
+	+	8	62
+	+	9	51
+	+	69	76
+	+	71	0
+	+	70	31
+	+	69	58
+	+	79	30
+	+	69	57
+	+	78	23
+	+	85	32
+	+	90	60
+	+	91	27
+	+	90	60
+	+	84	48
+	+	44	0
+	+	49	0
+	+	55	0
+	+	49	16
+	+	50	0
+	+	49	1
+	+	44	1
+	+	50	15
+	+	51	13
+	+	52	13
+	+	53	17
+	+	54	13
+	+	50	8
+	+	51	6
+	+	52	6
+	+	53	6
+	+	54	6
+	+	45	13
+	+	46	17
+	+	47	13
+	+	45	8
+	+	46	6
+	+	47	6
+	+	48	0
+	+	56	25
+	+	57	15
+	+	58	13
+	+	59	12
+	+	60	15
+	+	61	12
+	+	62	13
+	+	63	17
+	+	64	13
+	+	57	8
+	+	58	6
+	+	59	6
+	+	60	6
+	+	61	6
+	+	62	6
+	+	63	6
+	+	64	6
+	+	44	0
+	+	43	0
+	+	98	29
+	+	104	31
+	+	109	20
+	+	115	5
+	+	114	70
+	+	115	4
+	+	125	34
+	+	132	18
+	+	139	15
+	+	154	37
+	+	9	3
+	+	66	0
+	+	70	0
+	+	9	0
+	+	42	0
+	+	138	0
+	+	153	0
+
+> ~/vimwiki/README.wiki
+	*	1613137575	0
+	"	1	0
+	^	13	44
+	.	13	43
+	+	1	9
+	+	2	5
+	+	2	18
+	+	2	26
+	+	2	39
+	+	2	49
+	+	3	0
+	+	4	41
+	+	12	18
+	+	13	43
+
+> ~/vimwiki/Reading Notes Rooney, S *Converations with Friends*.wiki
+	*	1613137480	0
+	"	13	0
+	.	5	0
+	+	5	0
+
+> ~/vimwiki/Reading Notes *Conversations with Friends*.wiki
+	*	1613137074	0
+	"	1	0
+	^	1	9
+	.	1	8
+	+	1	42
+	+	2	0
+	+	2	8
+	+	2	19
+	+	2	27
+	+	4	0
+	+	3	0
+	+	4	16
+	+	5	17
+	+	6	0
+	+	7	0
+	+	11	0
+	+	13	0
+	+	5	30
+	+	2	34
+	+	1	8
+
+> ~/vimwiki/rename.py
+	*	1613136800	0
+	"	9	29
+	^	9	30
+	.	9	28
+	+	4	19
+	+	3	5
+	+	5	22
+	+	6	44
+	+	7	40
+	+	8	31
+	+	9	28
+
+> ~/vimwiki/Reading Notes Heller, Z. *Notes on a Scandal*
+	*	1613136458	0
+	"	1	0
+
+> ~/vimwiki/Reading Notes Boyle, M. The Way Home
+	*	1613136419	0
+	"	1	0
+
+> ~/vimwiki/Reading Notes Boyle, M. *The Way Home*
+	*	1613136180	0
 	"	1	0
 	.	1	0
 	+	1	0
 
-> ~/bin/,qr.py
-	*	1610818959	0
+> ~/vimwiki/Reading Notes Peterson, J.B. *12 Rules for Life*
+	*	1613136146	0
 	"	1	0
-	^	1	0
-	.	1	5
-	+	1	5
 
-> ~/bin/,key_gen.py
-	*	1610818925	0
+> ~/vimwiki/Reading Notes Kay, A. *This is Going to Hurt*
+	*	1613136141	0
 	"	1	0
-	^	1	0
-	.	1	5
-	+	1	5
 
-> ~/bin/,contacts_csv.py
-	*	1610818899	0
+> ~/vimwiki/Reading Notes Faulks, S. *Engleby*
+	*	1613136138	0
 	"	1	0
-	^	1	6
-	.	1	5
-	+	1	5
 
-> ~/bin/xsetloop.sh
-	*	1610817675	0
+> ~/src/vimwiki/doc/vimwiki.txt
+	*	1613135957	0
+	"	15	69
+
+> ~/vimwiki/Reading Notes Harari, Y.N. *Sapiens*
+	*	1613135782	0
 	"	1	0
-	.	5	0
-	+	5	0
 
-> ~/bin/,lock.sh
-	*	1610743158	0
+> ~/vimwiki/Reading Notes *The Boy, the Mole, the Fox and the Horse*.wiki
+	*	1613134400	0
 	"	1	0
-	.	5	0
-	+	3	0
-	+	7	0
-	+	5	0
-
-> ~/projects/finance/2020_q4/mv.py
-	*	1610468617	0
-	"	7	38
-	^	7	39
-	.	7	38
-	+	4	25
-	+	5	31
-	+	6	34
-	+	8	18
-	+	7	35
-	+	8	20
-	+	7	38
-
-> ~/projects/finance/batch_rename.py
-	*	1610468136	0
-	"	1	28
-	^	23	39
-	.	23	38
-	+	1	11
-	+	6	27
-	+	6	26
-	+	6	14
-	+	1	61
-	+	11	7
-	+	11	0
-	+	6	0
-	+	29	7
-	+	6	0
-	+	7	13
-	+	12	0
-	+	13	27
-	+	15	7
-	+	2	0
-	+	6	0
-	+	9	3
-	+	8	34
-	+	11	0
-	+	10	26
-	+	22	0
-	+	13	33
-	+	15	29
-	+	18	26
-	+	18	23
-	+	18	16
-	+	18	28
-	+	14	69
-	+	36	26
-	+	37	9
-	+	35	0
-	+	6	0
-	+	16	15
-	+	22	8
-	+	18	34
-	+	21	0
-	+	18	57
-	+	19	31
-	+	20	20
-	+	19	17
-	+	16	13
-	+	22	0
-	+	18	29
-	+	16	19
-	+	17	30
-	+	18	7
-	+	19	0
-	+	18	32
-	+	29	17
-	+	23	2
-	+	29	0
-	+	24	0
-	+	23	28
-	+	24	69
-	+	25	19
-	+	23	36
-	+	23	38
-	+	24	0
-	+	23	38
-
-> ~/projects/finance/test_finance_tools.py
-	*	1610466490	0
-	"	6	59
-	^	6	60
-	.	6	59
-	+	25	0
-	+	6	59
-
-> ~/projects/samlarkin.xyz/README.rst
-	*	1610453578	0
-	"	60	0
-	^	48	4
-	.	48	3
-	+	1	0
-	+	2	12
-	+	8	0
-	+	9	28
-	+	17	0
-	+	18	6
-	+	19	0
-	+	17	0
-	+	7	0
-	+	17	0
-	+	26	0
-	+	27	16
-	+	28	0
-	+	35	0
-	+	36	4
-	+	34	0
-	+	51	0
-	+	52	6
-	+	7	22
-	+	7	0
-	+	14	49
-	+	15	69
-	+	17	19
-	+	14	13
-	+	15	22
-	+	50	0
-	+	14	12
-	+	15	22
-	+	14	1
-	+	15	1
-	+	38	19
-	+	42	20
-	+	45	57
-	+	20	45
-	+	24	0
-	+	25	3
-	+	20	30
-	+	25	2
-	+	23	3
-	+	25	0
-	+	31	0
-	+	31	3
-	+	20	30
-	+	23	3
-	+	32	56
-	+	31	66
-	+	20	38
-	+	20	30
-	+	23	3
-	+	31	0
-	+	31	3
-	+	32	3
-	+	20	44
-	+	31	17
-	+	20	26
-	+	20	27
-	+	22	3
-	+	23	3
-	+	21	0
-	+	29	51
-	+	31	2
-	+	32	2
-	+	38	51
-	+	42	26
-	+	48	40
-	+	55	48
-	+	59	64
-	+	60	36
-	+	14	49
-	+	17	41
-	+	17	46
-	+	17	0
-	+	38	20
-	+	40	25
-	+	41	0
-	+	39	0
-	+	43	2
-	+	44	0
-	+	46	0
-	+	45	0
-	+	46	2
-	+	44	3
-	+	42	21
-	+	44	28
-	+	47	0
-	+	48	3
-
-> ~/projects/samlarkin.xyz/README.md
-	*	1610451511	0
-	"	43	23
-	^	43	24
-	.	43	23
-	+	29	13
-	+	33	37
-	+	38	0
-	+	39	3
-	+	38	44
-	+	41	9
-	+	3	71
-	+	8	78
-	+	42	59
-	+	43	23
-
-> ~/projects/samlarkin.xyz/templates/about.html
-	*	1610124761	0
-	"	11	66
-	^	11	67
-	.	11	66
-	+	28	32
-	+	5	0
-	+	28	66
-	+	18	71
-	+	18	55
-	+	25	54
-	+	28	0
-	+	18	0
-	+	25	0
-	+	18	0
-	+	25	0
-	+	18	76
-	+	28	0
-	+	25	64
-	+	25	0
-	+	19	10
-	+	16	18
-	+	27	12
-	+	25	0
-	+	18	0
-	+	29	0
-	+	18	0
-	+	30	0
-	+	18	0
-	+	25	0
-	+	8	23
-	+	9	0
-	+	10	0
-	+	16	0
-	+	25	0
-	+	36	11
-	+	38	0
-	+	37	0
-	+	40	72
-	+	41	11
-	+	43	0
-	+	19	35
-	+	21	77
-	+	22	76
-	+	24	45
-	+	25	0
-	+	15	0
-	+	26	0
-	+	35	0
-	+	34	0
-	+	31	0
-	+	32	79
-	+	33	10
-	+	32	55
-	+	34	0
-	+	33	31
-	+	40	44
-	+	33	24
-	+	24	31
-	+	23	77
-	+	10	43
-	+	10	148
-	+	12	93
-	+	13	48
-	+	12	60
-	+	10	44
-	+	12	21
-	+	12	30
-	+	10	101
-	+	10	129
-	+	10	148
-	+	12	93
-	+	13	8
-	+	13	15
-	+	13	8
-	+	13	15
-	+	10	77
-	+	10	74
-	+	11	0
-	+	12	46
-	+	11	74
-	+	13	0
-	+	12	30
-	+	11	66
-
-> ~/projects/samlarkin.xyz/static/style.css
-	*	1610123129	0
-	"	14	18
-	^	14	19
-	.	14	18
-	+	34	0
-	+	33	0
-	+	32	0
-	+	33	0
-	+	32	0
-	+	30	14
-	+	31	16
-	+	14	18
-
-> ~/projects/samlarkin.xyz/main.py
-	*	1610122982	0
-	"	134	0
-	^	132	0
-	.	132	0
-	+	60	55
-	+	59	49
-	+	47	24
-	+	127	17
-	+	130	34
-	+	132	0
-
-> ~/projects/samlarkin.xyz/templates/cv.html
-	*	1610122881	0
-	"	6	0
-	^	92	0
+	^	4	16
 	.	6	0
+	+	1	59
+	+	2	0
+	+	2	8
+	+	2	19
+	+	2	31
+	+	2	36
+	+	2	44
+	+	3	0
+	+	2	57
+	+	3	0
+	+	4	16
+	+	6	0
+
+> ~/vimwiki/Reading Notes *12 Rules for Life*.wiki
+	*	1613134290	0
+	"	1	0
+	^	218	63
+	.	218	62
+	+	1	36
+	+	2	0
+	+	2	8
+	+	2	19
+	+	2	30
+	+	2	39
+	+	2	48
+	+	2	58
+	+	2	64
+	+	3	0
+	+	2	73
+	+	3	0
+	+	4	16
+	+	6	0
+	+	9	0
+	+	8	14
+	+	254	98
+	+	256	0
+	+	254	79
+	+	10	0
+	+	11	0
+	+	254	88
+	+	12	54
+	+	71	71
+	+	218	62
+
+> ~/vimwiki/Reading Notes *Engleby*.wiki
+	*	1613133951	0
+	"	1	0
+	^	8	25
+	.	8	24
+	+	1	25
+	+	2	0
+	+	2	7
+	+	2	15
+	+	2	23
+	+	3	0
+	+	2	34
+	+	3	0
+	+	4	0
 	+	5	0
-	+	6	0
-	+	92	0
-	+	6	0
+	+	4	16
+	+	6	22
+	+	7	51
+	+	8	24

@@ -75,6 +75,7 @@ nnoremap <leader>spell :setlocal spell! spelllang=en_gb<CR>
 nnoremap <leader>html :-1read $HOME/.vim/snippets/skeleton.html<CR>4jwf>a 
 nnoremap <leader>md :-1read $HOME/.vim/snippets/skeleton.md<CR>3j5l"=strftime("%Y-%m-%d")<C-M>p2kA<SPACE>
 nnoremap <leader># :read $HOME/.vim/snippets/hashline<CR>
+nnoremap <leader>pycli :read $HOME/.vim/snippets/pycli.py<CR>
 
 
 " FINDING FILES:

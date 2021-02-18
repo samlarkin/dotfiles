@@ -13,7 +13,8 @@
 data.location=~/.task
 
 # Color theme
-include /usr/share/doc/task/rc/dark-16.theme
+# include /usr/share/doc/task/rc/dark-gray-256.theme
+include /usr/share/doc/task/rc/solarized-dark-256.theme
 
 # British public holidays
 include /usr/share/doc/task/rc/holidays.en-GB.rc
@@ -34,9 +35,9 @@ report.reading.sort=status-,entry+
 report.reading.filter=project:reading and status.not:deleted and limit:page
 
 # Custom urgency settings
-urgency.project.coefficient=0.0
-urgency.user.project.jobs.coefficient=5.0
-urgency.user.project.house.coefficient=5.0
-urgency.user.project.mindline.coefficient=3.0
-urgency.user.project.car.coefficient=2.0
-urgency.user.project.reading.coefficient=0.0
+urgency.project.coefficient=1.0
+# urgency.user.project.jobs.coefficient=5.0
+# urgency.user.project.house.coefficient=5.0
+# urgency.user.project.mindline.coefficient=3.0
+# urgency.user.project.car.coefficient=2.0
+# urgency.user.project.reading.coefficient=0.0
