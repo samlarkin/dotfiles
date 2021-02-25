@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =5
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/sam/projects/ilri/improvements'
 let g:netrw_dirhist_5='/home/sam/.offlineimap'
 let g:netrw_dirhist_4='/home/sam/.offlineimap/Repository-gmailRemote/FolderValidity'
 let g:netrw_dirhist_3='/home/sam/.offlineimap/Repository-gmailLocal/FolderValidity'
@@ -9,4 +10,3 @@ let g:netrw_dirhist_0='/home/sam/.offlineimap/mbnames'
 let g:netrw_dirhist_9='/home/sam/.offlineimap'
 let g:netrw_dirhist_8='/home/sam/projects/contacts/contacts'
 let g:netrw_dirhist_7='/home/sam/src/dwm'
-let g:netrw_dirhist_6='/home/sam'

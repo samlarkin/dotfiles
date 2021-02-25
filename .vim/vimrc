@@ -1,5 +1,4 @@
-" .vimrc
-" Sam Larkin
+" .vimrc " Sam Larkin
 " https://samlarkin.xyz
 " https://github.com/samlarkin
 " 2020-08-28
@@ -146,3 +145,4 @@ nnoremap <leader>cn :!/home/sam/notes/compiler/compile_notes.sh<CR><CR>
 nnoremap <leader>sn :vimgrep //g *<Left><Left><Left><Left>
 nnoremap <leader>n :cnext<CR>
 nnoremap <leader>p :cprev<CR>
+noremap <leader>u :w<Home>silent <End> !urlview<CR>
