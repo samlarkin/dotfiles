@@ -28,10 +28,19 @@ bindkey -v
 export SAVEHIST=1000000
 export HISTSIZE=1000
 export HISTFILE=$HOME/.zsh_history
+
+# Env preferences
 export EDITOR=/usr/bin/vim
 export READER=/usr/bin/zathura
+
+# go env
 export GOPATH=$HOME/go
+export GOROOT=/usr/local/go
+export GO111MODULE=on
 
 
-export PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:$HOME/bin:$HOME/.local/bin:/usr/local/go/bin:$HOME/go
-
+# PATH
+export PATH=$PATH:$HOME/bin
+export PATH=$PATH:$HOME/.local/bin
+export PATH=$PATH:$GOROOT/bin
+export PATH=$PATH:$GOPATH/bin
