@@ -11,25 +11,85 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/y 
+~Msle0/\<As\>
 
 # Last Substitute Search Pattern:
-~MSle0&'
+~MSle0~&* 
 
 # Last Substitute String:
-$"
+$- 
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1675194348,,"wq"
+|2,0,1675707365,,"wq"
 :q
-|2,0,1675193027,,"q"
+|2,0,1675706995,,"q"
+:e strings.py
+|2,0,1675706924,,"e strings.py"
+:!aspell -c %
+|2,0,1675616111,,"!aspell -c %"
+:make
+|2,0,1675615968,,"make"
 :w
-|2,0,1675188415,,"w"
+|2,0,1675615965,,"w"
+:mak
+|2,0,1675615949,,"mak"
+:tabe letter_template.tex
+|2,0,1675615272,,"tabe letter_template.tex"
+:tabe letter_body.md
+|2,0,1675614993,,"tabe letter_body.md"
+:tabe notes.md
+|2,0,1675614946,,"tabe notes.md"
+:mae
+|2,0,1675614773,,"mae"
+:e letter_template.tex
+|2,0,1675614507,,"e letter_template.tex"
+:tabe letter
+|2,0,1675613858,,"tabe letter"
+:make all
+|2,0,1675612738,,"make all"
+:tabe makefile
+|2,0,1675612718,,"tabe makefile"
+:make letter
+|2,0,1675612605,,"make letter"
+:make notes
+|2,0,1675603625,,"make notes"
+:!rm letter_body.txt.bak
+|2,0,1675603587,,"!rm letter_body.txt.bak"
+:e letter_body.txt
+|2,0,1675603573,,"e letter_body.txt"
+:tabe letter_body.txt
+|2,0,1675598415,,"tabe letter_body.txt"
+:%s/* /- /g
+|2,0,1675597843,,"%s/* /- /g"
+:%s/- /* /g
+|2,0,1675597702,,"%s/- /* /g"
+:aspell -c t %
+|2,0,1675595704,,"aspell -c t %"
+:!make notes
+|2,0,1675590636,,"!make notes"
+:!make
+|2,0,1675590413,,"!make"
+:%s/^- //g
+|2,0,1675523675,,"%s/^- //g"
+:e letter_body.md
+|2,0,1675522638,,"e letter_body.md"
+:%s/"OX"/MARKERS/g
+|2,0,1675458684,,"%s/\"OX\"/MARKERS/g"
+:tabe ~/projects/sl_strava/
+|2,0,1675456590,,"tabe ~/projects/sl_strava/"
+:e /usr/lib/python3.10/
+|2,0,1675455972,,"e /usr/lib/python3.10/"
+:!cat letter_config.json
+|2,0,1675363743,,"!cat letter_config.json"
+:tabe tag_guidance_link
+|2,0,1675362016,,"tabe tag_guidance_link"
+:!ls -a
+|2,0,1675194488,,"!ls -a"
+:!la
+|2,0,1675194475,,"!la"
 :!wc -w %
 |2,0,1675107962,,"!wc -w %"
-:make letter
-|2,0,1675107443,,"make letter"
 :!make letter
 |2,0,1675107263,,"!make letter"
 :tabe
@@ -40,8 +100,6 @@ $"
 |2,0,1675104953,,"!firefox ../cv/cv.pdf"
 :ew
 |2,0,1675104742,,"ew"
-:tabe letter_template.tex
-|2,0,1675102449,,"tabe letter_template.tex"
 :tabe letter_config.json
 |2,0,1675102307,,"tabe letter_config.json"
 :r !head -n 10 noughtsandcrosses.py
@@ -56,72 +114,32 @@ $"
 |2,0,1675001183,,"e ../cv/cv.cls"
 :tabe ../cv/cv.tex
 |2,0,1675001173,,"tabe ../cv/cv.tex"
-:!aspell -c %
-|2,0,1674998154,,"!aspell -c %"
 :!aspell -c letter_body.txt
 |2,0,1674998128,,"!aspell -c letter_body.txt"
 :.!
 |2,0,1674997059,,".!"
 :%s/main_tex/letter_tex/g
 |2,0,1674994703,,"%s/main_tex/letter_tex/g"
-:tabe makefile
-|2,0,1674993556,,"tabe makefile"
-:%s/}//g
-|2,0,1674993471,,"%s/}//g"
-:%s/{//g
-|2,0,1674993465,,"%s/{//g"
-:%s/":/:/g
-|2,0,1674993136,,"%s/\":/:/g"
-:tabe config.yaml
-|2,0,1674993087,,"tabe config.yaml"
-:!ls
-|2,0,1674992759,,"!ls"
-:ls .
-|2,0,1674992753,,"ls ."
-:%s/Ã¢Â¢//g
-|2,0,1674935589,,"%s/Ã¢Â¢//g"
-:e body.txt
-|2,0,1674934979,,"e body.txt"
-:e strings.py
-|2,0,1674495958,,"e strings.py"
-:r !cat ../admin/header.txt
-|2,0,1674483690,,"r !cat ../admin/header.txt"
-:tabe ../../20190415_bristol_city_council/notice_letter/body.txt
-|2,0,1673287772,,"tabe ../../20190415_bristol_city_council/notice_letter/body.txt"
-:vsplit
-|2,0,1671885133,,"vsplit"
-:e ebookstore.py
-|2,0,1671836778,,"e ebookstore.py"
-:tabe ../complete_T38/database_manip.py
-|2,0,1671833316,,"tabe ../complete_T38/database_manip.py"
-:r !head -n 7 ../complete_T10/task1.py
-|2,0,1671662083,,"r !head -n 7 ../complete_T10/task1.py"
-:tabe create_table.sql
-|2,0,1671660906,,"tabe create_table.sql"
-:r !head -n 7 ~/hyperiondev_dfe_data_science/Data\ Science\ Bootcamp/complete_T10/task1.py
-|2,0,1671656297,,"r !head -n 7 ~/hyperiondev_dfe_data_science/Data\\ Science\\ Bootcamp/complete_T10/task1.py"
-:r !head -n 7 compulsory_task_1.txt
-|2,0,1671639282,,"r !head -n 7 compulsory_task_1.txt"
-:%s/images/.\/images/g
-|2,0,1671625760,,"%s/images/.\\/images/g"
-:tabe ~/projects/hugo_portfolio/content/projects/uci_automobile_eda.md
-|2,0,1671624003,,"tabe ~/projects/hugo_portfolio/content/projects/uci_automobile_eda.md"
-:tabe ~/projects/hugo_portfolio/config.yaml
-|2,0,1671390585,,"tabe ~/projects/hugo_portfolio/config.yaml"
-:tabe ~/projects/hugo_portfolio/assets/css/extended/post-single.css
-|2,0,1671386648,,"tabe ~/projects/hugo_portfolio/assets/css/extended/post-single.css"
-:tabe ~/projects/data_science_portfolio/automobiles/report/report.md
-|2,0,1671386085,,"tabe ~/projects/data_science_portfolio/automobiles/report/report.md"
-:! grep "##" ~/projects/data_science_portfolio/automobiles/report/report.md
-|2,0,1671360774,,"! grep \"##\" ~/projects/data_science_portfolio/automobiles/report/report.md"
-:q!
-|2,0,1671040797,,"q!"
-:tabe themes/hugo-PaperMod/assets/css/common/main.css
-|2,0,1670792725,,"tabe themes/hugo-PaperMod/assets/css/common/main.css"
-:!
-|2,0,1670792707,,"!"
 
 # Search String History (newest to oldest):
+? * 
+|2,1,1675597843,,"* "
+? - 
+|2,1,1675597702,,"- "
+? \<As\>
+|2,1,1675595775,,"\\<As\\>"
+? \<Skills\>
+|2,1,1675590602,,"\\<Skills\\>"
+? ^- 
+|2,1,1675523675,,"^- "
+? \<Experience\>
+|2,1,1675523482,,"\\<Experience\\>"
+?/game_won
+|2,1,1675463745,47,"game_won"
+? "OX"
+|2,1,1675458684,,"\"OX\""
+? @$
+|2,1,1675455973,,"@$"
 ?/y 
 |2,1,1675119076,47,"y "
 ?/y
@@ -204,24 +222,6 @@ $"
 |2,1,1671363084,47,"("
 ?/Antarctica
 |2,1,1671129971,47,"Antarctica"
-?/table
-|2,1,1670792790,47,"table"
-?/min
-|2,1,1670792765,47,"min"
-?/{.
-|2,1,1670790956,47,"{."
-?/|
-|2,1,1670790807,47,"|"
-? @$
-|2,1,1670790802,,"@$"
-?/before
-|2,1,1670789742,47,"before"
-?/**
-|2,1,1670789736,47,"**"
-?/\*\*Figure
-|2,1,1670789592,47,"\\*\\*Figure"
-?/figure
-|2,1,1670789565,47,"figure"
 
 # Expression History (newest to oldest):
 
@@ -234,39 +234,36 @@ $"
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	CHAR	0
-	https://samlarkin.github.io
-|3,0,0,0,1,0,1675190982,"https://samlarkin.github.io"
+"0	LINE	0
+	\renewcommand\pagemark{\usekomafont{pagenumber}\thepage}
+|3,0,0,1,1,0,1675615331,"\\renewcommand\\pagemark{\\usekomafont{pagenumber}\\thepage}"
 ""1	LINE	0
-	.vim/viminfo
-|3,1,1,1,1,0,1675194337,".vim/viminfo"
+	
+|3,1,1,1,1,0,1675616396,""
 "2	LINE	0
-	.viminfo
-|3,0,2,1,1,0,1675194058,".viminfo"
+	\renewcommand\nextfoot{}
+|3,0,2,1,1,0,1675615373,"\\renewcommand\\nextfoot{}"
 "3	LINE	0
 	
-	
-	
-	Feel free to use any of this material as you see fit under the BSD License.
-|3,0,3,1,4,0,1675192702,"","","","Feel free to use any of this material as you see fit under the BSD License."
+|3,0,3,1,1,0,1675614976,""
 "4	LINE	0
-	## Reusing
-|3,0,4,1,1,0,1675192699,"## Reusing"
+	\setplength{refvpos}{5cm}
+|3,0,4,1,1,0,1675614976,"\\setplength{refvpos}{5cm}"
 "5	LINE	0
-	
-|3,0,5,1,1,0,1675191387,""
+	\setplength{toaddrvpos}{0cm}
+|3,0,5,1,1,0,1675614975,"\\setplength{toaddrvpos}{0cm}"
 "6	LINE	0
-	
-|3,0,6,1,1,0,1675191386,""
+	\makeatother
+|3,0,6,1,1,0,1675614332,"\\makeatother"
 "7	LINE	0
-	The theme used to style the site is called
-|3,0,7,1,1,0,1675191385,"The theme used to style the site is called"
+	\makeatletter
+|3,0,7,1,1,0,1675614328,"\\makeatletter"
 "8	LINE	0
-	The site is generated using open source static site generator
-|3,0,8,1,1,0,1675191312,"The site is generated using open source static site generator"
+	    \@setplength{datevpos}{4cm}
+|3,0,8,1,1,0,1675614294,"    \\@setplength{datevpos}{4cm}"
 "9	LINE	0
-	
-|3,0,9,1,1,0,1675110130,""
+	    \@setplength{sigbeforevskip}{20pt}
+|3,0,9,1,1,0,1675614135,"    \\@setplength{sigbeforevskip}{20pt}"
 "a@	CHAR	0
 	gq€kr€kd
 |3,2,10,0,1,0,1674996978,"gq€kr€kd"
@@ -304,238 +301,238 @@ $"
 	Z€ýa€ýa
 |3,0,35,0,1,0,1669152233,"Z€ýa€ýa"
 "-	CHAR	0
-	`
-|3,0,36,0,1,0,1675193100,"`"
+	\usekomafont{pagenumber}\thepage
+|3,0,36,0,1,0,1675615344,"\\usekomafont{pagenumber}\\thepage"
 
 # File marks:
-'0  5  0  ~/dotfiles/.gitignore
-|4,48,5,0,1675194349,"~/dotfiles/.gitignore"
-'1  5  9  ~/dotfiles/.gitignore
-|4,49,5,9,1675194234,"~/dotfiles/.gitignore"
-'2  5  0  ~/dotfiles/.gitignore
-|4,50,5,0,1675194065,"~/dotfiles/.gitignore"
-'3  5  0  ~/dotfiles/.gitignore
-|4,51,5,0,1675194065,"~/dotfiles/.gitignore"
-'4  4  0  ~/dotfiles/.gitignore
-|4,52,4,0,1675194065,"~/dotfiles/.gitignore"
-'5  4  0  ~/dotfiles/.gitignore
-|4,53,4,0,1675194065,"~/dotfiles/.gitignore"
-'6  2  4  ~/dotfiles/.gitignore
-|4,54,2,4,1675193875,"~/dotfiles/.gitignore"
-'7  2  4  ~/dotfiles/.gitignore
-|4,55,2,4,1675193875,"~/dotfiles/.gitignore"
-'8  2  4  ~/dotfiles/.gitignore
-|4,56,2,4,1675193875,"~/dotfiles/.gitignore"
-'9  2  4  ~/dotfiles/.gitignore
-|4,57,2,4,1675193875,"~/dotfiles/.gitignore"
+'0  4  0  ~/dotfiles/.gitignore
+|4,48,4,0,1675707365,"~/dotfiles/.gitignore"
+'1  21  39  ~/dotfiles/.zshrc
+|4,49,21,39,1675707258,"~/dotfiles/.zshrc"
+'2  35  0  ~/exercism/python/little-sisters-vocab/strings.py
+|4,50,35,0,1675706995,"~/exercism/python/little-sisters-vocab/strings.py"
+'3  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex
+|4,51,1,0,1675616403,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex"
+'4  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
+|4,52,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
+'5  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,53,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+'6  27  30  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
+|4,54,27,30,1675613553,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
+'7  27  30  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
+|4,55,27,30,1675613553,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
+'8  27  27  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
+|4,56,27,27,1675613467,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
+'9  27  27  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
+|4,57,27,27,1675613467,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
 
 # Jumplist (newest first):
--'  5  0  ~/dotfiles/.gitignore
-|4,39,5,0,1675194349,"~/dotfiles/.gitignore"
--'  1  0  ~/dotfiles/.gitignore
-|4,39,1,0,1675194333,"~/dotfiles/.gitignore"
--'  5  9  ~/dotfiles/.gitignore
-|4,39,5,9,1675194234,"~/dotfiles/.gitignore"
--'  1  0  ~/dotfiles/.gitignore
-|4,39,1,0,1675194188,"~/dotfiles/.gitignore"
 -'  4  0  ~/dotfiles/.gitignore
-|4,39,4,0,1675194065,"~/dotfiles/.gitignore"
--'  4  0  ~/dotfiles/.gitignore
-|4,39,4,0,1675194065,"~/dotfiles/.gitignore"
+|4,39,4,0,1675707365,"~/dotfiles/.gitignore"
 -'  1  0  ~/dotfiles/.gitignore
-|4,39,1,0,1675194048,"~/dotfiles/.gitignore"
--'  2  4  ~/dotfiles/.gitignore
-|4,39,2,4,1675193875,"~/dotfiles/.gitignore"
--'  2  4  ~/dotfiles/.gitignore
-|4,39,2,4,1675193875,"~/dotfiles/.gitignore"
--'  2  4  ~/dotfiles/.gitignore
-|4,39,2,4,1675193875,"~/dotfiles/.gitignore"
--'  2  4  ~/dotfiles/.gitignore
-|4,39,2,4,1675193875,"~/dotfiles/.gitignore"
--'  1  0  ~/dotfiles/.gitignore
-|4,39,1,0,1675193867,"~/dotfiles/.gitignore"
--'  11  14  ~/bin/README.md
-|4,39,11,14,1675193112,"~/bin/README.md"
--'  11  14  ~/bin/README.md
-|4,39,11,14,1675193112,"~/bin/README.md"
--'  11  14  ~/bin/README.md
-|4,39,11,14,1675193112,"~/bin/README.md"
--'  11  14  ~/bin/README.md
-|4,39,11,14,1675193112,"~/bin/README.md"
--'  11  14  ~/bin/README.md
-|4,39,11,14,1675193112,"~/bin/README.md"
--'  11  14  ~/bin/README.md
-|4,39,11,14,1675193112,"~/bin/README.md"
--'  11  14  ~/bin/README.md
-|4,39,11,14,1675193112,"~/bin/README.md"
--'  11  14  ~/bin/README.md
-|4,39,11,14,1675193112,"~/bin/README.md"
--'  11  14  ~/bin/README.md
-|4,39,11,14,1675193112,"~/bin/README.md"
--'  11  14  ~/bin/README.md
-|4,39,11,14,1675193112,"~/bin/README.md"
--'  11  14  ~/bin/README.md
-|4,39,11,14,1675193112,"~/bin/README.md"
--'  11  14  ~/bin/README.md
-|4,39,11,14,1675193112,"~/bin/README.md"
--'  11  14  ~/bin/README.md
-|4,39,11,14,1675193112,"~/bin/README.md"
--'  11  14  ~/bin/README.md
-|4,39,11,14,1675193112,"~/bin/README.md"
--'  11  14  ~/bin/README.md
-|4,39,11,14,1675193112,"~/bin/README.md"
--'  11  14  ~/bin/README.md
-|4,39,11,14,1675193112,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675193079,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675193079,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675193079,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675193079,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675193079,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675193079,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675193079,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675193079,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675193079,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675193079,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675193079,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675193079,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675193079,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675193079,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675193079,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675193079,"~/bin/README.md"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/.git/MERGE_MSG
-|4,39,1,0,1675193027,"~/bin/.git/MERGE_MSG"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675192854,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675192854,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675192854,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675192854,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675192854,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675192854,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675192854,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675192854,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675192854,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675192854,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675192854,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675192854,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675192854,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675192854,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675192854,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675192854,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675192854,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675192854,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675192854,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675192854,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675192854,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675192854,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675192854,"~/bin/README.md"
--'  1  0  ~/bin/README.md
-|4,39,1,0,1675192854,"~/bin/README.md"
+|4,39,1,0,1675707340,"~/dotfiles/.gitignore"
+-'  21  39  ~/dotfiles/.zshrc
+|4,39,21,39,1675707258,"~/dotfiles/.zshrc"
+-'  21  39  ~/dotfiles/.zshrc
+|4,39,21,39,1675707258,"~/dotfiles/.zshrc"
+-'  1  0  ~/dotfiles/.zshrc
+|4,39,1,0,1675707174,"~/dotfiles/.zshrc"
+-'  1  0  ~/dotfiles/.zshrc
+|4,39,1,0,1675707174,"~/dotfiles/.zshrc"
+-'  35  0  ~/exercism/python/little-sisters-vocab/strings.py
+|4,39,35,0,1675706995,"~/exercism/python/little-sisters-vocab/strings.py"
+-'  35  0  ~/exercism/python/little-sisters-vocab/strings.py
+|4,39,35,0,1675706995,"~/exercism/python/little-sisters-vocab/strings.py"
+-'  35  0  ~/exercism/python/little-sisters-vocab/strings.py
+|4,39,35,0,1675706995,"~/exercism/python/little-sisters-vocab/strings.py"
+-'  35  0  ~/exercism/python/little-sisters-vocab/strings.py
+|4,39,35,0,1675706995,"~/exercism/python/little-sisters-vocab/strings.py"
+-'  77  4  ~/exercism/python/little-sisters-vocab/strings.py
+|4,39,77,4,1675706967,"~/exercism/python/little-sisters-vocab/strings.py"
+-'  77  4  ~/exercism/python/little-sisters-vocab/strings.py
+|4,39,77,4,1675706967,"~/exercism/python/little-sisters-vocab/strings.py"
+-'  77  4  ~/exercism/python/little-sisters-vocab/strings.py
+|4,39,77,4,1675706967,"~/exercism/python/little-sisters-vocab/strings.py"
+-'  77  4  ~/exercism/python/little-sisters-vocab/strings.py
+|4,39,77,4,1675706967,"~/exercism/python/little-sisters-vocab/strings.py"
+-'  1  0  ~/exercism/python/little-sisters-vocab/strings.py
+|4,39,1,0,1675706961,"~/exercism/python/little-sisters-vocab/strings.py"
+-'  1  0  ~/exercism/python/little-sisters-vocab/strings.py
+|4,39,1,0,1675706961,"~/exercism/python/little-sisters-vocab/strings.py"
+-'  1  0  ~/exercism/python/little-sisters-vocab/strings.py
+|4,39,1,0,1675706961,"~/exercism/python/little-sisters-vocab/strings.py"
+-'  1  0  ~/exercism/python/little-sisters-vocab/strings.py
+|4,39,1,0,1675706961,"~/exercism/python/little-sisters-vocab/strings.py"
+-'  1  0  ~/exercism/python/little-sisters-vocab/strings
+|4,39,1,0,1675706924,"~/exercism/python/little-sisters-vocab/strings"
+-'  1  0  ~/exercism/python/little-sisters-vocab/strings
+|4,39,1,0,1675706924,"~/exercism/python/little-sisters-vocab/strings"
+-'  1  0  ~/exercism/python/little-sisters-vocab/strings
+|4,39,1,0,1675706924,"~/exercism/python/little-sisters-vocab/strings"
+-'  1  0  ~/exercism/python/little-sisters-vocab/strings
+|4,39,1,0,1675706924,"~/exercism/python/little-sisters-vocab/strings"
+-'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex
+|4,39,1,0,1675616403,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex"
+-'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex
+|4,39,1,0,1675616403,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex"
+-'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex
+|4,39,1,0,1675616403,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex"
+-'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex
+|4,39,1,0,1675616403,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex"
+-'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex
+|4,39,1,0,1675616403,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex"
+-'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex
+|4,39,1,0,1675616403,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex"
+-'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex
+|4,39,1,0,1675616403,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex"
+-'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex
+|4,39,1,0,1675616403,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex"
+-'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
+|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
+-'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
+|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
+-'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
+|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
+-'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
+|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
+-'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
+|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
+-'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
+|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
+-'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
+|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
+-'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
+|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
+-'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
+|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
+-'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
+|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
+-'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
+|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
+-'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
+|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
+-'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
+|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
+-'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
+|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
+-'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
+|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
+-'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
+|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
+-'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
+|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
+-'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
+|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
+-'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
+|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
+-'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
+|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
+-'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
+|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
+-'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
+|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
+-'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
+|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
+-'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
+|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
+-'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
+|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
+-'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
+|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
+-'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
+|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
+-'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
+|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
+-'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
+|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
+-'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
+|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
+-'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
+|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
+-'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
+|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
+-'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
+|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
+-'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
+|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
+-'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
+|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
+-'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
+|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
+-'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
+|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
+-'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
+|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
 
 # History of marks within files (newest to oldest):
 
 > ~/dotfiles/.gitignore
-	*	1675194346	0
-	"	5	0
+	*	1675707365	0
+	"	4	0
 	^	5	10
 	.	3	0
 	+	1	0
@@ -543,6 +540,564 @@ $"
 	+	2	11
 	+	5	0
 	+	3	0
+
+> ~/dotfiles/.zshrc
+	*	1675707257	0
+	"	21	39
+	^	21	39
+	.	21	38
+	+	21	38
+
+> ~/exercism/python/little-sisters-vocab/strings.py
+	*	1675706990	0
+	"	35	0
+
+> ~/exercism/python/little-sisters-vocab/strings
+	*	1675706921	0
+	"	1	0
+
+> ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex
+	*	1675616401	0
+	"	1	0
+	^	20	52
+	.	24	0
+	+	11	0
+	+	19	44
+	+	19	71
+	+	20	74
+	+	24	0
+
+> ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
+	*	1675616338	0
+	"	1	0
+
+> ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
+	*	1675616242	0
+	"	38	0
+	^	3	39
+	.	38	3
+	+	26	0
+	+	19	73
+	+	19	5
+	+	22	0
+	+	21	11
+	+	18	0
+	+	29	2
+	+	30	76
+	+	36	12
+	+	30	79
+	+	31	0
+	+	35	69
+	+	46	0
+	+	48	74
+	+	49	0
+	+	45	0
+	+	47	0
+	+	51	0
+	+	53	0
+	+	55	0
+	+	29	0
+	+	10	2
+	+	16	0
+	+	23	0
+	+	39	0
+	+	9	3
+	+	10	3
+	+	9	3
+	+	10	3
+	+	9	3
+	+	10	3
+	+	10	2
+	+	12	0
+	+	10	69
+	+	11	0
+	+	32	3
+	+	4	0
+	+	4	2
+	+	6	0
+	+	4	35
+	+	4	5
+	+	6	0
+	+	4	5
+	+	4	1
+	+	6	0
+	+	4	2
+	+	4	11
+	+	7	1
+	+	26	12
+	+	42	2
+	+	15	3
+	+	44	3
+	+	47	30
+	+	48	3
+	+	54	3
+	+	52	4
+	+	50	3
+	+	37	3
+	+	30	3
+	+	12	3
+	+	4	0
+	+	4	4
+	+	4	11
+	+	4	0
+	+	4	3
+	+	4	9
+	+	4	1
+	+	4	0
+	+	17	3
+	+	22	3
+	+	33	3
+	+	46	3
+	+	20	44
+	+	1	8
+	+	4	2
+	+	1	9
+	+	4	0
+	+	4	7
+	+	1	8
+	+	5	19
+	+	6	2
+	+	1	0
+	+	6	0
+	+	1	1
+	+	4	2
+	+	2	0
+	+	3	94
+	+	3	104
+	+	3	38
+	+	34	3
+	+	19	3
+	+	14	3
+	+	28	3
+	+	38	3
+
+> ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_body.md
+	*	1675616240	0
+	"	78	0
+	^	78	57
+	.	78	56
+	+	32	0
+	+	9	0
+	+	11	0
+	+	41	0
+	+	10	0
+	+	24	73
+	+	25	66
+	+	26	36
+	+	32	0
+	+	20	0
+	+	21	57
+	+	22	0
+	+	20	73
+	+	21	7
+	+	39	10
+	+	54	11
+	+	40	0
+	+	55	0
+	+	10	0
+	+	32	0
+	+	41	1
+	+	43	0
+	+	57	0
+	+	59	55
+	+	48	77
+	+	44	0
+	+	42	0
+	+	38	0
+	+	53	0
+	+	32	0
+	+	22	76
+	+	23	0
+	+	20	1
+	+	21	9
+	+	9	0
+	+	42	0
+	+	44	0
+	+	48	0
+	+	49	0
+	+	59	0
+	+	21	7
+	+	27	16
+	+	26	56
+	+	28	55
+	+	32	73
+	+	28	79
+	+	30	37
+	+	35	109
+	+	35	106
+	+	36	0
+	+	36	114
+	+	24	69
+	+	24	73
+	+	25	68
+	+	77	0
+	+	78	56
+	a	35	0
+
+> ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
+	*	1675615711	0
+	"	41	0
+	^	41	23
+	.	41	22
+	+	13	32
+	+	30	0
+	+	13	12
+	+	44	14
+	+	8	18
+	+	28	0
+	+	27	0
+	+	27	12
+	+	27	3
+	+	27	0
+	+	27	11
+	+	27	27
+	+	27	0
+	+	27	3
+	+	27	30
+	+	27	34
+	+	27	0
+	+	27	34
+	+	27	27
+	+	27	0
+	+	27	1
+	+	13	14
+	+	15	11
+	+	13	12
+	+	27	0
+	+	40	55
+	+	42	0
+	+	18	13
+	+	41	22
+
+> ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/make: *** [makefile
+	*	1675614501	0
+	"	1	0
+
+> ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/makefile
+	*	1675612753	0
+	"	1	16
+	^	1	17
+	.	1	11
+	+	5	50
+	+	13	0
+	+	11	49
+	+	15	23
+	+	19	41
+	+	20	29
+	+	5	49
+	+	1	4
+	+	1	16
+	+	1	4
+	+	1	11
+
+> ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_body.txt
+	*	1675612531	0
+	"	76	0
+	^	36	125
+	.	36	124
+	+	48	30
+	+	49	51
+	+	52	25
+	+	52	41
+	+	48	12
+	+	49	35
+	+	48	13
+	+	48	34
+	+	49	16
+	+	50	18
+	+	50	25
+	+	62	76
+	+	63	72
+	+	64	73
+	+	65	60
+	+	64	32
+	+	65	69
+	+	55	20
+	+	55	35
+	+	53	67
+	+	30	22
+	+	31	43
+	+	29	64
+	+	31	69
+	+	28	66
+	+	32	48
+	+	67	66
+	+	29	55
+	+	32	46
+	+	31	33
+	+	30	20
+	+	31	42
+	+	29	32
+	+	32	23
+	+	32	80
+	+	28	62
+	+	32	61
+	+	32	32
+	+	32	56
+	+	30	17
+	+	30	36
+	+	32	1
+	+	32	29
+	+	32	33
+	+	32	26
+	+	31	5
+	+	31	42
+	+	31	69
+	+	31	59
+	+	29	55
+	+	31	4
+	+	31	42
+	+	57	79
+	+	58	77
+	+	59	7
+	+	46	72
+	+	47	76
+	+	48	71
+	+	49	71
+	+	50	71
+	+	51	73
+	+	52	76
+	+	53	76
+	+	54	79
+	+	55	21
+	+	59	76
+	+	60	76
+	+	59	79
+	+	60	9
+	+	21	86
+	+	21	73
+	+	21	103
+	+	28	0
+	+	21	38
+	+	22	0
+	+	23	78
+	+	24	77
+	+	25	78
+	+	28	47
+	+	31	34
+	+	32	11
+	+	31	23
+	+	32	27
+	+	37	0
+	+	38	79
+	+	39	79
+	+	40	79
+	+	41	76
+	+	28	72
+	+	29	74
+	+	30	73
+	+	31	72
+	+	36	19
+	+	34	76
+	+	35	70
+	+	36	27
+	+	35	34
+	+	36	124
+
+> ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_body
+	*	1675590031	0
+	"	1	0
+
+> ~/projects/hugo_portfolio/content/projects/uci_automobile_eda/_index.md
+	*	1675525284	0
+	"	14	59
+	^	14	60
+	.	14	59
+	+	2	57
+	+	14	59
+
+> ~/projects/hugo_portfolio/content/now.md
+	*	1675524687	0
+	"	22	17
+	^	21	52
+	.	21	62
+	+	3	15
+	+	27	22
+	+	27	62
+	+	32	63
+	+	35	0
+	+	13	0
+	+	8	41
+	+	29	0
+	+	13	0
+	+	15	0
+	+	13	12
+	+	11	10
+	+	13	70
+	+	14	53
+	+	16	0
+	+	17	29
+	+	18	0
+	+	20	6
+	+	24	0
+	+	22	14
+	+	22	16
+	+	35	13
+	+	33	74
+	+	34	69
+	+	35	73
+	+	32	0
+	+	11	0
+	+	17	0
+	+	25	0
+	+	30	0
+	+	14	47
+	+	14	80
+	+	14	47
+	+	19	60
+	+	20	18
+	+	22	34
+	+	21	51
+	+	21	62
+
+> ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter.txt
+	*	1675524423	0
+	"	1	0
+
+> ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_config.json
+	*	1675517820	0
+	"	14	0
+	^	14	1
+	.	4	0
+	+	12	45
+	+	11	69
+	+	10	0
+	+	4	0
+
+> ~/projects/noughtsandcrosses/noughtsandcrosses.py
+	*	1675463984	0
+	"	202	0
+	^	167	38
+	.	182	0
+	+	128	31
+	+	126	41
+	+	130	0
+	+	129	22
+	+	129	23
+	+	129	11
+	+	129	43
+	+	129	28
+	+	129	60
+	+	129	52
+	+	130	60
+	+	130	0
+	+	129	32
+	+	8	0
+	+	9	0
+	+	11	38
+	+	16	12
+	+	8	0
+	+	129	68
+	+	129	77
+	+	130	18
+	+	130	0
+	+	16	0
+	+	130	16
+	+	129	46
+	+	129	0
+	+	129	12
+	+	130	0
+	+	129	23
+	+	129	52
+	+	129	36
+	+	129	0
+	+	187	17
+	+	39	46
+	+	48	25
+	+	126	42
+	+	129	21
+	+	187	29
+	+	189	18
+	+	190	12
+	+	191	12
+	+	193	11
+	+	194	37
+	+	39	40
+	+	48	34
+	+	16	12
+	+	129	8
+	+	126	37
+	+	32	23
+	+	33	32
+	+	187	70
+	+	59	24
+	+	59	0
+	+	12	24
+	+	13	0
+	+	14	0
+	+	15	3
+	+	12	4
+	+	13	4
+	+	14	4
+	+	15	0
+	+	16	0
+	+	10	0
+	+	129	65
+	+	98	0
+	+	102	15
+	+	103	15
+	+	101	0
+	+	121	0
+	+	131	0
+	+	140	52
+	+	142	71
+	+	143	71
+	+	145	34
+	+	121	0
+	+	152	0
+	+	151	0
+	+	157	29
+	+	139	30
+	+	142	16
+	+	143	0
+	+	140	45
+	+	145	26
+	+	147	19
+	+	148	38
+	+	150	0
+	+	160	0
+	+	121	0
+	+	152	9
+	+	131	9
+	+	193	13
+	+	195	0
+	+	189	20
+	+	154	17
+	+	162	23
+	+	164	11
+	+	169	0
+	+	166	23
+	+	167	37
+	+	182	0
+
+> /usr/lib/python3.10/os.py
+	*	1675456063	0
+	"	739	1
+
+> ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/tag_guidance_link
+	*	1675362021	0
+	"	1	143
+	^	1	144
+	.	1	143
+	+	1	143
+
+> ~/projects/tetris/main.py
+	*	1675361395	0
+	"	110	16
+	.	110	16
+	+	110	16
+
+> ~/dotfiles/README.md
+	*	1675194514	0
+	"	3	54
+	^	3	55
+	.	4	0
+	+	3	55
+	+	3	54
+	+	3	55
+	+	3	42
+	+	3	55
+	+	4	0
 
 > ~/bin/README.md
 	*	1675193110	0
@@ -740,112 +1295,6 @@ $"
 	.	2	5
 	+	1	5
 	+	2	5
-
-> ~/projects/noughtsandcrosses/noughtsandcrosses.py
-	*	1675119132	0
-	"	94	0
-	^	94	39
-	.	94	38
-	+	88	74
-	+	86	76
-	+	88	75
-	+	87	19
-	+	88	20
-	+	87	75
-	+	90	16
-	+	89	52
-	+	83	0
-	+	94	0
-	+	83	0
-	+	75	0
-	+	83	0
-	+	72	12
-	+	73	12
-	+	73	36
-	+	79	27
-	+	80	23
-	+	83	0
-	+	74	12
-	+	75	0
-	+	81	29
-	+	83	0
-	+	94	0
-	+	82	0
-	+	94	12
-	+	95	0
-	+	94	8
-	+	95	8
-	+	78	0
-	+	95	0
-	+	151	23
-	+	73	0
-	+	63	8
-	+	64	0
-	+	78	0
-	+	83	0
-	+	81	21
-	+	56	17
-	+	67	45
-	+	29	21
-	+	37	0
-	+	25	63
-	+	60	12
-	+	57	18
-	+	60	38
-	+	57	38
-	+	58	8
-	+	57	16
-	+	59	53
-	+	67	19
-	+	25	62
-	+	71	18
-	+	92	0
-	+	77	36
-	+	93	61
-	+	96	35
-	+	96	11
-	+	96	72
-	+	96	21
-	+	96	8
-	+	96	0
-	+	22	45
-	+	96	51
-	+	96	0
-	+	111	0
-	+	116	0
-	+	114	13
-	+	96	0
-	+	114	0
-	+	115	0
-	+	115	24
-	+	115	0
-	+	111	32
-	+	109	47
-	+	114	0
-	+	104	0
-	+	96	0
-	+	105	0
-	+	110	0
-	+	114	0
-	+	116	0
-	+	96	0
-	+	103	10
-	+	101	73
-	+	102	0
-	+	112	35
-	+	125	0
-	+	118	0
-	+	119	0
-	+	122	0
-	+	53	0
-	+	72	0
-	+	98	0
-	+	152	0
-	+	81	24
-	+	82	42
-	+	74	20
-	+	80	31
-	+	94	38
 
 > ~/vimwiki/Reading List.wiki
 	*	1675108628	0
@@ -1466,14 +1915,6 @@ $"
 
 > ~/jobs.txt
 	*	1674582508	0
-	"	1	0
-
-> ~/exercism/python/little-sisters-vocab/strings.py
-	*	1674496009	0
-	"	77	0
-
-> ~/exercism/python/little-sisters-vocab/strings
-	*	1674495956	0
 	"	1	0
 
 > ~/hyperiondev_dfe_data_science/Data Science Bootcamp/T52/github.txt
@@ -2231,13 +2672,6 @@ $"
 	+	96	8
 	+	221	19
 
-> ~/projects/hugo_portfolio/content/projects/uci_automobile_eda/_index.md
-	*	1671627073	0
-	"	1	2
-	^	2	58
-	.	2	57
-	+	2	57
-
 > ~/projects/hugo_portfolio/who_covid19_eda/_index.md
 	*	1671627006	0
 	"	1	0
@@ -2534,48 +2968,6 @@ $"
 	*	1671399579	0
 	"	1	0
 
-> ~/projects/hugo_portfolio/content/now.md
-	*	1671398439	0
-	"	17	0
-	^	21	64
-	.	21	97
-	+	3	15
-	+	27	22
-	+	27	62
-	+	32	63
-	+	35	0
-	+	13	0
-	+	8	41
-	+	29	0
-	+	13	0
-	+	15	0
-	+	13	12
-	+	11	10
-	+	13	70
-	+	14	53
-	+	16	0
-	+	17	29
-	+	18	0
-	+	20	6
-	+	24	0
-	+	21	77
-	+	22	28
-	+	35	13
-	+	33	74
-	+	34	69
-	+	35	73
-	+	32	0
-	+	11	0
-	+	17	0
-	+	25	0
-	+	30	0
-	+	14	47
-	+	14	80
-	+	14	47
-	+	19	60
-	+	20	18
-	+	21	97
-
 > ~/projects/hugo_portfolio/content/_index.md
 	*	1671398138	0
 	"	1	0
@@ -2714,177 +3106,3 @@ $"
 	+	9	0
 	+	10	0
 	+	10	25
-
-> ~/projects/samlarkin/.git/config
-	*	1671394631	0
-	"	7	44
-	^	7	46
-	.	7	45
-	+	7	45
-
-> ~/.ssh/id_rsa.pub
-	*	1671393100	0
-	"	1	0
-
-> ~/projects/samlarkin/README.md
-	*	1671390776	0
-	"	14	0
-	^	14	0
-	.	14	0
-	+	17	0
-	+	17	2
-	+	18	0
-	+	17	69
-	+	16	6
-	+	17	3
-	+	12	14
-	+	12	31
-	+	12	19
-	+	12	44
-	+	3	0
-	+	8	0
-	+	14	0
-
-> ~/hyperiondev_dfe_data_science/Data Science Bootcamp/T36/report/style.css
-	*	1671386784	0
-	"	70	0
-	^	70	0
-	.	70	0
-	+	66	23
-	+	67	0
-	+	69	0
-	+	70	0
-	+	37	0
-	+	70	0
-
-> ~/projects/hugo_portfolio/assets/css/extended/post-single.css
-	*	1671386755	0
-	"	37	4
-	^	138	19
-	.	138	18
-	+	258	42
-	+	133	0
-	+	138	0
-	+	136	22
-	+	136	0
-	+	136	18
-	+	136	0
-	+	136	8
-	+	136	0
-	+	136	8
-	+	136	15
-	+	136	0
-	+	134	0
-	+	134	23
-	+	134	27
-	+	136	0
-	+	134	0
-	+	150	17
-	+	138	27
-	+	138	0
-	+	138	23
-	+	138	17
-	+	138	18
-	+	138	16
-	+	138	0
-	+	138	16
-	+	138	30
-	+	138	18
-
-> ~/projects/data_science_portfolio/automobiles/report/report.md
-	*	1671386092	0
-	"	55	0
-
-> ~/hyperiondev_dfe_data_science/Data Science Bootcamp/T36/report/compile.sh
-	*	1671360630	0
-	"	1	0
-
-> ~/.xinitrc
-	*	1671141986	0
-	"	3	0
-
-> ~/hyperiondev_dfe_data_science/Data Science Bootcamp/T36/WB_Boundaries_GeoJSON_lowres/WB_countries_Admin0_lowres.geojson
-	*	1671130003	0
-	"	1	4833998
-
-> ~/hyperiondev_dfe_data_science/Data Science Bootcamp/admin/glh.csv
-	*	1671040791	0
-	"	16	9
-	^	16	10
-	.	16	0
-	+	13	9
-	+	14	58
-	+	14	182
-	+	14	58
-	+	15	9
-	+	16	0
-
-> ~/projects/hugo_portfolio/themes/hugo-PaperMod/assets/css/common/main.css
-	*	1670792747	0
-	"	4	17
-
-> ~/projects/data_science_portfolio/automobiles/report/style.css
-	*	1670789857	0
-	"	62	0
-
-> ~/projects/hugo_portfolio/assets/css/post-single.css
-	*	1670789373	0
-	"	258	35
-	^	258	36
-	.	258	35
-	+	1	0
-	+	1	12
-	+	1	0
-	+	38	0
-	+	1	0
-	+	248	0
-	+	1	0
-	+	96	0
-	+	265	0
-	+	264	0
-	+	265	36
-	+	248	0
-	+	243	0
-	+	247	0
-	+	37	16
-	+	93	0
-	+	96	0
-	+	96	22
-	+	96	0
-	+	92	0
-	+	261	14
-	+	256	1
-	+	258	22
-	+	259	4
-	+	260	4
-	+	261	0
-	+	260	41
-	+	134	22
-	+	133	14
-	+	258	35
-
-> ~/projects/hugo_portfolio/public/assets/css/stylesheet.bc1149f4a72aa4858d3a9f71462f75e5884ffe8073ea9d6d5761d5663d651e20.css
-	*	1670789203	0
-	"	7	2245
-
-> ~/projects/hugo_portfolio/themes/hugo-PaperMod/layouts/_default/single.html
-	*	1670788681	0
-	"	1	0
-
-> ~/projects/hugo_portfolio/assets/css/custom.css
-	*	1670787837	0
-	"	1	0
-	^	1	5
-	.	1	4
-	+	1	10
-	+	11	0
-	+	2	4
-	+	3	0
-	+	5	0
-	+	6	4
-	+	7	0
-	+	9	0
-	+	10	4
-	+	11	0
-	+	10	42
-	+	1	4

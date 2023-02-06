@@ -18,6 +18,7 @@ alias la="ls -la --color=auto"
 alias grep="grep --color=auto"
 alias myip="curl http://ipecho.net/plain; echo"
 alias contacts="python /home/sam/projects/contacts/contacts"
+alias xclip="xclip -selection clipboard"
 
 
 # Set vi keybindings
