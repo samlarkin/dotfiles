@@ -11,217 +11,217 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~Msle0/\<As\>
+~MSle0~/dmenu
 
 # Last Substitute Search Pattern:
-~MSle0~&* 
+~MSle0&dmenucmd
 
 # Last Substitute String:
-$- 
+$dmenu_run
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1675707365,,"wq"
-:q
-|2,0,1675706995,,"q"
-:e strings.py
-|2,0,1675706924,,"e strings.py"
-:!aspell -c %
-|2,0,1675616111,,"!aspell -c %"
-:make
-|2,0,1675615968,,"make"
+|2,0,1702763996,,"wq"
+:%s/_file/_path/g
+|2,0,1702763268,,"%s/_file/_path/g"
+:b ,volume_up.sh
+|2,0,1702763133,,"b ,volume_up.sh"
 :w
-|2,0,1675615965,,"w"
-:mak
-|2,0,1675615949,,"mak"
-:tabe letter_template.tex
-|2,0,1675615272,,"tabe letter_template.tex"
-:tabe letter_body.md
-|2,0,1675614993,,"tabe letter_body.md"
-:tabe notes.md
-|2,0,1675614946,,"tabe notes.md"
-:mae
-|2,0,1675614773,,"mae"
-:e letter_template.tex
-|2,0,1675614507,,"e letter_template.tex"
-:tabe letter
-|2,0,1675613858,,"tabe letter"
-:make all
-|2,0,1675612738,,"make all"
-:tabe makefile
-|2,0,1675612718,,"tabe makefile"
-:make letter
-|2,0,1675612605,,"make letter"
-:make notes
-|2,0,1675603625,,"make notes"
-:!rm letter_body.txt.bak
-|2,0,1675603587,,"!rm letter_body.txt.bak"
-:e letter_body.txt
-|2,0,1675603573,,"e letter_body.txt"
-:tabe letter_body.txt
-|2,0,1675598415,,"tabe letter_body.txt"
-:%s/* /- /g
-|2,0,1675597843,,"%s/* /- /g"
-:%s/- /* /g
-|2,0,1675597702,,"%s/- /* /g"
-:aspell -c t %
-|2,0,1675595704,,"aspell -c t %"
-:!make notes
-|2,0,1675590636,,"!make notes"
-:!make
-|2,0,1675590413,,"!make"
-:%s/^- //g
-|2,0,1675523675,,"%s/^- //g"
-:e letter_body.md
-|2,0,1675522638,,"e letter_body.md"
-:%s/"OX"/MARKERS/g
-|2,0,1675458684,,"%s/\"OX\"/MARKERS/g"
-:tabe ~/projects/sl_strava/
-|2,0,1675456590,,"tabe ~/projects/sl_strava/"
-:e /usr/lib/python3.10/
-|2,0,1675455972,,"e /usr/lib/python3.10/"
-:!cat letter_config.json
-|2,0,1675363743,,"!cat letter_config.json"
-:tabe tag_guidance_link
-|2,0,1675362016,,"tabe tag_guidance_link"
-:!ls -a
-|2,0,1675194488,,"!ls -a"
-:!la
-|2,0,1675194475,,"!la"
-:!wc -w %
-|2,0,1675107962,,"!wc -w %"
-:!make letter
-|2,0,1675107263,,"!make letter"
+|2,0,1702763125,,"w"
+:b ,volume_mute.sh
+|2,0,1702763110,,"b ,volume_mute.sh"
+:%s/dmenucmd/dmenu_run/g
+|2,0,1702758675,,"%s/dmenucmd/dmenu_run/g"
+:%s/termcmd/term/g
+|2,0,1702757978,,"%s/termcmd/term/g"
+:%s/brightdowncmd/bright_down/g
+|2,0,1702757955,,"%s/brightdowncmd/bright_down/g"
+:%s/brightupcmd/bright_up/g
+|2,0,1702757946,,"%s/brightupcmd/bright_up/g"
+:%s/volumemutecmd/volume_mute/g
+|2,0,1702757920,,"%s/volumemutecmd/volume_mute/g"
+:%s/volumedowncmd/volume_down/g
+|2,0,1702757903,,"%s/volumedowncmd/volume_down/g"
+:%s/volumeupcmd/volume_up/g
+|2,0,1702757892,,"%s/volumeupcmd/volume_up/g"
+:q
+|2,0,1702757110,,"q"
+:e bin/,myip.sh
+|2,0,1702735068,,"e bin/,myip.sh"
+:tabe bin/,mi
+|2,0,1702735060,,"tabe bin/,mi"
+:tabe bin/,weather.sh
+|2,0,1702734947,,"tabe bin/,weather.sh"
+:tabe bin/,myip.sh
+|2,0,1702734901,,"tabe bin/,myip.sh"
+:r!ls /etc/openvpn/auth.conf
+|2,0,1702730081,,"r!ls /etc/openvpn/auth.conf"
+:r!ls /etc/openvpn/node-nl-72.protonvpn.net.udp.ovpn
+|2,0,1702730046,,"r!ls /etc/openvpn/node-nl-72.protonvpn.net.udp.ovpn"
+:Vader bob.vader
+|2,0,1699299018,,"Vader bob.vader"
+:source %
+|2,0,1699299010,,"source %"
+:trim('foo')
+|2,0,1699298902,,"trim('foo')"
+:trim('foo ')
+|2,0,1699298861,,"trim('foo ')"
+:echo('.*' + char + '\s*$')
+|2,0,1699298789,,"echo('.*' + char + '\\s*$')"
+:echo(char)
+|2,0,1699298732,,"echo(char)"
+:let char = '?'
+|2,0,1699298713,,"let char = '?'"
+:let char = ?
+|2,0,1699298706,,"let char = ?"
+:Vader bob.va*
+|2,0,1699298656,,"Vader bob.va*"
+:tabe bob.vim
+|2,0,1699298493,,"tabe bob.vim"
+:packadd vader.vim
+|2,0,1699298464,,"packadd vader.vim"
+:packadd vader
+|2,0,1699298437,,"packadd vader"
+:e bob.vim
+|2,0,1699298416,,"e bob.vim"
+:%s/"/'/g
+|2,0,1699216422,,"%s/\"/'/g"
+:call match("foo", "^\s*$")
+|2,0,1699216197,,"call match(\"foo\", \"^\\s*$\")"
+:match("foo", "^\s*$")
+|2,0,1699216177,,"match(\"foo\", \"^\\s*$\")"
+:match("\n\r \t", "^\s*$")
+|2,0,1699216081,,"match(\"\\n\\r \\t\", \"^\\s*$\")"
+:Vader bob.vade
+|2,0,1699202922,,"Vader bob.vade"
+:call Question("Hello?")
+|2,0,1699202634,,"call Question(\"Hello?\")"
+:source
+|2,0,1699202053,,"source"
+:Vader *.vader
+|2,0,1699201282,,"Vader *.vader"
+:call Response("How are you?")
+|2,0,1699200910,,"call Response(\"How are you?\")"
+:echo call Response("How are you?")
+|2,0,1699200900,,"echo call Response(\"How are you?\")"
+:b:Response("Hey?")
+|2,0,1699200846,,"b:Response(\"Hey?\")"
+:Response("Hi, Bob, how are you?")
+|2,0,1699200827,,"Response(\"Hi, Bob, how are you?\")"
+:tabe bob.vader
+|2,0,1699199354,,"tabe bob.vader"
 :tabe
-|2,0,1675107100,,"tabe"
-:tabe ../../20230131_iop_data_analyst/cover_letter/letter_body.txt
-|2,0,1675106711,,"tabe ../../20230131_iop_data_analyst/cover_letter/letter_body.txt"
-:!firefox ../cv/cv.pdf
-|2,0,1675104953,,"!firefox ../cv/cv.pdf"
-:ew
-|2,0,1675104742,,"ew"
-:tabe letter_config.json
-|2,0,1675102307,,"tabe letter_config.json"
-:r !head -n 10 noughtsandcrosses.py
-|2,0,1675100363,,"r !head -n 10 noughtsandcrosses.py"
-:r head ./noughtsandcrosses.py 
-|2,0,1675100341,,"r head ./noughtsandcrosses.py "
-:%s/'/"/g
-|2,0,1675032990,,"%s/'/\"/g"
-:tabe ../cv/cv.cls
-|2,0,1675001331,,"tabe ../cv/cv.cls"
-:e ../cv/cv.cls
-|2,0,1675001183,,"e ../cv/cv.cls"
-:tabe ../cv/cv.tex
-|2,0,1675001173,,"tabe ../cv/cv.tex"
-:!aspell -c letter_body.txt
-|2,0,1674998128,,"!aspell -c letter_body.txt"
-:.!
-|2,0,1674997059,,".!"
-:%s/main_tex/letter_tex/g
-|2,0,1674994703,,"%s/main_tex/letter_tex/g"
+|2,0,1699198522,,"tabe"
+:help match
+|2,0,1699215030,,"help match"
+:Vader hello_world.vader
+|2,0,1699197814,,"Vader hello_world.vader"
+:p
+|2,0,1699197746,,"p"
+:vader *.vader
+|2,0,1699197741,,"vader *.vader"
 
 # Search String History (newest to oldest):
-? * 
-|2,1,1675597843,,"* "
-? - 
-|2,1,1675597702,,"- "
-? \<As\>
-|2,1,1675595775,,"\\<As\\>"
-? \<Skills\>
-|2,1,1675590602,,"\\<Skills\\>"
-? ^- 
-|2,1,1675523675,,"^- "
-? \<Experience\>
-|2,1,1675523482,,"\\<Experience\\>"
-?/game_won
-|2,1,1675463745,47,"game_won"
-? "OX"
-|2,1,1675458684,,"\"OX\""
-? @$
-|2,1,1675455973,,"@$"
-?/y 
-|2,1,1675119076,47,"y "
-?/y
-|2,1,1675119068,47,"y"
-?/pow
-|2,1,1675110027,47,"pow"
-?/move
-|2,1,1675099567,47,"move"
-?/show
-|2,1,1675090633,47,"show"
-?/first_move
-|2,1,1675089802,47,"first_move"
-? '
-|2,1,1675032990,,"'"
-? \<def\>
-|2,1,1674993531,,"\\<def\\>"
+? _file
+|2,1,1702763268,,"_file"
+?/g
+|2,1,1702763210,47,"g"
+?/dmenu
+|2,1,1702758712,47,"dmenu"
+? dmenucmd
+|2,1,1702758675,,"dmenucmd"
+?/screenshot
+|2,1,1702758362,47,"screenshot"
+? termcmd
+|2,1,1702757978,,"termcmd"
+? brightdowncmd
+|2,1,1702757955,,"brightdowncmd"
+? brightupcmd
+|2,1,1702757946,,"brightupcmd"
+? volumemutecmd
+|2,1,1702757920,,"volumemutecmd"
+? volumedowncmd
+|2,1,1702757903,,"volumedowncmd"
+? volumeupcmd
+|2,1,1702757892,,"volumeupcmd"
+?/uninstall
+|2,1,1702730416,47,"uninstall"
+? "
+|2,1,1699216422,,"\""
+?/"I
+|2,1,1699200325,47,"\"I"
+?/{pattern}
+|2,1,1699215075,47,"{pattern}"
+?/Nomadland
+|2,1,1696267813,47,"Nomadland"
+?/Port
+|2,1,1692561002,47,"Port"
+?/Port	
+|2,1,1692561000,47,"Port	"
 ? }
-|2,1,1674993471,,"}"
-? {
-|2,1,1674993465,,"{"
-? ":
-|2,1,1674993136,,"\":"
-? Ã¢Â¢
-|2,1,1674935589,,"Ã¢Â¢"
-?/physics
-|2,1,1674934710,47,"physics"
-? \<Required\>
-|2,1,1674675571,,"\\<Required\\>"
-?/from
-|2,1,1673289889,47,"from"
+|2,1,1692547332,,"}"
+?/+
+|2,1,1692542966,47,"+"
+?/TO
+|2,1,1692542327,47,"TO"
+? str2
+|2,1,1692468797,,"str2"
+? str1
+|2,1,1692468790,,"str1"
+? \<sublist\?\>
+|2,1,1692458587,,"\\<sublist\\?\\>"
+?/rep
+|2,1,1692452112,47,"rep"
+?    TEST_IGNORE();
+|2,1,1692127305,,"   TEST_IGNORE();"
+?     TEST_IGNORE();
+|2,1,1692125884,,"    TEST_IGNORE();"
+? board_values
+|2,1,1691963879,,"board_values"
 ?/,
-|2,1,1673286087,47,","
-?/train
-|2,1,1672770802,47,"train"
-?/etc
-|2,1,1672060460,47,"etc"
-?/update
-|2,1,1672012805,47,"update"
-?/result
-|2,1,1672011746,47,"result"
-?/results
-|2,1,1672011667,47,"results"
-?/Search
-|2,1,1672010624,47,"Search"
-?/enter
-|2,1,1671968350,47,"enter"
-?/add
-|2,1,1671968348,47,"add"
-?/Welcome
-|2,1,1671902310,47,"Welcome"
-?/Are you sure
-|2,1,1671902249,47,"Are you sure"
-?/[]
-|2,1,1671900859,47,"[]"
-?/valid
-|2,1,1671890884,47,"valid"
-?/main_menu
-|2,1,1671890814,47,"main_menu"
-? \<What\>
-|2,1,1671637484,,"\\<What\\>"
-?/Stories
-|2,1,1671627292,47,"Stories"
-? images
-|2,1,1671625760,,"images"
-?/2020-2021
-|2,1,1671574707,47,"2020-2021"
-?/WHO
-|2,1,1671573706,47,"WHO"
-?/notes
-|2,1,1671572272,47,"notes"
-?/Corr
-|2,1,1671479338,47,"Corr"
-?/Figure
-|2,1,1671479044,47,"Figure"
-?/global
-|2,1,1671388798,47,"global"
-?/counter
-|2,1,1671386658,47,"counter"
-?/(
-|2,1,1671363084,47,"("
-?/Antarctica
-|2,1,1671129971,47,"Antarctica"
+|2,1,1691959616,47,","
+?/IGNORE
+|2,1,1691958284,47,"IGNORE"
+?/IGN
+|2,1,1691958237,47,"IGN"
+?//
+|2,1,1691937428,47,"/"
+? ;
+|2,1,1691935153,,";"
+?/-1
+|2,1,1691926890,47,"-1"
+?/to
+|2,1,1691925933,47,"to"
+?/EXPE
+|2,1,1691854262,47,"EXPE"
+?/len
+|2,1,1691851648,47,"len"
+? @$
+|2,1,1690923443,,"@$"
+?/conda
+|2,1,1690829961,47,"conda"
+?/make
+|2,1,1690828580,47,"make"
+?/crs
+|2,1,1689798560,47,"crs"
+?/CRS
+|2,1,1689798558,47,"CRS"
+?/EPSG
+|2,1,1689798555,47,"EPSG"
+?/epsg
+|2,1,1689798552,47,"epsg"
+?/4326
+|2,1,1689798544,47,"4326"
+?/fact
+|2,1,1689609997,47,"fact"
+?/hemmingway
+|2,1,1688159068,47,"hemmingway"
+??\a
+|2,1,1687708733,63,"\\a"
+?/wiki
+|2,1,1686232634,47,"wiki"
+?/STAR
+|2,1,1678299190,47,"STAR"
 
 # Expression History (newest to oldest):
 
@@ -235,41 +235,41 @@ $-
 
 # Registers:
 "0	LINE	0
-	\renewcommand\pagemark{\usekomafont{pagenumber}\thepage}
-|3,0,0,1,1,0,1675615331,"\\renewcommand\\pagemark{\\usekomafont{pagenumber}\\thepage}"
+	static const char *monitor_left[]  = { "/home/sam/bin/,screenshot.sh", NULL };
+|3,0,0,1,1,0,1702759185,"static const char *monitor_left[]  = { \"/home/sam/bin/,screenshot.sh\", NULL };"
 ""1	LINE	0
-	
-|3,1,1,1,1,0,1675616396,""
+	exec redshift &
+|3,1,1,1,1,0,1702763993,"exec redshift &"
 "2	LINE	0
-	\renewcommand\nextfoot{}
-|3,0,2,1,1,0,1675615373,"\\renewcommand\\nextfoot{}"
+	
+|3,0,2,1,1,0,1702762972,""
 "3	LINE	0
 	
-|3,0,3,1,1,0,1675614976,""
+|3,0,3,1,1,0,1702762908,""
 "4	LINE	0
-	\setplength{refvpos}{5cm}
-|3,0,4,1,1,0,1675614976,"\\setplength{refvpos}{5cm}"
+	### Increases Screen Brightness ###
+|3,0,4,1,1,0,1702762903,"### Increases Screen Brightness ###"
 "5	LINE	0
-	\setplength{toaddrvpos}{0cm}
-|3,0,5,1,1,0,1675614975,"\\setplength{toaddrvpos}{0cm}"
+	
+|3,0,5,1,1,0,1702762888,""
 "6	LINE	0
-	\makeatother
-|3,0,6,1,1,0,1675614332,"\\makeatother"
+	### Decreases Screen Brightness ###
+|3,0,6,1,1,0,1702762877,"### Decreases Screen Brightness ###"
 "7	LINE	0
-	\makeatletter
-|3,0,7,1,1,0,1675614328,"\\makeatletter"
+	
+|3,0,7,1,1,0,1702762875,""
 "8	LINE	0
-	    \@setplength{datevpos}{4cm}
-|3,0,8,1,1,0,1675614294,"    \\@setplength{datevpos}{4cm}"
+	samlarkin.xyz,104.238.132.2 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBPWUwtunxah0kk/HGzuioVd/Crz1N2DodJn50xhI6IuX3Oti8jE58OIDZawjagsiIqmMBRiEk0z7sFEEqa4JkDk=
+|3,0,8,1,1,0,1702761020,"samlarkin.xyz,104.238.132.2 ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBPWUwtunxah0kk/HGzuioVd/Crz1N2DodJn50xhI6IuX3Oti8jE58OIDZawjagsiIqmMBRiEk0z7sFEEqa4JkDk="
 "9	LINE	0
-	    \@setplength{sigbeforevskip}{20pt}
-|3,0,9,1,1,0,1675614135,"    \\@setplength{sigbeforevskip}{20pt}"
+	
+|3,0,9,1,1,0,1702758727,""
 "a@	CHAR	0
-	gq€kr€kd
-|3,2,10,0,1,0,1674996978,"gq€kr€kd"
+	€kd€kr€kr2xxxxxxxxxxxxxxx€ýaA€kb€kb€ýa
+|3,2,10,0,1,0,1686232292,"€kd€kr€kr2xxxxxxxxxxxxxxx€ýaA€kb€kb€ýa"
 "b	CHAR	0
-	0/:dt*
-|3,0,11,0,1,0,1610645685,"0/:dt*"
+	0@a€ýa
+|3,0,11,0,1,0,1686232417,"0@a€ýa"
 "d	CHAR	0
 	f.x€ýaf.x€ýaj0@d
 |3,0,13,0,1,0,1613136576,"f.x€ýaf.x€ýaj0@d"
@@ -280,8 +280,8 @@ $-
 	v$€ýaj@l
 |3,0,21,0,1,0,1613136933,"v$€ýaj@l"
 "q	CHAR	0
-	€ýa€ýa
-|3,0,26,0,1,0,1634847777,"€ýa€ýa"
+	
+|3,0,26,0,1,0,1691853305,""
 "r	CHAR	0
 	0f[i[€ýaf]a]€ýalD€ýa0f[laReading Notes €ýaj@r
 |3,0,27,0,1,0,1613134536,"0f[i[€ýaf]a]€ýalD€ýa0f[laReading Notes €ýaj@r"
@@ -301,2808 +301,1988 @@ $-
 	Z€ýa€ýa
 |3,0,35,0,1,0,1669152233,"Z€ýa€ýa"
 "-	CHAR	0
-	\usekomafont{pagenumber}\thepage
-|3,0,36,0,1,0,1675615344,"\\usekomafont{pagenumber}\\thepage"
+	bin/bash
+|3,0,36,0,1,0,1702763276,"bin/bash"
 
 # File marks:
-'0  4  0  ~/dotfiles/.gitignore
-|4,48,4,0,1675707365,"~/dotfiles/.gitignore"
-'1  21  39  ~/dotfiles/.zshrc
-|4,49,21,39,1675707258,"~/dotfiles/.zshrc"
-'2  35  0  ~/exercism/python/little-sisters-vocab/strings.py
-|4,50,35,0,1675706995,"~/exercism/python/little-sisters-vocab/strings.py"
-'3  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex
-|4,51,1,0,1675616403,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex"
-'4  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
-|4,52,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
-'5  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,53,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
-'6  27  30  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
-|4,54,27,30,1675613553,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
-'7  27  30  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
-|4,55,27,30,1675613553,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
-'8  27  27  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
-|4,56,27,27,1675613467,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
-'9  27  27  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
-|4,57,27,27,1675613467,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
+'0  4  0  ~/dotfiles/.xinitrc
+|4,48,4,0,1702763996,"~/dotfiles/.xinitrc"
+'1  8  4  ~/.ssh/known_hosts
+|4,49,8,4,1702763576,"~/.ssh/known_hosts"
+'2  1  18  ~/bin/,vpn.sh
+|4,50,1,18,1702763287,"~/bin/,vpn.sh"
+'3  1  18  ~/bin/,volume_up.sh
+|4,51,1,18,1702763145,"~/bin/,volume_up.sh"
+'4  1  18  ~/bin/,ssh_agent.sh
+|4,52,1,18,1702763036,"~/bin/,ssh_agent.sh"
+'5  2  0  ~/bin/,lock_screen.sh
+|4,53,2,0,1702762974,"~/bin/,lock_screen.sh"
+'6  1  0  ~/bin/,check_ssh_fprints.sh
+|4,54,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+'7  1  18  ~/bin/,bright_up.sh
+|4,55,1,18,1702762916,"~/bin/,bright_up.sh"
+'8  1  0  ~/bin/,bright_down.sh
+|4,56,1,0,1702762896,"~/bin/,bright_down.sh"
+'9  1  18  ~/bin/,monitor_off.sh
+|4,57,1,18,1702762832,"~/bin/,monitor_off.sh"
 
 # Jumplist (newest first):
--'  4  0  ~/dotfiles/.gitignore
-|4,39,4,0,1675707365,"~/dotfiles/.gitignore"
--'  1  0  ~/dotfiles/.gitignore
-|4,39,1,0,1675707340,"~/dotfiles/.gitignore"
--'  21  39  ~/dotfiles/.zshrc
-|4,39,21,39,1675707258,"~/dotfiles/.zshrc"
--'  21  39  ~/dotfiles/.zshrc
-|4,39,21,39,1675707258,"~/dotfiles/.zshrc"
--'  1  0  ~/dotfiles/.zshrc
-|4,39,1,0,1675707174,"~/dotfiles/.zshrc"
--'  1  0  ~/dotfiles/.zshrc
-|4,39,1,0,1675707174,"~/dotfiles/.zshrc"
--'  35  0  ~/exercism/python/little-sisters-vocab/strings.py
-|4,39,35,0,1675706995,"~/exercism/python/little-sisters-vocab/strings.py"
--'  35  0  ~/exercism/python/little-sisters-vocab/strings.py
-|4,39,35,0,1675706995,"~/exercism/python/little-sisters-vocab/strings.py"
--'  35  0  ~/exercism/python/little-sisters-vocab/strings.py
-|4,39,35,0,1675706995,"~/exercism/python/little-sisters-vocab/strings.py"
--'  35  0  ~/exercism/python/little-sisters-vocab/strings.py
-|4,39,35,0,1675706995,"~/exercism/python/little-sisters-vocab/strings.py"
--'  77  4  ~/exercism/python/little-sisters-vocab/strings.py
-|4,39,77,4,1675706967,"~/exercism/python/little-sisters-vocab/strings.py"
--'  77  4  ~/exercism/python/little-sisters-vocab/strings.py
-|4,39,77,4,1675706967,"~/exercism/python/little-sisters-vocab/strings.py"
--'  77  4  ~/exercism/python/little-sisters-vocab/strings.py
-|4,39,77,4,1675706967,"~/exercism/python/little-sisters-vocab/strings.py"
--'  77  4  ~/exercism/python/little-sisters-vocab/strings.py
-|4,39,77,4,1675706967,"~/exercism/python/little-sisters-vocab/strings.py"
--'  1  0  ~/exercism/python/little-sisters-vocab/strings.py
-|4,39,1,0,1675706961,"~/exercism/python/little-sisters-vocab/strings.py"
--'  1  0  ~/exercism/python/little-sisters-vocab/strings.py
-|4,39,1,0,1675706961,"~/exercism/python/little-sisters-vocab/strings.py"
--'  1  0  ~/exercism/python/little-sisters-vocab/strings.py
-|4,39,1,0,1675706961,"~/exercism/python/little-sisters-vocab/strings.py"
--'  1  0  ~/exercism/python/little-sisters-vocab/strings.py
-|4,39,1,0,1675706961,"~/exercism/python/little-sisters-vocab/strings.py"
--'  1  0  ~/exercism/python/little-sisters-vocab/strings
-|4,39,1,0,1675706924,"~/exercism/python/little-sisters-vocab/strings"
--'  1  0  ~/exercism/python/little-sisters-vocab/strings
-|4,39,1,0,1675706924,"~/exercism/python/little-sisters-vocab/strings"
--'  1  0  ~/exercism/python/little-sisters-vocab/strings
-|4,39,1,0,1675706924,"~/exercism/python/little-sisters-vocab/strings"
--'  1  0  ~/exercism/python/little-sisters-vocab/strings
-|4,39,1,0,1675706924,"~/exercism/python/little-sisters-vocab/strings"
--'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex
-|4,39,1,0,1675616403,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex"
--'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex
-|4,39,1,0,1675616403,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex"
--'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex
-|4,39,1,0,1675616403,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex"
--'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex
-|4,39,1,0,1675616403,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex"
--'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex
-|4,39,1,0,1675616403,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex"
--'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex
-|4,39,1,0,1675616403,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex"
--'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex
-|4,39,1,0,1675616403,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex"
--'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex
-|4,39,1,0,1675616403,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex"
--'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
-|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
--'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
-|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
--'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
-|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
--'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
-|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
--'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
-|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
--'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
-|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
--'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
-|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
--'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
-|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
--'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
-|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
--'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
-|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
--'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
-|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
--'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
-|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
--'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
-|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
--'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
-|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
--'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
-|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
--'  1  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
-|4,39,1,0,1675616339,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  38  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-|4,39,38,0,1675616244,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md"
--'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
-|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
--'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
-|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
--'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
-|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
--'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
-|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
--'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
-|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
--'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
-|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
--'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
-|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
--'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
-|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
--'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
-|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
--'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
-|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
--'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
-|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
--'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
-|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
--'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
-|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
--'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
-|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
--'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
-|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
--'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
-|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
--'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
-|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
--'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
-|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
--'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
-|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
--'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
-|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
--'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
-|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
--'  12  0  ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
-|4,39,12,0,1675614946,"~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex"
+-'  4  0  ~/dotfiles/.xinitrc
+|4,39,4,0,1702763996,"~/dotfiles/.xinitrc"
+-'  1  0  ~/dotfiles/.xinitrc
+|4,39,1,0,1702763991,"~/dotfiles/.xinitrc"
+-'  8  4  ~/.ssh/known_hosts
+|4,39,8,4,1702763576,"~/.ssh/known_hosts"
+-'  8  4  ~/.ssh/known_hosts
+|4,39,8,4,1702763576,"~/.ssh/known_hosts"
+-'  1  18  ~/bin/,vpn.sh
+|4,39,1,18,1702763287,"~/bin/,vpn.sh"
+-'  1  18  ~/bin/,vpn.sh
+|4,39,1,18,1702763287,"~/bin/,vpn.sh"
+-'  4  34  ~/bin/,vpn.sh
+|4,39,4,34,1702763268,"~/bin/,vpn.sh"
+-'  4  34  ~/bin/,vpn.sh
+|4,39,4,34,1702763268,"~/bin/,vpn.sh"
+-'  1  18  ~/bin/,volume_up.sh
+|4,39,1,18,1702763145,"~/bin/,volume_up.sh"
+-'  1  18  ~/bin/,volume_up.sh
+|4,39,1,18,1702763145,"~/bin/,volume_up.sh"
+-'  1  18  ~/bin/,volume_up.sh
+|4,39,1,18,1702763145,"~/bin/,volume_up.sh"
+-'  1  18  ~/bin/,volume_up.sh
+|4,39,1,18,1702763145,"~/bin/,volume_up.sh"
+-'  1  18  ~/bin/,volume_mute.sh
+|4,39,1,18,1702763133,"~/bin/,volume_mute.sh"
+-'  1  18  ~/bin/,volume_mute.sh
+|4,39,1,18,1702763133,"~/bin/,volume_mute.sh"
+-'  1  18  ~/bin/,volume_mute.sh
+|4,39,1,18,1702763133,"~/bin/,volume_mute.sh"
+-'  1  18  ~/bin/,volume_mute.sh
+|4,39,1,18,1702763133,"~/bin/,volume_mute.sh"
+-'  1  18  ~/bin/,volume_down.sh
+|4,39,1,18,1702763110,"~/bin/,volume_down.sh"
+-'  1  18  ~/bin/,volume_down.sh
+|4,39,1,18,1702763110,"~/bin/,volume_down.sh"
+-'  1  18  ~/bin/,volume_down.sh
+|4,39,1,18,1702763110,"~/bin/,volume_down.sh"
+-'  1  18  ~/bin/,volume_down.sh
+|4,39,1,18,1702763110,"~/bin/,volume_down.sh"
+-'  1  18  ~/bin/,ssh_agent.sh
+|4,39,1,18,1702763036,"~/bin/,ssh_agent.sh"
+-'  1  18  ~/bin/,ssh_agent.sh
+|4,39,1,18,1702763036,"~/bin/,ssh_agent.sh"
+-'  1  18  ~/bin/,ssh_agent.sh
+|4,39,1,18,1702763036,"~/bin/,ssh_agent.sh"
+-'  1  18  ~/bin/,ssh_agent.sh
+|4,39,1,18,1702763036,"~/bin/,ssh_agent.sh"
+-'  1  18  ~/bin/,ssh_agent.sh
+|4,39,1,18,1702763036,"~/bin/,ssh_agent.sh"
+-'  1  18  ~/bin/,ssh_agent.sh
+|4,39,1,18,1702763036,"~/bin/,ssh_agent.sh"
+-'  1  18  ~/bin/,ssh_agent.sh
+|4,39,1,18,1702763036,"~/bin/,ssh_agent.sh"
+-'  1  18  ~/bin/,ssh_agent.sh
+|4,39,1,18,1702763036,"~/bin/,ssh_agent.sh"
+-'  2  0  ~/bin/,lock_screen.sh
+|4,39,2,0,1702762974,"~/bin/,lock_screen.sh"
+-'  2  0  ~/bin/,lock_screen.sh
+|4,39,2,0,1702762974,"~/bin/,lock_screen.sh"
+-'  2  0  ~/bin/,lock_screen.sh
+|4,39,2,0,1702762974,"~/bin/,lock_screen.sh"
+-'  2  0  ~/bin/,lock_screen.sh
+|4,39,2,0,1702762974,"~/bin/,lock_screen.sh"
+-'  2  0  ~/bin/,lock_screen.sh
+|4,39,2,0,1702762974,"~/bin/,lock_screen.sh"
+-'  2  0  ~/bin/,lock_screen.sh
+|4,39,2,0,1702762974,"~/bin/,lock_screen.sh"
+-'  2  0  ~/bin/,lock_screen.sh
+|4,39,2,0,1702762974,"~/bin/,lock_screen.sh"
+-'  2  0  ~/bin/,lock_screen.sh
+|4,39,2,0,1702762974,"~/bin/,lock_screen.sh"
+-'  2  0  ~/bin/,lock_screen.sh
+|4,39,2,0,1702762974,"~/bin/,lock_screen.sh"
+-'  2  0  ~/bin/,lock_screen.sh
+|4,39,2,0,1702762974,"~/bin/,lock_screen.sh"
+-'  2  0  ~/bin/,lock_screen.sh
+|4,39,2,0,1702762974,"~/bin/,lock_screen.sh"
+-'  2  0  ~/bin/,lock_screen.sh
+|4,39,2,0,1702762974,"~/bin/,lock_screen.sh"
+-'  2  0  ~/bin/,lock_screen.sh
+|4,39,2,0,1702762974,"~/bin/,lock_screen.sh"
+-'  2  0  ~/bin/,lock_screen.sh
+|4,39,2,0,1702762974,"~/bin/,lock_screen.sh"
+-'  2  0  ~/bin/,lock_screen.sh
+|4,39,2,0,1702762974,"~/bin/,lock_screen.sh"
+-'  2  0  ~/bin/,lock_screen.sh
+|4,39,2,0,1702762974,"~/bin/,lock_screen.sh"
+-'  1  0  ~/bin/,lock_screen.sh
+|4,39,1,0,1702762971,"~/bin/,lock_screen.sh"
+-'  1  0  ~/bin/,lock_screen.sh
+|4,39,1,0,1702762971,"~/bin/,lock_screen.sh"
+-'  1  0  ~/bin/,lock_screen.sh
+|4,39,1,0,1702762971,"~/bin/,lock_screen.sh"
+-'  1  0  ~/bin/,lock_screen.sh
+|4,39,1,0,1702762971,"~/bin/,lock_screen.sh"
+-'  1  0  ~/bin/,lock_screen.sh
+|4,39,1,0,1702762971,"~/bin/,lock_screen.sh"
+-'  1  0  ~/bin/,lock_screen.sh
+|4,39,1,0,1702762971,"~/bin/,lock_screen.sh"
+-'  1  0  ~/bin/,lock_screen.sh
+|4,39,1,0,1702762971,"~/bin/,lock_screen.sh"
+-'  1  0  ~/bin/,lock_screen.sh
+|4,39,1,0,1702762971,"~/bin/,lock_screen.sh"
+-'  1  0  ~/bin/,lock_screen.sh
+|4,39,1,0,1702762971,"~/bin/,lock_screen.sh"
+-'  1  0  ~/bin/,lock_screen.sh
+|4,39,1,0,1702762971,"~/bin/,lock_screen.sh"
+-'  1  0  ~/bin/,lock_screen.sh
+|4,39,1,0,1702762971,"~/bin/,lock_screen.sh"
+-'  1  0  ~/bin/,lock_screen.sh
+|4,39,1,0,1702762971,"~/bin/,lock_screen.sh"
+-'  1  0  ~/bin/,lock_screen.sh
+|4,39,1,0,1702762971,"~/bin/,lock_screen.sh"
+-'  1  0  ~/bin/,lock_screen.sh
+|4,39,1,0,1702762971,"~/bin/,lock_screen.sh"
+-'  1  0  ~/bin/,lock_screen.sh
+|4,39,1,0,1702762971,"~/bin/,lock_screen.sh"
+-'  1  0  ~/bin/,lock_screen.sh
+|4,39,1,0,1702762971,"~/bin/,lock_screen.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  0  ~/bin/,check_ssh_fprints.sh
+|4,39,1,0,1702762959,"~/bin/,check_ssh_fprints.sh"
+-'  1  18  ~/bin/,bright_up.sh
+|4,39,1,18,1702762916,"~/bin/,bright_up.sh"
+-'  1  18  ~/bin/,bright_up.sh
+|4,39,1,18,1702762916,"~/bin/,bright_up.sh"
+-'  1  18  ~/bin/,bright_up.sh
+|4,39,1,18,1702762916,"~/bin/,bright_up.sh"
+-'  1  18  ~/bin/,bright_up.sh
+|4,39,1,18,1702762916,"~/bin/,bright_up.sh"
+-'  1  18  ~/bin/,bright_up.sh
+|4,39,1,18,1702762916,"~/bin/,bright_up.sh"
+-'  1  18  ~/bin/,bright_up.sh
+|4,39,1,18,1702762916,"~/bin/,bright_up.sh"
+-'  1  18  ~/bin/,bright_up.sh
+|4,39,1,18,1702762916,"~/bin/,bright_up.sh"
+-'  1  18  ~/bin/,bright_up.sh
+|4,39,1,18,1702762916,"~/bin/,bright_up.sh"
 
 # History of marks within files (newest to oldest):
 
-> ~/dotfiles/.gitignore
-	*	1675707365	0
+> ~/dotfiles/.xinitrc
+	*	1702763994	0
 	"	4	0
-	^	5	10
-	.	3	0
-	+	1	0
-	+	2	4
-	+	2	11
-	+	5	0
-	+	3	0
-
-> ~/dotfiles/.zshrc
-	*	1675707257	0
-	"	21	39
-	^	21	39
-	.	21	38
-	+	21	38
-
-> ~/exercism/python/little-sisters-vocab/strings.py
-	*	1675706990	0
-	"	35	0
-
-> ~/exercism/python/little-sisters-vocab/strings
-	*	1675706921	0
-	"	1	0
-
-> ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv/cv.tex
-	*	1675616401	0
-	"	1	0
-	^	20	52
-	.	24	0
-	+	11	0
-	+	19	44
-	+	19	71
-	+	20	74
-	+	24	0
-
-> ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/cv.tex
-	*	1675616338	0
-	"	1	0
-
-> ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/notes.md
-	*	1675616242	0
-	"	38	0
-	^	3	39
-	.	38	3
-	+	26	0
-	+	19	73
-	+	19	5
-	+	22	0
-	+	21	11
-	+	18	0
-	+	29	2
-	+	30	76
-	+	36	12
-	+	30	79
-	+	31	0
-	+	35	69
-	+	46	0
-	+	48	74
-	+	49	0
-	+	45	0
-	+	47	0
-	+	51	0
-	+	53	0
-	+	55	0
-	+	29	0
-	+	10	2
-	+	16	0
-	+	23	0
-	+	39	0
-	+	9	3
-	+	10	3
-	+	9	3
-	+	10	3
-	+	9	3
-	+	10	3
-	+	10	2
-	+	12	0
-	+	10	69
-	+	11	0
-	+	32	3
-	+	4	0
-	+	4	2
-	+	6	0
-	+	4	35
-	+	4	5
-	+	6	0
-	+	4	5
-	+	4	1
-	+	6	0
-	+	4	2
-	+	4	11
-	+	7	1
-	+	26	12
-	+	42	2
-	+	15	3
-	+	44	3
-	+	47	30
-	+	48	3
-	+	54	3
-	+	52	4
-	+	50	3
-	+	37	3
-	+	30	3
-	+	12	3
-	+	4	0
-	+	4	4
-	+	4	11
-	+	4	0
-	+	4	3
-	+	4	9
-	+	4	1
-	+	4	0
-	+	17	3
-	+	22	3
-	+	33	3
-	+	46	3
-	+	20	44
-	+	1	8
-	+	4	2
-	+	1	9
-	+	4	0
-	+	4	7
-	+	1	8
-	+	5	19
-	+	6	2
-	+	1	0
-	+	6	0
-	+	1	1
-	+	4	2
-	+	2	0
-	+	3	94
-	+	3	104
-	+	3	38
-	+	34	3
-	+	19	3
-	+	14	3
-	+	28	3
-	+	38	3
-
-> ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_body.md
-	*	1675616240	0
-	"	78	0
-	^	78	57
-	.	78	56
-	+	32	0
-	+	9	0
-	+	11	0
-	+	41	0
-	+	10	0
-	+	24	73
-	+	25	66
-	+	26	36
-	+	32	0
-	+	20	0
-	+	21	57
-	+	22	0
-	+	20	73
-	+	21	7
-	+	39	10
-	+	54	11
-	+	40	0
-	+	55	0
-	+	10	0
-	+	32	0
-	+	41	1
-	+	43	0
-	+	57	0
-	+	59	55
-	+	48	77
-	+	44	0
-	+	42	0
-	+	38	0
-	+	53	0
-	+	32	0
-	+	22	76
-	+	23	0
-	+	20	1
-	+	21	9
-	+	9	0
-	+	42	0
-	+	44	0
-	+	48	0
-	+	49	0
-	+	59	0
-	+	21	7
-	+	27	16
-	+	26	56
-	+	28	55
-	+	32	73
-	+	28	79
-	+	30	37
-	+	35	109
-	+	35	106
-	+	36	0
-	+	36	114
-	+	24	69
-	+	24	73
-	+	25	68
-	+	77	0
-	+	78	56
-	a	35	0
-
-> ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_template.tex
-	*	1675615711	0
-	"	41	0
-	^	41	23
-	.	41	22
-	+	13	32
-	+	30	0
-	+	13	12
-	+	44	14
-	+	8	18
-	+	28	0
-	+	27	0
-	+	27	12
-	+	27	3
-	+	27	0
-	+	27	11
-	+	27	27
-	+	27	0
-	+	27	3
-	+	27	30
-	+	27	34
-	+	27	0
-	+	27	34
-	+	27	27
-	+	27	0
-	+	27	1
-	+	13	14
-	+	15	11
-	+	13	12
-	+	27	0
-	+	40	55
-	+	42	0
-	+	18	13
-	+	41	22
-
-> ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/make: *** [makefile
-	*	1675614501	0
-	"	1	0
-
-> ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/makefile
-	*	1675612753	0
-	"	1	16
-	^	1	17
-	.	1	11
-	+	5	50
-	+	13	0
-	+	11	49
-	+	15	23
-	+	19	41
-	+	20	29
-	+	5	49
-	+	1	4
-	+	1	16
-	+	1	4
-	+	1	11
-
-> ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_body.txt
-	*	1675612531	0
-	"	76	0
-	^	36	125
-	.	36	124
-	+	48	30
-	+	49	51
-	+	52	25
-	+	52	41
-	+	48	12
-	+	49	35
-	+	48	13
-	+	48	34
-	+	49	16
-	+	50	18
-	+	50	25
-	+	62	76
-	+	63	72
-	+	64	73
-	+	65	60
-	+	64	32
-	+	65	69
-	+	55	20
-	+	55	35
-	+	53	67
-	+	30	22
-	+	31	43
-	+	29	64
-	+	31	69
-	+	28	66
-	+	32	48
-	+	67	66
-	+	29	55
-	+	32	46
-	+	31	33
-	+	30	20
-	+	31	42
-	+	29	32
-	+	32	23
-	+	32	80
-	+	28	62
-	+	32	61
-	+	32	32
-	+	32	56
-	+	30	17
-	+	30	36
-	+	32	1
-	+	32	29
-	+	32	33
-	+	32	26
-	+	31	5
-	+	31	42
-	+	31	69
-	+	31	59
-	+	29	55
-	+	31	4
-	+	31	42
-	+	57	79
-	+	58	77
-	+	59	7
-	+	46	72
-	+	47	76
-	+	48	71
-	+	49	71
-	+	50	71
-	+	51	73
-	+	52	76
-	+	53	76
-	+	54	79
-	+	55	21
-	+	59	76
-	+	60	76
-	+	59	79
-	+	60	9
-	+	21	86
-	+	21	73
-	+	21	103
-	+	28	0
-	+	21	38
-	+	22	0
-	+	23	78
-	+	24	77
-	+	25	78
-	+	28	47
-	+	31	34
-	+	32	11
-	+	31	23
-	+	32	27
-	+	37	0
-	+	38	79
-	+	39	79
-	+	40	79
-	+	41	76
-	+	28	72
-	+	29	74
-	+	30	73
-	+	31	72
-	+	36	19
-	+	34	76
-	+	35	70
-	+	36	27
-	+	35	34
-	+	36	124
-
-> ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_body
-	*	1675590031	0
-	"	1	0
-
-> ~/projects/hugo_portfolio/content/projects/uci_automobile_eda/_index.md
-	*	1675525284	0
-	"	14	59
-	^	14	60
-	.	14	59
-	+	2	57
-	+	14	59
-
-> ~/projects/hugo_portfolio/content/now.md
-	*	1675524687	0
-	"	22	17
-	^	21	52
-	.	21	62
-	+	3	15
-	+	27	22
-	+	27	62
-	+	32	63
-	+	35	0
-	+	13	0
-	+	8	41
-	+	29	0
-	+	13	0
-	+	15	0
-	+	13	12
-	+	11	10
-	+	13	70
-	+	14	53
-	+	16	0
-	+	17	29
-	+	18	0
-	+	20	6
-	+	24	0
-	+	22	14
-	+	22	16
-	+	35	13
-	+	33	74
-	+	34	69
-	+	35	73
-	+	32	0
-	+	11	0
-	+	17	0
-	+	25	0
-	+	30	0
-	+	14	47
-	+	14	80
-	+	14	47
-	+	19	60
-	+	20	18
-	+	22	34
-	+	21	51
-	+	21	62
-
-> ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter.txt
-	*	1675524423	0
-	"	1	0
-
-> ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/letter_config.json
-	*	1675517820	0
-	"	14	0
-	^	14	1
 	.	4	0
-	+	12	45
-	+	11	69
-	+	10	0
 	+	4	0
 
-> ~/projects/noughtsandcrosses/noughtsandcrosses.py
-	*	1675463984	0
-	"	202	0
-	^	167	38
-	.	182	0
-	+	128	31
-	+	126	41
-	+	130	0
-	+	129	22
-	+	129	23
-	+	129	11
-	+	129	43
-	+	129	28
-	+	129	60
-	+	129	52
-	+	130	60
-	+	130	0
-	+	129	32
-	+	8	0
-	+	9	0
-	+	11	38
-	+	16	12
-	+	8	0
-	+	129	68
-	+	129	77
-	+	130	18
-	+	130	0
-	+	16	0
-	+	130	16
-	+	129	46
-	+	129	0
-	+	129	12
-	+	130	0
-	+	129	23
-	+	129	52
-	+	129	36
-	+	129	0
-	+	187	17
-	+	39	46
-	+	48	25
-	+	126	42
-	+	129	21
-	+	187	29
-	+	189	18
-	+	190	12
-	+	191	12
-	+	193	11
-	+	194	37
-	+	39	40
-	+	48	34
-	+	16	12
-	+	129	8
-	+	126	37
-	+	32	23
-	+	33	32
-	+	187	70
-	+	59	24
-	+	59	0
-	+	12	24
-	+	13	0
-	+	14	0
-	+	15	3
-	+	12	4
-	+	13	4
-	+	14	4
-	+	15	0
-	+	16	0
-	+	10	0
-	+	129	65
-	+	98	0
-	+	102	15
-	+	103	15
-	+	101	0
-	+	121	0
-	+	131	0
-	+	140	52
-	+	142	71
-	+	143	71
-	+	145	34
-	+	121	0
-	+	152	0
-	+	151	0
-	+	157	29
-	+	139	30
-	+	142	16
-	+	143	0
-	+	140	45
-	+	145	26
-	+	147	19
-	+	148	38
-	+	150	0
-	+	160	0
-	+	121	0
-	+	152	9
-	+	131	9
-	+	193	13
-	+	195	0
-	+	189	20
-	+	154	17
-	+	162	23
-	+	164	11
-	+	169	0
-	+	166	23
-	+	167	37
-	+	182	0
-
-> /usr/lib/python3.10/os.py
-	*	1675456063	0
-	"	739	1
-
-> ~/documents/job_apps/20230205_tfl_strategic_modelling_and_appraisal_analyst/letter/tag_guidance_link
-	*	1675362021	0
-	"	1	143
-	^	1	144
-	.	1	143
-	+	1	143
-
-> ~/projects/tetris/main.py
-	*	1675361395	0
-	"	110	16
-	.	110	16
-	+	110	16
-
-> ~/dotfiles/README.md
-	*	1675194514	0
-	"	3	54
-	^	3	55
-	.	4	0
-	+	3	55
-	+	3	54
-	+	3	55
-	+	3	42
-	+	3	55
-	+	4	0
-
-> ~/bin/README.md
-	*	1675193110	0
-	"	11	14
-	^	11	15
-	.	8	7
-	+	10	0
-	+	8	81
-	+	9	73
-	+	11	13
-	+	3	55
-	+	5	70
-	+	8	7
-
-> ~/bin/.git/MERGE_MSG
-	*	1675193026	0
-	"	1	0
-
-> ~/bin/.gitignore
-	*	1675192645	0
-	"	1	13
-	^	1	14
-	.	1	13
-	+	1	13
-
-> ~/projects/samlarkin.github.io/README.md
-	*	1675192202	0
-	"	1	20
-	^	1	21
-	.	6	108
-	+	2	0
-	+	3	52
-	+	4	59
-	+	5	0
-	+	6	108
-
-> ~/projects/hugo_portfolio/README.md
-	*	1675191856	0
-	"	23	0
-	^	9	58
-	.	9	76
-	+	2	0
-	+	3	62
-	+	4	58
-	+	21	0
-	+	22	65
-	+	24	30
-	+	22	27
-	+	22	47
-	+	24	77
-	+	24	0
-	+	24	19
-	+	24	0
-	+	24	32
-	+	24	59
-	+	24	0
-	+	24	5
-	+	22	75
-	+	23	17
-	+	24	0
-	+	23	24
-	+	24	0
-	+	21	0
-	+	22	0
-	+	5	0
-	+	6	7
-	+	10	27
-	+	10	47
-	+	11	0
-	+	12	3
-	+	13	6
-	+	18	3
-	+	19	0
-	+	13	4
-	+	7	0
-	+	9	5
-	+	10	26
-	+	11	0
-	+	10	26
-	+	14	9
-	+	15	9
-	+	16	33
-	+	17	7
-	+	20	1
-	+	6	1
-	+	16	21
-	+	8	71
-	+	9	57
-	+	9	76
-
-> ~/projects/gocontact/gocontactrc.yaml
-	*	1675190575	0
-	"	3	7
-	.	3	7
-	+	1	4
-	+	2	12
-	+	3	7
-
-> ~/projects/noughtsandcrosses/LICENSE
-	*	1675188992	0
-	"	1	0
-	^	3	23
-	.	3	18
-	+	1	17
-	+	24	0
-	+	3	18
-
-> ~/projects/noughtsandcrosses/README.md
-	*	1675188530	0
-	"	42	0
-	^	42	0
-	.	42	0
-	+	9	14
-	+	37	3
-	+	8	2
-	+	39	0
-	+	7	0
-	+	40	0
-	+	3	0
-	+	2	0
-	+	40	0
-	+	5	0
-	+	6	25
-	+	7	0
-	+	24	0
-	+	4	71
-	+	5	0
-	+	3	75
-	+	4	15
-	+	40	0
-	+	40	7
-	+	40	0
-	+	41	8
-	+	43	0
-	+	40	0
-	+	41	0
-	+	43	0
-	+	42	0
-
-> ~/projects/minesweeper/README.md
-	*	1675188444	0
-	"	41	0
-	^	4	54
-	.	4	51
-	+	17	0
-	+	16	2
-	+	38	2
-	+	2	0
-	+	3	0
-	+	15	0
-	+	3	77
-	+	4	6
-	+	5	0
-	+	6	76
-	+	8	54
-	+	8	70
-	+	13	0
-	+	14	16
-	+	6	77
-	+	7	52
-	+	7	75
-	+	8	56
-	+	10	0
-	+	11	76
-	+	12	5
-	+	8	0
-	+	7	40
-	+	9	60
-	+	39	0
-	+	40	8
-	+	42	4
-	+	42	0
-	+	41	0
-	+	42	45
-	+	4	51
-
-> ~/projects/minesweeper/minesweeper.py
-	*	1675188014	0
-	"	84	0
-	^	77	35
-	.	77	34
-	+	8	0
-	+	19	0
-	+	44	0
-	+	83	25
-	+	84	3
-	+	4	0
+> ~/bin/,vpn.sh
+	*	1702763285	0
+	"	1	18
+	^	1	19
+	.	1	18
+	+	2	13
+	+	4	22
+	+	2	13
+	+	4	52
 	+	3	11
-	+	77	34
-
-> ~/projects/minesweeper/.gitignore
-	*	1675187931	0
-	"	2	5
-	^	2	6
-	.	2	5
-	+	1	5
-	+	2	5
-
-> ~/vimwiki/Reading List.wiki
-	*	1675108628	0
-	"	95	0
-
-> ~/vimwiki/index.wiki
-	*	1675108610	0
-	"	7	4
-
-> ~/vimwiki/Goals for 2021.wiki
-	*	1675108603	0
-	"	1	0
-
-> ~/vimwiki/Curriculum Vitae.wiki
-	*	1675108561	0
-	"	149	0
-
-> ~/documents/job_apps/20230131_iop_data_analyst/cover_letter/letter_body.txt
-	*	1675107991	0
-	"	37	0
-	^	15	52
-	.	15	51
-	+	27	16
-	+	27	36
-	+	34	73
-	+	35	31
-	+	30	0
-	+	20	29
-	+	22	45
-	+	23	44
-	+	20	30
-	+	21	45
-	+	21	21
-	+	22	10
-	+	23	13
-	+	20	73
-	+	21	58
-	+	26	77
-	+	27	14
-	+	18	79
-	+	19	75
-	+	20	79
-	+	21	77
-	+	22	76
-	+	23	14
-	+	16	5
-	+	12	77
-	+	12	74
-	+	13	13
-	+	12	49
-	+	16	6
-	+	12	61
-	+	12	75
-	+	13	71
-	+	15	60
-	+	15	79
-	+	18	47
-	+	44	0
-	+	52	62
-	+	53	64
-	+	54	22
-	+	35	25
-	+	39	78
-	+	40	0
-	+	29	13
-	+	51	62
-	+	51	19
-	+	51	62
-	+	51	75
-	+	52	78
-	+	12	79
-	+	14	6
-	+	15	51
-
-> ~/documents/job_apps/20230131_channel4_data_scientist/letter/letter_body.txt
-	*	1675107990	0
-	"	46	0
-	^	45	80
-	.	45	79
-	+	1	20
-	+	1	0
-	+	1	7
-	+	1	0
-	+	2	5
-	+	3	27
-	+	1	4
-	+	1	0
-	+	5	69
-	+	7	4
-	+	8	38
-	+	9	10
-	+	7	47
-	+	9	12
-	+	1	75
-	+	2	62
-	+	3	19
-	+	22	79
-	+	22	42
-	+	1	63
-	+	1	79
-	+	2	78
-	+	6	74
-	+	7	75
-	+	8	67
-	+	10	0
-	+	11	0
-	+	29	76
-	+	31	57
-	+	6	26
-	+	12	50
-	+	26	0
-	+	22	43
-	+	23	72
-	+	22	0
-	+	32	0
-	+	41	0
-	+	47	0
-	+	18	0
-	+	25	6
-	+	25	16
-	+	26	0
-	+	33	0
-	+	40	0
-	+	21	4
-	+	45	79
-
-> ~/documents/job_apps/20230131_channel4_data_scientist/letter/letter_template.tex
-	*	1675102457	0
-	"	13	12
-	^	13	13
-	.	13	12
-	+	13	12
-
-> ~/documents/job_apps/20230131_channel4_data_scientist/letter/letter_config.json
-	*	1675102434	0
-	"	16	12
-	^	16	14
-	.	15	13
-	+	18	76
-	+	19	37
-	+	14	16
-	+	15	13
-
-> ~/documents/job_apps/20230131_channel4_data_scientist/cv/makefile
-	*	1675102181	0
-	"	1	2
-
-> ~/projects/contacts/contacts/conf.py
-	*	1675025899	0
-	"	1	0
-
-> ~/letter/letter_body.txt
-	*	1675023135	0
-	"	1	35
-	^	1	36
-	.	1	35
-	+	1	35
-
-> ~/letter/letter_config.json
-	*	1675023113	0
-	"	23	0
-	^	23	1
-	.	21	23
-	+	3	18
-	+	3	20
-	+	4	17
-	+	5	24
-	+	6	17
-	+	7	15
-	+	14	22
-	+	15	32
-	+	16	0
-	+	17	0
-	+	16	32
-	+	17	12
-	+	18	13
-	+	20	27
-	+	21	23
-
-> ~/documents/job_apps/20230131_iop_data_analyst/cover_letter/letter_template.tex
-	*	1675003560	0
-	"	30	0
-	^	30	1
-	.	30	0
-	+	32	47
-	+	24	27
-	+	32	58
-	+	10	0
-	+	11	0
-	+	44	18
-	+	46	18
-	+	13	11
-	+	30	0
-
-> ~/documents/job_apps/20230131_iop_data_analyst/cover_letter/letter_config.json
-	*	1675003529	0
-	"	3	20
-	^	3	20
-	.	4	0
-	+	17	25
-	+	16	79
-	+	8	18
-	+	9	67
-	+	10	31
-	+	11	28
-	+	12	16
-	+	13	16
-	+	14	0
-	+	3	31
-	+	3	20
-	+	11	28
-	+	12	16
-	+	3	20
-	+	4	0
-
-> ~/documents/job_apps/20230131_iop_data_analyst/cover_letter/populate_template.py
-	*	1675003264	0
-	"	32	8
-	.	32	0
-	+	47	21
-	+	45	43
-	+	36	60
-	+	52	9
-	+	45	31
-	+	47	26
-	+	36	44
-	+	45	31
-	+	10	19
-	+	45	28
-	+	10	26
-	+	15	45
-	+	16	38
-	+	15	43
-	+	16	36
-	+	13	7
-	+	6	16
-	+	9	59
-	+	4	21
-	+	45	50
-	+	30	37
-	+	31	23
-	+	32	0
-	a	10	19
-
-> ~/documents/job_apps/20230131_iop_data_analyst/cover_letter/letter.tex
-	*	1675001610	0
-	"	32	62
-	^	32	63
-	.	32	0
-	+	32	0
-
-> ~/documents/job_apps/20230131_iop_data_analyst/cv/cv.cls
-	*	1675001350	0
-	"	77	0
-
-> ~/documents/job_apps/20230131_iop_data_analyst/cv/cv.tex
-	*	1675001176	0
-	"	1	0
-	^	40	21
-	.	40	20
-	+	1	1
-	+	15	0
-	+	16	0
-	+	14	43
-	+	40	45
-	+	1	1
-	+	40	20
-
-> ~/documents/job_apps/20230131_iop_data_analyst/cover_letter/makefile
-	*	1674999988	0
-	"	13	36
-	^	13	37
-	.	13	36
-	+	7	28
-	+	13	15
-	+	14	0
-	+	10	19
-	+	14	0
-	+	3	0
-	+	7	27
-	+	3	39
-	+	10	17
-	+	14	0
-	+	2	33
-	+	6	22
-	+	9	16
-	+	10	0
-	+	12	15
-	+	13	36
-
-> ~/documents/job_apps/20230131_iop_data_analyst/cv/makefile
-	*	1674997314	0
-	"	6	20
-	^	6	21
-	.	6	20
-	+	3	15
-	+	2	12
-	+	6	20
-
-> ~/documents/job_apps/20230131_iop_data_analyst/cover_letter/letter_body.tex
-	*	1674996263	0
-	"	1	0
-
-> ~/documents/job_apps/20230131_iop_data_analyst/cover_letter/compile_letter.py
-	*	1674994011	0
-	"	50	0
-	^	44	32
-	.	13	0
+	+	4	61
 	+	2	0
-	+	11	0
-	+	9	0
-	+	34	0
-	+	34	1
-	+	9	0
-	+	4	9
-	+	9	55
-	+	4	26
-	+	34	44
-	+	36	22
-	+	34	0
-	+	1	0
-	+	4	25
-	+	13	35
-	+	45	21
-	+	44	31
-	+	13	0
+	+	1	18
 
-> ~/documents/job_apps/20230131_iop_data_analyst/cover_letter/config.json
-	*	1674993280	0
-	"	1	0
-	^	12	1
-	.	10	79
-	+	3	18
-	+	3	20
-	+	5	18
-	+	6	16
-	+	5	55
-	+	6	38
-	+	3	20
-	+	3	18
-	+	5	18
-	+	5	55
-	+	6	16
-	+	3	0
-	+	5	0
-	+	6	0
-	+	8	123
-	+	8	0
-	+	8	64
-	+	8	0
-	+	9	55
-	+	10	37
-	+	8	18
-	+	3	20
-	+	10	79
+> ~/bin/,volume_up.sh
+	*	1702763142	0
+	"	1	18
+	^	1	19
+	.	1	18
+	+	1	18
 
-> ~/documents/job_apps/20230131_iop_data_analyst/cover_letter/config.yaml
-	*	1674993276	0
-	"	3	5
-	^	3	6
+> ~/bin/,volume_mute.sh
+	*	1702763125	0
+	"	1	18
+	^	1	19
+	.	1	18
+	+	1	18
+
+> ~/bin/,volume_down.sh
+	*	1702763093	0
+	"	1	18
+	^	1	19
+	.	1	18
+	+	1	18
+
+> ~/bin/,ssh_agent.sh
+	*	1702763032	0
+	"	1	18
+	^	1	19
+	.	1	18
+	+	1	18
+
+> ~/bin/,lock_screen.sh
+	*	1702762973	0
+	"	2	0
 	.	2	0
-	+	1	0
-	+	1	8
 	+	2	0
-	+	13	0
+
+> ~/bin/,check_ssh_fprints.sh
+	*	1702762956	0
+	"	1	0
+	^	1	19
+	.	1	18
+	+	1	18
+
+> ~/bin/,bright_up.sh
+	*	1702762915	0
+	"	1	18
+	^	1	19
+	.	1	18
 	+	2	0
+	+	1	18
+
+> ~/bin/,bright_down.sh
+	*	1702762895	0
+	"	1	0
+	^	3	0
+	.	3	0
+	+	2	0
+	+	1	18
 	+	4	0
 	+	3	0
-	+	1	22
-	+	2	0
 
-> ~/documents/job_apps/20230131_iop_data_analyst/cover_letter/body.txt
-	*	1674992667	0
+> ~/bin/,monitor_off.sh
+	*	1702762831	0
+	"	1	18
+	^	1	19
+	.	1	18
+	+	1	18
+
+> ~/bin/,monitor_left.sh
+	*	1702762804	0
 	"	1	0
-	^	20	41
-	.	25	70
-	+	1	74
-	+	27	51
-	+	1	43
-	+	27	0
-	+	1	38
-	+	28	3
-	+	28	0
-	+	1	76
-	+	2	60
-	+	1	38
-	+	3	0
-	+	1	37
-	+	3	4
-	+	4	27
-	+	22	1
-	+	2	73
-	+	3	41
-	+	3	76
-	+	28	0
-	+	23	72
-	+	26	11
-	+	28	0
-	+	6	0
-	+	27	0
-	+	28	56
-	+	7	79
-	+	8	69
-	+	8	70
-	+	9	73
-	+	11	71
-	+	12	47
-	+	7	21
-	+	12	40
-	+	7	13
-	+	12	76
-	+	13	68
-	+	23	64
-	+	13	69
-	+	16	2
-	+	17	11
-	+	17	33
-	+	15	75
-	+	16	24
-	+	18	13
-	+	19	21
-	+	20	31
-	+	19	41
-	+	17	55
-	+	20	40
-	+	1	78
-	+	2	73
-	+	3	76
-	+	6	79
-	+	7	79
-	+	8	70
-	+	11	76
-	+	12	76
-	+	16	78
-	+	17	76
-	+	18	75
-	+	19	68
-	+	21	0
-	+	23	73
-	+	24	78
-	+	25	70
-	+	1	78
-	+	2	73
-	+	3	76
-	+	6	79
-	+	7	79
-	+	8	70
-	+	11	76
-	+	12	76
-	+	15	75
-	+	16	78
-	+	17	76
-	+	18	75
-	+	19	68
-	+	22	78
-	+	23	73
-	+	24	78
-	+	25	70
+	^	1	19
+	.	1	18
+	+	1	18
 
-> ~/documents/job_apps/20230131_iop_data_analyst/cover_letter/main.tex
-	*	1674992551	0
-	"	1	1
-	.	1	0
-	+	1	0
-
-> ~/documents/job_apps/20230131_iop_data_analyst/cover_letter/body.t
-	*	1674934975	0
-	"	1	0
-
-> ~/documents/job_apps/TODO_20230126_junior_software_engineer/supporting_text.txt
-	*	1674688263	0
-	"	44	0
-	.	45	0
-	+	1	0
-	+	1	22
-	+	1	0
-	+	1	77
-	+	2	0
-	+	1	13
-	+	1	0
-	+	7	0
-	+	15	0
-	+	14	0
-	+	18	0
-	+	24	0
-	+	34	0
-	+	42	11
-	+	1	37
-	+	8	45
-	+	9	25
-	+	8	79
-	+	9	24
-	+	7	0
-	+	9	76
-	+	14	27
-	+	9	25
-	+	14	0
-	+	17	0
-	+	16	56
-	+	15	0
-	+	27	32
-	+	26	72
-	+	28	51
-	+	1	37
-	+	18	71
-	+	20	73
-	+	18	6
-	+	20	76
-	+	20	58
-	+	21	41
-	+	22	59
-	+	34	0
-	+	34	71
-	+	35	71
-	+	36	53
-	+	42	11
-	+	30	49
-	+	1	54
-	+	1	0
-	+	7	28
-	+	13	45
-	+	7	0
-	+	1	62
-	+	1	0
-	+	24	0
-	+	30	78
-	+	31	63
-	+	18	0
-	+	21	32
-	+	19	0
-	+	21	41
-	+	21	56
-	+	22	44
-	+	22	62
-	+	15	18
-	+	34	0
-	+	1	0
-	+	1	54
-	+	1	0
-	+	13	45
-	+	22	83
-	+	19	75
-	+	20	49
-	+	20	82
-	+	21	71
-	+	22	45
-	+	2	71
-	+	4	7
-	+	2	72
-	+	3	77
-	+	31	73
-	+	4	76
-	+	4	74
-	+	5	23
-	+	1	55
-	+	43	59
-	+	43	7
-	+	44	12
-	+	16	57
-	+	39	77
-	+	41	77
-	+	42	11
-	+	42	79
-	+	43	78
-	+	19	77
-	+	20	8
-	+	21	0
-	+	20	8
-	+	16	63
-	+	16	50
-	+	44	0
-	+	45	7
-	+	45	0
-
-> ~/documents/job_apps/TODO_20230126_junior_software_engineer/cv/cv.tex
-	*	1674674749	0
-	"	75	0
-	^	75	1
-	.	75	0
-	+	32	0
-	+	28	0
-	+	32	0
-	+	29	0
-	+	34	0
-	+	30	0
-	+	36	0
-	+	37	15
-	+	38	16
-	+	41	0
-	+	38	0
-	+	40	0
-	+	41	27
-	+	41	62
-	+	19	59
-	+	19	44
-	+	20	11
-	+	21	0
-	+	20	12
-	+	62	24
-	+	63	20
-	+	41	0
-	+	33	0
-	+	41	0
-	+	39	35
-	+	117	10
-	+	143	64
-	+	142	80
-	+	143	79
-	+	144	75
-	+	145	46
-	+	38	40
-	+	160	0
-	+	119	10
-	+	118	50
-	+	74	0
-	+	63	0
-	+	75	0
-
-> ~/jobs.txt
-	*	1674582508	0
-	"	1	0
-
-> ~/hyperiondev_dfe_data_science/Data Science Bootcamp/T52/github.txt
-	*	1674483741	0
-	"	7	0
-	^	7	28
-	.	7	0
-	+	1	0
-	+	2	4
-	+	3	18
-	+	5	12
-	+	6	0
-	+	7	0
-
-> ~/USArrests_README.txt
-	*	1673733713	0
-	"	36	0
-	.	1	0
-	+	1	0
-
-> ~/documents/employment/20210927_oxfordshire_county_council/notice_letter/body.txt
-	*	1673290134	0
-	"	16	0
-	.	17	0
-	+	1	7
-	+	1	0
-	+	2	52
-	+	4	7
-	+	2	17
-	+	4	0
-	+	2	17
-	+	4	0
-	+	3	0
-	+	4	60
-	+	9	41
-	+	5	75
-	+	6	75
-	+	7	9
-	+	9	1
-	+	9	68
-	+	14	0
-	+	13	0
-	+	9	64
-	+	14	76
-	+	15	6
-	+	15	58
-	+	16	18
-	+	16	15
-	+	16	27
-	+	6	76
-	+	7	5
-	+	9	76
-	+	6	63
-	+	7	11
-	+	6	75
-	+	15	79
-	+	11	44
-	+	11	14
-	+	12	38
-	+	12	15
-	+	12	18
-	+	11	28
-	+	11	65
-	+	12	6
-	+	10	24
-	+	10	64
-	+	10	73
-	+	9	75
-	+	10	64
-	+	10	75
-	+	11	76
-	+	10	49
-	+	17	0
-
-> ~/documents/employment/20190415_bristol_city_council/notice_letter/body.txt
-	*	1673288545	0
-	"	13	0
-
-> ~/documents/employment/20210927_oxfordshire_county_council/notice_letter/letter_template.tex
-	*	1673287733	0
-	"	48	0
-	^	22	19
-	.	23	0
-	+	10	11
-	+	11	11
-	+	14	13
-	+	13	11
-	+	14	14
-	+	23	50
-	+	22	18
-	+	23	0
-
-> ~/documents/employment/20210927_oxfordshire_county_council/notice_letter/config.json
-	*	1673286712	0
-	"	1	0
-	^	3	64
-	.	3	64
-	+	3	0
-	+	2	0
-	+	3	81
-	+	4	38
-	+	5	40
-	+	6	30
-	+	7	23
-	+	8	30
-	+	9	30
-	+	10	33
-	+	12	0
-	+	3	63
-	+	5	32
-	+	7	19
-	+	8	105
-	+	9	71
-	+	10	26
-	+	11	25
-	+	8	109
-	+	3	64
-
-> ~/documents/employment/20210927_oxfordshire_county_council/notice_letter/main.tex
-	*	1673286577	0
-	"	1	0
-	^	13	12
-	.	13	11
-	+	10	11
-	+	11	11
-	+	13	11
-
-> ~/hyperiondev_dfe_data_science/Data Science Bootcamp/complete_T42/compulsory_task_1.ipynb
-	*	1672770804	0
-	"	354	13
-
-> ~/hyperiondev_dfe_data_science/Data Science Bootcamp/header.txt
-	*	1672076460	0
-	"	5	11
-	^	5	12
-	.	5	5
-	+	6	0
-	+	2	3
-	+	3	18
-	+	5	5
-
-> ~/hyperiondev_dfe_data_science/Data Science Bootcamp/T40/Intro_to_ML.txt
-	*	1672060585	0
-	"	86	0
-	^	27	52
-	.	27	51
-	+	2	4
-	+	5	11
-	+	8	0
-	+	36	30
-	+	8	5
-	+	68	18
-	+	19	13
-	+	37	12
-	+	26	16
-	+	45	13
-	+	53	0
-	+	48	16
-	+	56	0
-	+	69	0
-	+	40	9
-	+	38	68
-	+	40	50
-	+	46	63
-	+	52	29
-	+	49	75
-	+	52	64
-	+	72	37
-	+	70	69
-	+	71	24
-	+	78	27
-	+	73	18
-	+	77	33
-	+	79	18
-	+	82	75
-	+	42	17
-	+	43	37
-	+	86	61
-	+	49	75
-	+	50	72
-	+	52	32
-	+	52	48
-	+	50	77
-	+	51	79
-	+	52	23
-	+	71	25
-	+	52	60
-	+	74	42
-	+	75	60
-	+	76	39
-	+	57	30
-	+	65	52
-	+	57	64
-	+	61	23
-	+	14	28
-	+	15	54
-	+	20	8
-	+	18	0
-	+	10	56
-	+	11	35
-	+	15	72
-	+	24	42
-	+	27	9
-	+	16	78
-	+	17	75
-	+	34	0
-	+	33	50
-	+	38	69
-	+	15	78
-	+	17	76
-	+	27	51
-
-> ~/hyperiondev_dfe_data_science/Data Science Bootcamp/T39/ebookstore.py
-	*	1672055011	0
-	"	404	4
-	^	376	38
-	.	376	37
-	+	225	0
-	+	227	0
-	+	225	38
-	+	226	0
-	+	231	17
-	+	108	39
-	+	101	75
-	+	177	14
-	+	225	14
-	+	231	17
-	+	234	0
-	+	242	0
-	+	233	0
-	+	241	0
-	+	183	0
-	+	180	29
-	+	182	12
-	+	183	0
-	+	185	30
-	+	186	35
-	+	186	0
-	+	220	0
-	+	186	20
-	+	187	72
-	+	185	50
-	+	186	53
-	+	185	29
-	+	186	20
-	+	187	0
-	+	188	57
-	+	187	71
-	+	189	33
-	+	187	69
-	+	189	0
-	+	191	8
-	+	191	44
-	+	195	32
-	+	196	29
-	+	196	55
-	+	197	71
-	+	201	0
-	+	205	32
-	+	207	30
-	+	207	46
-	+	210	66
-	+	214	45
-	+	215	29
-	+	220	0
-	+	219	22
-	+	188	0
-	+	187	31
-	+	198	0
-	+	197	31
-	+	211	0
-	+	210	31
-	+	190	58
-	+	193	39
-	+	203	0
-	+	216	0
-	+	200	58
-	+	190	18
-	+	200	18
-	+	214	0
-	+	200	18
-	+	213	58
-	+	47	26
-	+	150	77
-	+	207	74
-	+	149	11
-	+	150	11
-	+	152	26
-	+	153	64
-	+	206	15
-	+	207	15
-	+	209	68
-	+	149	0
-	+	152	11
-	+	152	0
-	+	153	77
-	+	144	0
-	+	147	8
-	+	148	18
-	+	149	8
-	+	151	16
-	+	150	0
-	+	282	4
-	+	285	20
-	+	279	48
-	+	281	60
-	+	285	54
-	+	296	26
-	+	309	29
-	+	324	0
-	+	325	13
-	+	309	76
-	+	310	13
-	+	325	35
-	+	333	32
-	+	342	67
-	+	376	37
-
-> ~/projects/contacts/requirements.txt
-	*	1672015827	0
-	"	1	14
-	^	1	15
+> ~/bin/,monitor_right.sh
+	*	1702762778	0
+	"	1	18
+	^	1	19
 	.	1	14
 	+	1	14
 
-> ~/tmp/db_test/dbtest.py
-	*	1671897945	0
-	"	6	45
-	^	6	46
-	.	6	45
-	+	3	30
-	+	6	33
-	+	6	45
+> ~/.myemail
+	*	1702762480	0
+	"	1	23
 
-> ~/tmp/db_test/foo.db
-	*	1671887603	0
-	"	1	19
-	^	1	20
-	.	1	19
-	+	1	19
+> ~/bin/,email_to_clipboard.sh
+	*	1702762468	0
+	"	2	39
+	^	2	19
+	.	1	18
+	+	1	18
 
-> ~/hyperiondev_dfe_data_science/Data Science Bootcamp/T39/ebookstore.
-	*	1671836774	0
-	"	1	0
+> ~/bin/.gitignore
+	*	1702762196	0
+	"	1	4
+	.	1	4
+	+	1	4
 
-> ~/hyperiondev_dfe_data_science/Data Science Bootcamp/T39/starting_values.csv
-	*	1671836769	0
-	"	6	44
-	^	6	45
-	.	6	44
-	+	2	48
-	+	3	65
-	+	4	59
-	+	5	48
-	+	6	44
+> ~/.ssh/known_hosts
+	*	1702760882	0
+	"	8	4
+	.	8	1
+	+	8	1
 
-> ~/hyperiondev_dfe_data_science/Data Science Bootcamp/complete_T38/database_manip.py
-	*	1671835136	0
-	"	22	0
-
-> ~/hyperiondev_dfe_data_science/Data Science Bootcamp/T38/database_manip.py
-	*	1671664321	0
-	"	94	18
-	^	85	52
-	.	85	51
-	+	1	0
-	+	2	4
-	+	3	18
-	+	5	8
-	+	11	45
-	+	20	0
-	+	28	21
-	+	30	5
-	+	28	16
-	+	32	0
-	+	31	6
-	+	24	4
-	+	35	12
-	+	35	35
-	+	37	43
-	+	38	37
-	+	39	38
-	+	40	35
-	+	36	4
-	+	37	4
-	+	41	0
-	+	44	19
-	+	50	0
-	+	48	6
-	+	47	23
-	+	49	11
-	+	51	0
-	+	52	10
-	+	38	7
-	+	55	15
-	+	56	7
-	+	58	31
-	+	60	7
-	+	61	0
+> ~/src/dwm/config.h
+	*	1702759206	0
+	"	70	68
+	^	70	69
+	.	70	68
+	+	85	32
+	+	85	0
+	+	67	64
+	+	57	0
 	+	62	0
-	+	62	8
-	+	62	0
-	+	62	15
-	+	58	31
-	+	47	24
-	+	58	25
-	+	59	24
-	+	69	34
-	+	71	0
-	+	72	50
-	+	15	18
-	+	18	19
-	+	62	13
-	+	15	21
-	+	14	0
-	+	21	0
-	+	62	18
-	+	73	0
-	+	74	0
-	+	62	11
-	+	73	11
-	+	72	72
-	+	73	0
-	+	19	4
-	+	77	7
-	+	79	42
-	+	81	0
-	+	82	50
-	+	83	18
-	+	93	10
-	+	93	0
-	+	94	17
-	+	10	24
-	+	16	7
-	+	22	14
-	+	34	35
-	+	43	54
-	+	53	0
-	+	54	50
-	+	64	32
-	+	72	0
-	+	75	32
-	+	85	51
-
-> ~/hyperiondev_dfe_data_science/Data Science Bootcamp/T38/create_table.sql
-	*	1671662033	0
-	"	27	6
-	^	27	7
-	.	27	6
-	+	1	0
-	+	14	0
-	+	15	0
-	+	27	6
-
-> ~/hyperiondev_dfe_data_science/Data Science Bootcamp/T38/student.sql
-	*	1671662031	0
-	"	68	0
-	^	62	0
-	.	62	0
-	+	23	0
 	+	63	0
-	+	23	77
-	+	27	0
-	+	63	0
-	+	32	0
-	+	26	43
-	+	27	81
-	+	28	58
-	+	29	80
-	+	30	82
-	+	31	82
-	+	32	0
-	+	35	47
-	+	32	0
-	+	21	37
-	+	34	63
-	+	38	0
-	+	8	0
-	+	9	0
-	+	20	0
-	+	25	0
-	+	33	0
-	+	38	71
-	+	38	77
-	+	63	0
-	+	39	83
-	+	39	61
-	+	63	31
-	+	63	0
-	+	63	25
-	+	63	60
-	+	63	0
-	+	63	1
-	+	63	0
-	+	63	64
-	+	63	0
-	+	63	1
-	+	45	0
-	+	39	59
-	+	46	21
-	+	47	9
-	+	46	6
-	+	47	33
-	+	48	31
-	+	49	39
-	+	51	24
-	+	63	0
-	+	56	2
-	+	54	72
-	+	27	77
-	+	28	78
-	+	29	75
-	+	30	77
-	+	31	78
-	+	27	30
-	+	22	69
-	+	23	70
-	+	22	64
-	+	23	0
-	+	54	0
-	+	54	72
-	+	22	71
-	+	23	72
-	+	22	28
-	+	23	28
-	+	22	30
-	+	23	30
-	+	22	64
-	+	23	65
-	+	27	76
-	+	28	76
-	+	29	70
-	+	28	61
-	+	29	68
-	+	30	76
-	+	31	71
-	+	35	45
-	+	39	55
-	+	49	39
-	+	50	26
-	+	9	0
-	+	37	0
-	+	41	0
-	+	53	0
-	+	63	0
-	+	59	39
-	+	60	30
-	+	63	59
-	+	64	7
-	+	68	9
-	+	67	20
-	+	68	18
-	+	66	0
-	+	62	0
-
-> ~/hyperiondev_dfe_data_science/Data Science Bootcamp/T38/create_db.sh
-	*	1671661930	0
-	"	2	41
-	^	2	39
-	.	2	39
-	+	2	39
-
-> ~/hyperiondev_dfe_data_science/Data Science Bootcamp/T38/test_student.db
-	*	1671656907	0
-	"	1	0
-
-> ~/hyperiondev_dfe_data_science/Data Science Bootcamp/T37/compulsory_task_2.txt
-	*	1671649739	0
-	"	160	0
-	^	62	0
-	.	62	0
 	+	64	0
 	+	65	0
-	+	66	16
-	+	65	95
-	+	66	33
-	+	67	45
-	+	68	83
-	+	65	33
-	+	71	11
-	+	72	11
-	+	72	33
-	+	71	33
-	+	70	33
-	+	71	23
-	+	72	0
-	+	75	0
-	+	76	0
-	+	73	22
-	+	74	95
-	+	73	95
-	+	74	45
-	+	72	45
-	+	71	45
-	+	70	45
-	+	72	95
-	+	71	95
-	+	70	58
-	+	71	58
-	+	72	72
-	+	71	70
-	+	70	70
-	+	55	28
-	+	59	31
-	+	91	26
-	+	92	14
-	+	90	11
-	+	91	0
-	+	88	22
-	+	90	22
-	+	89	22
-	+	95	22
-	+	86	28
-	+	95	28
-	+	100	41
-	+	101	15
-	+	100	12
-	+	98	12
-	+	97	36
-	+	98	36
-	+	99	0
-	+	100	0
-	+	99	36
-	+	104	66
-	+	110	62
-	+	111	25
-	+	109	22
-	+	108	0
-	+	109	0
-	+	108	23
-	+	109	0
-	+	108	16
-	+	107	16
-	+	106	57
-	+	107	58
-	+	106	58
-	+	107	45
-	+	106	33
-	+	108	58
-	+	109	58
+	+	66	0
+	+	60	0
+	+	61	35
 	+	85	0
-	+	94	0
-	+	103	0
-	+	111	33
-	+	113	33
-	+	112	33
-	+	113	45
-	+	112	45
-	+	111	45
-	+	114	0
-	+	116	1
-	+	116	62
-	+	120	3
-	+	120	0
-	+	123	44
-	+	122	31
-	+	126	0
-	+	124	0
-	+	125	0
-	+	149	28
-	+	150	16
-	+	148	24
-	+	147	24
-	+	146	13
-	+	152	0
-	+	153	32
-	+	155	40
-	+	160	33
-	+	161	33
-	+	161	0
-	+	62	0
-
-> ~/hyperiondev_dfe_data_science/Data Science Bootcamp/T37/compulsory_task_1.txt
-	*	1671638903	0
-	"	82	6
-	^	82	7
-	.	27	6
-	+	1	0
-	+	2	4
-	+	5	11
-	+	8	36
-	+	10	10
-	+	16	11
-	+	21	12
-	+	9	0
-	+	15	0
-	+	12	72
-	+	13	77
-	+	14	49
-	+	20	0
-	+	19	12
-	+	19	66
-	+	18	73
-	+	19	36
-	+	26	0
-	+	25	48
-	+	23	79
-	+	24	25
-	+	24	70
-	+	29	58
-	+	29	49
-	+	32	1
-	+	8	1
-	+	34	70
-	+	38	7
-	+	83	32
-	+	38	79
-	+	40	30
-	+	83	0
-	+	44	75
-	+	46	65
-	+	48	76
-	+	49	41
-	+	83	9
-	+	50	17
-	+	49	13
-	+	50	25
-	+	52	9
-	+	41	0
-	+	43	0
-	+	47	0
-	+	51	0
-	+	83	0
-	+	52	47
-	+	56	0
-	+	62	78
-	+	63	42
-	+	69	75
-	+	70	79
-	+	71	64
-	+	74	114
-	+	74	44
-	+	73	0
-	+	76	46
-	+	80	43
-	+	74	31
+	+	82	0
+	+	85	0
+	+	74	0
+	+	85	0
 	+	75	0
-	+	77	0
-	+	80	0
-	+	78	9
-	+	80	0
-	+	82	8
+	+	85	0
+	+	76	0
+	+	58	0
+	+	60	0
+	+	59	26
+	+	76	73
+	+	82	39
 	+	83	0
-	+	10	6
-	+	16	6
-	+	21	6
-	+	27	6
+	+	84	0
+	+	82	41
+	+	83	42
+	+	82	77
+	+	83	78
+	+	69	30
+	+	70	31
+	+	69	66
+	+	70	68
 
-> ~/projects/hugo_portfolio/content/projects/who_covid19_eda/_index.md
-	*	1671634918	0
-	"	221	57
-	^	96	19
-	.	221	19
-	+	2	52
-	+	96	8
-	+	221	19
+> ~/bin/,screenshot.sh
+	*	1702757421	0
+	"	3	0
+	^	3	0
+	.	3	4
+	+	1	18
+	+	3	6
+	+	2	46
+	+	3	4
 
-> ~/projects/hugo_portfolio/who_covid19_eda/_index.md
-	*	1671627006	0
-	"	1	0
+> ~/src/dwm/README
+	*	1702757134	0
+	"	48	0
 
-> ~/hyperiondev_dfe_data_science/Data Science Bootcamp/T36/report/hugo_conversion/hugo_report.md
-	*	1671626359	0
-	"	1	0
+> ~/src/dwm/config.def.h
+	*	1702757108	0
+	"	115	0
 
-> ~/hyperiondev_dfe_data_science/Data Science Bootcamp/T36/report/hugo_conversion/hugo_convert_markdown.py
-	*	1671626328	0
-	"	36	47
-	^	36	48
-	.	36	46
-	+	1	75
-	+	7	2
-	+	5	10
-	+	11	22
-	+	11	23
-	+	11	67
-	+	11	32
-	+	11	21
-	+	11	97
-	+	11	80
-	+	12	0
-	+	11	75
-	+	12	26
-	+	12	0
-	+	17	43
-	+	12	25
-	+	17	34
-	+	12	0
-	+	13	22
-	+	15	0
-	+	22	55
-	+	29	27
-	+	30	14
-	+	28	32
-	+	29	23
-	+	30	27
-	+	17	35
-	+	23	34
-	+	28	13
-	+	12	29
-	+	28	0
-	+	30	26
-	+	27	37
-	+	14	18
-	+	13	12
-	+	14	29
-	+	33	0
-	+	30	12
-	+	18	27
-	+	12	17
-	+	17	37
-	+	12	0
-	+	18	28
-	+	17	22
-	+	18	44
-	+	19	40
-	+	30	51
-	+	31	18
-	+	33	7
-	+	33	22
-	+	33	17
-	+	19	38
-	+	18	42
-	+	15	0
-	+	33	0
-	+	16	28
-	+	13	0
-	+	33	0
-	+	32	8
-	+	33	59
-	+	34	63
-	+	35	8
-	+	36	34
-	+	36	41
-	+	39	61
-	+	40	43
-	+	38	0
-	+	26	0
-	+	21	0
-	+	15	0
-	+	13	0
-	+	15	0
-	+	36	0
-	+	25	0
-	+	36	46
+> ~/bin/,status_xsetroot.sh
+	*	1702735138	0
+	"	11	0
+	^	5	37
+	.	5	36
+	+	6	42
+	+	9	30
+	+	1	18
+	+	5	36
 
-> ~/hyperiondev_dfe_data_science/Data Science Bootcamp/T36/report/hugo_conversion/report.md
-	*	1671626226	0
-	"	239	0
-	.	117	0
-	+	117	0
+> ~/bin/,weather.sh
+	*	1702735090	0
+	"	1	18
+	^	1	19
+	.	1	18
+	+	2	44
+	+	4	0
+	+	2	40
+	+	1	18
 
-> ~/hyperiondev_dfe_data_science/Data Science Bootcamp/T36/report/report.md
-	*	1671625763	0
-	"	235	0
-	^	224	36
-	.	117	0
-	+	171	72
-	+	172	79
-	+	173	75
-	+	174	41
-	+	180	77
-	+	184	26
-	+	184	5
-	+	185	4
-	+	185	65
-	+	184	28
-	+	185	66
-	+	12	49
-	+	25	76
-	+	26	0
-	+	18	0
-	+	24	0
-	+	81	53
-	+	88	24
-	+	144	54
-	+	201	72
-	+	194	58
-	+	193	58
-	+	194	77
-	+	195	73
-	+	194	72
-	+	195	75
-	+	199	79
-	+	205	34
-	+	205	5
-	+	206	14
-	+	205	19
-	+	205	23
-	+	205	8
-	+	206	0
-	+	13	0
-	+	14	78
-	+	15	79
-	+	16	6
-	+	151	73
-	+	152	71
-	+	153	79
-	+	155	15
-	+	155	41
-	+	152	74
-	+	154	21
-	+	154	79
-	+	155	16
-	+	181	0
-	+	182	0
-	+	182	76
-	+	183	78
-	+	184	75
-	+	185	8
-	+	182	0
-	+	162	41
-	+	168	73
-	+	169	62
-	+	166	0
-	+	167	0
-	+	202	0
-	+	203	13
-	+	203	74
-	+	204	76
-	+	205	77
-	+	207	0
-	+	208	78
-	+	210	28
-	+	209	22
-	+	251	17
-	+	252	29
-	+	252	30
-	+	253	0
-	+	253	135
-	+	252	29
-	+	253	69
-	+	253	185
-	+	253	69
-	+	254	35
-	+	4	15
-	+	238	0
-	+	239	0
-	+	14	27
-	+	254	36
-	+	255	17
-	+	256	17
-	+	257	47
-	+	259	13
-	+	257	111
-	+	258	31
-	+	259	0
-	+	230	0
-	+	231	78
-	+	233	27
-	+	221	18
-	+	222	0
-	+	223	77
-	+	224	17
-	+	223	44
-	+	224	35
-	+	117	0
-
-> ~/projects/hugo_portfolio/content/projects/uci_automobile_eda.md
-	*	1671624014	0
-	"	55	0
-	^	116	19
-	.	116	18
-	+	55	73
-	+	128	0
-	+	128	15
-	+	128	154
-	+	128	60
-	+	141	70
-	+	141	15
-	+	141	99
-	+	141	0
-	+	152	0
-	+	152	15
-	+	152	0
-	+	164	60
-	+	164	15
-	+	164	93
-	+	164	0
-	+	177	60
-	+	177	15
-	+	177	89
-	+	177	0
-	+	195	7
-	+	195	5
-	+	195	20
-	+	195	34
-	+	195	0
-	+	203	59
-	+	203	15
-	+	203	88
-	+	203	0
-	+	218	0
-	+	218	15
-	+	218	87
-	+	218	53
-	+	218	0
-	+	227	0
-	+	233	0
-	+	244	0
-	+	227	16
-	+	227	0
-	+	233	16
-	+	233	0
-	+	244	16
-	+	244	96
-	+	244	54
-	+	244	0
-	+	55	77
-	+	56	0
-	+	55	77
-	+	56	0
-	+	55	77
-	+	128	75
-	+	141	63
-	+	141	83
-	+	152	66
-	+	164	75
-	+	177	71
-	+	195	64
-	+	195	0
-	+	203	70
-	+	218	77
-	+	227	79
-	+	233	78
-	+	244	75
-	+	55	69
-	+	128	62
-	+	141	73
-	+	152	57
-	+	164	66
-	+	177	62
-	+	195	74
-	+	192	43
-	+	203	61
-	+	218	69
-	+	227	71
-	+	233	70
-	+	244	66
-	+	19	6
-	+	6	0
-	+	19	0
-	+	60	0
-	+	6	0
-	+	19	0
-	+	60	0
-	+	13	41
-	+	116	18
-
-> ~/projects/hugo_portfolio/public/.git/config
-	*	1671399579	0
-	"	1	0
-
-> ~/projects/hugo_portfolio/content/_index.md
-	*	1671398138	0
-	"	1	0
-
-> ~/projects/hugo_portfolio/content/contact.md
-	*	1671398126	0
-	"	12	0
-	^	12	25
-	.	12	24
-	+	12	24
-	+	12	0
-	+	8	0
-	+	9	27
-	+	12	0
-	+	12	59
-	+	12	24
-	+	12	41
-	+	12	42
-	+	12	83
-	+	12	24
-	+	3	15
-	+	2	15
-	+	12	25
-	+	12	24
-
-> ~/projects/hugo_portfolio/content/about.md
-	*	1671398119	0
-	"	23	0
-	^	23	1
-	.	23	0
+> ~/bin/,myip.sh
+	*	1702735075	0
+	"	2	14
+	^	2	15
+	.	2	14
+	+	1	18
+	+	2	0
 	+	3	0
-	+	25	54
-	+	16	0
+	+	2	36
+	+	3	9
+	+	2	4
+	+	3	0
+	+	2	14
+
+> ~/bin/,mi
+	*	1702735061	0
+	"	1	0
+
+> ~/reveal.js/README.md
+	*	1702730416	0
+	"	1	0
+
+> ~/bin/,vpn_launch.sh
+	*	1702730088	0
+	"	2	107
+	^	2	86
+	.	3	0
+	+	2	27
+	+	2	59
+	+	3	0
+	+	2	22
+	+	3	0
+	+	2	85
+	+	2	86
+	+	3	0
+
+> ~/Garmin/Activities/2023-12-09-12-31-43.fit
+	*	1702211536	0
+	"	1	0
+
+> /etc/pacman.conf
+	*	1701291440	0
+	"	100	0
+	.	101	0
+	+	101	0
+
+> ~/vimwiki/Reading List.wiki
+	*	1701027149	0
+	"	1	0
+	.	72	0
+	+	75	0
+	+	65	0
+	+	64	31
+	+	70	0
+	+	99	0
+	+	65	0
+	+	116	0
+	+	66	0
+	+	127	49
+	+	128	38
+	+	128	22
+	+	107	0
+	+	74	0
+	+	128	0
+	+	69	0
+	+	106	0
+	+	68	0
+	+	128	0
+	+	67	0
+	+	127	0
+	+	69	0
+	+	72	0
+
+> ~/vimwiki/index.wiki
+	*	1701027061	0
+	"	10	3
+	^	18	39
+	.	18	2
+	+	7	0
+	+	19	0
+	+	19	6
+	+	1	8
+	+	19	9
+	+	19	0
+	+	3	0
+	+	2	20
+	+	4	0
+	+	5	0
+	+	6	10
+	+	11	0
+	+	12	11
+	+	15	0
+	+	16	12
+	+	8	2
+	+	9	2
+	+	19	0
 	+	10	0
-	+	11	9
-	+	12	19
-	+	13	13
-	+	10	10
+	+	16	13
+	+	14	2
+	+	17	0
+	+	14	0
+	+	13	0
+	+	10	0
+	+	9	0
+	+	8	0
+	+	7	0
+	+	4	0
+	+	17	2
+	+	18	2
+
+> ~/exercism/vimscript/bob/bob.vim
+	*	1699299048	0
+	"	1	0
+	^	4	27
+	.	4	26
+	+	6	24
+	+	8	21
+	+	6	12
+	+	4	20
+	+	20	17
+	+	20	27
+	+	6	15
+	+	8	15
+	+	20	11
+	+	4	25
+	+	20	0
+	+	28	0
+	+	4	0
+	+	36	0
+	+	35	0
+	+	44	0
+	+	43	0
+	+	51	0
+	+	30	31
+	+	4	0
+	+	6	17
+	+	8	17
+	+	22	0
+	+	11	19
+	+	30	13
+	+	28	43
+	+	30	0
+	+	28	25
+	+	25	30
+	+	28	29
+	+	4	27
+	+	11	33
+	+	11	24
+	+	18	20
+	+	17	7
+	+	23	0
+	+	32	0
+	+	40	0
+	+	48	0
+	+	37	0
+	+	45	0
+	+	57	0
+	+	21	0
+	+	4	0
+	+	10	0
+	+	11	0
+	+	13	0
+	+	19	0
+	+	11	34
+	+	18	24
+	+	66	11
+	+	62	0
+	+	65	0
+	+	60	0
+	+	16	0
+	+	14	61
+	+	15	33
+	+	62	3
+	+	62	15
+	+	61	38
+	+	64	24
+	+	62	69
+	+	64	29
+	+	67	0
+	+	64	31
+	+	64	0
+	+	62	0
+	+	64	0
+	+	65	0
+	+	63	0
+	+	31	0
+	+	28	51
+	+	36	28
+	+	44	37
+	+	36	27
+	+	28	59
+	+	28	36
+	+	28	54
+	+	28	0
+	+	64	33
+	+	2	0
+	+	8	53
+	+	2	4
+	+	26	4
+	+	34	4
+	+	42	4
+	+	50	4
+	+	62	4
+	+	64	35
+	+	28	29
+	+	28	87
+	+	28	38
+	+	28	25
+	+	28	0
+	+	11	0
+	+	25	27
+	+	28	4
+	+	29	0
+	+	28	42
+	+	4	26
+
+> ~/exercism/vimscript/bob/bob.vader
+	*	1699218784	0
+	"	131	23
+
+> /usr/share/vim/vim90/doc/pattern.txt
+	*	1699215086	0
+	"	1503	0
+
+> ~/exercism/vimscript/hello-world/hello_world.vim
+	*	1699197824	0
+	"	2	0
+	^	2	23
+	.	2	17
+	+	2	17
+
+> ~/dotfiles/.vim/vimrc
+	*	1699196236	0
+	"	19	12
+
+> ~/exercism/vimscript/hello-world/hello_world.vader
+	*	1699195366	0
+	"	1	0
+
+> ~/exercism/vimscript/hello-world/README.md
+	*	1699195353	0
+	"	36	0
+
+> ~/documents/address_history.txt
+	*	1696865246	0
+	"	10	0
+
+> ~/join_csvs.py
+	*	1695229994	0
+	"	1	0
+	^	42	0
+	.	41	97
+	+	81	82
+	+	44	0
+	+	45	27
+	+	55	33
+	+	47	27
+	+	53	0
+	+	54	26
+	+	60	0
+	+	41	97
+
+> ~/vimwiki/National Portrait Gallery August 2023.wiki
+	*	1692561006	0
+	"	7	0
+	^	26	43
+	.	26	42
+	+	1	1
+	+	1	40
+	+	2	0
+	+	3	37
+	+	4	7
+	+	5	13
+	+	6	37
+	+	7	22
+	+	8	23
+	+	9	10
+	+	10	16
+	+	11	15
+	+	12	11
+	+	13	15
+	+	14	25
 	+	15	21
+	+	16	20
+	+	17	24
+	+	18	17
+	+	19	10
+	+	20	19
+	+	21	22
+	+	22	7
+	+	23	19
+	+	24	17
+	+	25	19
+	+	26	42
+
+> ~/vimwiki/Tate Britain August 2023.wiki
+	*	1692555460	0
+	"	15	17
+	^	15	18
+	.	15	17
+	+	2	0
+	+	3	17
+	+	5	20
+	+	3	8
+	+	4	6
+	+	6	3
+	+	7	22
+	+	9	10
+	+	10	16
+	+	11	10
+	+	12	0
+	+	8	9
+	+	13	35
+	+	14	8
+	+	15	17
+
+> ~/vimwiki/Goals after Camino de Santiago 2023.wiki
+	*	1692554911	0
+	"	26	16
+	^	26	17
+	.	26	16
+	+	2	0
+	+	3	78
+	+	5	28
+	+	6	13
+	+	7	62
+	+	8	75
+	+	11	40
+	+	12	18
+	+	13	21
+	+	10	41
+	+	14	22
+	+	15	43
+	+	16	29
+	+	18	15
+	+	19	23
+	+	20	14
+	+	21	18
+	+	22	26
+	+	23	74
+	+	24	9
+	+	25	15
+	+	26	0
+	+	24	29
+	+	26	16
+
+> ~/vimwiki/Wish List.wiki
+	*	1692554285	0
+	"	11	24
+	^	11	25
+	.	11	25
+	+	2	0
+	+	3	77
+	+	4	50
+	+	5	0
+	+	18	20
+	+	19	9
+	+	18	49
+	+	19	34
+	+	18	43
+	+	20	0
+	+	6	22
+	+	21	20
+	+	22	18
+	+	21	35
+	+	8	18
+	+	12	16
+	+	13	30
+	+	14	14
+	+	15	9
+	+	16	16
+	+	17	10
+	+	16	28
+	+	22	24
+	+	17	25
+	+	7	0
+	+	23	46
+	+	24	12
+	+	25	23
+	+	26	38
+	+	9	22
+	+	10	11
+	+	11	25
+
+> ~/vimwiki/To Sell.wiki
+	*	1692554259	0
+	"	5	17
+	^	5	18
+	.	5	17
+	+	2	0
+	+	3	17
+	+	4	11
+	+	3	21
+	+	5	17
+
+> ~/exercism/java/hello-world/src/main/java/Greeter.java
+	*	1692550625	0
+	"	4	27
+	^	4	28
+	.	4	27
+	+	4	27
+
+> ~/exercism/cpp/freelancer-rates/freelancer_rates.cpp
+	*	1692549022	0
+	"	14	52
+	^	14	53
+	.	14	51
+	+	6	7
+	+	8	27
+	+	13	7
+	+	14	45
+	+	20	7
+	+	2	14
+	+	27	14
+	+	27	9
+	+	27	19
+	+	37	7
+	+	42	34
+	+	25	68
+	+	27	36
+	+	26	88
+	+	27	43
+	+	42	0
+	+	39	84
+	+	41	31
+	+	8	27
+	+	6	7
+	+	14	45
+	+	25	40
+	+	2	14
+	+	25	51
+	+	22	61
+	+	23	83
+	+	25	0
+	+	24	50
+	+	25	31
+	+	13	7
+	+	20	7
+	+	32	7
+	+	34	73
+	+	35	54
+	+	36	33
+	+	37	23
+	+	34	64
+	+	36	35
+	+	23	73
+	+	14	51
+
+> ~/exercism/cpp/freelancer-rates/freelancer_rates_test.cpp
+	*	1692548987	0
+	"	2	0
+	.	59	0
+	+	12	0
+	+	57	0
+	+	12	0
+	+	59	0
+
+> ~/exercism/cpp/freelancer-rates/build/freelancer_rates_test.cpp
+	*	1692548893	0
+	"	1	0
+
+> ~/exercism/cpp/log-levels/log_levels.cpp
+	*	1692546507	0
+	"	19	42
+	^	19	43
+	.	19	42
+	+	21	1
+	+	4	0
+	+	4	32
+	+	7	0
+	+	5	28
+	+	5	36
+	+	4	36
+	+	5	40
+	+	6	51
+	+	6	13
+	+	6	8
+	+	6	0
+	+	9	46
+	+	14	0
+	+	10	50
+	+	11	48
+	+	13	73
+	+	16	45
+	+	20	0
+	+	17	18
+	+	6	41
+	+	13	54
+	+	12	74
+	+	13	66
+	+	12	74
+	+	13	48
+	+	12	76
+	+	13	0
+	+	12	26
+	+	13	51
+	+	12	12
+	+	13	54
+	+	17	41
+	+	19	47
+	+	18	34
+	+	19	42
+
+> ~/exercism/cpp/log-levels/log_levels_test.cpp
+	*	1692544558	0
+	"	89	0
+	.	90	0
+	+	19	0
+	+	90	0
+
+> ~/exercism/cpp/last-will/last_will.cpp
+	*	1692544185	0
+	"	50	26
+	^	50	27
+	.	50	26
+	+	61	0
+	+	47	55
+	+	51	0
+	+	48	55
+	+	49	56
+	+	50	56
+	+	49	18
+	+	50	18
+	+	53	30
+	+	54	52
+	+	53	23
+	+	57	41
+	+	57	15
+	+	57	52
+	+	58	41
+	+	59	43
+	+	60	33
+	+	54	8
+	+	57	23
+	+	54	23
+	+	57	39
+	+	54	0
+	+	57	26
+	+	54	22
+	+	54	64
+	+	56	51
+	+	54	0
+	+	54	51
+	+	56	39
+	+	57	15
+	+	57	39
+	+	57	15
+	+	58	9
+	+	59	40
+	+	59	42
+	+	60	36
+	+	54	18
+	+	54	58
+	+	56	17
+	+	57	33
+	+	59	0
+	+	54	19
+	+	57	35
+	+	54	8
+	+	55	0
+	+	54	15
+	+	56	41
+	+	57	14
+	+	57	15
+	+	58	12
+	+	59	12
+	+	60	0
+	+	59	41
+	+	56	41
+	+	59	42
+	+	60	0
+	+	50	26
+
+> ~/exercism/cpp/last-will/last_will_test.cpp
+	*	1692543207	0
+	"	1	0
+	.	59	0
+	+	42	0
+	+	59	0
+
+> ~/exercism/cpp/lasagna/lasagna.cpp
+	*	1692543193	0
+	"	30	0
+	^	29	64
+	.	30	0
+	+	4	11
+	+	11	7
+	+	14	0
+	+	20	7
+	+	22	28
+	+	28	7
+	+	29	64
+	+	30	0
+
+> ~/exercism/cpp/pacman-rules/pacman_rules.cpp
+	*	1692543177	0
+	"	32	0
+	^	31	74
+	.	31	73
+	+	5	7
+	+	6	47
+	+	13	7
+	+	14	47
+	+	21	7
+	+	22	48
+	+	30	7
+	+	31	73
+
+> ~/exercism/cpp/pacman-rules/build/Makefile
+	*	1692542444	0
+	"	222	0
+
+> ~/exercism/cpp/pacman-rules/pacman_rules_test.cpp
+	*	1692542242	0
+	"	59	0
+	.	60	0
+	+	13	0
+	+	60	0
+
+> ~/exercism/cpp/lasagna/lasagna_test.cpp
+	*	1692542008	0
+	"	71	0
+	.	72	0
+	+	17	0
+	+	72	0
+
+> ~/exercism/cpp/lasagna/test/tests-main.cpp
+	*	1692541806	0
+	"	1	24
+
+> ~/exercism/cpp/lasagna/HELP.md
+	*	1692541633	0
+	"	1	0
+
+> ~/vimwiki/diary/diary.wiki
+	*	1692471005	0
+	"	1	0
+
+> ~/exercism/r/hamming/hamming.R
+	*	1692469515	0
+	"	3	12
+	^	3	36
+	.	3	35
+	+	1	32
+	+	1	0
+	+	1	39
+	+	1	0
+	+	1	35
+	+	1	18
+	+	1	14
+	+	1	35
+	+	1	15
+	+	1	59
+	+	1	1
+	+	1	64
+	+	16	0
+	+	1	0
+	+	1	34
+	+	6	0
+	+	1	0
+	+	8	0
+	+	8	43
+	+	9	41
+	+	8	1
+	+	10	0
+	+	6	0
+	+	8	37
+	+	9	37
+	+	9	8
+	+	5	2
+	+	3	35
+
+> ~/exercism/r/raindrops/raindrops.R
+	*	1692466875	0
+	"	16	0
+	^	16	1
+	.	16	0
+	+	16	8
+	+	16	0
+	+	3	27
+	+	5	0
+	+	4	32
+	+	6	27
+	+	8	0
+	+	7	30
+	+	9	18
+	+	10	30
+	+	12	23
+	+	14	0
+	+	13	23
+	+	16	9
+	+	15	0
+	+	16	10
+	+	13	33
+	+	16	0
+	+	4	47
+	+	7	35
+	+	10	0
+	+	10	35
+	+	15	16
+	+	16	0
+
+> ~/exercism/r/leap/leap.R
+	*	1692465584	0
+	"	1	0
+	^	12	0
+	.	12	0
+	+	3	23
+	+	4	19
+	+	6	25
+	+	9	25
+	+	13	14
+	+	3	24
+	+	5	0
+	+	6	26
+	+	8	0
+	+	9	26
+	+	11	0
+	+	12	0
+
+> ~/exercism/r/darts/darts.R
+	*	1692465531	0
+	"	11	0
+	^	11	0
+	.	11	0
+	+	15	26
+	+	17	0
+	+	16	26
+	+	2	5
+	+	2	26
+	+	3	18
+	+	2	23
+	+	6	26
+	+	2	22
+	+	6	51
+	+	7	17
+	+	2	24
+	+	4	48
+	+	7	18
+	+	12	15
+	+	4	9
+	+	2	27
+	+	4	0
+	+	4	53
+	+	6	0
+	+	6	55
+	+	7	18
+	+	8	0
+	+	8	11
+	+	11	0
+
+> ~/exercism/r/two-fer/two-fer.R
+	*	1692463962	0
+	"	2	4
+	.	2	0
+	+	3	0
+	+	2	43
+	+	2	22
+	+	2	20
+	+	1	30
+	+	2	0
+
+> ~/.Rprofile
+	*	1692463432	0
+	"	3	48
+	^	3	49
+	.	3	49
+	+	5	2
+	+	3	49
+
+> ~/exercism/clojure/cars-assemble/src/cars_assemble.clj
+	*	1692462491	0
+	"	11	24
+	^	14	44
+	.	11	24
+	+	7	0
+	+	7	21
+	+	8	19
+	+	19	55
+	+	20	42
+	+	20	21
+	+	20	55
+	+	20	47
+	+	20	48
+	+	20	47
+	+	20	62
+	+	20	44
+	+	20	47
+	+	20	0
+	+	19	55
+	+	8	0
+	+	14	0
+	+	8	20
+	+	9	23
+	+	11	42
+	+	12	22
+	+	13	25
+	+	14	32
+	+	19	33
+	+	13	26
+	+	19	32
+	+	14	41
+	+	19	38
+	+	14	2
+	+	19	51
+	+	14	41
+	+	19	49
+	+	7	20
+	+	9	0
+	+	12	9
+	+	13	9
+	+	10	9
+	+	9	22
+	+	14	42
+	+	11	24
+
+> ~/exercism/clojure/sublist/src/sublist.clj
+	*	1692459656	0
+	"	16	23
+	^	16	24
+	.	16	23
+	+	3	28
+	+	3	22
+	+	3	23
+	+	3	30
+	+	3	0
+	+	6	0
+	+	5	0
+	+	6	17
+	+	9	0
+	+	8	0
+	+	9	13
+	+	3	13
+	+	6	15
+	+	9	11
+	+	5	57
+	+	5	0
+	+	3	26
+	+	4	73
+	+	7	22
+	+	10	15
+	+	3	0
+	+	3	26
+	+	3	30
+	+	3	20
+	+	3	21
+	+	3	6
+	+	3	0
+	+	3	40
+	+	3	42
+	+	3	29
+	+	3	31
+	+	3	34
+	+	3	22
+	+	3	0
+	+	12	0
+	+	11	0
+	+	17	0
+	+	17	47
+	+	17	22
+	+	17	6
+	+	17	0
+	+	17	40
+	+	17	17
+	+	17	34
+	+	17	4
+	+	17	0
+	+	17	45
+	+	17	49
+	+	17	33
+	+	17	53
+	+	17	22
+	+	17	40
+	+	17	42
+	+	17	38
+	+	17	0
+	+	17	7
+	+	17	54
+	+	17	13
+	+	17	51
+	+	17	52
+	+	17	51
+	+	17	53
+	+	17	34
+	+	17	0
+	+	17	49
+	+	17	56
+	+	17	0
+	+	13	35
+	+	14	39
+	+	15	43
+	+	16	23
+
+> ~/exercism/clojure/sublist/test/sublist_test.clj
+	*	1692458496	0
+	"	1	0
+
+> ~/exercism/clojure/bird-watcher/src/bird_watcher.clj
+	*	1692456567	0
+	"	13	38
+	^	13	39
+	.	13	37
+	+	3	29
+	+	5	0
+	+	6	14
+	+	9	3
+	+	6	14
+	+	9	29
+	+	11	0
+	+	7	0
+	+	13	19
+	+	9	27
+	+	16	27
+	+	19	47
+	+	19	56
+	+	19	8
+	+	19	34
+	+	19	23
+	+	23	0
+	+	22	2
+	+	9	26
+	+	9	27
+	+	22	0
+	+	22	28
+	+	10	48
+	+	9	0
+	+	10	48
+	+	9	2
+	+	10	4
+	+	9	28
+	+	10	35
+	+	19	20
+	+	13	37
+
+> ~/exercism/go/welcome-to-tech-palace/welcome_to_tech_palace.go
+	*	1692452150	0
+	"	23	37
+	^	23	38
+	.	23	37
+	+	1	71
+	+	4	14
+	+	11	0
+	+	8	57
+	+	9	38
+	+	10	32
+	+	18	0
+	+	15	23
+	+	16	68
+	+	17	28
+	+	16	63
+	+	17	56
+	+	22	0
+	+	25	0
+	+	22	57
+	+	23	35
+	+	24	16
+	+	16	34
+	+	23	37
+
+> ~/exercism/go/annalyns-infiltration/annalyns_infiltration.go
+	*	1692451282	0
+	"	23	60
+	^	23	61
+	.	23	60
+	+	3	0
+	+	1	62
+	+	7	0
+	+	6	24
+	+	12	0
+	+	11	59
+	+	17	0
+	+	16	43
+	+	25	0
+	+	24	63
+	+	25	0
+	+	22	27
+	+	24	12
+	+	22	28
+	+	24	38
+	+	23	60
+
+> ~/exercism/go/cars-assemble/cars_assemble.go
+	*	1692450912	0
+	"	14	69
+	^	14	70
+	.	14	69
+	+	3	0
+	+	1	68
+	+	9	0
+	+	7	51
+	+	8	50
+	+	15	0
+	+	14	49
+	+	22	0
+	+	19	40
+	+	20	42
+	+	21	62
+	+	14	69
+
+> ~/exercism/go/weather-forecast/weather_forecast.go
+	*	1692450189	0
+	"	12	19
+	^	12	20
+	.	12	19
+	+	1	68
+	+	2	20
+	+	5	60
+	+	8	55
+	+	12	19
+
+> ~/exercism/go/lasagna/lasagna.go
+	*	1692449890	0
+	"	1	0
+	^	20	64
+	.	21	0
+	+	5	0
+	+	4	18
+	+	4	22
+	+	10	0
+	+	16	0
+	+	21	0
+	+	20	64
+	+	21	0
+
+> ~/exercism/r/hello-world/hello-world.R
+	*	1692448787	0
+	"	1	0
+	^	2	16
+	.	2	15
+	+	2	15
+
+> ~/vimwiki/diary/2023-08-19.wiki
+	*	1692448478	0
+	"	1	0
+
+> ~/reveal.js/content.md
+	*	1692133885	0
+	"	8	10
+	^	8	11
+	.	9	0
+	+	1	12
+	+	2	0
+	+	5	13
+	+	1	12
+	+	2	0
+	+	5	1
+	+	3	0
+	+	4	0
+	+	5	0
+	+	2	0
+	+	3	0
+	+	5	1
+	+	7	8
+	+	8	11
+	+	8	0
+	+	6	0
+	+	8	10
+	+	9	0
+	+	8	11
+	+	9	0
+
+> ~/reveal.js/index.html
+	*	1692133834	0
+	"	2	0
+	^	20	43
+	.	20	47
+	+	25	0
+	+	24	9
+	+	20	24
+	+	21	24
+	+	22	25
+	+	23	24
+	+	24	16
+	+	19	46
+	+	25	0
+	+	20	47
+
+> ~/exercism/cpp/hello-world/hello_world.cpp
+	*	1692129428	0
+	"	10	23
+	^	10	24
+	.	10	23
+	+	10	23
+
+> ~/exercism/c/difference-of-squares/test_difference_of_squares.c
+	*	1692127306	0
+	"	61	0
+	.	19	0
+	+	19	0
+
+> ~/exercism/c/difference-of-squares/difference_of_squares.c
+	*	1692127290	0
+	"	14	55
+	^	14	56
+	.	14	55
+	+	3	0
+	+	4	50
+	+	6	1
+	+	11	1
+	+	13	57
+	+	15	0
+	+	5	59
+	+	10	12
+	+	14	12
+	+	10	16
+	+	14	16
+	+	10	16
+	+	2	15
+	+	10	15
+	+	9	23
+	+	5	58
+	+	9	50
+	+	10	20
+	+	14	55
+
+> ~/exercism/c/difference-of-squares/difference_of_squares.h
+	*	1692126952	0
+	"	3	0
+
+> ~/exercism/c/grains/grains.c
+	*	1692126354	0
+	"	1	0
+	^	25	26
+	.	25	25
+	+	66	28
+	+	33	34
+	+	66	26
+	+	33	36
+	+	66	0
+	+	33	26
+	+	66	0
+	+	34	0
+	+	33	26
+	+	66	0
+	+	51	46
+	+	59	46
+	+	33	0
+	+	38	0
+	+	33	0
+	+	31	0
+	+	33	23
+	+	33	29
+	+	33	0
+	+	33	25
+	+	36	27
+	+	33	0
+	+	51	35
+	+	52	0
+	+	51	37
+	+	51	60
+	+	59	60
+	+	51	46
+	+	31	40
+	+	32	25
+	+	59	35
+	+	32	18
+	+	51	25
+	+	36	16
+	+	32	23
+	+	36	38
+	+	51	45
+	+	59	45
+	+	1	17
+	+	4	0
+	+	2	0
+	+	20	0
+	+	4	32
+	+	20	0
+	+	20	1
+	+	28	0
+	+	23	20
+	+	28	0
+	+	3	0
+	+	5	49
+	+	6	34
+	+	8	0
+	+	7	16
+	+	28	12
+	+	24	0
+	+	22	52
+	+	6	34
+	+	20	12
+	+	13	33
+	+	13	0
+	+	14	0
+	+	15	37
+	+	19	0
+	+	19	19
+	+	20	16
+	+	14	22
+	+	19	20
+	+	19	8
+	+	19	0
+	+	9	4
+	+	9	22
+	+	10	15
+	+	11	4
+	+	12	9
+	+	13	7
+	+	14	7
+	+	15	7
+	+	19	7
+	+	16	23
+	+	19	4
+	+	13	0
+	+	12	9
+	+	20	0
+	+	18	0
+	+	18	7
+	+	20	0
+	+	15	36
+	+	28	19
+	+	5	0
+	+	9	0
+	+	12	0
+	+	25	35
+	+	27	4
+	+	28	23
+	+	26	22
+	+	24	12
+	+	26	34
+	+	24	0
+	+	26	37
+	+	25	25
+
+> ~/exercism/c/grains/test_grains.c
+	*	1692125961	0
+	"	1	0
+	.	34	0
+	+	19	0
+	+	24	0
+	+	29	0
+	+	34	0
+
+> ~/exercism/c/grains/grains.h
+	*	1692125251	0
+	"	6	30
+	^	6	31
+	.	6	30
+	+	8	0
+	+	6	30
+
+> ~/exercism/c/grains/old_attempt
+	*	1692125087	0
+	"	7	0
+
+> ~/exercism/c/grains/fra
+	*	1692124594	0
+	"	1	0
+
+> ~/exercism/c/hamming/test_hamming.c
+	*	1691959736	0
+	"	61	3
+	.	54	0
+	+	19	0
+	+	24	0
+	+	29	0
+	+	34	0
+	+	39	0
+	+	44	0
+	+	49	0
+	+	54	0
+
+> ~/exercism/c/hamming/hamming.c
+	*	1691959643	0
+	"	23	23
+	^	23	24
+	.	23	23
+	+	6	0
+	+	32	0
+	+	24	0
+	+	5	49
+	+	24	0
+	+	27	3
+	+	2	18
+	+	27	53
+	+	31	0
+	+	28	26
+	+	3	17
+	+	28	34
+	+	29	34
+	+	30	29
+	+	24	0
+	+	9	36
+	+	11	0
+	+	7	0
+	+	16	30
+	+	18	31
+	+	22	0
+	+	19	0
+	+	17	8
+	+	13	26
+	+	14	25
+	+	19	33
+	+	21	0
+	+	20	26
+	+	23	22
+	+	24	0
+	+	9	27
+	+	16	24
+	+	28	28
+	+	29	28
+	+	19	22
+	+	14	21
+	+	18	23
+	+	23	23
+
+> ~/exercism/c/hamming/hamming.h
+	*	1691959226	0
+	"	4	18
+	^	4	19
+	.	4	18
+	+	7	51
+	+	4	18
+
+> ~/exercism/c/isogram/isogram.c
+	*	1691958569	0
+	"	1	0
+	^	38	57
+	.	38	56
+	+	5	0
+	+	7	0
+	+	43	0
+	+	24	0
+	+	23	0
+	+	6	54
+	+	43	0
+	+	2	17
+	+	23	3
+	+	27	69
+	+	42	0
+	+	26	48
+	+	29	29
+	+	36	31
+	+	39	0
+	+	29	21
+	+	32	35
+	+	38	0
+	+	29	28
+	+	30	17
+	+	38	39
+	+	37	36
+	+	29	0
+	+	33	0
+	+	29	0
+	+	28	0
+	+	36	0
+	+	41	15
+	+	36	0
+	+	35	0
+	+	40	0
+	+	13	32
+	+	15	7
+	+	12	0
+	+	15	31
+	+	21	0
+	+	17	64
+	+	18	29
+	+	20	0
+	+	19	23
+	+	14	0
+	+	13	21
+	+	14	4
+	+	14	19
+	+	14	0
+	+	14	20
+	+	19	24
+	+	18	30
+	+	16	27
+	+	17	62
+	+	18	64
+	+	23	14
 	+	15	0
 	+	14	0
-	+	10	0
-	+	8	0
-	+	17	0
-	+	23	0
-
-> ~/projects/hugo_portfolio/config.yaml
-	*	1671396905	0
-	"	23	0
-	^	23	0
-	.	23	0
-	+	22	209
-	+	8	0
-	+	9	3
-	+	10	4
-	+	11	4
-	+	12	4
-	+	13	4
-	+	14	4
-	+	15	4
-	+	17	4
-	+	17	5
-	+	17	6
-	+	17	7
-	+	17	0
-	+	17	4
-	+	18	6
-	+	19	7
-	+	20	6
-	+	21	7
-	+	5	0
-	+	1	7
-	+	2	12
-	+	3	5
-	+	4	5
-	+	5	0
+	+	17	41
+	+	17	22
 	+	22	0
-	+	18	20
-	+	22	12
-	+	19	14
-	+	20	22
-	+	21	14
-	+	22	14
-	+	21	14
-	+	22	0
-	+	24	4
-	+	25	6
-	+	26	14
-	+	27	8
-	+	28	7
-	+	29	0
-	+	26	5
-	+	27	5
-	+	28	5
-	+	17	0
-	+	18	18
-	+	20	21
-	+	11	35
-	+	10	21
-	+	12	36
-	+	13	31
-	+	12	40
-	+	18	19
-	+	20	21
+	+	14	12
+	+	15	23
+	+	36	23
+	+	34	9
 	+	16	0
-	+	17	2
-	+	18	4
-	+	19	6
-	+	20	4
-	+	21	6
-	+	14	18
-	+	15	19
-	+	12	29
-	+	11	136
-	+	11	15
-	+	11	109
-	+	11	167
-	+	12	0
-	+	11	73
-	+	10	23
-	+	12	35
-	+	13	33
-	+	6	0
-	+	23	0
+	+	17	0
+	+	16	12
+	+	41	16
+	+	17	12
+	+	18	65
+	+	23	15
+	+	2	0
+	+	14	0
+	+	13	0
+	+	9	21
+	+	3	17
+	+	11	0
+	+	16	42
+	+	1	16
+	+	38	34
+	+	16	34
+	+	38	56
 
-> ~/projects/hugo_portfolio/.github/workflows/pages.yml
-	*	1671396058	0
-	"	11	3
-	^	11	4
-	.	10	25
-	+	38	0
-	+	4	0
-	+	5	4
-	+	6	5
+> ~/exercism/c/armstrong-numbers/armstrong_numbers.c
+	*	1691958555	0
+	"	1	0
+	^	23	15
+	.	23	14
 	+	8	0
-	+	9	0
+	+	10	3
+	+	10	30
+	+	27	14
+	+	2	18
 	+	10	0
-	+	10	25
+	+	9	63
+	+	27	4
+	+	10	5
+	+	27	3
+	+	27	0
+	+	12	0
+	+	10	39
+	+	12	33
+	+	2	17
+	+	12	31
+	+	27	0
+	+	27	41
+	+	27	0
+	+	16	14
+	+	20	12
+	+	27	13
+	+	20	9
+	+	16	17
+	+	15	46
+	+	11	0
+	+	9	30
+	+	27	16
+	+	12	15
+	+	27	23
+	+	27	28
+	+	2	0
+	+	2	17
+	+	27	35
+	+	27	21
+	+	14	0
+	+	13	36
+	+	27	29
+	+	18	41
+	+	27	23
+	+	2	15
+	+	27	37
+	+	27	29
+	+	27	19
+	+	27	0
+	+	27	39
+	+	27	19
+	+	2	0
+	+	1	0
+	+	2	0
+	+	1	0
+	+	2	16
+	+	27	22
+	+	12	16
+	+	12	27
+	+	2	0
+	+	12	0
+	+	5	33
+	+	7	0
+	+	6	0
+	+	4	27
+	+	6	28
+	+	13	44
+	+	27	0
+	+	2	0
+	+	27	19
+	+	20	12
+	+	24	0
+	+	20	3
+	+	20	23
+	+	22	7
+	+	23	7
+	+	24	3
+	+	27	0
+	+	20	18
+	+	22	46
+	+	21	34
+	+	22	25
+	+	23	16
+	+	27	0
+	+	20	20
+	+	26	29
+	+	27	0
+	+	6	29
+	+	2	0
+	+	22	22
+	+	19	23
+	+	20	12
+	+	21	22
+	+	20	13
+	+	21	23
+	+	19	11
+	+	23	14
+
+> ~/exercism/c/isogram/test_isogram.c
+	*	1691958311	0
+	"	110	0
+	.	86	0
+	+	20	0
+	+	25	0
+	+	30	0
+	+	35	0
+	+	40	0
+	+	45	0
+	+	4	0
+	+	50	0
+	+	55	0
+	+	61	0
+	+	66	0
+	+	71	0
+	+	76	0
+	+	81	0
+	+	86	0
+
+> ~/exercism/c/isogram/isogram.h
+	*	1691956714	0
+	"	7	67
+	^	7	68
+	.	7	67
+	+	7	6
+	+	7	67
+
+> ~/exercism/c/armstrong-numbers/test_armstrong_numbers.c
+	*	1691937713	0
+	"	72	0
+	.	54	0
+	+	19	0
+	+	24	0
+	+	29	0
+	+	34	0
+	+	39	0
+	+	44	0
+	+	49	0
+	+	54	0
+
+> ~/exercism/c/armstrong-numbers/armstrong_numbers.h
+	*	1691937360	0
+	"	7	31
+	^	7	32
+	.	7	31
+	+	5	0
+	+	7	31
+
+> ~/exercism/c/armstrong-numbers/HELP.md
+	*	1691935303	0
+	"	63	0
+
+> ~/exercism/c/armstrong-numbers/armstrong_numbers.
+	*	1691934911	0
+	"	1	0
