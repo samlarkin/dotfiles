@@ -3,3 +3,5 @@
 .vim/viminfo
 .vim/.netrwhist
 .vim/*.tmp
+.vim/viminfo
+.vim/.netrwhist
