@@ -1,7 +1,7 @@
-.vim/spell/*
-.vim/swap/*
-.vim/viminfo
-.vim/.netrwhist
-.vim/*.tmp
-.vim/viminfo
-.vim/.netrwhist
+vim/spell/*
+vim/swap/*
+vim/viminfo
+vim/.netrwhist
+vim/*.tmp
+vim/viminfo
+vim/.netrwhist

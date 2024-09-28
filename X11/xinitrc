@@ -1,0 +1,5 @@
+/home/sam/bin/,status_xsetroot.sh &
+setxkbmap -layout "uk,es" -option "grp:shifts_toggle"
+setxkbmap -option caps:escape
+[[ -f /home/sam/dotfiles/Xresources ]] && xrdb -merge -I$HOME /home/sam/dofiles/Xresources
+exec dwm
