@@ -26,10 +26,13 @@ bindkey -v
 export EDITOR=/usr/bin/vim
 export READER=/usr/bin/zathura
 
+## ZSH Dotfiles Directory
+export ZDOTDIR=$HOME/dotfiles/zsh
+
 ## History 
 export SAVEHIST=1000000
 export HISTSIZE=1000
-export HISTFILE=$HOME/.zsh_history
+export HISTFILE=$ZDOTDIR/zsh_history
 
 ## go env
 export GOPATH=$HOME/go
@@ -41,9 +44,6 @@ export PATH=$PATH:$HOME/bin
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$GOROOT/bin
 export PATH=$PATH:$GOPATH/bin
-
-## ZSH Dotfiles Directory
-export ZDOTDIR=$HOME/dotfiles/zsh
 
 ## X
 export XINITRC=$HOME/dotfiles/X11/xinitrc
