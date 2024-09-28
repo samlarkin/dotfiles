@@ -20,22 +20,30 @@ alias xclip="xclip -selection clipboard"
 # Set vi keybindings
 bindkey -v
 
-# History 
+# Environment variables
+
+## Env preferences
+export EDITOR=/usr/bin/vim
+export READER=/usr/bin/zathura
+
+## History 
 export SAVEHIST=1000000
 export HISTSIZE=1000
 export HISTFILE=$HOME/.zsh_history
 
-# Env preferences
-export EDITOR=/usr/bin/vim
-export READER=/usr/bin/zathura
-
-# go env
+## go env
 export GOPATH=$HOME/go
 export GOROOT=/usr/local/go
 export GO111MODULE=on
 
-# PATH
+## PATH
 export PATH=$PATH:$HOME/bin
 export PATH=$PATH:$HOME/.local/bin
 export PATH=$PATH:$GOROOT/bin
 export PATH=$PATH:$GOPATH/bin
+
+## ZSH Dotfiles Directory
+export ZDOTDIR=$HOME/dotfiles/zsh
+
+## X
+export XINITRC=$HOME/dotfiles/X11/xinitrc
