@@ -1,5 +1,6 @@
-/* DWM config.h
+/* dwm config.h
  * Sam Larkin
+ * https://github.com/samlarkin
  * Last updated 2024-10-12
  * */
 

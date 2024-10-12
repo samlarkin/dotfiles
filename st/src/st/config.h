@@ -1,4 +1,8 @@
-/* See LICENSE file for copyright and license details. */
+/* st config.h
+ * Sam Larkin
+ * https://github.com/samlarkin
+ * Last updated 2024-10-12
+ * */
 
 /*
  * appearance
