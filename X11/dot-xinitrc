@@ -1,6 +1,6 @@
-/home/sam/bin/,status_xsetroot.sh &
 setxkbmap -layout "uk,es" -option "grp:shifts_toggle"
 setxkbmap -option caps:escape
 [[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
+~/bin/,status_xsetroot.sh &
+(sleep 10; conky -q) &
 exec dwm
-exec conky
