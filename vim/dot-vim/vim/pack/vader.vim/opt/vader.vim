@@ -1,1 +1,0 @@
-/home/sam/src/vader.vim
