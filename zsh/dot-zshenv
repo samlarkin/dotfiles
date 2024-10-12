@@ -1,7 +1,0 @@
-# .zshenv
-# Sam Larkin
-# https://github.com/samlarkin
-# 2024-10-12
-
-## ZSH Dotfiles Directory
-export ZDOTDIR=$XDG_CONFIG_HOME/zsh
