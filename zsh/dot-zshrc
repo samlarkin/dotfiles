@@ -16,7 +16,7 @@ alias ls="ls -l --color=auto"
 alias la="ls -lA --color=auto"
 alias grep="grep --color=auto"
 alias xclip="xclip -selection clipboard"
-alias rm="rm -I"
+#alias rm="rm -I"
 
 # Set vi keybindings
 bindkey -v
