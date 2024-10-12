@@ -4,6 +4,6 @@ vim/dot-vim/viminfo
 vim/dot-vim/.viminfo
 vim/dot-vim/netrwhist
 vim/dot-vim/.netrwhist
-vim/*.tmp
+vim/dot-vim/en_gb.utf-8.add.spl
 zsh/zsh_history
 zsh/.zsh_history

@@ -14,7 +14,6 @@
 
 " BASIC SETUP:
 
-set runtimepath=~/.vim
 set viminfo+=n~/.vim/viminfo
 filetype indent plugin on
 syntax enable
