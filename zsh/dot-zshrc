@@ -21,23 +21,18 @@ alias rm="rm -I"
 # Set vi keybindings
 bindkey -v
 
-# Environment variables
+## History 
+export SAVEHIST=1000000
+export HISTSIZE=1000
+export HISTFILE=$ZDOTDIR/zsh_history
 
-## Env preferences
+# Default programs
 export EDITOR=/usr/bin/vim
 export BROWSER=/usr/bin/firefox
 export READER=/usr/bin/zathura
 
 # Config files default location
 export XDG_CONFIG_HOME=$HOME/.config
-
-## ZSH Dotfiles Directory
-export ZDOTDIR=$XDG_CONFIG_HOME/zsh
-
-## History 
-export SAVEHIST=1000000
-export HISTSIZE=1000
-export HISTFILE=$ZDOTDIR/zsh_history
 
 ## go env
 export GOPATH=$HOME/go
