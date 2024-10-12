@@ -1,8 +1,9 @@
-vim/spell/*
-vim/swap/*
-vim/viminfo
-vim/.netrwhist
+vim/dot-vim/spell/*
+vim/dot-vim/swap/*
+vim/dot-vim/viminfo
+vim/dot-vim/.viminfo
+vim/dot-vim/netrwhist
+vim/dot-vim/.netrwhist
 vim/*.tmp
-vim/viminfo
-vim/.netrwhist
 zsh/zsh_history
+zsh/.zsh_history
