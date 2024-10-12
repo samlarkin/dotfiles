@@ -31,15 +31,13 @@ set shiftwidth=4
 set softtabstop=4
 set ts=4
 set expandtab
-"set wrap
-"set linebreak
 set textwidth=79
 set wrapmargin=0
 set formatoptions+=t
 set notimeout ttimeout ttimeoutlen=200
 set pastetoggle=<F11>
-set viminfo+=n~/.vim/viminfo
 set bg=dark
+set viminfo=$XDG_STATE_HOME.'/vim/viminfo' "change location of viminfo file
 colorscheme gruvbox
 
 
