@@ -1,6 +1,6 @@
-setxkbmap -layout "uk,es" -option "grp:shifts_toggle"
-setxkbmap -option caps:escape
 [[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
-~/bin/,status_xsetroot.sh &
-(sleep 10; conky -q) &
+#~/bin/,status_xsetroot.sh &
+dunst &
 exec dwm
+#exec nm-applet &
+#exec qtile start

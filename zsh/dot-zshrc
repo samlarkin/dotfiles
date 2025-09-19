@@ -4,7 +4,7 @@
 # 2020-08-28
 
 # Prompt
-PROMPT='%B%F{255}%n %1~ $%b '
+PROMPT='%B%n %1~ $%b '
 
 # Aliases
 alias s="sudo"
@@ -34,6 +34,12 @@ export READER=/usr/bin/zathura
 # XDG settings
 export XDG_CONFIG_HOME=$HOME/.config
 export XDG_STATE_HOME=$HOME/.local/state
+
+# Change sort order of ls
+export LC_COLLATE=C
+
+## python env
+export PYTHONDONTWRITEBYTECODE=True
 
 ## go env
 export GOPATH=$HOME/go

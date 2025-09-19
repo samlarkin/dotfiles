@@ -9,7 +9,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "hack:pixelsize=16:antialias=true:autohint=true";
+static char *font = "Hack Nerd Font Mono:pixelsize=16:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -97,37 +97,58 @@ char *termname = "st-256color";
  */
 unsigned int tabspaces = 4;
 
+static const char col_gruvbox_dark0[]        = "#282828";
+static const char col_gruvbox_light1[]       = "#ebdbb2";
+static const char col_gruvbox_dark2[]        = "#504945";
+static const char col_gruvbox_dark4[]        = "#7c6f64";
+
+static const char col_gruvbox_neutral_red[]    = "#cc241d";
+static const char col_gruvbox_neutral_green[]  = "#98971a";
+static const char col_gruvbox_neutral_yellow[] = "#d79921";
+static const char col_gruvbox_neutral_blue[]   = "#458588";
+static const char col_gruvbox_neutral_purple[] = "#b16286";
+static const char col_gruvbox_neutral_aqua[]   = "#689d6a";
+static const char col_gruvbox_neutral_orange[] = "#d65d0e";
+static const char col_gruvbox_bright_red[]     = "#fb4934";
+static const char col_gruvbox_bright_green[]   = "#b8bb26";
+static const char col_gruvbox_bright_yellow[]  = "#fabd2f";
+static const char col_gruvbox_bright_blue[]    = "#83a598";
+static const char col_gruvbox_bright_purple[]  = "#d3869b";
+static const char col_gruvbox_bright_aqua[]    = "#8ec07c";
+static const char col_gruvbox_bright_orange[]  = "#fe8019";
+
+    
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
     /* 8 normal colors */
-    [0] = "#222222",
-    [1] = "#556677",
-    [2] = "#8b0000",
-    [3] = "#dca060",
-    [4] = "#31bd82",
-    [5] = "#756bb1",
-    [6] = "#80b1d3",
-    [7] = "#bbbbbb",
+    [0] = col_gruvbox_neutral_red,
+    [1] = col_gruvbox_neutral_green,
+    [2] = col_gruvbox_neutral_yellow,
+    [3] = col_gruvbox_neutral_blue,
+    [4] = col_gruvbox_neutral_purple,
+    [5] = col_gruvbox_neutral_aqua,
+    [6] = col_gruvbox_neutral_orange,
+    [7] = col_gruvbox_light1,
 
     /* 8 bright colors */
-    [8]  = "#444444",
-    [9]  = "#005577",
-    [10] = "#dd2200",
-    [11] = "#dca060",
-    [12] = "#31bd82",
-    [13] = "#756bb1",
-    [14] = "#80b1d3",
-    [15] = "#eeeeee",
+    [8]  = col_gruvbox_bright_red,
+    [9]  = col_gruvbox_bright_green,
+    [10] = col_gruvbox_bright_yellow,
+    [11] = col_gruvbox_bright_blue,
+    [12] = col_gruvbox_bright_purple,
+    [13] = col_gruvbox_bright_aqua,
+    [14] = col_gruvbox_bright_orange,
+    [15] = col_gruvbox_light1,
 
     /* special colors */
 
     [255] = 0,
 
     /* more colors can be added after 255 to use with DefaultXX */
-    [256] = "#bbbbbb", /* foreground */
-    [257] = "#222222", /* background */
-    [258] = "#eeeeee",
-    [259] = "#eeeeee",
+    [256] = col_gruvbox_light1, /* foreground */
+    [257] = col_gruvbox_dark0,  /* background */
+    [258] = col_gruvbox_light1, /* cursor */
+    [259] = col_gruvbox_dark0,  /* inverted cursor */ 
 };
 
 

@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
-cd ~/dotfiles
-stow dwm
-stow st
-stow dmenu
-stow --dotfiles vim
-stow --dotfiles X11
-stow --dotfiles zsh
-stow --dotfiles tmux
+for d in *; do
+    if [ -d "$d" ]; then
+        echo "Stowing: $d"
+        stow --dotfiles "$d"
+    fi
+done
