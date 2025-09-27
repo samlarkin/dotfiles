@@ -3,6 +3,7 @@
  * https://github.com/samlarkin
  * Last updated 2025-09-19
  * */
+#include <X11/XF86keysym.h>
 
 /* appearance */
 static const unsigned int borderpx = 3;        /* border pixel of windows */
@@ -42,6 +43,7 @@ static const float mfact     = 0.67; /* factor of master area size [0.05..0.95] 
 static const int nmaster     = 1;    /* number of clients in master area */
 static const int resizehints = 0;    /* 1 means respect size hints in tiled resizals */
 static const int lockfullscreen = 1; /* 1 will force focus on the fullscreen window */
+static const int refreshrate = 120;  /* refresh rate (per second) for client move/resize */
 
 static const Layout layouts[] = {
 	/* symbol     arrange function */
@@ -69,23 +71,23 @@ static const char *browser[]  = { "firefox", NULL };
 static const char *volume_up[]  = { "/home/sam/bin/,volume_up.sh", NULL };
 static const char *volume_dn[]  = { "/home/sam/bin/,volume_down.sh", NULL };
 static const char *volume_mute[]  = { "/home/sam/bin/,volume_mute.sh", NULL };
-static const char *bright_up[]  = { "brightnessctl", "-q", "set", "+10", NULL };
-static const char *bright_dn[]  = { "brightnessctl", "-q", "set", "10-", NULL };
+static const char *bright_up[]  = { "brightnessctl", "-q", "set", "+10%", NULL };
+static const char *bright_dn[]  = { "brightnessctl", "-q", "set", "10%-", NULL };
 static const char *lock_screen[]  = { "/home/sam/bin/,lock_screen.sh", NULL };
 static const char *screenshot[]  = { "/home/sam/bin/,screenshot.sh", NULL };
 static const char *monitor_left[]  = { "/home/sam/bin/,monitor_left.sh", NULL };
 static const char *monitor_right[]  = { "/home/sam/bin/,monitor_right.sh", NULL };
 
 static Key keys[] = {
-	/* modifier                     key        function        argument */
+	/* modifier key function argument */
+	{ 0,                XF86XK_AudioRaiseVolume,  spawn, {.v = volume_up } },
+	{ 0,                XF86XK_AudioLowerVolume,  spawn, {.v = volume_dn } },
+	{ 0,                XF86XK_AudioMute,         spawn, {.v = volume_mute } },
+	{ 0,                XF86XK_MonBrightnessUp,   spawn, {.v = bright_up } },
+	{ 0,                XF86XK_MonBrightnessDown, spawn, {.v = bright_dn } },
 	{ MODKEY,           XK_Return,  spawn,          {.v = term } },
 	{ MODKEY,           XK_w,       spawn,          {.v = browser } },
 	{ MODKEY,           XK_p,       spawn,          {.v = dmenucmd } },
-	{ 0,                0x1008ff13, spawn,          {.v = volume_up } },
-	{ 0,                0x1008ff11, spawn,          {.v = volume_dn } },
-	{ 0,                0x1008ff12, spawn,          {.v = volume_mute } },
-	{ 0,                0x1008ff02, spawn,          {.v = bright_up } },
-	{ 0,                0x1008ff03, spawn,          {.v = bright_dn } },
 	{ MODKEY,           XK_Left,    spawn,          {.v = monitor_left } },
 	{ MODKEY,           XK_Right,   spawn,          {.v = monitor_right } },
 	{ MODKEY,           XK_s,       spawn,          {.v = screenshot } },

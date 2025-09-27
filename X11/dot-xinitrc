@@ -1,6 +1,7 @@
 [[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
 #~/bin/,status_xsetroot.sh &
 dunst &
+slstatus &
 exec dwm
 #exec nm-applet &
 #exec qtile start
